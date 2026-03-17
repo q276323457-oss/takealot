@@ -52,6 +52,12 @@ def manifest_url_from_env() -> str:
     return ""
 
 
+_DEFAULT_MANIFEST_URL = (
+    "https://takealot8.oss-cn-hongkong.aliyuncs.com"
+    "/takealot/updates/update_manifest.json"
+)
+
+
 def manifest_urls_from_env() -> list[str]:
     urls: list[str] = []
     direct = os.getenv("AUTO_UPDATE_MANIFEST_URL", "").strip()
@@ -63,6 +69,10 @@ def manifest_urls_from_env() -> list[str]:
         fallback = f"{base}/{key}"
         if fallback not in urls:
             urls.append(fallback)
+    # Always include the hardcoded default so packaged builds can check
+    # updates even when .env has no OSS config.
+    if _DEFAULT_MANIFEST_URL not in urls:
+        urls.append(_DEFAULT_MANIFEST_URL)
     return [u for u in urls if u]
 
 

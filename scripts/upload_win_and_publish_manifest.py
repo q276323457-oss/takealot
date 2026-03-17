@@ -161,7 +161,27 @@ def _download_package_from_url(root: Path, package_url: str, version: str) -> Pa
     if final_path.exists():
         final_path.unlink()
     part_path.rename(final_path)
-    print(f"✅ 下载完成：{final_path}")
+
+    # Verify the downloaded file is a real ZIP (not an HTML error page)
+    with final_path.open("rb") as f:
+        magic = f.read(4)
+    if magic[:2] != b"PK":
+        size_kb = final_path.stat().st_size / 1024
+        final_path.unlink(missing_ok=True)
+        raise SystemExit(
+            f"下载的文件不是有效的 ZIP 包（文件头：{magic!r}，大小：{size_kb:.0f}KB）。\n"
+            "可能原因：\n"
+            "  - 传入的是 GitHub Release 页面链接，而非直接下载链接\n"
+            "  - GitHub Token 失效或无权限\n"
+            "请使用正确的下载链接，例如：\n"
+            "  https://github.com/OWNER/REPO/releases/download/v1.1.5/TakealotAutoLister-win-1.1.5.zip"
+        )
+
+    size_mb = final_path.stat().st_size / (1024 * 1024)
+    if size_mb < 1:
+        print(f"⚠️  警告：下载的 ZIP 文件只有 {size_mb:.2f}MB，可能不完整！")
+
+    print(f"✅ 下载完成：{final_path}（{size_mb:.1f}MB）")
     return final_path.resolve()
 
 
