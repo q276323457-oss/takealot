@@ -307,12 +307,18 @@ class _CategoryProbeWorker(QObject):
         fallback_source_category_path: list[str],
         product_title: str,
         selectors_cfg_path: Path,
+        storage_state_takealot_path: str | Path | None = None,
     ):
         super().__init__()
         self._manual_takealot_path = [str(x).strip() for x in manual_takealot_path if str(x).strip()]
         self._fallback_source_category_path = [str(x).strip() for x in fallback_source_category_path if str(x).strip()]
         self._product_title = str(product_title or "").strip()
         self._selectors_cfg_path = Path(selectors_cfg_path)
+        self._storage_state_takealot_path = (
+            Path(storage_state_takealot_path).expanduser()
+            if storage_state_takealot_path
+            else None
+        )
 
     @staticmethod
     def _contains_zh(parts: list[str]) -> bool:
@@ -345,7 +351,17 @@ class _CategoryProbeWorker(QObject):
 
             browser_channel = os.getenv("BROWSER_CHANNEL", "msedge")
             user_data_dir = os.getenv("BROWSER_USER_DATA_DIR") or None
-            storage_state_takealot = os.getenv("STORAGE_STATE_TAKEALOT") or None
+            env_state_takealot = os.getenv("STORAGE_STATE_TAKEALOT", "").strip()
+            storage_state_takealot = env_state_takealot or (
+                str(self._storage_state_takealot_path) if self._storage_state_takealot_path else None
+            )
+            storage_state_takealot_exists = bool(
+                storage_state_takealot and Path(storage_state_takealot).exists()
+            )
+            print(
+                f"[preview_probe] storage_state_takealot={storage_state_takealot} "
+                f"exists={storage_state_takealot_exists}"
+            )
             browser_profile_directory = os.getenv("BROWSER_PROFILE_DIRECTORY", "Default")
             headless_env = str(os.getenv("DEFAULT_HEADLESS", "true")).strip().lower()
             headless = headless_env in {"1", "true", "yes", "y", "on"}
@@ -365,6 +381,8 @@ class _CategoryProbeWorker(QObject):
                     "source_category_path": source_path_for_override,
                     "resolved_category_path": [str(x).strip() for x in (probe_result.get("category_path") or resolved_path) if str(x).strip()],
                     "probe_result": probe_result,
+                    "storage_state_takealot_path": storage_state_takealot or "",
+                    "storage_state_takealot_exists": storage_state_takealot_exists,
                 }
             )
         except Exception as e:
@@ -815,6 +833,12 @@ class PreviewDialog(QDialog):
         self._work_root = _resolve_work_root()
         self._config_root = _resolve_data_dir("config")
         self._input_root = _resolve_data_dir("input")
+        self._storage_state_takealot_path = Path(
+            os.getenv(
+                "STORAGE_STATE_TAKEALOT",
+                str(self._work_root / ".runtime" / "auth" / "takealot.json"),
+            )
+        ).expanduser()
         self._selectors_cfg_path = self._config_root / "selectors.yaml"
         src_path = (self._data.product_info or {}).get("category_path") or []
         self._source_category_path = [str(x).strip() for x in src_path if str(x).strip()]
@@ -1070,6 +1094,7 @@ class PreviewDialog(QDialog):
             fallback_source_category_path=self._source_category_path,
             product_title=product_title,
             selectors_cfg_path=self._selectors_cfg_path,
+            storage_state_takealot_path=self._storage_state_takealot_path,
         )
         self._probe_worker.moveToThread(self._probe_thread)
         self._probe_thread.started.connect(self._probe_worker.run)
@@ -1090,8 +1115,14 @@ class PreviewDialog(QDialog):
             return
         # 检测未登录错误（无需启动浏览器时的快速失败）
         if probe_result.get("error") == "need_login":
+            state_path = str(payload.get("storage_state_takealot_path") or "").strip()
+            state_exists = bool(payload.get("storage_state_takealot_exists"))
+            state_hint = (
+                f"\n探测使用登录态文件：{state_path or '未设置'}（{'存在' if state_exists else '不存在'}）"
+            )
             self._on_category_reprobe_error(
                 "未登录 Takealot，无法探测字段。\n请在主界面点击「登录 Takealot 卖家后台」后重试。"
+                + state_hint
             )
             return
 
