@@ -81,6 +81,31 @@ publish_manifest_interactive() {
   "${cmd[@]}"
 }
 
+upload_win_and_publish_interactive() {
+  local ver pkg_path notes yn force mac_url
+  read -r -p "版本号（如 1.1.1）: " ver
+  if [ -z "${ver:-}" ]; then
+    echo "版本号不能为空。"
+    return 1
+  fi
+  read -r -p "Windows 包路径（留空自动找 dist/TakealotAutoLister-win-${ver}.zip）: " pkg_path
+  read -r -p "更新说明（可留空）: " notes
+  read -r -p "是否强制更新？(y/N): " yn
+  force="false"
+  if [ "${yn:-N}" = "y" ] || [ "${yn:-N}" = "Y" ]; then
+    force="true"
+  fi
+  read -r -p "mac 下载链接（留空则沿用旧 manifest）: " mac_url
+
+  ensure_venv
+  cmd=("$ROOT/.venv/bin/python" "$ROOT/scripts/upload_win_and_publish_manifest.py" --version "$ver")
+  if [ -n "${pkg_path:-}" ]; then cmd+=(--package-path "$pkg_path"); fi
+  if [ -n "${notes:-}" ]; then cmd+=(--notes "$notes"); fi
+  if [ -n "${mac_url:-}" ]; then cmd+=(--mac-url "$mac_url"); fi
+  if [ "$force" = "true" ]; then cmd+=(--force); fi
+  "${cmd[@]}"
+}
+
 while true; do
   clear
   echo "==========================================="
@@ -93,10 +118,11 @@ while true; do
   echo "5) 初始化授权密钥（只做一次）"
   echo "6) 生成卡密（输入机器码）"
   echo "7) Mac 本地打包"
-  echo "8) 发布更新清单到 OSS"
-  echo "9) 退出"
+  echo "8) 一键上传 Win 包并发布更新到 OSS（推荐）"
+  echo "9) 仅发布更新清单到 OSS"
+  echo "10) 退出"
   echo
-  read -r -p "请输入选项(1-9): " CHOICE
+  read -r -p "请输入选项(1-10): " CHOICE
 
   case "$CHOICE" in
     1)
@@ -121,13 +147,16 @@ while true; do
       bash "$ROOT/scripts/build_mac.sh"
       ;;
     8)
-      publish_manifest_interactive
+      upload_win_and_publish_interactive
       ;;
     9)
+      publish_manifest_interactive
+      ;;
+    10)
       exit 0
       ;;
     *)
-      echo "输入无效，请输入 1-9。"
+      echo "输入无效，请输入 1-10。"
       ;;
   esac
 
