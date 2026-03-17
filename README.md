@@ -266,12 +266,13 @@ git push origin v1.0.1
 
 ### 推荐：直接用工具箱
 
-双击 `start_toolbox.command`，会显示 1-8 菜单，按数字选择即可：
+双击 `start_toolbox.command`，会显示 1-9 菜单，按数字选择即可：
 - 1 初始化 GitHub 云打包
 - 2 发布新版本并触发 Win 云打包
-- 3 打开 GitHub Actions 页面
-- 4 初始化授权密钥（只做一次）
-- 5 生成卡密（输入机器码）
-- 6 Mac 本地打包
-- 7 发布更新清单到 OSS
-- 8 退出
+- 3 仅推送 main（不发版本）
+- 4 打开 GitHub Actions 页面
+- 5 初始化授权密钥（只做一次）
+- 6 生成卡密（输入机器码）
+- 7 Mac 本地打包
+- 8 发布更新清单到 OSS
+- 9 退出

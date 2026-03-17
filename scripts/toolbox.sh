@@ -88,14 +88,15 @@ while true; do
   echo "==========================================="
   echo "1) 初始化 GitHub 云打包（首次用）"
   echo "2) 发布新版本并触发 Win 云打包"
-  echo "3) 打开 GitHub Actions 页面"
-  echo "4) 初始化授权密钥（只做一次）"
-  echo "5) 生成卡密（输入机器码）"
-  echo "6) Mac 本地打包"
-  echo "7) 发布更新清单到 OSS"
-  echo "8) 退出"
+  echo "3) 仅推送 main（不发版本）"
+  echo "4) 打开 GitHub Actions 页面"
+  echo "5) 初始化授权密钥（只做一次）"
+  echo "6) 生成卡密（输入机器码）"
+  echo "7) Mac 本地打包"
+  echo "8) 发布更新清单到 OSS"
+  echo "9) 退出"
   echo
-  read -r -p "请输入选项(1-8): " CHOICE
+  read -r -p "请输入选项(1-9): " CHOICE
 
   case "$CHOICE" in
     1)
@@ -105,25 +106,28 @@ while true; do
       bash "$ROOT/scripts/release_win_cloud.sh"
       ;;
     3)
-      open_actions_page
+      bash "$ROOT/scripts/push_main_only.sh"
       ;;
     4)
-      init_license_keys
+      open_actions_page
       ;;
     5)
-      gen_license_token_interactive
+      init_license_keys
       ;;
     6)
-      bash "$ROOT/scripts/build_mac.sh"
+      gen_license_token_interactive
       ;;
     7)
-      publish_manifest_interactive
+      bash "$ROOT/scripts/build_mac.sh"
       ;;
     8)
+      publish_manifest_interactive
+      ;;
+    9)
       exit 0
       ;;
     *)
-      echo "输入无效，请输入 1-8。"
+      echo "输入无效，请输入 1-9。"
       ;;
   esac
 
