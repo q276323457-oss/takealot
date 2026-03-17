@@ -47,6 +47,24 @@ push_with_retry() {
   return 1
 }
 
+stage_safe() {
+  git add .
+  local has_large=0
+  while IFS= read -r f; do
+    [ -f "$f" ] || continue
+    local sz
+    sz=$(wc -c <"$f" | tr -d ' ')
+    if [ "$sz" -ge 95000000 ]; then
+      git reset -q HEAD -- "$f" || true
+      echo "⚠️ 已跳过超大文件（>${sz} bytes）：$f"
+      has_large=1
+    fi
+  done < <(git diff --cached --name-only)
+  if [ "$has_large" -eq 1 ]; then
+    echo "提示：发布包请走 OSS 上传流程，不要提交到 git。"
+  fi
+}
+
 auto_setup_proxy
 
 read -r -p "请输入发版号（例如 1.0.1）: " VER
@@ -59,7 +77,7 @@ TAG="v$VER"
 
 echo
 echo "正在提交改动..."
-git add .
+stage_safe
 if git diff --cached --quiet; then
   echo "没有改动需要提交。"
 else

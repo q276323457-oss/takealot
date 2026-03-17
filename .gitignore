@@ -15,3 +15,5 @@ build/
 .runtime/license.json
 .runtime/ui_config.json
 .runtime/build/
+.runtime/downloads/
+TakealotAutoLister-win-*.zip
