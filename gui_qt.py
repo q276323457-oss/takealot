@@ -60,6 +60,30 @@ def _resolve_config_root() -> Path:
     return ROOT / "config"
 
 
+def _resolve_app_version() -> str:
+    # Packaged builds carry APP_VERSION.txt; prefer it in frozen mode.
+    env_ver = os.getenv("APP_VERSION", "").strip()
+    candidates: list[Path] = []
+    meipass = getattr(sys, "_MEIPASS", "")
+    if meipass:
+        candidates.append(Path(meipass) / "APP_VERSION.txt")
+    candidates.append(ROOT / "APP_VERSION.txt")
+    candidates.append(ROOT / "_internal" / "APP_VERSION.txt")
+    file_ver = ""
+    for p in candidates:
+        try:
+            if p.exists():
+                txt = p.read_text(encoding="utf-8").strip()
+                if txt:
+                    file_ver = txt
+                    break
+        except Exception:
+            continue
+    if getattr(sys, "frozen", False):
+        return file_ver or env_ver or "1.0.0"
+    return env_ver or file_ver or "1.0.0"
+
+
 def _default_work_root() -> Path:
     if not getattr(sys, "frozen", False):
         return ROOT
@@ -85,7 +109,7 @@ RUNS_DIR   = WORK_ROOT / "output" / "runs"
 LOG_DIR    = WORK_ROOT / "logs"
 CONFIG_FILE = WORK_ROOT / ".runtime" / "ui_config.json"
 CONFIG_ROOT = _resolve_config_root()
-APP_VERSION = os.getenv("APP_VERSION", "1.0.0").strip() or "1.0.0"
+APP_VERSION = _resolve_app_version()
 APP_PRODUCT = os.getenv("LICENSE_PRODUCT", "takealot-autolister").strip() or "takealot-autolister"
 LICENSE_FILE = WORK_ROOT / ".runtime" / "license.json"
 LICENSE_PUBKEY = CONFIG_ROOT / "license_public.pem"
@@ -663,28 +687,22 @@ class MainWindow(QMainWindow):
 
     def _do_login_1688(self) -> None:
         try:
-            py = ROOT / ".venv" / "bin" / "python"
             self._STATE_1688.parent.mkdir(parents=True, exist_ok=True)
-            args = [
-                str(py), "-m", "takealot_autolister.login_helper",
-                "--url",           "https://detail.1688.com",
-                "--state-path",    str(self._STATE_1688),
-                "--mode",          "1688",
-                "--browser-channel", os.getenv("BROWSER_CHANNEL", "msedge"),
-                "--wait-seconds",  "300",
-                "--stable-hits",   "6",
-                "--verify-url",    "https://detail.1688.com",
-            ]
-            env = os.environ.copy()
-            env["PYTHONPATH"] = "src"
-            cp = subprocess.run(args, cwd=str(ROOT), text=True,
-                                capture_output=True, env=env)
-            if cp.returncode == 0:
-                self._log("ok", "✅  1688 登录成功，状态已保存。")
-                QTimer.singleShot(0, self._refresh_login_status)
-            else:
-                err = (cp.stdout + cp.stderr).strip()
-                self._log("err", f"❌  1688 登录失败：{err[:300]}")
+            if str(ROOT / "src") not in sys.path:
+                sys.path.insert(0, str(ROOT / "src"))
+            from takealot_autolister.login_helper import run_manual_login
+
+            run_manual_login(
+                url="https://detail.1688.com",
+                state_path=str(self._STATE_1688),
+                mode="1688",
+                browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
+                wait_seconds=300,
+                stable_hits=6,
+                verify_url="https://detail.1688.com",
+            )
+            self._log("ok", "✅  1688 登录成功，状态已保存。")
+            QTimer.singleShot(0, self._refresh_login_status)
         except Exception as exc:
             self._log("err", f"❌  登录出错：{exc}")
         finally:
@@ -702,28 +720,22 @@ class MainWindow(QMainWindow):
 
     def _do_login_takealot(self) -> None:
         try:
-            py = ROOT / ".venv" / "bin" / "python"
             self._STATE_TAKEALOT.parent.mkdir(parents=True, exist_ok=True)
-            args = [
-                str(py), "-m", "takealot_autolister.login_helper",
-                "--url",           "https://sellers.takealot.com",
-                "--state-path",    str(self._STATE_TAKEALOT),
-                "--mode",          "takealot",
-                "--browser-channel", os.getenv("BROWSER_CHANNEL", "msedge"),
-                "--wait-seconds",  "180",
-                "--stable-hits",   "4",
-                "--verify-url",    "https://sellers.takealot.com",
-            ]
-            env = os.environ.copy()
-            env["PYTHONPATH"] = "src"
-            cp = subprocess.run(args, cwd=str(ROOT), text=True,
-                                capture_output=True, env=env)
-            if cp.returncode == 0:
-                self._log("ok", "✅  Takealot 登录成功，状态已保存。")
-                QTimer.singleShot(0, self._refresh_tak_status)
-            else:
-                err = (cp.stdout + cp.stderr).strip()
-                self._log("err", f"❌  Takealot 登录失败：{err[:300]}")
+            if str(ROOT / "src") not in sys.path:
+                sys.path.insert(0, str(ROOT / "src"))
+            from takealot_autolister.login_helper import run_manual_login
+
+            run_manual_login(
+                url="https://sellers.takealot.com",
+                state_path=str(self._STATE_TAKEALOT),
+                mode="takealot",
+                browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
+                wait_seconds=180,
+                stable_hits=4,
+                verify_url="https://sellers.takealot.com",
+            )
+            self._log("ok", "✅  Takealot 登录成功，状态已保存。")
+            QTimer.singleShot(0, self._refresh_tak_status)
         except Exception as exc:
             self._log("err", f"❌  登录出错：{exc}")
         finally:
@@ -745,28 +757,22 @@ class MainWindow(QMainWindow):
 
     def _do_solve_slider(self, url: str) -> None:
         try:
-            py = ROOT / ".venv" / "bin" / "python"
             self._STATE_1688.parent.mkdir(parents=True, exist_ok=True)
-            args = [
-                str(py), "-m", "takealot_autolister.login_helper",
-                "--url",             url,
-                "--state-path",      str(self._STATE_1688),
-                "--mode",            "1688",
-                "--browser-channel", os.getenv("BROWSER_CHANNEL", "msedge"),
-                "--wait-seconds",    "300",
-                "--stable-hits",     "12",
-                "--verify-url",      url,
-            ]
-            env = os.environ.copy()
-            env["PYTHONPATH"] = "src"
-            cp = subprocess.run(args, cwd=str(ROOT), text=True,
-                                capture_output=True, env=env)
-            if cp.returncode == 0:
-                self._log("ok", "✅  验证完成，session 已保存。现在可以点【开始生成】。")
-                QTimer.singleShot(0, self._refresh_login_status)
-            else:
-                err = (cp.stdout + cp.stderr).strip()
-                self._log("warn", f"⚠️  验证未完成或超时：{err[:200]}")
+            if str(ROOT / "src") not in sys.path:
+                sys.path.insert(0, str(ROOT / "src"))
+            from takealot_autolister.login_helper import run_manual_login
+
+            run_manual_login(
+                url=url,
+                state_path=str(self._STATE_1688),
+                mode="1688",
+                browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
+                wait_seconds=300,
+                stable_hits=12,
+                verify_url=url,
+            )
+            self._log("ok", "✅  验证完成，session 已保存。现在可以点【开始生成】。")
+            QTimer.singleShot(0, self._refresh_login_status)
         except Exception as exc:
             self._log("err", f"❌  出错：{exc}")
         finally:

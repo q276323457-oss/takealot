@@ -14,6 +14,10 @@ if ([string]::IsNullOrWhiteSpace($AppVersion)) {
 if ([string]::IsNullOrWhiteSpace($AppVersion)) {
     $AppVersion = "0.0.0-dev"
 }
+$versionMetaDir = Join-Path "$root\\.runtime" "build"
+New-Item -ItemType Directory -Force -Path $versionMetaDir | Out-Null
+$versionMetaFile = Join-Path $versionMetaDir "APP_VERSION.txt"
+Set-Content -Path $versionMetaFile -Value $AppVersion -Encoding UTF8
 
 if (Get-Command python -ErrorAction SilentlyContinue) {
     $PyCmd = "python"
@@ -49,6 +53,7 @@ if (Test-Path "build") { Remove-Item -Recurse -Force "build" }
     --add-data "$root\config;config" `
     --add-data "$root\input;input" `
     --add-data "$root\.env.example;." `
+    --add-data "$versionMetaFile;." `
     --add-data "$root\README.md;." `
     gui_qt.py
 

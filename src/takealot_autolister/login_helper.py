@@ -238,29 +238,31 @@ def _load_storage_state_if_exists(path: Path) -> str | None:
         return None
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Open browser for manual login and save storage state")
-    parser.add_argument("--url", required=True, help="target login url")
-    parser.add_argument("--state-path", required=True, help="output Playwright storage state path")
-    parser.add_argument("--mode", required=True, choices=["1688", "takealot"], help="login mode")
-    parser.add_argument("--browser-channel", default="msedge", help="browser channel (msedge/chrome/chromium)")
-    parser.add_argument("--wait-seconds", type=int, default=600, help="manual login max wait seconds")
-    parser.add_argument("--verify-url", default="", help="post-login verification url")
-    parser.add_argument("--stable-hits", type=int, default=2, help="required consecutive logged-in checks before completion")
-    args = parser.parse_args()
+def run_manual_login(
+    *,
+    url: str,
+    state_path: str | Path,
+    mode: str,
+    browser_channel: str = "msedge",
+    wait_seconds: int = 600,
+    verify_url: str = "",
+    stable_hits: int = 2,
+) -> None:
+    if mode not in {"1688", "takealot"}:
+        raise ValueError(f"unsupported mode: {mode}")
 
-    state_path = Path(args.state_path)
+    state_path = Path(state_path)
     state_path.parent.mkdir(parents=True, exist_ok=True)
     temp_state_path = state_path.with_suffix(state_path.suffix + ".tmp")
     _safe_unlink(temp_state_path)
 
-    verify_url = args.verify_url.strip()
+    verify_url = (verify_url or "").strip()
     if not verify_url:
-        verify_url = "https://detail.1688.com" if args.mode == "1688" else "https://sellers.takealot.com"
+        verify_url = "https://detail.1688.com" if mode == "1688" else "https://sellers.takealot.com"
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            channel=args.browser_channel if args.browser_channel else None,
+            channel=browser_channel if browser_channel else None,
             headless=False,
             ignore_default_args=["--enable-automation"],
             args=["--disable-blink-features=AutomationControlled", "--disable-infobars", "--new-window"],
@@ -273,16 +275,16 @@ def main() -> None:
                 ctx_kwargs["storage_state"] = maybe_state
             context = browser.new_context(**ctx_kwargs)
             page = context.new_page()
-            page.goto(args.url, wait_until="domcontentloaded", timeout=120000)
+            page.goto(url, wait_until="domcontentloaded", timeout=120000)
             page.bring_to_front()
 
             _ = _wait_for_manual_login(
                 context=context,
-                mode=args.mode,
-                wait_seconds=max(30, int(args.wait_seconds)),
-                stable_hits_required=max(2, int(args.stable_hits)),
+                mode=mode,
+                wait_seconds=max(30, int(wait_seconds)),
+                stable_hits_required=max(2, int(stable_hits)),
             )
-            _ = _wait_for_short_final_settle(context=context, mode=args.mode, seconds=8)
+            _ = _wait_for_short_final_settle(context=context, mode=mode, seconds=8)
 
             # Persist to temp first, only promote to official state on full validation success.
             context.storage_state(path=str(temp_state_path))
@@ -297,17 +299,42 @@ def main() -> None:
     # Validate state before returning success.
     ok = _validate_state(
         state_path=temp_state_path,
-        mode=args.mode,
-        browser_channel=args.browser_channel,
+        mode=mode,
+        browser_channel=browser_channel,
         verify_url=verify_url,
     )
     if not ok:
         _safe_unlink(temp_state_path)
-        raise SystemExit(f"LOGIN_NOT_COMPLETED: {args.mode} login not confirmed. Please login fully and retry.")
+        raise LoginNotCompletedError(f"LOGIN_NOT_COMPLETED: {mode} login not confirmed. Please login fully and retry.")
 
     if state_path.exists():
         _safe_unlink(state_path)
     temp_state_path.rename(state_path)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Open browser for manual login and save storage state")
+    parser.add_argument("--url", required=True, help="target login url")
+    parser.add_argument("--state-path", required=True, help="output Playwright storage state path")
+    parser.add_argument("--mode", required=True, choices=["1688", "takealot"], help="login mode")
+    parser.add_argument("--browser-channel", default="msedge", help="browser channel (msedge/chrome/chromium)")
+    parser.add_argument("--wait-seconds", type=int, default=600, help="manual login max wait seconds")
+    parser.add_argument("--verify-url", default="", help="post-login verification url")
+    parser.add_argument("--stable-hits", type=int, default=2, help="required consecutive logged-in checks before completion")
+    args = parser.parse_args()
+
+    try:
+        run_manual_login(
+            url=args.url,
+            state_path=args.state_path,
+            mode=args.mode,
+            browser_channel=args.browser_channel,
+            wait_seconds=args.wait_seconds,
+            verify_url=args.verify_url,
+            stable_hits=args.stable_hits,
+        )
+    except LoginNotCompletedError as e:
+        raise SystemExit(str(e))
 
 
 if __name__ == "__main__":
