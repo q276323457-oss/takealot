@@ -1,0 +1,8 @@
+playwright==1.54.0
+requests==2.32.3
+Pillow==11.1.0
+PyYAML==6.0.2
+python-dotenv==1.0.1
+oss2>=2.18.0
+openpyxl>=3.1.0
+cryptography>=43.0.0

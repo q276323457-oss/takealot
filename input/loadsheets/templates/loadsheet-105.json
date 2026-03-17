@@ -1,0 +1,1576 @@
+{
+  "source_file": "loadsheet-105.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 212,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.hard_drive_types.[0]",
+      "label": "Hard Drive Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.storage_capacity.value",
+      "label": "Storage Capacity",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.solid_state_drive_recommended_use",
+      "label": "Solid State Drive Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.hard_drive_interface",
+      "label": "Hard Drive Interface",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.transmission_speed.value",
+      "label": "Transmission Speed",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.rotational_speed.value",
+      "label": "Rotational Speed",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.motherboard_form_factors.[0]",
+      "label": "Motherboard Form Factor",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Capacity",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.drive_file_system",
+      "label": "Drive File System",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.cpu_type",
+      "label": "CPU Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.cpu_socket_types.[0]",
+      "label": "CPU Socket Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.cpu_speed.value",
+      "label": "CPU Speed",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.cpu_core_types.[0]",
+      "label": "CPU Core Types",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.number_of_processing_threads",
+      "label": "Number of Processing Threads",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.ram_types.[0]",
+      "label": "RAM Types",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.ram_size.value",
+      "label": "RAM capacity",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.number_of_ram_sticks",
+      "label": "Number of Ram Sticks",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.peripheral_connectivities.[0]",
+      "label": "Peripheral Connectivities",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.usb_connectivity.[0]",
+      "label": "USB Connectivity",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.connector_type",
+      "label": "Connector Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.cache_size.value",
+      "label": "Cache Size",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.card_series.[0]",
+      "label": "Graphics Card Series",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.graphics_cards_interface.[0]",
+      "label": "Graphics Cards Interface",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.computer_graphics_processor",
+      "label": "Graphics Processor",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.router_type.[0]",
+      "label": "Connectivity Support",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.router_usage",
+      "label": "Router Usage",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.router_home_solution",
+      "label": "Home Size",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.dongle_type",
+      "label": "Dongle Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.hardware_interface",
+      "label": "Hardware Interface",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.laptop_compatibility",
+      "label": "Laptop Compatibility",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.wireless_band",
+      "label": "Wireless Band",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.wifi_technology",
+      "label": "Wifi Technology",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.wifi_band",
+      "label": "Wifi Band",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.is_wireless",
+      "label": "Is Wireless",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.is_mesh_compatible",
+      "label": "Is Mesh Compatible",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.antenna_type.[0]",
+      "label": "Antenna Type",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.bluetooth_version",
+      "label": "Bluetooth Version",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.has_bluetooth",
+      "label": "Has Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.number_of_discs",
+      "label": "Number of Discs",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.disc_type.[0]",
+      "label": "Disc Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.blank_disc_features",
+      "label": "Blank Disc Features",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.smart_connectivity",
+      "label": "Smart Connectivity",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.flash_memory_type.[0]",
+      "label": "Flash Memory Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.flash_memory_features.[0]",
+      "label": "Flash Memory Features",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.memory_cards_special_features",
+      "label": "Memory Cards Special Features",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.memory_card_types.[0]",
+      "label": "Memory Card Types",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.is_simultaneous_card_reader",
+      "label": "Is Simultaneous Card Reader",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.sim_card_type",
+      "label": "Sim Card Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.keyboard_number_of_keys",
+      "label": "Keyboard Number of Keys",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.keyboard_special_features",
+      "label": "Keyboard Special Features",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.keyboard_backlighting_color_support.[0]",
+      "label": "Keyboard Backlighting Color Support",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.focus_type",
+      "label": "Focus Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.aspect_ratio.[0]",
+      "label": "Aspect Ratio",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.is_high_definition",
+      "label": "Is High Definition",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.lcd_number_of_keys",
+      "label": "LCD Keys",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.lens_types.[0]",
+      "label": "Lens Types",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.webcam_features",
+      "label": "Webcam Features",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.video_capture_resolution",
+      "label": "Video Capture Resolution",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.video_output_interface.[0]",
+      "label": "Video Output Interface",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.speaker_features",
+      "label": "Speaker Features",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.audio_sensitivity.value",
+      "label": "Audio Sensitivity",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.audio_output_mode",
+      "label": "Audio Output Mode",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.speaker_configurations.[0]",
+      "label": "Speaker Configurations",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.speaker_recommended_uses.[0]",
+      "label": "Speaker Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.case_sleeve_type",
+      "label": "Case Sleeve Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.case_cover_type",
+      "label": "Case & Cover Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.device_mount_type",
+      "label": "Device Mount Type",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.requires_batteries",
+      "label": "Requires Batteries",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.batteries_included",
+      "label": "Batteries Included",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.hand_orientation.[0]",
+      "label": "Hand Orientation",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.controller_type",
+      "label": "Controller Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.microphone_types.[0]",
+      "label": "Microphone Type",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.microphones_device_compatibility",
+      "label": "Microphones Device Compatibility",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.polar_pattern",
+      "label": "Polar Pattern",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.signal_boosters",
+      "label": "Signal Boosters",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.tv_signal_booster_gain.[0]",
+      "label": "TV Signal Booster Gain",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.networking_standards.[0]",
+      "label": "Networking Standards",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.network_locked",
+      "label": "Network Locked",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.has_mobile_network_failover",
+      "label": "Has Mobile Network Failover",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.requires_a_modem",
+      "label": "Requires A Modem",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Device Operating System",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.ram_form_factor",
+      "label": "RAM Form Factor",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.psu_rating",
+      "label": "PSU Rating",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.psu_wattage.value",
+      "label": "PSU Wattage",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.number_of_slots",
+      "label": "Number of Slots",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.number_of_usb_ports",
+      "label": "Number of Ports",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.usb_flash_drivetype.[0]",
+      "label": "Flash Drive Type",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.usb_and_firewire_hubs_compatible_devices",
+      "label": "Usb and Firewire Hubs Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.capacitive_touch",
+      "label": "Capacitive Touch",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.usb_adapter_features",
+      "label": "Usb Adapter Features",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.adaptor_function.[0]",
+      "label": "Adaptor Function",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.adapter_features.[0]",
+      "label": "Adapter Features",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.cable_type",
+      "label": "Cable Type",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.cable_style.[0]",
+      "label": "Cable Style",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.cable_compatible_device",
+      "label": "Cable Compatible Device",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.cable_tie_guns_recommended_use",
+      "label": "Cable Tie Guns Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.wire_and_cable_ties_closure_type.[0]",
+      "label": "Wire and Cable Ties Closure Type",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.cable_clips_recommended_use.[0]",
+      "label": "Cable Clips Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.cables_special_features.[0]",
+      "label": "Cables Special Features",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.charger_type.[0]",
+      "label": "Charger Type",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.ethernet_cable_type",
+      "label": "Ethernet Cable Type",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.connector_gender",
+      "label": "Connector Gender",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.audio_jacks.[0]",
+      "label": "Audio Jacks",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Variant.attribute.max_compatible_device_size.value",
+      "label": "Maximum Compatible Device Size",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.fits_laptop_screen_size.value",
+      "label": "Fits Laptop Screen Size",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.computer_cooling_types.[0]",
+      "label": "Computer Cooling Type",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.by_user.[0]",
+      "label": "By User",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.reading_pen_type.[0]",
+      "label": "Reading Pen Type",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.primary_language",
+      "label": "Primary Language",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.is_translation_device",
+      "label": "Is Translation Device",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.is_battery_operated",
+      "label": "Is Battery Operated",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.tv_audio_adapter",
+      "label": "Adapters",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.tv_audio_cable_type",
+      "label": "TV Cable Type",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.tv_audio_connectors",
+      "label": "Connectors",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.video_encoding.[0]",
+      "label": "Video Encoding",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Width in Pixels",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Height in Pixels",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.green_broadcasting_screens_recommended_uses",
+      "label": "Green Broadcasting Screens Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.green_broadcasting_screens_features",
+      "label": "Green Broadcasting Screens Features",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.projection_style.[0]",
+      "label": "Projection Style",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.strap_type",
+      "label": "Strap Type",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.is_portable",
+      "label": "Portable",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.is_ergonomic",
+      "label": "Ergonomic",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.has_pressure_sensor",
+      "label": "Has Pressure Sensor",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.is_5g_enabled",
+      "label": "Is 5G Enabled",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.is_padded",
+      "label": "Is Padded",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.is_magnetic",
+      "label": "Is Magnetic",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.has_clip",
+      "label": "Has Clip",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.has_noise_cancelling",
+      "label": "Has Noise Cancelling",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.has_integrated_remote",
+      "label": "Has Integrated Remote",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.rated_frequency.value",
+      "label": "Rated Frequency Voltage",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.stand_features",
+      "label": "Stand Features",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.fast_charging",
+      "label": "Fast Charging",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.screen_protector_type",
+      "label": "Screen Protector Type",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.bolted_type",
+      "label": "Bolted Type",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.scanner_type",
+      "label": "Scanner Type",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.has_adjustable_racking",
+      "label": "Adjustable Racking",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size Width",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size Length",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.tablet_speakers_special_features",
+      "label": "Tablet Speakers Special Features",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.has_power_over_ethernet",
+      "label": "Has Power Over Ethernet",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "105": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Networking (15724)",
+      "Adapters (15550)",
+      "Blank Media (15563)",
+      "Cables (15572)",
+      "Computer Accessories (15579)",
+      "Memory (15666)",
+      "Motherboards (15486)",
+      "Desktop Computer & Server Cases (15603)",
+      "Computer Power Supplies (15598)",
+      "Computer Processors (15599)",
+      "Computer System Cooling Parts (15602)",
+      "I/O Cards & Adapters (15606)",
+      "Input Devices (15617)",
+      "Storage Devices (15639)",
+      "Cleaning & Repair (22082)",
+      "Microphones (15437)",
+      "Streaming & Home Media Players (15793)",
+      "Cable Management (15564)",
+      "USB & FireWire Hubs (15659)",
+      "Signal Boosters (15707)",
+      "Gamer Chairs (30667)",
+      "Gamer Desks (30689)",
+      "Laptop Replacement Keyboards (15635)"
+    ],
+    "4.32964": [
+      "USB Networking Device (20839)",
+      "Switches & Servers->Servers (30390)",
+      "Switches & Servers->Switches (30389)",
+      "Network Adapters & Hardware->Accessories->Networking Hubs (30385)",
+      "Network Adapters & Hardware->Accessories->Network Antenna (30386)",
+      "Network Adapters & Hardware->Accessories->Cables (30387)",
+      "Network Adapters & Hardware->Accessories->Transceivers (30388)",
+      "Modems (15733)",
+      "Access Points & Routers->Portable Routers & Dongles->Portable Routers (30377)",
+      "Access Points & Routers->Portable Routers & Dongles->Dongles (30378)",
+      "Access Points & Routers->Modems & Routers->Routers (30379)",
+      "Access Points & Routers->Wireless Access Points (15728)",
+      "Access Points & Routers->Network Bridges (15726)",
+      "Extenders & Repeaters->Mesh Systems, Extenders & Repeaters->Extenders (30382)",
+      "Extenders & Repeaters->Mesh Systems, Extenders & Repeaters->Repeaters (30383)",
+      "Extenders & Repeaters->Mesh Systems, Extenders & Repeaters->Mesh Systems (30381)"
+    ],
+    "7.0.4": [
+      "Audio & Video Cable Adapters & Couplers (15551)",
+      "USB Adapters (15553)"
+    ],
+    "3": [
+      "Blank Media (15563)"
+    ],
+    "75267874": [
+      "Audio & Video Cables (15573)",
+      "USB Cables (22398)",
+      "Network Cables (15575)",
+      "Storage & Data Transfer Cables (15576)",
+      "System & Power Cables (15577)",
+      "Cable Parts & Accessories (23029)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_cpu_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"CPU Type\", \"sheet_name\": \"CPU Type\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_card_series_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Card Series\", \"sheet_name\": \"Card Series\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Mouse Pads (15591)",
+      "Other Computer Peripherals (20836)",
+      "Key Caps & Switches (30995)",
+      "Adapters (29580)",
+      "Mouse & Presentation (20835)",
+      "Laptop Adapters (29581)",
+      "Tools & Cleaning (28533)",
+      "Computer Cases, Covers & Skins (15581)",
+      "Bags & Cases->Messenger Bags (22443)",
+      "Bags & Cases->Shoulder Bags (22442)",
+      "Bags & Cases->Roller Bags (22446)",
+      "Bags & Cases->Backpacks (22445)",
+      "Bags & Cases->Carry Cases (22444)",
+      "Other Computer Component Accessories (22399)"
+    ],
+    "False": [
+      "Computer Processors (15599)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.hard_drive_types.[0]",
+      "Attribute.storage_capacity.value",
+      "Attribute.solid_state_drive_recommended_use",
+      "Attribute.hard_drive_interface",
+      "Attribute.transmission_speed.value",
+      "Attribute.rotational_speed.value",
+      "Attribute.motherboard_form_factors.[0]",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.drive_file_system",
+      "Attribute.cpu_type",
+      "Attribute.cpu_socket_types.[0]",
+      "Attribute.cpu_speed.value",
+      "Attribute.cpu_core_types.[0]",
+      "Attribute.number_of_processing_threads",
+      "Attribute.screen_size.value",
+      "Attribute.ram_types.[0]",
+      "Attribute.ram_size.value",
+      "Attribute.number_of_ram_sticks",
+      "Attribute.connectivities.[0]",
+      "Attribute.peripheral_connectivities.[0]",
+      "Attribute.usb_connectivity.[0]",
+      "Attribute.connector_type",
+      "Attribute.cache_size.value",
+      "Attribute.card_series.[0]",
+      "Attribute.graphics_cards_interface.[0]",
+      "Attribute.computer_graphics_processor",
+      "Attribute.router_type.[0]",
+      "Attribute.router_usage",
+      "Attribute.router_home_solution",
+      "Attribute.dongle_type",
+      "Attribute.hardware_interface",
+      "Attribute.compatible_devices",
+      "Attribute.laptop_compatibility",
+      "Attribute.wireless_band",
+      "Attribute.wifi_technology",
+      "Attribute.wifi_band",
+      "Attribute.is_wireless",
+      "Attribute.is_mesh_compatible",
+      "Attribute.antenna_type.[0]",
+      "Attribute.bluetooth_version",
+      "Attribute.has_bluetooth",
+      "Attribute.number_of_discs",
+      "Attribute.disc_type.[0]",
+      "Attribute.blank_disc_features",
+      "Attribute.smart_connectivity",
+      "Attribute.flash_memory_type.[0]",
+      "Attribute.flash_memory_features.[0]",
+      "Attribute.memory_cards_special_features",
+      "Attribute.memory_card_types.[0]",
+      "Attribute.is_simultaneous_card_reader",
+      "Attribute.sim_card_type",
+      "Attribute.keyboard_number_of_keys",
+      "Attribute.keyboard_special_features",
+      "Attribute.keyboard_backlighting_color_support.[0]",
+      "Attribute.focus_type",
+      "Attribute.aspect_ratio.[0]",
+      "Attribute.is_high_definition",
+      "Attribute.lcd_number_of_keys",
+      "Attribute.lens_types.[0]",
+      "Attribute.webcam_features",
+      "Attribute.video_capture_resolution",
+      "Attribute.operation_mode",
+      "Attribute.video_output_interface.[0]",
+      "Attribute.speaker_features",
+      "Attribute.audio_sensitivity.value",
+      "Attribute.audio_output_mode",
+      "Attribute.speaker_configurations.[0]",
+      "Attribute.speaker_recommended_uses.[0]",
+      "Attribute.case_sleeve_type",
+      "Attribute.case_cover_type",
+      "Attribute.device_mount_type",
+      "Attribute.mounting_type",
+      "Attribute.battery_type",
+      "Attribute.requires_batteries",
+      "Attribute.batteries_included",
+      "Attribute.battery_size.[0]",
+      "Attribute.hand_orientation.[0]",
+      "Attribute.controller_type",
+      "Attribute.microphone_types.[0]",
+      "Attribute.microphones_device_compatibility",
+      "Attribute.polar_pattern",
+      "Attribute.signal_boosters",
+      "Attribute.tv_signal_booster_gain.[0]",
+      "Attribute.networking_standards.[0]",
+      "Attribute.network_locked",
+      "Attribute.has_mobile_network_failover",
+      "Attribute.requires_a_modem",
+      "Attribute.operating_systems.[0]",
+      "Attribute.ram_form_factor",
+      "Attribute.psu_rating",
+      "Attribute.psu_wattage.value",
+      "Attribute.number_of_slots",
+      "Attribute.number_of_usb_ports",
+      "Attribute.input_voltage.value",
+      "Attribute.power.value",
+      "Attribute.usb_flash_drivetype.[0]",
+      "Attribute.usb_and_firewire_hubs_compatible_devices",
+      "Attribute.capacitive_touch",
+      "Attribute.usb_adapter_features",
+      "Attribute.adaptor_function.[0]",
+      "Attribute.adapter_features.[0]",
+      "Attribute.cable_type",
+      "Attribute.cable_style.[0]",
+      "Attribute.cable_compatible_device",
+      "Attribute.cable_tie_guns_recommended_use",
+      "Attribute.wire_and_cable_ties_closure_type.[0]",
+      "Attribute.cable_clips_recommended_use.[0]",
+      "Attribute.cables_special_features.[0]",
+      "Attribute.charger_type.[0]",
+      "Attribute.ethernet_cable_type",
+      "Attribute.connector_gender",
+      "Attribute.audio_jacks.[0]",
+      "Attribute.fits_laptop_screen_size.value",
+      "Attribute.computer_cooling_types.[0]",
+      "Attribute.by_user.[0]",
+      "Attribute.reading_pen_type.[0]",
+      "Attribute.primary_language",
+      "Attribute.is_translation_device",
+      "Attribute.is_battery_operated",
+      "Attribute.tv_audio_adapter",
+      "Attribute.tv_audio_cable_type",
+      "Attribute.tv_audio_connectors",
+      "Attribute.video_encoding.[0]",
+      "Attribute.pixel_resolution.width",
+      "Attribute.pixel_resolution.height",
+      "Attribute.green_broadcasting_screens_recommended_uses",
+      "Attribute.green_broadcasting_screens_features",
+      "Attribute.projection_style.[0]",
+      "Attribute.product_shape",
+      "Attribute.strap_type",
+      "Attribute.is_portable",
+      "Attribute.is_ergonomic",
+      "Attribute.has_pressure_sensor",
+      "Attribute.is_reusable",
+      "Attribute.is_waterproof",
+      "Attribute.is_5g_enabled",
+      "Attribute.is_rechargeable",
+      "Attribute.is_water_resistant",
+      "Attribute.is_non_slip",
+      "Attribute.is_foldable",
+      "Attribute.is_padded",
+      "Attribute.is_lightweight",
+      "Attribute.is_magnetic",
+      "Attribute.has_clip",
+      "Attribute.has_noise_cancelling",
+      "Attribute.has_integrated_remote",
+      "Attribute.power_source",
+      "Attribute.rated_frequency.value",
+      "Attribute.stand_features",
+      "Attribute.fast_charging",
+      "Attribute.screen_protector_type",
+      "Attribute.bolted_type",
+      "Attribute.scanner_type",
+      "Attribute.proudly_south_african",
+      "Attribute.has_adjustable_racking",
+      "Attribute.tablet_speakers_special_features",
+      "Attribute.light_source",
+      "Attribute.has_power_over_ethernet",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.max_compatible_device_size.value",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.bag_size.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

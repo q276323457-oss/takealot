@@ -1,0 +1,607 @@
+{
+  "source_file": "loadsheet-121.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 72,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.music_format.[0]",
+      "label": "Disc Format",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.music_label.[0]",
+      "label": "Music Label",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.runtime",
+      "label": "Running Time",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.artist.[0]",
+      "label": "Artist",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.number_of_discs",
+      "label": "Number of Discs",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of origin",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.release_date",
+      "label": "Release Date",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.release_year",
+      "label": "Release Year",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.audio_encoding.[0]",
+      "label": "Audio Encoding",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.cd_and_vinyl_edition",
+      "label": "Cd and Vinyl Edition",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.orientation",
+      "label": "Orientation",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.theme.[0]",
+      "label": "Theme",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.suitcase_lock_type",
+      "label": "Suitcase Lock Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.suitcase_shell_type",
+      "label": "Suitcase Shell Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.bedding_type",
+      "label": "Bedding Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Variant.attribute.bed_size",
+      "label": "Bed Size",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.cup_features",
+      "label": "Cup Features",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.has_lid",
+      "label": "Has Lid",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.has_straw",
+      "label": "Has Straw",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "121": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Rock (23373)",
+      "Christian & Gospel (23402)",
+      "R&B & Soul (23424)",
+      "Soundtracks (23527)",
+      "Blues (23499)",
+      "Folk (23538)",
+      "Jazz (23386)",
+      "Rap & Hip Hop (23412)",
+      "Pop (23436)",
+      "Reggae (23444)",
+      "Classical (23450)",
+      "Metal (23462)",
+      "Dance & Electronic (23471)",
+      "Country & Traditional (23487)",
+      "Childrens Music (23508)",
+      "Easy Listening (23515)",
+      "Other Music (23372)",
+      "Merchandise (19708)"
+    ],
+    "4.33715": [
+      "Alternative Rock (23377)",
+      "Blues Rock (23378)",
+      "Classic Rock (23379)",
+      "Compilations (23385)",
+      "Hard Rock (23375)",
+      "Indie Rock (23382)",
+      "Local Rock (23380)",
+      "Oldies & Retro (23547)",
+      "Other Rock (23374)",
+      "Pop Rock (23384)",
+      "Progressive Rock (23376)",
+      "Punk Rock (23383)",
+      "Rock & Roll (23381)"
+    ],
+    "7.0.4": [
+      "Choirs (23404)",
+      "Christian Rap (23407)",
+      "Christian Rock & Pop (23406)",
+      "Compilations (23408)",
+      "Contemporary (23410)",
+      "Gospel Blues (23409)",
+      "Traditional Gospel (23411)",
+      "Urban & Contemporary (23405)",
+      "Other Christian & Gospel (23403)"
+    ],
+    "3": [
+      "Afro Soul (23433)",
+      "Compilations (23426)",
+      "Disco (23427)",
+      "Female Vocals (23428)",
+      "Funk (23432)",
+      "Male Vocals (23429)",
+      "Modern R&B (23431)",
+      "Motown (23430)",
+      "Neo Soul (23435)",
+      "Other R&B & Soul (23425)",
+      "Soul (23434)"
+    ],
+    "22095956": [
+      "Cast Recordings (23530)",
+      "Bollywood (23535)",
+      "Compilations (23537)",
+      "Film Compilations (23531)",
+      "Musicals (23532)",
+      "Original Scores (23534)",
+      "Original Soundtracks (23529)",
+      "Other Soundtracks (23528)",
+      "Television Soundtracks (23533)",
+      "Disney (23536)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Variant_shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Sizes\", \"sheet_name\": \"Shoe Sizes\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}}": [
+      "Blues- Rock (23501)",
+      "Compilations (23502)",
+      "Country Blues (23503)",
+      "Electric Blues (23504)",
+      "Jazz Blues (23505)",
+      "Modern Blues (23506)",
+      "Other Blues (23500)",
+      "Soul Blues (23507)"
+    ],
+    "False": [
+      "Compilations (23446)",
+      "Danceall (23447)",
+      "Dub Reggae (23448)",
+      "Other Reggae (23445)",
+      "Ska Reggae (23449)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.music_format.[0]",
+      "Attribute.music_label.[0]",
+      "Attribute.runtime",
+      "Attribute.artist.[0]",
+      "Attribute.number_of_discs",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.release_date",
+      "Attribute.release_year",
+      "Attribute.audio_encoding.[0]",
+      "Attribute.cd_and_vinyl_edition",
+      "Attribute.number_of_pieces",
+      "Attribute.orientation",
+      "Attribute.product_shape",
+      "Attribute.theme.[0]",
+      "Attribute.suitcase_lock_type",
+      "Attribute.suitcase_shell_type",
+      "Attribute.bedding_type",
+      "Attribute.cup_features",
+      "Attribute.has_handle",
+      "Attribute.has_lid",
+      "Attribute.has_straw",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.sock_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

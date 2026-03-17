@@ -1,0 +1,31 @@
+# Fill this file according to your current Seller Portal page DOM
+# Then copy to config/selectors.yaml
+
+portal:
+  listing_url: "https://sellers.takealot.com"
+  add_product_url: "https://sellers.takealot.com/single-product"
+  stay_open_on_error_headed: true
+  stay_open_seconds_on_error_headed: 35
+  login_required_markers:
+    - "input[type='password']"
+    - "text=Sign in"
+
+fields:
+  title: "input[name='title']"
+  subtitle: "input[name='subtitle']"
+  key_features: "textarea[name='keyFeatures']"
+  whats_in_box: "textarea[name='whatsInBox']"
+
+image_upload_input: "input[type='file']"
+
+# Optional mapping for attributes by label text (left) -> selector (right)
+attribute_fields:
+  brand: "input[name='brand']"
+  material: "input[name='material']"
+  colour: "input[name='colour']"
+  size: "input[name='size']"
+  weight: "input[name='weight']"
+
+actions:
+  save_draft: "button:has-text('Save Draft')"
+  publish: "button:has-text('Publish')"

@@ -1,0 +1,1350 @@
+{
+  "source_file": "loadsheet-106.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 176,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.by_user.[0]",
+      "label": "By User",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.cpu_type",
+      "label": "CPU Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.cpu_socket_types.[0]",
+      "label": "CPU Socket Types",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.cpu_speed.value",
+      "label": "CPU Speed",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.ram_types.[0]",
+      "label": "RAM Types",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.ram_size.value",
+      "label": "RAM Size",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.usb_connectivity.[0]",
+      "label": "USB Connectivity",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.usb_flash_drivetype.[0]",
+      "label": "USB Flash Drive Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.hard_drive_types.[0]",
+      "label": "Hard Drive Types",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Capacity",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.screen_types.[0]",
+      "label": "Screen Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standard",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.network_locked",
+      "label": "Network Locked",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.is_backlit",
+      "label": "Backlit",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.device_mount_type",
+      "label": "Device Mount Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.is_multi_touch",
+      "label": "Multi-Touch",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.response_time.value",
+      "label": "Screen Response Time",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.aspect_ratio.[0]",
+      "label": "Aspect Ratio",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.card_series.[0]",
+      "label": "Card Series",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.case_cover_type",
+      "label": "Case & Cover Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.computer_graphics_processor",
+      "label": "Computer Graphics Processor",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.graphics_type.[0]",
+      "label": "Graphics Type",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.transmission_speed.value",
+      "label": "Transmission Speed",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.cache_size.value",
+      "label": "Cache Size",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.router_type.[0]",
+      "label": "Connectivity Support",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Device Operating System",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.ram_form_factor",
+      "label": "RAM Form Factor",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.monitor_form_factor",
+      "label": "Monitor Form Factor",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.charger_type.[0]",
+      "label": "Charger Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.number_of_hdmi_ports",
+      "label": "Number of HDMI Ports",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.connector_type",
+      "label": "Connector Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.number_of_usb_ports",
+      "label": "Number of USB ports",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.drive_file_system",
+      "label": "Drive File System",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.scanner_type",
+      "label": "Scanner Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.cable_type",
+      "label": "Cable Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.memory_card_types.[0]",
+      "label": "Memory Card Types",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.requires_batteries",
+      "label": "Requires Batteries",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.has_pressure_sensor",
+      "label": "Has Pressure Sensor",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.audio_output_mode",
+      "label": "Audio Output Mode",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.is_3g_enabled",
+      "label": "Is 3G Enabled",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.number_of_slots",
+      "label": "Number of Slots",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.tv_audio_connectors",
+      "label": "TV Audio Connectors",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.webcam_features",
+      "label": "Webcam Features",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.is_padded",
+      "label": "Is Padded",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.screen_protector_type",
+      "label": "Screen Protector Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.hand_orientation.[0]",
+      "label": "Hand Orientation",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.is_high_definition",
+      "label": "Is High Definition",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.audio_jacks.[0]",
+      "label": "Audio Jacks",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.focus_type",
+      "label": "Focus Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_5g_enabled",
+      "label": "5G Enabled",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.usb_and_firewire_hubs_compatible_devices",
+      "label": "USB and FireWire Hubs Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.lens_types.[0]",
+      "label": "Lens Types",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.sim_card_type",
+      "label": "Sim Card Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.has_adjustable_racking",
+      "label": "Adjustable Racking",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.bluetooth_version",
+      "label": "Bluetooth Version",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.biometric_security_feature",
+      "label": "Biometric Security Feature",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.tablet_speakers_special_features",
+      "label": "Tablet Speakers Special Features",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.stand_features",
+      "label": "Stand Features",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.video_capture_resolution",
+      "label": "Video Capture Resolution",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.fast_charging",
+      "label": "Fast Charging",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.laptop_compatibility",
+      "label": "Laptop Compatibility",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.strap_type",
+      "label": "Strap Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.reading_pen_type.[0]",
+      "label": "Reading Pen Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.digital_camera_resolution.unit",
+      "label": "Digital Camera Resolution Unit",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.digital_camera_resolution.value",
+      "label": "Digital Camera Resolution Value",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.is_translation_device",
+      "label": "Is Translation Device",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.primary_language",
+      "label": "Primary Language",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.is_battery_operated",
+      "label": "Is Battery Operated",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.capacitive_touch",
+      "label": "Capacitive Touch",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Variant.attribute.max_compatible_device_size.value",
+      "label": "Max Compatible Device Size",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.is_2g_enabled",
+      "label": "Is 2G Enabled",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.transmission_speed.unit",
+      "label": "Transmission Speed",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.hard_drive_interface",
+      "label": "Hard Drive Interface",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.keyboard_backlighting_color_support.[0]",
+      "label": "Keyboard Backlighting Color Support",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.number_of_processing_threads",
+      "label": "Number of Processing Threads",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.speaker_configurations.[0]",
+      "label": "Speaker Configuration",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.speaker_features",
+      "label": "Speaker Features",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.keyboard_number_of_keys",
+      "label": "Keyboard Number of Keys",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.video_output_interface.[0]",
+      "label": "Video Output Interface",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.batteries_included",
+      "label": "Batteries Included",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.hardware_interface",
+      "label": "Hardware Interface",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.bolted_type",
+      "label": "Bolted Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.keyboard_special_features",
+      "label": "Keyboard Special Features",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.connector_gender",
+      "label": "Connector Gender",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.controller_type",
+      "label": "Controller Type",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.solid_state_drive_recommended_use",
+      "label": "Solid State Drive Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.is_4g_enabled",
+      "label": "Is 4G enabled",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.dongle_type",
+      "label": "Dongle Type",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.peripheral_connectivities.[0]",
+      "label": "Peripheral Connectivities",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.cpu_core_types.[0]",
+      "label": "CPU Core Types",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage value",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.is_portable",
+      "label": "is Portable",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.is_wireless",
+      "label": "Is Wireless",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.monitor_risers_recommended_uses.[0]",
+      "label": "Monitor Risers Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.is_magnetic",
+      "label": "Is Magnetic",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.speaker_recommended_uses.[0]",
+      "label": "Speaker Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.adaptor_function.[0]",
+      "label": "Adaptor Function",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.adapter_features.[0]",
+      "label": "Adapter Features",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.graphics_cards_interface.[0]",
+      "label": "Graphics Cards Interface",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.has_noise_cancelling",
+      "label": "Has Noise Cancelling?",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.fits_laptop_screen_size.value",
+      "label": "Fits Laptop Screen Size",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.new_or_used_condition",
+      "label": "New or Used Condition",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.is_refurbished",
+      "label": "Is Certified Pre-Owned",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "106": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Computers (15535)",
+      "Computer Components (15595)",
+      "Computer Software (18364)",
+      "Computer Accessories (15579)",
+      "Computer Monitors (15762)",
+      "Computer Monitor Accessories (15773)"
+    ],
+    "4.32939": [
+      "Certified Pre-Owned Desktop Computers (30900)",
+      "Gaming PC (20100)",
+      "Mini PC (20102)",
+      "Workstations (20103)",
+      "All-in-One (20101)",
+      "Laptops->Certified Pre-Owned Laptops (30898)",
+      "Laptops->2-In-1 (22862)",
+      "Laptops->Gaming (22861)",
+      "Laptops->Netbooks (22860)",
+      "Laptops->Notebooks (22859)",
+      "Desktop Computers->Mid Towers (22449)",
+      "Desktop Computers->Computer Sticks (22451)",
+      "Desktop Computers->Full Towers (22448)",
+      "Desktop Computers->Mini Towers (22447)",
+      "Desktop Computers->Small Form Factors (22450)"
+    ],
+    "7.0.4": [
+      "Laptop Parts->Laptop Hinges (15632)",
+      "Laptop Parts->Laptop Back Plates (31042)",
+      "Laptop Parts->Laptop Replacement Screens (15636)",
+      "Track Pads (31047)",
+      "Input Devices->Reading Pens (30883)",
+      "Input Devices->Graphics Tablets (15624)",
+      "Input Devices->Computer Speakers (22400)",
+      "Input Devices->Headsets (30697)",
+      "Input Devices->Gaming Speakers (22906)",
+      "Computer Racks & Mounts (15600)",
+      "USB & FireWire Hubs (15659)",
+      "Cleaning & Repair (22082)",
+      "Storage Devices->Hard Drive Accessories->Hard Drive Enclosures & Mounts (15648)"
+    ],
+    "3": [
+      "Multimedia & Design Software->3D Modeling Software->Digital (30470)",
+      "Multimedia & Design Software->3D Modeling Software->Physical (30471)",
+      "GPS Map Data & Software->Digital (30468)",
+      "GPS Map Data & Software->Physical (30469)",
+      "Business & Productivity Software->Digital (30460)",
+      "Business & Productivity Software->Physical (30461)",
+      "Educational Software->Digital (30466)",
+      "Educational Software->Physical (30467)",
+      "Antivirus & Security Software->Digital (30458)",
+      "Antivirus & Security Software->Physical (30459)",
+      "Downloads->Digital (30464)",
+      "Downloads->Physical (30465)",
+      "Design & Creative Software->Physical (30463)",
+      "Design & Creative Software->Digital (30462)"
+    ],
+    "21669636": [
+      "Other Computer Peripherals (20836)",
+      "Key Caps & Switches (30995)",
+      "Adapters (29580)",
+      "Laptop Adapters (29581)",
+      "Tools & Cleaning (28533)",
+      "Bags & Cases->Messenger Bags (22443)",
+      "Bags & Cases->Shoulder Bags (22442)",
+      "Bags & Cases->Roller Bags (22446)",
+      "Bags & Cases->Backpacks (22445)",
+      "Bags & Cases->Carry Cases (22444)",
+      "Other Computer Component Accessories (22399)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_cpu_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"CPU Type\", \"sheet_name\": \"CPU Type\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_card_series_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Card Series\", \"sheet_name\": \"Card Series\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Touch Screen Monitors (22456)",
+      "Desktop Monitors (22452)",
+      "Portable Monitors (22454)",
+      "Gaming Monitors (22453)",
+      "Large Format Display (22455)"
+    ],
+    "False": [
+      "Attribute.is_3g_enabled",
+      "Attribute.customer_registration_required",
+      "Attribute.is_4g_enabled",
+      "Attribute.network_locked",
+      "Attribute.video_capture_resolution",
+      "Attribute.is_2g_enabled",
+      "Attribute.whats_in_the_box",
+      "Attribute.is_5g_enabled",
+      "Attribute.model_number",
+      "Attribute.number_of_slots",
+      "Attribute.display_standards.[0]",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.ram_size.value",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.screen_size.value",
+      "Attribute.audio_jacks.[0]",
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.by_user.[0]",
+      "Attribute.cpu_type",
+      "Attribute.cpu_socket_types.[0]",
+      "Attribute.cpu_speed.value",
+      "Attribute.ram_types.[0]",
+      "Attribute.ram_size.value",
+      "Attribute.usb_connectivity.[0]",
+      "Attribute.usb_flash_drivetype.[0]",
+      "Attribute.hard_drive_types.[0]",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.screen_size.value",
+      "Attribute.screen_types.[0]",
+      "Attribute.display_standards.[0]",
+      "Attribute.network_locked",
+      "Attribute.is_backlit",
+      "Attribute.device_mount_type",
+      "Attribute.is_multi_touch",
+      "Attribute.touchscreen_enabled",
+      "Attribute.response_time.value",
+      "Attribute.aspect_ratio.[0]",
+      "Attribute.card_series.[0]",
+      "Attribute.case_cover_type",
+      "Attribute.computer_graphics_processor",
+      "Attribute.graphics_type.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.transmission_speed.value",
+      "Attribute.cache_size.value",
+      "Attribute.router_type.[0]",
+      "Attribute.operating_systems.[0]",
+      "Attribute.ram_form_factor",
+      "Attribute.monitor_form_factor",
+      "Attribute.battery_type",
+      "Attribute.charger_type.[0]",
+      "Attribute.number_of_hdmi_ports",
+      "Attribute.connector_type",
+      "Attribute.number_of_usb_ports",
+      "Attribute.power.value",
+      "Attribute.is_waterproof",
+      "Attribute.drive_file_system",
+      "Attribute.scanner_type",
+      "Attribute.is_water_resistant",
+      "Attribute.cable_type",
+      "Attribute.memory_card_types.[0]",
+      "Attribute.requires_batteries",
+      "Attribute.has_pressure_sensor",
+      "Attribute.mounting_type",
+      "Attribute.is_reusable",
+      "Attribute.operation_mode",
+      "Attribute.audio_output_mode",
+      "Attribute.is_3g_enabled",
+      "Attribute.number_of_slots",
+      "Attribute.tv_audio_connectors",
+      "Attribute.webcam_features",
+      "Attribute.is_padded",
+      "Attribute.screen_protector_type",
+      "Attribute.hand_orientation.[0]",
+      "Attribute.is_high_definition",
+      "Attribute.is_rechargeable",
+      "Attribute.audio_jacks.[0]",
+      "Attribute.focus_type",
+      "Attribute.is_5g_enabled",
+      "Attribute.usb_and_firewire_hubs_compatible_devices",
+      "Attribute.lens_types.[0]",
+      "Attribute.sim_card_type",
+      "Attribute.has_adjustable_racking",
+      "Attribute.bluetooth_version",
+      "Attribute.biometric_security_feature",
+      "Attribute.tablet_speakers_special_features",
+      "Attribute.stand_features",
+      "Attribute.video_capture_resolution",
+      "Attribute.fast_charging",
+      "Attribute.laptop_compatibility",
+      "Attribute.is_non_slip",
+      "Attribute.strap_type",
+      "Attribute.reading_pen_type.[0]",
+      "Attribute.digital_camera_resolution.unit",
+      "Attribute.digital_camera_resolution.value",
+      "Attribute.is_translation_device",
+      "Attribute.primary_language",
+      "Attribute.is_battery_operated",
+      "Attribute.capacitive_touch",
+      "Attribute.is_2g_enabled",
+      "Attribute.transmission_speed.unit",
+      "Attribute.hard_drive_interface",
+      "Attribute.battery_size.[0]",
+      "Attribute.keyboard_backlighting_color_support.[0]",
+      "Attribute.number_of_processing_threads",
+      "Attribute.speaker_configurations.[0]",
+      "Attribute.speaker_features",
+      "Attribute.light_source",
+      "Attribute.keyboard_number_of_keys",
+      "Attribute.video_output_interface.[0]",
+      "Attribute.batteries_included",
+      "Attribute.hardware_interface",
+      "Attribute.compatible_devices",
+      "Attribute.bolted_type",
+      "Attribute.keyboard_special_features",
+      "Attribute.connector_gender",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.controller_type",
+      "Attribute.solid_state_drive_recommended_use",
+      "Attribute.product_shape",
+      "Attribute.is_4g_enabled",
+      "Attribute.dongle_type",
+      "Attribute.peripheral_connectivities.[0]",
+      "Attribute.cpu_core_types.[0]",
+      "Attribute.input_voltage.value",
+      "Attribute.is_portable",
+      "Attribute.is_wireless",
+      "Attribute.is_lightweight",
+      "Attribute.monitor_risers_recommended_uses.[0]",
+      "Attribute.is_magnetic",
+      "Attribute.is_adjustable",
+      "Attribute.speaker_recommended_uses.[0]",
+      "Attribute.adaptor_function.[0]",
+      "Attribute.adapter_features.[0]",
+      "Attribute.graphics_cards_interface.[0]",
+      "Attribute.has_bluetooth",
+      "Attribute.has_noise_cancelling",
+      "Attribute.fits_laptop_screen_size.value",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.customer_registration_required",
+      "Attribute.new_or_used_condition",
+      "Attribute.is_refurbished",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.max_compatible_device_size.value",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.bag_size.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

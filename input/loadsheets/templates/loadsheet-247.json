@@ -1,0 +1,623 @@
+{
+  "source_file": "loadsheet-247.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 77,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.clasp_type.[0]",
+      "label": "Clasp Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.shoe_width",
+      "label": "Shoe Width",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.dress_shoe_style",
+      "label": "Dress Shoe Style",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.occasion",
+      "label": "Occasion",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.boot_opening",
+      "label": "Boot Opening",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.boot_height",
+      "label": "Boot Height",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.boot_type.[0]",
+      "label": "Boot Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.pattern",
+      "label": "Pattern",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.shoe_accessory_type",
+      "label": "Shoe Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.toe_style",
+      "label": "Toe Style",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.sandal_type",
+      "label": "Sandal Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.slipper_type",
+      "label": "Slipper Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.footwear_features.[0]",
+      "label": "Footwear Features",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.outsole_material",
+      "label": "Outsole Material",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.sneaker_style",
+      "label": "Sneaker Style",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.pumps_flat_shoe_type",
+      "label": "Pumps/Flat Shoe Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.heel_type",
+      "label": "Heel Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.heel_height.value",
+      "label": "Heel Height",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.size_type.[0]",
+      "label": "Size Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.embellishment_feature",
+      "label": "Embellishment Feature",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.watch_accessory_type.[0]",
+      "label": "Watch Accessory Type [0]",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.bra_accessory_type",
+      "label": "Bra Accessory Type",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "247": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "2.30228": [
+      "Boys->Footwear->Slippers (29253)",
+      "Boys->Footwear->Formal Shoes (30822)",
+      "Boys->Footwear->Sneakers & Canvas (29254)",
+      "Boys->Footwear->School Shoes (29250)",
+      "Boys->Footwear->Sandals & Flip Flops (29249)",
+      "Boys->Footwear->Boots (29246)",
+      "Boys->Footwear->Loafers & Slip-Ons (29247)",
+      "Boys->Footwear->Shoe Accessories (29251)",
+      "Girls->Footwear->School Shoes (29344)",
+      "Girls->Footwear->Pumps & Flats (29342)",
+      "Girls->Footwear->Sandals & Flip Flops (29343)",
+      "Girls->Footwear->Sneakers & Canvas (29348)",
+      "Girls->Footwear->Slippers (29347)",
+      "Girls->Footwear->Boots (29339)",
+      "Girls->Footwear->Shoe Accessories (29345)",
+      "Girls->Footwear->Loafers & Slip-Ons (29340)"
+    ],
+    "7.0.4": [
+      "Footwear->Boots (29423)",
+      "Footwear->Slippers (29431)",
+      "Footwear->Shoe Accessories (29429)",
+      "Footwear->Sneakers & Canvas (29432)",
+      "Footwear->Formal Shoes (29425)",
+      "Footwear->Loafers & Slip-Ons (29426)",
+      "Footwear->Sandals & Flip Flops (29428)"
+    ],
+    "3": [
+      "Clothing->Playsuits (30978)",
+      "Clothing->Underwear->Bra Accessories (30976)",
+      "Footwear->Boots (29560)",
+      "Footwear->Sandals & Flip Flops (29566)",
+      "Footwear->Pumps & Flats (29565)",
+      "Footwear->Loafers & Slip-Ons (29563)",
+      "Footwear->Sneakers & Canvas (29570)",
+      "Footwear->Heels (29562)",
+      "Footwear->Slippers (29569)",
+      "Footwear->Shoe Accessories (29567)"
+    ],
+    "105247123": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}, \"Variant_attribute._shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Sizes\", \"sheet_name\": \"Shoe Sizes\"}}": [
+      "LOOKUP_TOPLEVEL29179",
+      "LOOKUP_TOPLEVEL29349",
+      "LOOKUP_TOPLEVEL29434"
+    ],
+    "False": [
+      "Attribute.whats_in_the_box",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.materials.[0]",
+      "Attribute.merchant_packaged_weight.value",
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.clasp_type.[0]",
+      "Attribute.shoe_width",
+      "Attribute.dress_shoe_style",
+      "Attribute.occasion",
+      "Attribute.boot_opening",
+      "Attribute.boot_height",
+      "Attribute.boot_type.[0]",
+      "Attribute.closure_type",
+      "Attribute.pattern",
+      "Attribute.shoe_accessory_type",
+      "Attribute.toe_style",
+      "Attribute.sandal_type",
+      "Attribute.slipper_type",
+      "Attribute.footwear_features.[0]",
+      "Attribute.outsole_material",
+      "Attribute.sneaker_style",
+      "Attribute.pumps_flat_shoe_type",
+      "Attribute.heel_type",
+      "Attribute.heel_height.value",
+      "Attribute.size_type.[0]",
+      "Attribute.is_hand_made",
+      "Attribute.embellishment_feature",
+      "Attribute.is_waterproof",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_water_resistant",
+      "Attribute.watch_accessory_type.[0]",
+      "Attribute.bra_accessory_type"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.shoe_sizes"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

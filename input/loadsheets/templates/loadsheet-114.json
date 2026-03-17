@@ -1,0 +1,1791 @@
+{
+  "source_file": "loadsheet-114.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 229,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.braai_types.[0]",
+      "label": "Braai Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.braai_smoker_type.[0]",
+      "label": "Braai Smoker Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.oven_type",
+      "label": "Oven Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.heating_type",
+      "label": "Heater Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.fan_type.[0]",
+      "label": "Fan Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.power.value",
+      "label": "Power Value",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.power_source",
+      "label": "Source of power",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.engine_capacity.value",
+      "label": "Engine Capacity",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.gazebo_size.value",
+      "label": "Gazebo Size",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.gazebo_frame_material.[0]",
+      "label": "Gazebo Frame Material",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.gazebo_accessory_type.[0]",
+      "label": "Gazebo Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.air_conditioner_type",
+      "label": "Air Conditioner Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.trampoline_size.value",
+      "label": "Trampoline Size",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.is_scented",
+      "label": "Is Scented",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.braai_cleaning_tools_type.[0]",
+      "label": "Braai Cleaning Tools Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.cleaning_chemicals_application.[0]",
+      "label": "Cleaning Chemicals Application",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.braai_cleaning_chemicals_form.[0]",
+      "label": "Braai Cleaning Chemicals Form",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.table_frame_material.[0]",
+      "label": "Table Frame Material",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.planter_features",
+      "label": "Planter Features",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.number_of_tines",
+      "label": "Number of Tines",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.leg_material_type",
+      "label": "Leg Material Type",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.number_of_lights",
+      "label": "Number of Lights",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.patio_seating_features",
+      "label": "Patio Seating Features",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.fabric_care_instructions",
+      "label": "Fabric Care Instructions",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.vegetable_plant_type",
+      "label": "Vegetable Plant Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.pillow_firmness",
+      "label": "Pillow Firmness",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.requires_assembly",
+      "label": "Requires Assembly",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.potjie_size",
+      "label": "Potjie Size",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.plant_format",
+      "label": "Plant Format",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.pattern",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.has_pedal",
+      "label": "Has Pedal?",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.bin_shape",
+      "label": "Bin Shape",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.cooking_range_installation_type",
+      "label": "Cooking Range Installation Type",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.pillow_closure_type",
+      "label": "Pillow Closure Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.light_fixture_shade_material.[0]",
+      "label": "Light Fixture Shade Material",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.chair_recommended_use.[0]",
+      "label": "Chair Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.grass_type",
+      "label": "Grass Type",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.cover_fastener_type",
+      "label": "Cover Fastener Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.table_shape",
+      "label": "Table Shape",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.artificial_plant_container_material.[0]",
+      "label": "Artificial Plant Container Material",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.plant_seed_sunlight_exposure",
+      "label": "Plant Seed Sunlight Exposure",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.thermometer_features",
+      "label": "Thermometer Features",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.sculpture_recommended_use.[0]",
+      "label": "Sculpture Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.type_of_soil",
+      "label": "Type of Soil",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.plant_feature",
+      "label": "Plant Feature",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.opening_mechanism",
+      "label": "Opening Mechanism",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.saw_surface_recommendation",
+      "label": "Saw Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.phthalate_free",
+      "label": "Phthalate Free",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.glove_functionality",
+      "label": "Glove Functionality",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.lights_and_lamps_power_source",
+      "label": "Lights & Lamps Power Source",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.outdoor_fire_pit_fuel_type",
+      "label": "Outdoor Fire Pit Fuel Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.artificial_plant_features.[0]",
+      "label": "Artificial Plant Features",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.patio_furniture_seating_capacity",
+      "label": "Patio Furniture Seating Capacity",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.number_of_grill_burners",
+      "label": "Number of Grill Burners",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.chair_frame_material",
+      "label": "Chair Frame Material",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity Value in Litres (L)",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.table_top_material.[0]",
+      "label": "Table Top Material",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Variant.attribute.pillow_size",
+      "label": "Pillow Size",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.bean_bag_chair_size",
+      "label": "Bean Bag Chair Size",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.thermometer_outer_material.[0]",
+      "label": "Thermometer Outer Material",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.planter_mount_type",
+      "label": "Planter Mount Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.pool_light_features.[0]",
+      "label": "Pool Light features",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.heating_radiator_special_features.[0]",
+      "label": "Heating Radiator Special Features",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.pillow_filling_type",
+      "label": "Pillow Filling type",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.chair_back_style",
+      "label": "Chair Back Style",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.light_fixture_special_features.[0]",
+      "label": "Light Fixture Special Features",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.cactus_and_succulent_plant_type.[0]",
+      "label": "Cactus and Succulent Plant Type",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.thermometer_recommended_use.[0]",
+      "label": "Thermometer Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.seating_capacity",
+      "label": "Spa Seating Capacity",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.hose_features",
+      "label": "Hose Features",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.artificial_plant_and_greenery_type.[0]",
+      "label": "Artificial Plant and Greenery Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.pool_covers_and_ground_cloths_design_type.[0]",
+      "label": "Pool Covers and Ground Cloths Design Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.glove_features",
+      "label": "Glove Features",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.bulb_type",
+      "label": "Bulb Type",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.table_base_type.[0]",
+      "label": "Table Base Type",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.heater_special_features",
+      "label": "Heater Special Features",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.target_group",
+      "label": "Target Group",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.fabric.[0]",
+      "label": "Fabric",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.gardening_sprayer_and_spreader_style",
+      "label": "Gardening Sprayer and Spreader Style",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.is_assembly_required",
+      "label": "Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.control_method",
+      "label": "Control Method",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.fire_pit_shape",
+      "label": "Fire Pit Shape",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.rug_backing_material.[0]",
+      "label": "Rug Backing Material",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.rug_or_mat_features.[0]",
+      "label": "Rug or Mat Features",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.product_theme",
+      "label": "Product Theme",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.table_special_features",
+      "label": "Table Special Features",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.desk_lighting_features",
+      "label": "Desk Lighting Features",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.nitrile_free",
+      "label": "Nitrile Free",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.is_disposable",
+      "label": "Is Disposable",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.vinyl_free",
+      "label": "Vinyl Free",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.latex_free",
+      "label": "Latex Free",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.silicone_free",
+      "label": "Silicone Free",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.is_bpa_free",
+      "label": "Is BPA Free",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.is_cordless",
+      "label": "Is Cordless",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.is_fade_resistant",
+      "label": "Is Fade Resistant",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.powder_free",
+      "label": "Powder Free",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.lead_free",
+      "label": "Lead Free",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.movement_type",
+      "label": "Movement Type",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.chair_features.[0]",
+      "label": "Chair Features",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.pool_type",
+      "label": "Pool Type",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.shovel_and_spade_grip_type",
+      "label": "Shovel & Spade Grip Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.pillow_features",
+      "label": "Pillow Features",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.outdoor_gas_braai_features",
+      "label": "Outdoor Gas Braai Features",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.has_gas",
+      "label": "Has Gas",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Square Width in cm",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Square Length in cm",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.type_of_pot",
+      "label": "Type of Pot",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.chair_fill_material",
+      "label": "Chair Fill Material",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.seasons.[0]",
+      "label": "Season",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.alcohol_free",
+      "label": "Alcohol Free",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.volume.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.type_of_inflatable",
+      "label": "Type of Inflatable",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.toy_characters.[0]",
+      "label": "Toy Characters",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.height_from_ground.value",
+      "label": "Height From Ground Value",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.is_inflatable",
+      "label": "Is Inflatable",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.product_weight.value",
+      "label": "Assembled Product Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume for Variant",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.trampoline_type",
+      "label": "Trampoline Type",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.requires_hose_connection",
+      "label": "Requires Hose Connection",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.type_of_swing",
+      "label": "Type of Swing",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.hardware_handle_lock_type",
+      "label": "Hardware Handle Lock Type",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.decor_rack_type.[0]",
+      "label": "Decor Rack Type",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.climate_control_appliance_type",
+      "label": "Climate Control Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.curtain_top_type",
+      "label": "Curtain Top Type",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.home_decor_type",
+      "label": "Home Decor Type",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.window_film_type.[0]",
+      "label": "Window Film Type",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.flag_type.[0]",
+      "label": "Flag Type",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.diameter.unit",
+      "label": "Diameter unit",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.uv_protection",
+      "label": "UV Protection",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.has_bluetooth",
+      "label": "Has Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.sound_type",
+      "label": "Sound Type",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.number_of_jets",
+      "label": "Number of Jets",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.window_film_installation_type.[0]",
+      "label": "Window Film Installation Type",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.battery_cell_composition",
+      "label": "Battery Cell Composition",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.household_appliance_type",
+      "label": "Household Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.window_treatment_type.[0]",
+      "label": "Window Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.door_type",
+      "label": "Door Type",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.window_treatment_accessories_type.[0]",
+      "label": "Window Treatment Accessories Type",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.chair_type",
+      "label": "Chair Type",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.doorknob_function",
+      "label": "Doorknob Function",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.umbrella_style.[0]",
+      "label": "Umbrella Style",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.shade_cloth_type.[0]",
+      "label": "Shade Cloth Type",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.umbrella_accessory_type.[0]",
+      "label": "Umbrella Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.shade_accessory_type.[0]",
+      "label": "Shade Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.battery_reusability.[0]",
+      "label": "Battery Reusability",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.indoor_lighting_type",
+      "label": "Indoor Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Variant.attribute.door_sizes.[0]",
+      "label": "Door Sizes",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated VAT",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.lighting_type",
+      "label": "Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Variant.attribute.weight.value",
+      "label": "Product Weight Value (Variant)",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Variant.attribute.weight.unit",
+      "label": "Product Weight Unit (Variant)",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Variant.attribute.air_conditioner_capacity",
+      "label": "Air Conditioner Capacity",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "114": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Lawn & Garden (17885)",
+      "Lighting (18030)",
+      "Pool & Spa (18095)",
+      "Seeds & Bulbs (18088)",
+      "Braais & Outdoor Cooking (20689)",
+      "Firepits & Fireplaces (17295)",
+      "Outdoor Furniture (16227)",
+      "Outdoor Furniture Accessories (16239)",
+      "Swimming Pool Pumps (16408)",
+      "Outdoor Play Equipment (19216)",
+      "Decor (17145)",
+      "General Purpose Batteries (15681)",
+      "Doors (16310)",
+      "Door Stops (16308)",
+      "Door Knobs & Handles (16305)",
+      "Locks & Latches (16425)",
+      "Climate Control Appliances (17336)",
+      "Chairs (16192)",
+      "Chair Covers & Protectors (16191)",
+      "Outdoor Power Equipment Batteries (18007)",
+      "Weed & Pest Control (17443)",
+      "Window Treatments (17268)",
+      "Heating Pumps (28594)"
+    ],
+    "4.33171": [
+      "Outdoor Living->Hammocks (17933)",
+      "Outdoor Living->Awnings (17931)",
+      "Outdoor Living->Outdoor Umbrellas & Sunshades->Umbrella Accessories (30719)",
+      "Outdoor Living->Outdoor Umbrellas & Sunshades->Shade Accessories (30720)",
+      "Outdoor Living->Outdoor Umbrellas & Sunshades->Shade Cloths (30709)",
+      "Outdoor Living->Outdoor Umbrellas & Sunshades->Umbrellas (30708)",
+      "Outdoor Living->Rugs (30713)",
+      "Outdoor Living->Outdoor Structures->Sheds, Garages & Carports (17948)",
+      "Outdoor Living->Outdoor Structures->Canopies & Gazebos->Gazebo Accessories (30940)",
+      "Outdoor Living->Outdoor Structures->Canopies & Gazebos->Gazebos (28510)",
+      "Outdoor Recreation->Climbers (30802)",
+      "Outdoor Recreation->Swings (30801)",
+      "Outdoor Recreation->Slides (30803)",
+      "Outdoor Recreation->Trampolines (30804)",
+      "Outdoor Recreation->Jungle Gyms (30805)",
+      "Watering & Irrigation->Watering Cans (18028)",
+      "Watering & Irrigation->Garden Hoses (18022)",
+      "Decking & Fencing (23260)",
+      "Grow Tents (30393)",
+      "Outdoor Power Equipment->Lawn Mowers->Riding Mowers (17964)",
+      "Outdoor Power Equipment->Lawn Mowers->Walk-Behind Mowers (17967)",
+      "Outdoor Power Equipment->Chainsaws (17959)",
+      "Outdoor Power Equipment->Weed Trimmers (17977)",
+      "Outdoor Power Equipment->Leaf Blowers (17969)",
+      "Outdoor Power Equipment->Pole Saws (22300)",
+      "Outdoor Power Equipment->Pressure Washers (17974)",
+      "Outdoor Power Equipment->Brush Cutters (17960)",
+      "Outdoor Power Equipment->Shredders & Mulchers (20694)",
+      "Outdoor Power Equipment->Hedge Trimmers (17961)",
+      "Gardening->Water Saving Tanks (21884)",
+      "Gardening->Gardening Tools->Lawn & Garden Sprayers (17908)",
+      "Gardening->Gardening Tools->Axes (21885)",
+      "Gardening->Gardening Tools->Pruning Shears (17911)",
+      "Gardening->Gardening Tools->Gardening Cutters (17906)",
+      "Gardening->Gardening Tools->Loppers (21624)",
+      "Gardening->Gardening Tools->Hoes (21621)",
+      "Gardening->Gardening Tools->Log Splitters (21886)",
+      "Gardening->Gardening Tools->Other Hand Tools (21887)",
+      "Gardening->Gardening Tools->Pruning Saws (17910)",
+      "Gardening->Gardening Tools->Parts & Accessories (21626)",
+      "Gardening->Gardening Tools->Pruners (21623)",
+      "Gardening->Gardening Tools->Shovels & Spades (17913)",
+      "Gardening->Gardening Tools->Weeders (21625)",
+      "Gardening->Gardening Tools->Bonsai Tools (21627)",
+      "Gardening->Gardening Tools->Bulb Planting Tools (17903)",
+      "Gardening->Gardening Tools->Gardening Forks (17905)",
+      "Gardening->Gardening Tools->Rakes (17912)",
+      "Gardening->Growing Kits (30580)",
+      "Gardening->Mulch (17922)",
+      "Gardening->Artificial Grass (21873)",
+      "Gardening->Beekeeping (23223)",
+      "Gardening->Fertilizers (17892)",
+      "Gardening->Lawn Paint (20696)",
+      "Gardening->Sands & Soils (17928)",
+      "Gardening->Water Pumps (21876)",
+      "Gardening->Hydroponic Systems & Accessories (21877)",
+      "Gardening->Pots & Planters (17926)",
+      "Gardening->Gloves & Protective Gear->Ear Muffs (21576)",
+      "Gardening->Gloves & Protective Gear->Guards (21582)",
+      "Gardening->Gloves & Protective Gear->Goggles & Glasses (21579)",
+      "Gardening->Gloves & Protective Gear->Ear Plugs (21577)",
+      "Gardening->Gloves & Protective Gear->Harnesses (21580)",
+      "Gardening->Gloves & Protective Gear->Other Protective Gear (21888)",
+      "Gardening->Gloves & Protective Gear->Helmets (21581)",
+      "Gardening->Gloves & Protective Gear->Gloves (21578)",
+      "Gardening->Gardening Tool Accessories->Garden Tool Accessories (17899)",
+      "Gardening->Gardening Tool Accessories->Garden Tool Parts (17900)",
+      "Gardening->Composting->Composting & Yard Waste Bins (22301)"
+    ],
+    "7.0.4": [
+      "Lighting Fixtures->Ceiling Light Fixtures (18045)",
+      "Outdoor Luminaire (21879)",
+      "Decorative Lighting (21880)",
+      "Flood & Spot Lights (18033)",
+      "Desk Lamps & Lighting (22248)",
+      "Grow Lights (30392)"
+    ],
+    "3": [
+      "Spas & Hot Tubs (18116)",
+      "Pool & Spa Accessories->Pool Water Slides (18114)",
+      "Pool & Spa Accessories->Armbands (21891)",
+      "Pool & Spa Accessories->Chairs & Riders (21889)",
+      "Pool & Spa Accessories->Interactive Play Pools (21890)",
+      "Pool & Spa Accessories->Pool Covers & Ground Cloths (18105)",
+      "Pool & Spa Accessories->Pool Toys (18113)",
+      "Pool & Spa Accessories->Pool Cleaners & Chemicals->Pool Chemicals->Hazardous Pool Chemicals (30604)",
+      "Pool & Spa Accessories->Pool Cleaners & Chemicals->Pool Chemicals->Non-Toxic Pool Chemicals (30605)",
+      "Pool & Spa Accessories->Parts & Accessories (21882)",
+      "Pool & Spa Accessories->Pool Floats & Loungers (18107)",
+      "Pool & Spa Accessories->Pool Ladders, Steps & Ramps (18109)",
+      "Pool & Spa Accessories->Pool Sweeps & Vacuums (18112)",
+      "Pool & Spa Accessories->Boats & Kayaks (21892)",
+      "Pool & Spa Accessories->Cleaning Accessories (21883)",
+      "Pool & Spa Accessories->Other Swimming Aids & Inflatables (21893)",
+      "Pool & Spa Accessories->Pool Lighting (21881)",
+      "Swimming Pools->Inflatables (21616)",
+      "Swimming Pools->Frames (21617)",
+      "Swimming Pools->Inflatable Spa (21618)"
+    ],
+    "97814851": [
+      "Plant & Herb Growing Seed Kits (18092)",
+      "Cacti & Succulents Seeds (22500)",
+      "Fruit Seeds (22508)",
+      "Tree Seeds (18094)",
+      "Vegetable Seeds (22507)",
+      "Grass Seeds (22509)",
+      "Artificial Outdoor Plants (21874)",
+      "Flower Seeds (18090)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Braais->Braai Ovens (30862)",
+      "Braais->Braai Smokers (30863)",
+      "Braais->Other Braais (20693)",
+      "Braais->Charcoal (20691)",
+      "Braais->Gas Braais (20692)",
+      "Braais Accessories->Charcoal, Briquettes and Woods (21628)",
+      "Braais Accessories->Thermometers (21593)",
+      "Braais Accessories->Braai Mats (21602)",
+      "Braais Accessories->Braai Pans (21600)",
+      "Braais Accessories->Hoses & Regulators (21601)",
+      "Braais Accessories->Braai Utensils (21594)",
+      "Braais Accessories->Cleaning->Cleaning Tools (30615)",
+      "Braais Accessories->Cleaning->Cleaning Chemicals (30616)",
+      "Braais Accessories->Grids & Grills (21585)",
+      "Braais Accessories->Fire Starters & Lighters (21598)",
+      "Braais Accessories->Gas Tanks & Cannisters (21584)",
+      "Braais Accessories->Grid Stands (21603)",
+      "Braais Accessories->Covers (21596)",
+      "Braais Accessories->Log Buckets (21604)",
+      "Braais Accessories->Gas stoves (21629)",
+      "Braais Accessories->Built in Braais (21630)",
+      "Braais Accessories->Braai Lights (21597)",
+      "Braais Accessories->Potjie Pots (21586)",
+      "Braais Accessories->Dripping Pans (21599)",
+      "Braais Accessories->Gloves (21595)",
+      "Braais Accessories->Pizza Stones (21590)",
+      "Braais Accessories->Pizza Ovens & Tools (21589)",
+      "Braais Accessories->Racks & Attachments (21587)",
+      "Braais Accessories->Rotisseries & Skewers (21588)"
+    ],
+    "False": [
+      "Play Swings (19219)",
+      "Climbers (21875)",
+      "Jungle Gyms (22787)",
+      "Slides (19225)",
+      "Trampolines (19230)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.braai_types.[0]",
+      "Attribute.is_portable",
+      "Attribute.braai_smoker_type.[0]",
+      "Attribute.oven_type",
+      "Attribute.heating_type",
+      "Attribute.fan_type.[0]",
+      "Attribute.power.value",
+      "Attribute.power_source",
+      "Attribute.battery_type",
+      "Attribute.battery_size.[0]",
+      "Attribute.engine_capacity.value",
+      "Attribute.gazebo_size.value",
+      "Attribute.gazebo_frame_material.[0]",
+      "Attribute.gazebo_accessory_type.[0]",
+      "Attribute.is_rechargeable",
+      "Attribute.air_conditioner_type",
+      "Attribute.trampoline_size.value",
+      "Attribute.is_scented",
+      "Attribute.braai_cleaning_tools_type.[0]",
+      "Attribute.cleaning_chemicals_application.[0]",
+      "Attribute.braai_cleaning_chemicals_form.[0]",
+      "Attribute.table_frame_material.[0]",
+      "Attribute.planter_features",
+      "Attribute.number_of_tines",
+      "Attribute.leg_material_type",
+      "Attribute.number_of_lights",
+      "Attribute.patio_seating_features",
+      "Attribute.fabric_care_instructions",
+      "Attribute.vegetable_plant_type",
+      "Attribute.pillow_firmness",
+      "Attribute.requires_assembly",
+      "Attribute.finish_type",
+      "Attribute.potjie_size",
+      "Attribute.plant_format",
+      "Attribute.pattern",
+      "Attribute.has_pedal",
+      "Attribute.bin_shape",
+      "Attribute.cooking_range_installation_type",
+      "Attribute.pillow_closure_type",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.mounting_type",
+      "Attribute.light_fixture_shade_material.[0]",
+      "Attribute.chair_recommended_use.[0]",
+      "Attribute.grass_type",
+      "Attribute.cover_fastener_type",
+      "Attribute.number_of_pieces",
+      "Attribute.has_handle",
+      "Attribute.table_shape",
+      "Attribute.artificial_plant_container_material.[0]",
+      "Attribute.plant_seed_sunlight_exposure",
+      "Attribute.thermometer_features",
+      "Attribute.is_water_resistant",
+      "Attribute.product_shape",
+      "Attribute.sculpture_recommended_use.[0]",
+      "Attribute.type_of_soil",
+      "Attribute.plant_feature",
+      "Attribute.opening_mechanism",
+      "Attribute.saw_surface_recommendation",
+      "Attribute.phthalate_free",
+      "Attribute.glove_functionality",
+      "Attribute.lights_and_lamps_power_source",
+      "Attribute.outdoor_fire_pit_fuel_type",
+      "Attribute.artificial_plant_features.[0]",
+      "Attribute.patio_furniture_seating_capacity",
+      "Attribute.number_of_grill_burners",
+      "Attribute.chair_frame_material",
+      "Attribute.capacity.value",
+      "Attribute.table_top_material.[0]",
+      "Attribute.bean_bag_chair_size",
+      "Attribute.thermometer_outer_material.[0]",
+      "Attribute.pattern_type",
+      "Attribute.planter_mount_type",
+      "Attribute.pool_light_features.[0]",
+      "Attribute.closure_type",
+      "Attribute.heating_radiator_special_features.[0]",
+      "Attribute.pillow_filling_type",
+      "Attribute.chair_back_style",
+      "Attribute.light_fixture_special_features.[0]",
+      "Attribute.cactus_and_succulent_plant_type.[0]",
+      "Attribute.thermometer_recommended_use.[0]",
+      "Attribute.seating_capacity",
+      "Attribute.hose_features",
+      "Attribute.artificial_plant_and_greenery_type.[0]",
+      "Attribute.pool_covers_and_ground_cloths_design_type.[0]",
+      "Attribute.glove_features",
+      "Attribute.bulb_type",
+      "Attribute.table_base_type.[0]",
+      "Attribute.heater_special_features",
+      "Attribute.target_group",
+      "Attribute.fabric.[0]",
+      "Attribute.gardening_sprayer_and_spreader_style",
+      "Attribute.is_assembly_required",
+      "Attribute.eyewear_lens_features",
+      "Attribute.control_method",
+      "Attribute.fire_pit_shape",
+      "Attribute.rug_backing_material.[0]",
+      "Attribute.rug_or_mat_features.[0]",
+      "Attribute.product_theme",
+      "Attribute.table_special_features",
+      "Attribute.desk_lighting_features",
+      "Attribute.is_waterproof",
+      "Attribute.nitrile_free",
+      "Attribute.is_disposable",
+      "Attribute.vinyl_free",
+      "Attribute.latex_free",
+      "Attribute.silicone_free",
+      "Attribute.is_bpa_free",
+      "Attribute.is_cordless",
+      "Attribute.is_fade_resistant",
+      "Attribute.powder_free",
+      "Attribute.lead_free",
+      "Attribute.is_non_slip",
+      "Attribute.movement_type",
+      "Attribute.chair_features.[0]",
+      "Attribute.pool_type",
+      "Attribute.is_reusable",
+      "Attribute.is_foldable",
+      "Attribute.shovel_and_spade_grip_type",
+      "Attribute.pillow_features",
+      "Attribute.outdoor_gas_braai_features",
+      "Attribute.has_gas",
+      "Attribute.type_of_pot",
+      "Attribute.chair_fill_material",
+      "Attribute.seasons.[0]",
+      "Attribute.alcohol_free",
+      "Attribute.volume.value",
+      "Attribute.type_of_inflatable",
+      "Attribute.toy_characters.[0]",
+      "Attribute.height_from_ground.value",
+      "Attribute.is_inflatable",
+      "Attribute.product_weight.value",
+      "Attribute.trampoline_type",
+      "Attribute.requires_hose_connection",
+      "Attribute.type_of_swing",
+      "Attribute.hardware_handle_lock_type",
+      "Attribute.decor_rack_type.[0]",
+      "Attribute.climate_control_appliance_type",
+      "Attribute.curtain_top_type",
+      "Attribute.home_decor_type",
+      "Attribute.window_film_type.[0]",
+      "Attribute.flag_type.[0]",
+      "Attribute.diameter.unit",
+      "Attribute.diameter.value",
+      "Attribute.uv_protection",
+      "Attribute.has_bluetooth",
+      "Attribute.sound_type",
+      "Attribute.number_of_jets",
+      "Attribute.window_film_installation_type.[0]",
+      "Attribute.battery_cell_composition",
+      "Attribute.household_appliance_type",
+      "Attribute.window_treatment_type.[0]",
+      "Attribute.door_type",
+      "Attribute.window_treatment_accessories_type.[0]",
+      "Attribute.is_hand_made",
+      "Attribute.chair_type",
+      "Attribute.doorknob_function",
+      "Attribute.umbrella_style.[0]",
+      "Attribute.shade_cloth_type.[0]",
+      "Attribute.umbrella_accessory_type.[0]",
+      "Attribute.shade_accessory_type.[0]",
+      "Attribute.battery_reusability.[0]",
+      "Attribute.indoor_lighting_type",
+      "Attribute.is_smart",
+      "Attribute.pack_type",
+      "Attribute.zero_rated_vat",
+      "Attribute.proudly_south_african",
+      "Attribute.lighting_type",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_hazardous"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.pillow_size",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.door_sizes.[0]",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.weight.unit",
+      "Variant.attribute.air_conditioner_capacity"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

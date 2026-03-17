@@ -1,0 +1,962 @@
+{
+  "source_file": "loadsheet-256.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 123,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Materials",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.fabric.[0]",
+      "label": "Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.layer_type",
+      "label": "Layer Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.pillow_filling_type",
+      "label": "Pillow Filling Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.pillow_size",
+      "label": "Pillow Size",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.bed_size",
+      "label": "Bed Size",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.curtain_hanging_type.[0]",
+      "label": "Curtain Hanging Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.toilet_paper_installation_type",
+      "label": "Toilet Paper Installation Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.shape",
+      "label": "Shape",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.thread_count",
+      "label": "Thread Count",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.bedding_size",
+      "label": "Bedding Size",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.storage_type",
+      "label": "Storage Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.ottoman_special_features",
+      "label": "Ottoman Special Features",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number Of Pieces",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.number_of_drawers",
+      "label": "Number of Drawers",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.number_of_hooks",
+      "label": "Number of Hooks",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.number_of_toilet_rolls",
+      "label": "Number of Toilet Rolls",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.number_of_shelves",
+      "label": "Number of Shelves",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.is_freestanding",
+      "label": "Is Freestanding",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.is_mildew_resistant",
+      "label": "Is Mildew Resistant",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.is_linen_extra_length",
+      "label": "Is Linen Extra Length",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_rust_resistant",
+      "label": "Is Rust Resistant",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.adhesive_type",
+      "label": "Adhesive Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_foldable",
+      "label": "Foldable",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.is_machine_washable",
+      "label": "Is Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Variant.attribute.towel_type",
+      "label": "Towel Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.credenza_door_style.[0]",
+      "label": "Credenza Door Style",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.furniture_accessories",
+      "label": "Furniture Accessories",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.bathroom_accessory_installation_type.[0]",
+      "label": "Bathroom Accessory Installation Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.mirror_frame_material",
+      "label": "Mirror Frame Material",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.requires_assembly",
+      "label": "Requires Assembly",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Square Size Width",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Square Size Length",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.tog_rate",
+      "label": "Tog Rate",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.seasons.[0]",
+      "label": "Seasons",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Centimeters (Cm)",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.office_furniture_shape",
+      "label": "Office Furniture Shape",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.cabinet_style.[0]",
+      "label": "Cabinet Style",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.curtain_type",
+      "label": "Curtain Type",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.duvet_filler",
+      "label": "Duvet Filler",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.number_of_holders",
+      "label": "Number of Holders",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.hanger_material",
+      "label": "Hanger Material",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity value",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.weave_type",
+      "label": "Weave Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.placemat_type",
+      "label": "Placemat Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.table_shape",
+      "label": "Table Shape",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.type_of_sheet",
+      "label": "Type of Sheet",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.bed_sheet_special_features.[0]",
+      "label": "Bed Sheet Special Features",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.has_360_rotation",
+      "label": "Has 360 Rotation",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.shoe_rack_capacity",
+      "label": "Shoe Rack Capacity",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.mattress_firmness",
+      "label": "Mattress Firmness",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.cabinet_type.[0]",
+      "label": "Cabinet Type",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Variant.attribute.bed_set_type",
+      "label": "Bed Set Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.bedding_type",
+      "label": "Bedding Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.furniture_board_type.[0]",
+      "label": "Furniture Board Type",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.bathroom_accessory_type",
+      "label": "Bathroom Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.organization_type",
+      "label": "Organization Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.mattress_type",
+      "label": "Mattress Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.table_top_material.[0]",
+      "label": "Table Top Material",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.table_special_features",
+      "label": "Table Special Features",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.room_type",
+      "label": "Room Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.shelf_type",
+      "label": "Shelf Type",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity For Variant",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "256": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Storage & Organization (17462)",
+      "Linens & Bedding (18061)",
+      "Benches (16164)",
+      "Cabinets & Storage (16168)",
+      "Ottomans (16226)",
+      "Shelving (16243)",
+      "Furniture Accessories (17374)",
+      "Bathroom Accessories (17113)",
+      "Beds & Accessories (16158)",
+      "Tables (16255)"
+    ],
+    "1.22747": [
+      "Clothing & Closet Storage->Shoe Racks & Organizers (17469)",
+      "Clothing & Closet Storage->Hangers (17467)",
+      "Storage Hooks & Racks->Umbrella Stands, Racks & Utility Hooks (17481)",
+      "Storage Hooks & Racks->Utility Hooks (17482)",
+      "Home Storage & Collapsible Boxes (22263)",
+      "Household Storage Bags (17472)",
+      "Chalk & Cork Boards (20054)",
+      "Shopping Bags & Baskets (20057)",
+      "Trays, Racks & Holders (20055)",
+      "Makeup Organisers (20048)",
+      "Household Storage Containers (17474)",
+      "Boxes & Organisers (22532)"
+    ],
+    "7.0.4": [
+      "Linen & Sheets Accessories (30796)",
+      "Bedding->Blankets (18066)",
+      "Bedding->Duvet Covers (18067)",
+      "Bedding->Bed Sheets (18064)",
+      "Bedding->Pillows (18073)",
+      "Bedding->Linen Sets (20049)",
+      "Bedding->Duvets (20051)",
+      "Bedding->Bedspreads, Quilts & Comforters (18074)",
+      "Bedding->Pillow Protectors (30588)",
+      "Bedding->Throws (20050)",
+      "Bedding->Mattress Protection->Mattress Protectors (30951)",
+      "Bedding->Mattress Protection->Mattress Toppers (30952)",
+      "Bedding->Mattress Protection->Mattress Pads (18070)",
+      "Bedding->Mattress Protection->Mattress Encasements (18069)",
+      "Bedding->Bedskirts (18065)",
+      "Bedding->Pillowcases & Shams (18072)",
+      "Towels->Head Wraps (30479)",
+      "Towels->Washcloths (18084)",
+      "Towels->Packs (22538)",
+      "Towels->Hand Towels (30478)",
+      "Towels->Bath Sheets (18085)",
+      "Towels->Bath Towels (30481)",
+      "Towels->Beach Towels (30477)",
+      "Towels->Guest Towels (30480)",
+      "Face Cloths (23052)"
+    ],
+    "24651943": [
+      "Vanities->Bedroom Vanities (16184)",
+      "Bathroom Cabinets (22531)",
+      "Buffets & Sideboards (16170)",
+      "Childrens Wardrobes (22564)",
+      "Living Room Cabinets (22271)",
+      "Storage Cabinets & Lockers (16178)",
+      "Storage Trolleys (20036)",
+      "Dressers (16172)",
+      "File Cabinets (16173)",
+      "Credenzas (19989)",
+      "Storage Chests->Toy Chests (16181)",
+      "Armoires & Wardrobes (16169)",
+      "Hallway Cabinet (22518)",
+      "Magazine Racks (16176)",
+      "Chest of Drawers (23053)",
+      "Dressing Tables (23054)",
+      "Childrens Chest Of Drawers (22565)",
+      "Kitchen Cabinets (16175)",
+      "Childrens Dressing Tables (22568)",
+      "Dining Room Cabinets (22270)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_knife_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Knife Type\", \"sheet_name\": \"Knife Type\"}, \"Attribute_materials_0_\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Ottomans (16226)"
+    ],
+    "False": [
+      "Accent Tables->End Tables (16258)",
+      "Accent Tables->Coffee Tables (16257)",
+      "Activity Tables (16260)",
+      "Childrens Tables (22577)",
+      "Nightstands (16264)",
+      "Kitchen & Dining Room Tables (16262)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.fabric.[0]",
+      "Attribute.layer_type",
+      "Attribute.pillow_filling_type",
+      "Attribute.curtain_hanging_type.[0]",
+      "Attribute.toilet_paper_installation_type",
+      "Attribute.shape",
+      "Attribute.thread_count",
+      "Attribute.bedding_size",
+      "Attribute.storage_type",
+      "Attribute.ottoman_special_features",
+      "Attribute.number_of_pieces",
+      "Attribute.number_of_drawers",
+      "Attribute.number_of_hooks",
+      "Attribute.number_of_toilet_rolls",
+      "Attribute.number_of_shelves",
+      "Attribute.is_portable",
+      "Attribute.is_freestanding",
+      "Attribute.is_mildew_resistant",
+      "Attribute.is_linen_extra_length",
+      "Attribute.is_rust_resistant",
+      "Attribute.adhesive_type",
+      "Attribute.is_lightweight",
+      "Attribute.is_foldable",
+      "Attribute.is_adjustable",
+      "Attribute.is_machine_washable",
+      "Attribute.mounting_type",
+      "Attribute.finish_type",
+      "Attribute.credenza_door_style.[0]",
+      "Attribute.furniture_accessories",
+      "Attribute.bathroom_accessory_installation_type.[0]",
+      "Attribute.mirror_frame_material",
+      "Attribute.requires_assembly",
+      "Attribute.tog_rate",
+      "Attribute.product_shape",
+      "Attribute.seasons.[0]",
+      "Attribute.office_furniture_shape",
+      "Attribute.cabinet_style.[0]",
+      "Attribute.curtain_type",
+      "Attribute.duvet_filler",
+      "Attribute.number_of_holders",
+      "Attribute.hanger_material",
+      "Attribute.capacity.value",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.is_smart",
+      "Attribute.weave_type",
+      "Attribute.placemat_type",
+      "Attribute.table_shape",
+      "Attribute.type_of_sheet",
+      "Attribute.pattern_type",
+      "Attribute.is_hand_made",
+      "Attribute.number_of_compartments",
+      "Attribute.bed_sheet_special_features.[0]",
+      "Attribute.has_360_rotation",
+      "Attribute.shoe_rack_capacity",
+      "Attribute.mattress_firmness",
+      "Attribute.cabinet_type.[0]",
+      "Attribute.bedding_type",
+      "Attribute.furniture_board_type.[0]",
+      "Attribute.bathroom_accessory_type",
+      "Attribute.organization_type",
+      "Attribute.mattress_type",
+      "Attribute.closure_type",
+      "Attribute.table_top_material.[0]",
+      "Attribute.table_special_features",
+      "Attribute.room_type",
+      "Attribute.shelf_type",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.pack_type",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.pillow_size",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.towel_type",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.bed_set_type",
+      "Variant.attribute.packed_quantity"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

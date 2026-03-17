@@ -1,0 +1,696 @@
+{
+  "source_file": "loadsheet-118.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 64,
+  "columns": [
+    {
+      "index": 1,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 2,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 3,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 4,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 5,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 6,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.languages.[0]",
+      "label": "Primary Languages",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.school_grades.[0]",
+      "label": "Grade",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.book_format",
+      "label": "Book Format",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "Attribute.course_code.[0]",
+      "label": "Course Code",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "Attribute.bisac_code",
+      "label": "Bisac Code",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.online_courses.[0]",
+      "label": "Online Courses",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.author.[0]",
+      "label": "Author",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.kids_age",
+      "label": "Age Range",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.academic_institution.[0]",
+      "label": "Academic Institution",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.book_page_count",
+      "label": "Number of Pages",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.literary_genre.[0]",
+      "label": "Genre",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.book_edition",
+      "label": "Book Edition",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.bible_version",
+      "label": "Bible Version",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.publisher",
+      "label": "Publisher",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.publisher_awards",
+      "label": "Publisher Award",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.subscription_packages.[0]",
+      "label": "Subscription Packages",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.is_ebook",
+      "label": "E-Book",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "ReleaseDate",
+      "label": "ReleaseDate",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "PreorderDate",
+      "label": "PreorderDate",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.series",
+      "label": "Series",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.age_category",
+      "label": "Age Category",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "color.secondary",
+      "label": "Other Colour",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "118": [
+      "Books BISAC (23551)",
+      "Digital Products (29617)"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "CKB064000 - Cooking - Courses & Dishes - Pizza (24353)",
+      "CKB112000 - Cooking - Courses & Dishes - Casseroles (24399)",
+      "CKB129000 - Cooking - Methods - Pressure Cooking (24416)",
+      "EDU008000 - Education - Decision-Making & Problem Solving (24702)",
+      "ART015010 - Art - African (23651)",
+      "EDU013000 - Education - Finance (24706)",
+      "EDU026000 - Education - Special Education - General (24718)",
+      "EDU027000 - Education - Statistics (24725)",
+      "EDU029040 - Education - Teaching Methods & Materials - Social Science (24730)",
+      "EDU040000 - Education - Philosophy, Theory & Social Aspects (24747)",
+      "EDU049000 - Education - Behavioral Management (24754)",
+      "EDU051000 - Education - Learning Styles (24756)",
+      "FIC027180 - Fiction - Romance - Historical (24891)",
+      "FAM020000 - Family & Relationships - Parenting - Fatherhood (24783)",
+      "FAM052000 - Family & Relationships - Dysfunctional Families (24808)",
+      "FIC005090 - Fiction - Erotica - Lgbt (24826)",
+      "FIC009080 - Fiction - Fantasy - Humorous (24837)",
+      "FIC009110 - Fiction - Fantasy - Arthurian (24840)",
+      "COM018000 - Computers - Data Processing (24435)",
+      "COM034000 - Computers - Interactive & Multimedia (24453)",
+      "COM044000 - Computers - Neural Networks (24466)",
+      "COM051430 - Computers - Software Development & Engineering - Project Management (24517)",
+      "CGN009000 - Comics & Graphic Novels - Lgbt (24276)",
+      "FIC009120 - Fiction - Fantasy - Dragons & Mythical Creatures (24841)",
+      "FIC014010 - Fiction - Historical - Ancient (24848)",
+      "FIC014030 - Fiction - Historical - Renaissance (24849)",
+      "FIC021000 - Fiction - Media Tie-In (24856)",
+      "CKB072000 - Cooking - Regional & Ethnic - Russian (24361)",
+      "COM055020 - Computers - Certification Guides - Mcse (24527)",
+      "JNF012000 - Juvenile Nonfiction - Technology (25454)",
+      "FIC022030 - Fiction - Mystery & Detective - Traditional (24860)",
+      "FIC022020 - Fiction - Mystery & Detective - Police Procedural (24859)",
+      "FIC027150 - Fiction - Romance - Historical (24888)",
+      "FIC027310 - Fiction - Romance - Paranormal (24904)",
+      "GAR004010 - Gardening - Flowers - Annuals (25093)",
+      "FIC027420 - Fiction - Romance - Police & Law Enforcement (24915)",
+      "GAR008000 - Gardening - Greenhouses (25102)",
+      "GAR019030 - Gardening - Regional - Midwest  (25115)",
+      "GAR019040 - Gardening - Regional - New England  (25116)",
+      "HEA011000 - Health & Fitness - Herbal Medications (25146)",
+      "HEA016000 - Health & Fitness - Naturopathy (25151)",
+      "HEA043000 - Health & Fitness - Sleep (25192)",
+      "FIC028020 - Fiction - Science Fiction - Hard Science Fiction (24921)",
+      "FIC028070 - Fiction - Science Fiction - Apocalyptic & Post-Apocalyptic (24926)",
+      "FAM001030 - Family & Relationships - Abuse - Domestic Partner Abuse (24769)",
+      "HIS027030 - History - Military - Nuclear Warfare (25255)",
+      "FAM005000 - Family & Relationships - Life Stages - Later Years (24773)",
+      "HIS027070 - History - Military - Vietnam War (25259)",
+      "HIS027100 - History - Military - World War Ii (25262)",
+      "HEA018000 - Health & Fitness - Physical Impairments (25153)",
+      "JNF051140 - Juvenile Nonfiction - Science & Nature (25670)",
+      "FAM012000 - Family & Relationships - Children With Special Needs (24777)",
+      "FAM015000 - Family & Relationships - Divorce & Separation (24780)",
+      "HEA010000 - Health & Fitness - Healthy Living (25145)",
+      "FAM032000 - Family & Relationships - Parenting - Motherhood (24790)",
+      "FIC003000 - Fiction - Anthologies  (24815)",
+      "FIC009020 - Fiction - Fantasy - Epic (24831)",
+      "FIC014050 - Fiction - Historical - World War Ii (24851)",
+      "FIC027030 - Fiction - Romance - Fantasy (24877)",
+      "FIC027190 - Fiction - Romance - Lgbt (24892)",
+      "FIC028090 - Fiction - Science Fiction - Alien Contact (24928)",
+      "FIC031020 - Fiction - Thrillers - Historical (24938)",
+      "FIC031080 - Fiction - Thrillers - Psychological (24944)",
+      "FIC042080 - Fiction - Christian - Fantasy (24965)",
+      "FIC042120 - Fiction - Christian - Romance (24969)",
+      "FIC045020 - Fiction - Family Life - Siblings (24974)",
+      "FIC027220 - Fiction - Romance - Military (24895)",
+      "FIC049000 - Fiction - African American - General (24978)",
+      "FIC054000 - Fiction - Asian American (24990)",
+      "FIC022130 - Fiction - Mystery & Detective - Cozy (24870)",
+      "FIC027230 - Fiction - Romance - Multicultural & Interracial (24896)",
+      "FIC027370 - Fiction - Romance - Historical (24910)",
+      "BIB018060 - Bibles - Other English Translations - Text (23932)",
+      "FIC027410 - Fiction - Romance - Medical (24914)",
+      "BIB019030 - Bibles - Reina Valera - New Testament & Portions (23941)",
+      "BIO029000 - Biography & Autobiography - Culinary (24042)",
+      "FIC042070 - Fiction - Christian - Western (24964)",
+      "BUS070110 - Business & Economics - Industries - Entertainment (24185)",
+      "BUS070120 - Business & Economics - Industries - Food Industry (24186)",
+      "BUS070130 - Business & Economics - Industries - Pharmaceutical & Biotechnology (24187)",
+      "FIC042090 - Fiction - Christian - Biblical  (24966)",
+      "FIC045000 - Fiction - Family Life - General (24972)",
+      "FIC051000 - Fiction - Cultural Heritage (24987)",
+      "FIC056000 - Fiction - Hispanic & Latino (24992)",
+      "FIC073000 - Fiction - Lgbt - Transgender (25009)",
+      "FOR000000 - Foreign Language Study - General (25012)",
+      "HIS006000 - History - Canada - General (25216)",
+      "HIS010010 - History - Europe - Eastern (25223)",
+      "HIS013000 - History - Europe - France (25225)",
+      "HIS015050 - History - Europe - Great Britain (25232)",
+      "HIS027190 - History - Military - Afghan War  (25271)",
+      "CKB086000 - Cooking - Vegetarian (24374)",
+      "CKB082000 - Cooking - Table Setting (24370)",
+      "CKB100000 - Cooking - Beverages - General (24387)",
+      "JNF012050 - Juvenile Nonfiction - Computers (25458)",
+      "HIS027200 - History - Military - Napoleonic Wars (25272)",
+      "HIS027240 - History - Military - Vehicles (25276)",
+      "HIS036140 - History - United States - State & Local (25298)",
+      "HIS049000 - History - Essays (25321)",
+      "HUM006000 - Humor - Topic - Politics (25361)",
+      "HUM020000 - Humor - Topic - Celebrity & Popular Culture (25375)",
+      "JNF003170 - Juvenile Nonfiction - Performing Arts (25404)",
+      "CRA040000 - Crafts & Hobbies - Weaving & Spinning (24623)",
+      "CRA042000 - Crafts & Hobbies - Woodwork (24625)",
+      "JNF003040 - Juvenile Nonfiction - Animals (25391)",
+      "JNF003230 - Juvenile Nonfiction - Animals (25410)",
+      "JNF007010 - Juvenile Nonfiction - Biography & Autobiography (25435)",
+      "HUM023000 - Humor - Topic - Internet & Social Media (25378)",
+      "JNF002000 - Juvenile Nonfiction - Adventure & Adventurers (25386)",
+      "JNF007110 - Juvenile Nonfiction - Biography & Autobiography (25445)",
+      "JNF015000 - Juvenile Nonfiction - Crafts & Hobbies (25473)",
+      "JNF019030 - Juvenile Nonfiction - Family (25483)",
+      "JNF025140 - Juvenile Nonfiction - History (25532)",
+      "FIC012000 - Fiction - Ghost (24846)",
+      "FIC027440 - Fiction - Romance - Paranormal (24917)",
+      "FOR007000 - Foreign Language Study - English As A Second Language (25019)",
+      "FIC050000 - Fiction - Crime (24986)",
+      "FOR010000 - Foreign Language Study - Greek  (25022)",
+      "FOR013000 - Foreign Language Study - Italian (25025)",
+      "FOR014000 - Foreign Language Study - Japanese (25026)",
+      "FOR012000 - Foreign Language Study - Hungarian (25024)",
+      "FOR015000 - Foreign Language Study - Korean (25027)",
+      "FOR017000 - Foreign Language Study - Miscellaneous (25029)",
+      "FIC042020 - Fiction - Christian - Futuristic (24959)",
+      "FIC042100 - Fiction - Christian - Contemporary  (24967)",
+      "FIC052000 - Fiction - Satire (24988)",
+      "FIC065000 - Fiction - Epistolary (25001)",
+      "FIC068000 - Fiction - Lgbt - General (25004)",
+      "FIC016000 - Fiction - Humorous - General (24853)",
+      "FIC018000 - Fiction - Lgbt - Lesbian (24854)",
+      "FIC022060 - Fiction - Mystery & Detective - Historical (24863)",
+      "FIC027040 - Fiction - Gothic (24878)",
+      "FIC027130 - Fiction - Romance - Science Fiction (24886)",
+      "CRA003000 - Crafts & Hobbies - Carving (24589)",
+      "CRA041000 - Crafts & Hobbies - Wood Toys (24624)",
+      "CRA043000 - Crafts & Hobbies - Crafts For Children (24626)",
+      "DRA002000 - Drama - Anthologies  (24670)",
+      "DRA010000 - Drama - Shakespeare (24681)",
+      "EDU020000 - Education - Multicultural Education (24712)",
+      "EDU036000 - Education - Organizations & Institutions (24743)",
+      "FAM003000 - Family & Relationships - Life Stages - Adolescence (24771)",
+      "FAM016000 - Family & Relationships - Education (24781)",
+      "CRA056000 - Crafts & Hobbies - Dollhouses (24639)",
+      "DRA004040 - Drama - European - Spanish & Portuguese (24676)",
+      "DRA011000 - Drama - African (24682)",
+      "EDU026020 - Education - Special Education - Learning Disabilities (24720)",
+      "EDU046000 - Education - Professional Development (24752)",
+      "DES007020 - Design - Graphic Arts - Branding & Logo Design (24657)",
+      "DRA004030 - Drama - European - Italian (24675)",
+      "EDU026040 - Education - Special Education - Physical Disabilities (24722)",
+      "FAM001020 - Family & Relationships - Abuse - Elder Abuse (24768)",
+      "FAM056000 - Family & Relationships - Lgbt  (24812)",
+      "FIC027140 - Fiction - Romance - Historical (24887)",
+      "FIC027170 - Fiction - Romance - Historical (24890)",
+      "FIC027260 - Fiction - Romance - Action & Adventure (24899)",
+      "FIC028010 - Fiction - Science Fiction - Action & Adventure (24920)",
+      "FIC033000 - Fiction - Westerns (24948)",
+      "EDU015000 - Education - Higher (24708)",
+      "FIC036000 - Fiction - Thrillers - Technological (24951)",
+      "FIC037000 - Fiction - Political (24952)",
+      "JNF035050 - Juvenile Nonfiction - Mathematics (25578)",
+      "FIC042010 - Fiction - Christian - Classic & Allegory (24958)",
+      "FIC044000 - Fiction - Women (24971)",
+      "FIC049030 - Fiction - African American - Erotica (24981)",
+      "FIC046000 - Fiction - Jewish (24975)",
+      "FIC053000 - Fiction - Amish & Mennonite (24989)",
+      "FIC064000 - Fiction - Absurdist (25000)",
+      "FIC070000 - Fiction - Disaster (25006)",
+      "FIC074000 - Fiction - Southern (25010)",
+      "FOR002000 - Foreign Language Study - Arabic (25014)",
+      "FOR003000 - Foreign Language Study - Chinese (25015)",
+      "FOR005000 - Foreign Language Study - Multi-Language Dictionaries (25017)",
+      "ARC008000 - Architecture - Landscape (23618)",
+      "ARC012000 - Architecture - Reference (23622)",
+      "ARC013000 - Architecture - Study & Teaching (23623)",
+      "BIB002040 - Bibles - Contemporary English Version - Reference (23738)",
+      "BIB002050 - Bibles - Contemporary English Version - Study (23739)",
+      "ARC019000 - Architecture - Codes & Standards (23630)",
+      "BIB001050 - Bibles - Christian Standard Bible - Study (23727)",
+      "BIB003090 - Bibles - English Standard Version - Journaling  (23755)",
+      "BIB006000 - Bibles - King James Version - General (23782)",
+      "ANT001000 - Antiques & Collectibles - Americana (23554)",
+      "ANT035000 - Antiques & Collectibles - Pottery & Ceramics (23580)",
+      "ANT042010 - Antiques & Collectibles - Sports Cards - Baseball (23587)",
+      "EDU050000 - Education - Collaborative & Team Teaching (24755)",
+      "EDU055000 - Education - Violence & Harassment (24760)",
+      "EDU058000 - Education - Standards  (24763)",
+      "SCI050000 - Science - Nanoscience (27378)",
+      "ARC015000 - Architecture - Professional Practice (23626)",
+      "ARC023000 - Architecture - Annuals (23634)",
+      "ART016000 - Art - Individual Artists - General (23663)",
+      "ART016010 - Art - Individual Artists - Artists' Books (23664)",
+      "ART021000 - Art - Techniques - Pastel Drawing (23674)",
+      "FIC005020 - Fiction - Erotica - Collections & Anthologies (24819)",
+      "FIC009050 - Fiction - Fantasy - Paranormal (24834)",
+      "STU011000 - Study Aids - Cpa  (27649)"
+    ],
+    "5.32251": [
+      "Courses (29618)",
+      "Newspaper & Magazine Subscriptions (29619)"
+    ],
+    "7.0.4": [
+      "Books BISAC (23551)",
+      "Digital Products (29617)"
+    ],
+    "3": [
+      "LOOKUP_TOPLEVEL23551",
+      "LOOKUP_TOPLEVEL29617"
+    ],
+    "16559170": [
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Images.image_url_1"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"BISAC Code Look-Up\", \"sheet_name\": \"BISAC Code Look-Up\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}}": [
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Images.image_url_1"
+    ],
+    "False": [
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Images.image_url_1"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.languages.[0]",
+      "Attribute.school_grades.[0]",
+      "Attribute.book_format",
+      "Attribute.course_code.[0]",
+      "Attribute.bisac_code",
+      "Attribute.online_courses.[0]",
+      "Attribute.author.[0]",
+      "Attribute.academic_institution.[0]",
+      "Attribute.book_page_count",
+      "Attribute.literary_genre.[0]",
+      "Attribute.book_edition",
+      "Attribute.bible_version",
+      "Attribute.publisher",
+      "Attribute.publisher_awards",
+      "Attribute.subscription_packages.[0]",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.is_ebook",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.series",
+      "Attribute.age_category"
+    ],
+    "variant_columns": [
+      "Variant.attribute.kids_age"
+    ],
+    "category_id_columns": [
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

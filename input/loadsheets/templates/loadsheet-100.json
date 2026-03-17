@@ -1,0 +1,1041 @@
+{
+  "source_file": "loadsheet-100.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 126,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.wipes_type",
+      "label": "Wipes Type",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.nappy_type",
+      "label": "Nappy Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.nappy_size",
+      "label": "Nappy Size",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.baby_age",
+      "label": "Baby Age",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.bra_size",
+      "label": "Bra Size",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.maternity_bra_size.[0]",
+      "label": "Maternity Bra Size",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.bra_type",
+      "label": "Bra Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.baby_accessory_type",
+      "label": "Baby Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.baby_formula_stages.[0]",
+      "label": "Baby Formula Stage",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.baby_formula_type.[0]",
+      "label": "Baby Formula Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.stroller_type",
+      "label": "Stroller Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.size_type.[0]",
+      "label": "Size Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.juice_types.[0]",
+      "label": "Juice Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.flavour_type",
+      "label": "Flavour Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.seasons.[0]",
+      "label": "Season",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.tea_types.[0]",
+      "label": "Tea Types",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.is_vegan",
+      "label": "Is Vegan",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.active_ingredients",
+      "label": "Active Ingredients",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.table_shape",
+      "label": "Table Shape",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.target_use_body_part",
+      "label": "Target Use Body Part",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.soaps_and_cleanser_type",
+      "label": "Soaps and Cleanser Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.soaps_and_cleansers_product_benefits",
+      "label": "Soaps and Cleansers Product Benefits",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.dietary_requirements.[0]",
+      "label": "Dietary Requirements",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.sahpra_approved_device",
+      "label": "SAHPRA Approved Device",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.intended_place_of_use",
+      "label": "Intended Place of Use",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.scent_type.[0]",
+      "label": "Scent Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.product_theme",
+      "label": "Product Theme",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.sanitizer_application_surface",
+      "label": "Sanitizer Application Surface",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.has_instructions_or_directions_for_use",
+      "label": "Has Instructions or Directions For Use",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.sanitizer_place_of_use",
+      "label": "Sanitizer Place of Use",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.container_type",
+      "label": "Container Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number Of Pieces",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.packaging_type",
+      "label": "Packaging Type",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.soaps_and_cleanser_item_form",
+      "label": "Soaps and Cleanser Item Form",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.cleaning_consumables_special_features.[0]",
+      "label": "Cleaning Consumables Special Features",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.cleaning_agent_surface_recommendation",
+      "label": "Cleaning Agent Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.baby_food_ingredient",
+      "label": "Baby Food Ingredient",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.fabric_care_instructions",
+      "label": "Fabric Care Instructions",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.dietary_requirement_types.[0]",
+      "label": "Dietary Requirement Types",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.towel_shape",
+      "label": "Towel Shape",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.towel_features",
+      "label": "Towel Features",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.towel_style",
+      "label": "Towel Style",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.is_cruelty_free",
+      "label": "Is Cruelty Free",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.is_gluten_free",
+      "label": "Is Gluten Free",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.is_animal_fat_free",
+      "label": "Is Animal Fat Free",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.phthalate_free",
+      "label": "Is Phthalate Free",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.is_biodegradable",
+      "label": "Is Biodegradable",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.is_antibacterial",
+      "label": "Is Antibacterial",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.is_plant_based",
+      "label": "Is Plant Based",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.is_hypoallergenic",
+      "label": "Is Hypoallergenic",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.free_from_parabens",
+      "label": "Free From Parabens",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.is_artificial_color_free",
+      "label": "Is Artificial Color Free",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.is_dishwasher_safe",
+      "label": "Dishwasher Safe",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.intended_use",
+      "label": "Intended Use",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_foldable",
+      "label": "Foldable",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.padding",
+      "label": "Is Padded",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable?",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.thermometer_recommended_use.[0]",
+      "label": "Thermometer Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.bath_room_thermometer_display_type.[0]",
+      "label": "Bath & Room Thermometer Display Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.is_stain_resistant",
+      "label": "Is_stain_resistant",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Variant.attribute.bed_size",
+      "label": "Bed Size",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.is_machine_washable",
+      "label": "Is Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.special_ingredients",
+      "label": "Special Ingredients",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.medicine_or_substance_schedule",
+      "label": "Medicine or Substance Schedule",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated VAT",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.has_r638_certificate",
+      "label": "Has R638 Certificate",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "100": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Baby Bathing (14999)",
+      "Baby Food & Nutrition (15053)",
+      "Gifting (15002)",
+      "Baby Health (15003)",
+      "Baby Room (19730)",
+      "Baby Safety (15009)",
+      "Baby Toys & Activity Equipment (15016)",
+      "Baby Transport (15030)",
+      "Baby Transport Accessories (15034)",
+      "Diapering & Changing (15040)",
+      "Mom & Baby Care (20609)",
+      "Potty Training (15075)",
+      "Swaddling & Receiving Blankets (15078)",
+      "Baby & Toddler Furniture (16147)",
+      "Baby Clothing (30337)",
+      "Prenatal Heart Rate Monitors (16806)",
+      "Baby Furniture (29572)"
+    ],
+    "4.33090": [
+      "Bath & Room Thermometers (30799)",
+      "Soaps & Cleansers (21778)",
+      "Towels & Mats (21777)",
+      "Hair Brush Sets (21779)",
+      "Baby Bathtubs & Bath Seats (15000)",
+      "Combs & Brushes (23065)"
+    ],
+    "7.0.4": [
+      "Breast Pumps->Electric Breast Pumps (21706)",
+      "Breast Pumps->Manual Breast Pump (21707)",
+      "Medical Breast Pump Accessories (30918)",
+      "Medical Breast Pumps->Electric Breast Pumps (30920)",
+      "Medical Breast Pumps->Manual Breast Pumps (30921)",
+      "Bottle Accessories (22832)",
+      "Drying Accessories (22833)",
+      "Starter Packs (19728)",
+      "Breast Care (21709)",
+      "Toddler Feeding->Gift Sets (21724)",
+      "Toddler Feeding->Cutlery (21720)",
+      "Toddler Feeding->Cups (21719)",
+      "Toddler Feeding->Toddler Bottles (23064)",
+      "Toddler Feeding->Travel & Snack Trays (21722)",
+      "Toddler Feeding->Storage & Pouches (21725)",
+      "Toddler Feeding->Sets (21723)",
+      "Toddler Feeding->Placemats (21721)",
+      "Toddler Feeding->Growing Up Milk (21726)",
+      "Toddler Feeding->Bowls & Plates (21718)",
+      "Sets & Kits (21708)",
+      "Baby Bottles (15062)",
+      "Bottle Cleaners & Brushes (19725)",
+      "Breast Milk Storage Containers (15066)",
+      "Bottle Warmers & Sterilizers (15065)",
+      "Nursing Covers (15070)",
+      "Storage Bottles & Bags (21828)",
+      "Maternity Bras (21710)",
+      "Burp Cloths (15069)",
+      "Baby & Toddler Food->Juice (15056)",
+      "Baby & Toddler Food->Baby Food (15057)",
+      "Baby & Toddler Food->Desserts (21702)",
+      "Baby & Toddler Food->Porridges (21700)",
+      "Baby & Toddler Food->Puffs (21704)",
+      "Baby & Toddler Food->Toddler Nutrition Drinks & Shakes (15060)",
+      "Baby & Toddler Food->Purees (21701)",
+      "Baby & Toddler Food->Biscuits (21703)",
+      "Baby & Toddler Food->Baby Tea (21827)",
+      "Baby & Toddler Food->Baby Cereal (15055)",
+      "Baby & Toddler Food->Baby Formula (15058)",
+      "Baby & Toddler Food->Bars & Sweets (22831)",
+      "Baby & Toddler Food->Baby Snacks (15059)",
+      "Breast Pump Accessories (15067)",
+      "Dispensers (19726)",
+      "Teething->Cooling Teethers (21715)",
+      "Teething->Necklaces & Pendants (21712)",
+      "Teething->Gels (21714)",
+      "Teething->Silicone (21713)",
+      "Teething->Rattle Teethers (21716)",
+      "Baby Bottle Nipples & Liners (15061)",
+      "Feeding Chairs (19727)",
+      "Nursing Pads & Shields (15071)"
+    ],
+    "3": [
+      "Novelty Gifts (31081)",
+      "Bangles (21822)",
+      "Clothing Sets (21819)",
+      "Frames (21816)",
+      "Newborn Sets (21823)",
+      "Baby Shower Sets (21818)",
+      "Backpacks (21821)",
+      "Certificate Holders (21817)",
+      "Travel Sets (21820)",
+      "Gift Box Sets (21815)",
+      "Travel Bag Sets (21814)"
+    ],
+    "19728008": [
+      "Medicines & Rubs (30957)",
+      "Health Equipment->Medical Scales (30922)",
+      "Health Equipment->Scales (21770)",
+      "Health Equipment->Sanitisers (21768)",
+      "Health Equipment->Medicine Feeders (21769)",
+      "Health Equipment->Thermometers (21771)",
+      "Health Equipment->Humidifiers (21772)",
+      "Nasal Aspirators (15005)",
+      "Pacifier Clips & Holders (15006)",
+      "Pacifiers & Teethers (15008)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_juice_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Juice Types\", \"sheet_name\": \"Juice Types\"}, \"Variant_attribute_baby_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Baby Age\", \"sheet_name\": \"Baby Age\"}, \"Variant_attribute_bra_size\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Bra Sizes\", \"sheet_name\": \"Bra Sizes\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Kids Age\", \"sheet_name\": \"Kids Age\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Decor->Floor Rugs (21761)",
+      "Decor->Hangers (21766)",
+      "Decor->Organisers (21765)",
+      "Decor->Wall Decor (21762)",
+      "Decor->Night Lights (21763)",
+      "Decor->Scatter Cushions (21760)",
+      "Decor->Sleep Soothers (21764)",
+      "Bedding->Mattress Protectors (30948)",
+      "Bedding->Comforter Sets (21749)",
+      "Bedding->Blankets (21754)",
+      "Bedding->Linen Sets (21753)",
+      "Bedding->Pillows (21757)",
+      "Bedding->Sleep Positioners (21756)",
+      "Bedding->Sleeping Bags (21755)",
+      "Bedding->Flat Sheets (21752)",
+      "Bedding->Fitted Sheets (21750)",
+      "Bedding->Mosquito Nets (22834)",
+      "Bedding->Pillowcases (21751)"
+    ],
+    "False": [
+      "Applicators (30958)",
+      "Bins (15049)",
+      "Diaper Pail Accessories (15048)",
+      "Baby Wipes (15042)",
+      "Diaper Bags (15051)",
+      "Diapers->Waterproof (23070)",
+      "Diapers->Reusable (23069)",
+      "Diapers->Disposable (23068)",
+      "Diapers->Bedwetting (23071)",
+      "Bin Refills (21824)",
+      "Bin Sleeves (21825)",
+      "Baby Wipe Dispensers & Warmers (15041)",
+      "Changing Mats & Trays (15044)",
+      "Nappy Covers (22838)",
+      "Diaper Rash Treatments (15050)",
+      "Diaper Organizers (15047)",
+      "Diaper Liners (15046)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.wipes_type",
+      "Attribute.nappy_type",
+      "Attribute.nappy_size",
+      "Attribute.bra_type",
+      "Attribute.baby_accessory_type",
+      "Attribute.baby_formula_stages.[0]",
+      "Attribute.baby_formula_type.[0]",
+      "Attribute.stroller_type",
+      "Attribute.size_type.[0]",
+      "Attribute.juice_types.[0]",
+      "Attribute.flavour_type",
+      "Attribute.seasons.[0]",
+      "Attribute.tea_types.[0]",
+      "Attribute.is_vegan",
+      "Attribute.is_hand_made",
+      "Attribute.active_ingredients",
+      "Attribute.pack_type",
+      "Attribute.table_shape",
+      "Attribute.target_use_body_part",
+      "Attribute.soaps_and_cleanser_type",
+      "Attribute.soaps_and_cleansers_product_benefits",
+      "Attribute.dietary_requirements.[0]",
+      "Attribute.sahpra_approved_device",
+      "Attribute.intended_place_of_use",
+      "Attribute.scent_type.[0]",
+      "Attribute.product_theme",
+      "Attribute.sanitizer_application_surface",
+      "Attribute.has_instructions_or_directions_for_use",
+      "Attribute.sanitizer_place_of_use",
+      "Attribute.container_type",
+      "Attribute.number_of_pieces",
+      "Attribute.packaging_type",
+      "Attribute.soaps_and_cleanser_item_form",
+      "Attribute.cleaning_consumables_special_features.[0]",
+      "Attribute.cleaning_agent_surface_recommendation",
+      "Attribute.baby_food_ingredient",
+      "Attribute.fabric_care_instructions",
+      "Attribute.dietary_requirement_types.[0]",
+      "Attribute.towel_shape",
+      "Attribute.towel_features",
+      "Attribute.towel_style",
+      "Attribute.product_shape",
+      "Attribute.is_portable",
+      "Attribute.is_cruelty_free",
+      "Attribute.is_gluten_free",
+      "Attribute.is_animal_fat_free",
+      "Attribute.phthalate_free",
+      "Attribute.is_biodegradable",
+      "Attribute.is_antibacterial",
+      "Attribute.is_plant_based",
+      "Attribute.is_hypoallergenic",
+      "Attribute.free_from_parabens",
+      "Attribute.is_artificial_color_free",
+      "Attribute.is_dishwasher_safe",
+      "Attribute.intended_use",
+      "Attribute.is_reusable",
+      "Attribute.is_foldable",
+      "Attribute.pattern_type",
+      "Attribute.padding",
+      "Attribute.is_adjustable",
+      "Attribute.thermometer_recommended_use.[0]",
+      "Attribute.bath_room_thermometer_display_type.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.is_stain_resistant",
+      "Attribute.is_machine_washable",
+      "Attribute.special_ingredients",
+      "Attribute.medicine_or_substance_schedule",
+      "Attribute.has_expiry_days",
+      "Attribute.proudly_south_african",
+      "Attribute.zero_rated_vat",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.has_r638_certificate"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.baby_age",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.bra_size",
+      "Variant.attribute.maternity_bra_size.[0]",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.volume_variant.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

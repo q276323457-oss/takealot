@@ -1,0 +1,113 @@
+# Fill this file according to your current Seller Portal page DOM
+# Then copy to config/selectors.yaml
+
+portal:
+  listing_url: "https://sellers.takealot.com/catalogue/submissions?page_size=10"
+  add_product_url: "https://sellers.takealot.com/single-product"
+  stay_open_on_error_headed: true
+  stay_open_seconds_on_error_headed: 35
+  # Category strategy:
+  # - path_first: 先用 category_path（如果非空）；否则走 CSV 自动匹配 + 关键词规则
+  # - strict_path: 只用 category_path，绝不自动匹配
+  # - heuristic: 纯自动猜测（不建议）
+  # 你现在希望自动匹配，所以这里用 path_first，且让 category_path 为空。
+  category_strategy: "path_first"
+  allow_category_heuristic_fallback: false
+  category_catalog_csv: "input/takealot_categories.csv"
+  category_match_min_score: 2
+  # 探测时是否使用无头浏览器。false = 打开可见窗口，方便调试
+  # 你现在更希望探测失败尽快结束，这里改为 true（后台静默探测）
+  probe_headless: true
+  # 探测失败后保持浏览器窗口开启的秒数（仅 probe_headless: false 时生效）
+  # 无头模式下这个值不会再影响界面，保留为 0
+  probe_stay_open_seconds: 0
+  # 固定类目路径（留空 = 完全自动匹配）
+  # 如需强制某个类目，再填完整路径：
+  #   - \"Consumer Electronics\"
+  #   - \"Electronic Accessories\"
+  #   - \"Cellphone Headsets\"
+  category_path: []
+  # Auto category matching (used when category_path is empty)
+  category_keyword_paths:
+    - keywords: ["spice", "rack", "organizer", "收纳", "香料", "厨房收纳", "调料架"]
+      path: ["Home", "Homeware: Kitchen & Decor", "Kitchen Tools & Utensils", "Spice Organizers & Racks"]
+    - keywords: ["jar", "container", "food storage", "储物罐", "食物储存"]
+      path: ["Home", "Homeware: Kitchen & Decor", "Food Storage", "Food Storage Containers"]
+    - keywords: ["kitchen", "厨房"]
+      path: ["Home", "Homeware: Kitchen & Decor", "Kitchen Tools & Utensils", "Spice Organizers & Racks"]
+    - keywords: ["laptop", "computer", "gaming", "keyboard", "mouse", "电脑", "笔记本"]
+      path: ["Consumer Electronics", "Computers & Laptops", "Computers", "Gaming PC"]
+    - keywords: ["clean", "cleaning", "mop", "broom", "清洁", "拖把"]
+      path: ["Home", "Homeware: Kitchen & Decor", "Household Cleaning Supplies", "Mops"]
+    - keywords: ["speaker", "speakers", "bluetooth speaker", "wireless speaker", "音箱", "蓝牙音箱", "无线音箱"]
+      path: ["Consumer Electronics", "TV & Audio", "Audio Devices", "Speakers"]
+    - keywords: ["earphone", "earphones", "earbuds", "headset", "headphones", "耳机", "蓝牙耳机", "无线耳机"]
+      path: ["Consumer Electronics", "Electronic Accessories", "Cellphone Headsets", "Cellphone Headsets"]
+    - keywords: ["smartwatch", "smart watch", "fitness tracker", "activity tracker", "智能手表", "运动手表", "健身追踪器"]
+      path: ["Consumer Electronics", "Wearable Tech", "Activity Trackers"]
+    - keywords: ["smart ring", "智能戒指", "health ring", "fitness ring"]
+      path: ["Consumer Electronics", "Wearable Tech", "Activity Trackers"]
+    - keywords: ["phone case", "phone cover", "手机壳", "手机套", "手机保护套"]
+      path: ["Consumer Electronics", "Electronic Accessories", "Mobile Phone Accessories", "Mobile Phone Cases"]
+    - keywords: ["usb cable", "charging cable", "data cable", "数据线", "充电线", "type-c", "type c"]
+      path: ["Consumer Electronics", "Electronic Accessories", "Mobile Phone Accessories", "Cellphone Cables"]
+    - keywords: ["power bank", "移动电源", "充电宝"]
+      path: ["Consumer Electronics", "Electronic Accessories", "Power Banks", "Power Banks"]
+    - keywords: ["charger", "充电器", "充电头"]
+      path: ["Consumer Electronics", "Electronic Accessories", "Power Adapters & Chargers", "Cellphones"]
+    # ── 存储设备 ──────────────────────────────────────────────────────────────
+    - keywords: ["portable hdd", "external hard drive", "external hdd", "移动硬盘", "外置硬盘", "portable hard drive"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "Portable HDD"]
+    - keywords: ["portable ssd", "external ssd", "移动固态硬盘", "外置ssd", "portable solid state"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "Portable SSD"]
+    - keywords: ["ssd", "solid state drive", "固态硬盘", "内置ssd"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "Solid State Drive SSD"]
+    - keywords: ["usb flash drive", "u盘", "优盘", "flash drive", "thumb drive", "usb drive", "usb stick"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "USB Flash Drives"]
+    - keywords: ["hard drive", "hdd", "internal hdd", "desktop hdd", "硬盘", "机械硬盘"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "Portable HDD"]
+    - keywords: ["storage device", "存储设备", "存储", "storage"]
+      path: ["Consumer Electronics", "Computer Components", "Storage Devices", "Portable HDD"]
+    # ── 电脑配件 ──────────────────────────────────────────────────────────────
+    - keywords: ["webcam", "web camera", "摄像头", "网络摄像头"]
+      path: ["Consumer Electronics", "Computer Components", "Computer Accessories", "Webcams"]
+    - keywords: ["monitor", "display", "显示器", "电脑显示器"]
+      path: ["Consumer Electronics", "Computers & Laptops", "Monitors", "Monitors"]
+    - keywords: ["router", "wifi", "网络", "路由器", "无线路由"]
+      path: ["Consumer Electronics", "Computer Components", "Networking", "Routers"]
+    # ── 手机 ──────────────────────────────────────────────────────────────────
+    - keywords: ["mobile phone", "smartphone", "手机", "安卓手机", "android phone"]
+      path: ["Consumer Electronics", "Mobile", "Android Phones", "Android Phones"]
+    # ── 相机 ──────────────────────────────────────────────────────────────────
+    - keywords: ["camera", "相机", "摄像机", "action camera", "运动相机", "gopro"]
+      path: ["Consumer Electronics", "Cameras", "Action Cameras", "Action Cameras"]
+    # ── 电视/投影 ──────────────────────────────────────────────────────────────
+    - keywords: ["projector", "投影仪", "投影机"]
+      path: ["Consumer Electronics", "TV & Audio", "Projectors", "Projectors"]
+  login_required_markers:
+    - "input[type='password']"
+    - "text=Sign in"
+  launch_add_product_selectors:
+    - "text=Add a Product"
+    - "a:has-text('Add a Product')"
+    - "button:has-text('Add a Product')"
+
+fields:
+  title: "input[name='title']"
+  subtitle: "input[name='subtitle']"
+  key_features: "textarea[name='keyFeatures']"
+  whats_in_box: "textarea[name='whatsInBox']"
+
+image_upload_input: "#image-management__input"
+
+# Optional mapping for attributes by label text (left) -> selector (right)
+attribute_fields:
+  brand: "input[name='brand']"
+  material: "input[name='material']"
+  colour: "input[name='colour']"
+  size: "input[name='size']"
+  weight: "input[name='weight']"
+
+actions:
+  save_draft: "button:has-text('Save and Close')"
+  publish: "button:has-text('Continue to Preview')"

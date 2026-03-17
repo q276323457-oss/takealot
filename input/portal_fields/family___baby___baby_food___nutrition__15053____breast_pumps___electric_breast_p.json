@@ -1,0 +1,206 @@
+{
+  "category_key": "Family > Baby > Baby Food & Nutrition (15053) > Breast Pumps > Electric Breast Pumps (21706)",
+  "category_path": [
+    "Family",
+    "Baby",
+    "Baby Food & Nutrition (15053)",
+    "Breast Pumps",
+    "Electric Breast Pumps (21706)"
+  ],
+  "fields": [
+    {
+      "label": "Brand",
+      "required": false,
+      "type": "combobox",
+      "options": [],
+      "hint": "Please select a brand",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Intended Use",
+      "required": true,
+      "type": "combobox",
+      "options": [
+        "Non-Medical",
+        "Medical"
+      ],
+      "hint": "Pick from the dropdown",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Packaged Height (cm)",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Product Height in its retail packaging in cm - for logistics. Height cannot be under 0.01cm or more than 400cm",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Packaged Length (cm)",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Product Length in its retail packaging in cm - for logistics. Length cannot be under 0.01cm or more than 400cm",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Packaged Width (cm)",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Product Width in its retail packaging in cm - for logistics. Width cannot be under 0.01cm or more than 400cm",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Packaged Weight (g)",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Product Weight in grams (g) in its retail packaging - for logistics. Weight cannot be under 1g or over 80000g. Only approved products may weigh up to 140000g",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "SAHPRA Approved Device",
+      "required": true,
+      "type": "select",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "hint": "Pick from the dropdown",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Warranty",
+      "required": true,
+      "type": "combobox",
+      "options": [
+        "Lifetime",
+        "Limited",
+        "Full"
+      ],
+      "hint": "Please select a warranty type and/or valid period",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Colour",
+      "required": false,
+      "type": "combobox",
+      "options": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Gold",
+        "Green",
+        "Grey",
+        "Orange",
+        "Pink",
+        "Purple",
+        "Red",
+        "Silver",
+        "White",
+        "Yellow",
+        "Transparent"
+      ],
+      "hint": "The colours that best represent the product",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Country of Origin",
+      "required": false,
+      "type": "combobox",
+      "options": [],
+      "hint": "Pick from the dropdown",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Assembled Product Height (cm)",
+      "required": false,
+      "type": "number",
+      "options": [],
+      "hint": "The height in cm of the product when it is unpacked. Measured from top to bottom",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Assembled Product Length (cm)",
+      "required": false,
+      "type": "number",
+      "options": [],
+      "hint": "The length in cm of the product when it is unpacked. Measured from left to right",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Assembled Product Width (cm)",
+      "required": false,
+      "type": "number",
+      "options": [],
+      "hint": "The width in cm of the product when it is unpacked. Depth of product",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Proudly South African",
+      "required": false,
+      "type": "select",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "hint": "Provide Takealot with your Proudly SA membership number and tick yes if this product is manufactured locally according to Proudly SA standards. https://apply.takealot.com/form-77374/proudly-sa",
+      "section": "Product Attributes"
+    },
+    {
+      "label": "Product Title",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Include the most important attributes of your product in the Title to ensure customers can search and find your offers on takealot.com.",
+      "section": "Product Details"
+    },
+    {
+      "label": "Product Subtitle",
+      "required": false,
+      "type": "text",
+      "options": [],
+      "hint": "Short supporting information about this product",
+      "section": "Product Details"
+    },
+    {
+      "label": "Key Selling Features",
+      "required": true,
+      "type": "text",
+      "options": [],
+      "hint": "Important product information. Format this as it should be shown on the product display page by using paragraphs and hyphens. This will be shared by all variants - do not include variant information.",
+      "section": "Product Details"
+    },
+    {
+      "label": "What's in the Box",
+      "required": true,
+      "type": "textarea",
+      "options": [],
+      "hint": "List of all the individual parts/contents of the product that the customer will receive (including instruction manuals etc.) where applicable.",
+      "section": "Product Details"
+    },
+    {
+      "label": "Video Link (URL)",
+      "required": false,
+      "type": "text",
+      "options": [],
+      "hint": "Insert a Video link that describes the product.",
+      "section": "Product Details"
+    }
+  ],
+  "required_labels": [
+    "Intended Use",
+    "Packaged Height (cm)",
+    "Packaged Length (cm)",
+    "Packaged Width (cm)",
+    "Packaged Weight (g)",
+    "SAHPRA Approved Device",
+    "Warranty",
+    "Product Title",
+    "Key Selling Features",
+    "What's in the Box"
+  ],
+  "probed_at": "2026-03-12T20:56:05",
+  "error": ""
+}

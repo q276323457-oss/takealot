@@ -1,0 +1,1487 @@
+{
+  "source_file": "loadsheet-97.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 192,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Variant.attribute.colour_hex_code",
+      "label": "Colour RGB Hex Code",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.spf_rating",
+      "label": "SPF Rating",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.is_mens_grooming",
+      "label": "Mens Grooming",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.power.value",
+      "label": "Power Output",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.make_up_finish_type",
+      "label": "Make Up Finish",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.hair_colour",
+      "label": "Hair Colour",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.skin_type",
+      "label": "Skin Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.skin_concern.[0]",
+      "label": "Skin Concern",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.skincare_treatment_type.[0]",
+      "label": "Skincare Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.format_personal_care.[0]",
+      "label": "Format",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.hair_concerns.[0]",
+      "label": "Hair Concerns",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.hair_type",
+      "label": "Hair Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.hair_scissors_type.[0]",
+      "label": "Hair Scissors Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.cotton_bud_tip_type.[0]",
+      "label": "Cotton Bud Tip Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Variant.attribute.hair_length.value",
+      "label": "Hair Length",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.intended_place_of_use",
+      "label": "Intended Place of Use",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.intended_use",
+      "label": "Intended Use",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.has_compartments",
+      "label": "Has Compartments",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.has_instructions_or_directions_for_use",
+      "label": "Has Instructions or Directions For Use",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.has_zips",
+      "label": "Has Zips",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_scented",
+      "label": "Is Scented",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.scent_family",
+      "label": "Scent Family",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.scent",
+      "label": "Scent",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.artificial_nail_product_type.[0]",
+      "label": "Artificial Nail Product Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.acrylic_powder_type.[0]",
+      "label": "Acrylic Powder Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.beauty_equipment_type.[0]",
+      "label": "Beauty Equipment Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.beauty_product_benefits.[0]",
+      "label": "Beauty Product Benefits",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.body_art_type.[0]",
+      "label": "Body Art Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.body_care_product_type.[0]",
+      "label": "Body Care Product Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.body_care_tool_type.[0]",
+      "label": "Body Care Tool Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.body_care_treatment_type.[0]",
+      "label": "Body Care Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.brush_type",
+      "label": "Brush Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.bun_shaper_tool_type.[0]",
+      "label": "Bun Shaper Tool Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.concealer_type.[0]",
+      "label": "Concealer Type",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.dental_floss_type.[0]",
+      "label": "Dental Floss Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.oral_care_accessory_type",
+      "label": "Oral Care Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.denture_type.[0]",
+      "label": "Denture Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.deodorant_type.[0]",
+      "label": "Deodorant Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.ear_care_product_types.[0]",
+      "label": "Ear Care Product Types",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.electric_toothbrush_type.[0]",
+      "label": "Electric Toothbrush Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.exfoliator_type.[0]",
+      "label": "Exfoliator Type",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.eye_care_product_type.[0]",
+      "label": "Eye Care Product Type",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.eye_tool_type.[0]",
+      "label": "Eye Tool Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.eyeshadow_type.[0]",
+      "label": "Eyeshadow Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.feminine_care_linen_type.[0]",
+      "label": "Feminine Care Linen Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.feminine_care_washes_and_wipes_type.[0]",
+      "label": "Feminine Care Washes And Wipes Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.foundation_type.[0]",
+      "label": "Foundation Type",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.panty_style",
+      "label": "Panty Style",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.underwear_pack_type.[0]",
+      "label": "Underwear Pack Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.hair_band_type.[0]",
+      "label": "Hair Band Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.hair_brush_type.[0]",
+      "label": "Hair Brush Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.hair_clip_type.[0]",
+      "label": "Hair Clip Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.hair_colour_tools.[0]",
+      "label": "Hair Colour Tools",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.hair_dye_type.[0]",
+      "label": "Hair Dye Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.hair_extension_type.[0]",
+      "label": "Hair Extension Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.hair_serum_type.[0]",
+      "label": "Hair Serum Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.hair_styling_product_type.[0]",
+      "label": "Hair Styling Product Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.hair_styling_tools.[0]",
+      "label": "Hair Styling Tools",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.hair_treatment_type.[0]",
+      "label": "Hair Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.hand_foot_and_nail_tool_type.[0]",
+      "label": "Hand Foot And Nail Tool Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.headband_type.[0]",
+      "label": "Headband Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.lip_balm_type.[0]",
+      "label": "Lip Balm Type",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.lip_care_product_type.[0]",
+      "label": "Lip Care Product Type",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.lip_gloss_type.[0]",
+      "label": "Lip Gloss Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.lip_liner_type.[0]",
+      "label": "Lip Liner Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.lipstick_type.[0]",
+      "label": "Lipstick Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.make_up_coverage",
+      "label": "Make Up Coverage",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.makeup_bag_type.[0]",
+      "label": "Makeup Bag Type",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.makeup_format",
+      "label": "Makeup Format",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.makeup_mirror_type.[0]",
+      "label": "Makeup Mirror Type",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.makeup_remover_type.[0]",
+      "label": "Makeup Remover Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.makeup_type.[0]",
+      "label": "Makeup Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.manual_toothbrush_type.[0]",
+      "label": "Manual Toothbrush Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.mascara_type.[0]",
+      "label": "Mascara Type",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.menstrual_cup_type.[0]",
+      "label": "Menstrual Cup Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.menstrual_pad_type.[0]",
+      "label": "Menstrual Pad Type",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.moisturiser_type.[0]",
+      "label": "Moisturiser Type",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.mouthwash_type.[0]",
+      "label": "Mouthwash Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.nail_art_accessory_type.[0]",
+      "label": "Nail Art Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.nail_care_product_type.[0]",
+      "label": "Nail Care Product Type",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.nail_lamp_type.[0]",
+      "label": "Nail Lamp Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.nail_polish_finish_type.[0]",
+      "label": "Nail Polish Finish Type",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.primer_type.[0]",
+      "label": "Primer Type",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.shaving_and_hair_removal_product_type.[0]",
+      "label": "Shaving And Hair Removal Product Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.shaving_equipment_type.[0]",
+      "label": "Shaving Equipment Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.skin_care_mask_type.[0]",
+      "label": "Skin Care Mask Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.skin_care_product_type.[0]",
+      "label": "Skin Care Product Type",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.skin_care_toner_type.[0]",
+      "label": "Skin Care Toner Type",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.skin_care_tool_type.[0]",
+      "label": "Skin Care Tool Type",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.sleeping_cap_types.[0]",
+      "label": "Sleeping Cap Types",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.soaps_and_cleanser_type",
+      "label": "Soaps And Cleanser Type",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.sponge_and_wedge_type.[0]",
+      "label": "Sponge And Wedge Type",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.tampon_type.[0]",
+      "label": "Tampon Type",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.toothbrush_head_type.[0]",
+      "label": "Toothbrush Head Type",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.toothpaste_type.[0]",
+      "label": "Toothpaste Type",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.tweezer_type.[0]",
+      "label": "Tweezer Type",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.wipes_type",
+      "label": "Wipes Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.uv_gel_types.[0]",
+      "label": "Uv Gel Types",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.free_from_alcohol",
+      "label": "Alcohol Free",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.is_organic",
+      "label": "Organic",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.is_vegan",
+      "label": "Is Vegan",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.is_hypoallergenic",
+      "label": "Hypoallergenic",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.is_disposable",
+      "label": "Is Disposable",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.is_human_hair",
+      "label": "Is Human Hair",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.is_mobile",
+      "label": "Is Mobile",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.is_synthetic",
+      "label": "Is Synthetic",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.is_washable",
+      "label": "Is Washable",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.free_from_parabens",
+      "label": "Parabens Free",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.free_from_sulphate",
+      "label": "Sulphate Free",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.ingredient_preference.[0]",
+      "label": "Ingredient Preference",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.energy_rating",
+      "label": "Energy Rating",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.capacity.value",
+      "label": "Product Capacity Value",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.chair_type",
+      "label": "Chair Type",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.active_ingredients",
+      "label": "Ingredients",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.bristle_firmness",
+      "label": "Bristle Firmness",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.scent_type.[0]",
+      "label": "Scent Type",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.body_art_tool_type",
+      "label": "Body Art Tool Type",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.foot_care_treatment_type",
+      "label": "Foot Care Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.sahpra_approved_device",
+      "label": "Sahpra Approved Device",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Variant.attribute.weight.value",
+      "label": "Product Weight Value (Variant)",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.is_battery_operated",
+      "label": "Is Battery Operated",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Variant.attribute.volume_variant.unit",
+      "label": "Product Volume Metric",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated VAT",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.microneedling_accessories.[0]",
+      "label": "Microneedling Accessories [0]",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number Of Pieces",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.alcohol_free",
+      "label": "Alcohol Free",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.makeup_finish",
+      "label": "Makeup Finish",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Variant.attribute.size_in_cm.unit",
+      "label": "Size (in/cm) size_in_cm  unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "97": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Bags & Cases (30167)",
+      "Body Care (30172)",
+      "Fragrances (30179)",
+      "Hair Care (30186)",
+      "Makeup (30215)",
+      "Mens Grooming (30241)",
+      "Nails (30247)",
+      "Skin Care (30254)",
+      "Tools (30263)",
+      "Natural Care (30301)",
+      "Deodorant (30275)",
+      "Ear & Eye Care (30279)",
+      "Feminine Care (30280)",
+      "Foot Care (30286)",
+      "Lip & Skin Care (30289)",
+      "Oral Care (30302)",
+      "Natural Care (30301)",
+      "Shaving & Hair Removal (30312)",
+      "Sun Protection & Care (30332)",
+      "Beauty Equipment (30414)",
+      "Beauty Equipment Accessories (30925)",
+      "Skincare Products (30737)",
+      "Dermatological Skin Care (31001)",
+      "Dermatological Body Care (31011)",
+      "Dermatological Hair Care (31018)",
+      "Dermatological Hair Care Gels & Wax (31021)",
+      "Dermatological Hair Care Hair Serum (31022)",
+      "Dermatological Products (31025)"
+    ],
+    "4.33124": [
+      "Makeup Bags (30169)",
+      "Hard Cases (30168)",
+      "Toiletry Bags (30171)",
+      "Storage (30170)"
+    ],
+    "7.0.4": [
+      "Bath Salts & Bath Bombs (30483)",
+      "Tools (30177)",
+      "Refillable Containers (30491)",
+      "Exfoliators & Scrubs (30173)",
+      "Moisturisers & Creams (30174)",
+      "Sets (30175)",
+      "Soap & Body Wash (30176)",
+      "Treatments (30178)"
+    ],
+    "3": [
+      "Body Mists (31126)",
+      "Aftershave (30180)",
+      "Home Fragrance->Fragrance Sachets (30611)",
+      "Home Fragrance->Fragrance Oils (30612)",
+      "Home Fragrance->Diffusers (30446)",
+      "Home Fragrance->Candles (30447)",
+      "Eau de Toilette (30184)",
+      "Body Sprays (30181)",
+      "Cologne (30182)",
+      "Eau de Parfum (30183)",
+      "Sets (30185)"
+    ],
+    "92137831": [
+      "Wigs (30961)",
+      "Towels & Headwraps (30454)",
+      "Extensions & Weaves (30188)",
+      "Hair Styling Tools & Accessories->Accessories (30979)",
+      "Hair Styling Tools & Accessories->Brushes & Combs (30205)",
+      "Hair Styling Tools & Accessories->Scissors (30212)",
+      "Hair Styling Tools & Accessories->Curlers & Sets (30208)",
+      "Hair Styling Tools & Accessories->Irons & Straighteners (30211)",
+      "Hair Styling Tools & Accessories->Hair Colour Tools & Equipment (30209)",
+      "Hair Styling Tools & Accessories->Clippers (30206)",
+      "Hair Styling Tools & Accessories->Hair Dryers (30210)",
+      "Hair Styling Accessories->Curlers & Sponges (31139)",
+      "Hair Styling Accessories->Hair Pins (30196)",
+      "Hair Styling Accessories->Headbands (30197)",
+      "Hair Styling Accessories->Claws (30192)",
+      "Hair Styling Accessories->Sleeping Caps & Durags (30415)",
+      "Hair Styling Accessories->Hair Comb Slides (30194)",
+      "Hair Styling Accessories->Ponytail Holders (30198)",
+      "Hair Styling Accessories->Hair Extension & Wig Accessories (30195)",
+      "Hair Styling Accessories->Bun Shapers (30191)",
+      "Hair Styling Accessories->Clips & Barrettes (30193)",
+      "Hair Styling Products->Gels & Wax (30200)",
+      "Hair Styling Products->Hair Serum (30201)",
+      "Hair Styling Products->Hair Sprays (30202)",
+      "Hair Styling Products->Mousses & Foams (30203)",
+      "Hair Colour (30189)",
+      "Conditioner (30187)",
+      "Shampoo (30213)",
+      "Shampoo & Conditioner (30424)",
+      "Treatments (30214)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Lips->Lip Gloss (30234)",
+      "Lips->Lip Liners & Pencils (30235)",
+      "Lips->Lip Primers (30236)",
+      "Lips->Lipstick (30237)",
+      "Lips->Lip Balm (30233)",
+      "Sets (30238)",
+      "Eyes->Eye Liners (30218)",
+      "Eyes->Eyebrows (30221)",
+      "Eyes->Eye Shadow (30220)",
+      "Eyes->Lamination Kits (30808)",
+      "Eyes->Concealers (30217)",
+      "Eyes->Mascara (30223)",
+      "Eyes->Eye Pencils (30219)",
+      "Eyes->False Lashes (30222)",
+      "Face->Blush (30225)",
+      "Face->Bronzers & Highlighters (30226)",
+      "Face->Concealers (30227)",
+      "Face->Fixing Sprays & Powders (30228)",
+      "Face->Foundation (30229)",
+      "Face->Makeup Remover (30230)",
+      "Face->Primers (30231)"
+    ],
+    "False": [
+      "Makeup Brushes (30268)",
+      "Nail Tools (30270)",
+      "Mirrors (30269)",
+      "Sponges & Wedges (30272)",
+      "Tweezers (30273)",
+      "Wipes & Cloths (30852)",
+      "Face Cleansing Tools (30267)",
+      "Clippers & Files (30265)",
+      "Cotton Buds (30734)",
+      "Eye Tools (30266)",
+      "Body Art (30264)",
+      "Sharpeners (30271)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.spf_rating",
+      "Attribute.is_mens_grooming",
+      "Attribute.power.value",
+      "Attribute.make_up_finish_type",
+      "Attribute.hair_colour",
+      "Attribute.skin_type",
+      "Attribute.skin_concern.[0]",
+      "Attribute.skincare_treatment_type.[0]",
+      "Attribute.format_personal_care.[0]",
+      "Attribute.hair_concerns.[0]",
+      "Attribute.hair_type",
+      "Attribute.hair_scissors_type.[0]",
+      "Attribute.cotton_bud_tip_type.[0]",
+      "Attribute.intended_place_of_use",
+      "Attribute.intended_use",
+      "Attribute.has_compartments",
+      "Attribute.has_handle",
+      "Attribute.has_instructions_or_directions_for_use",
+      "Attribute.has_zips",
+      "Attribute.is_scented",
+      "Attribute.scent_family",
+      "Attribute.scent",
+      "Attribute.artificial_nail_product_type.[0]",
+      "Attribute.acrylic_powder_type.[0]",
+      "Attribute.beauty_equipment_type.[0]",
+      "Attribute.beauty_product_benefits.[0]",
+      "Attribute.body_art_type.[0]",
+      "Attribute.body_care_product_type.[0]",
+      "Attribute.body_care_tool_type.[0]",
+      "Attribute.body_care_treatment_type.[0]",
+      "Attribute.brush_type",
+      "Attribute.bun_shaper_tool_type.[0]",
+      "Attribute.concealer_type.[0]",
+      "Attribute.dental_floss_type.[0]",
+      "Attribute.oral_care_accessory_type",
+      "Attribute.denture_type.[0]",
+      "Attribute.deodorant_type.[0]",
+      "Attribute.ear_care_product_types.[0]",
+      "Attribute.electric_toothbrush_type.[0]",
+      "Attribute.exfoliator_type.[0]",
+      "Attribute.eye_care_product_type.[0]",
+      "Attribute.eye_tool_type.[0]",
+      "Attribute.eyeshadow_type.[0]",
+      "Attribute.feminine_care_linen_type.[0]",
+      "Attribute.feminine_care_washes_and_wipes_type.[0]",
+      "Attribute.foundation_type.[0]",
+      "Attribute.panty_style",
+      "Attribute.underwear_pack_type.[0]",
+      "Attribute.hair_band_type.[0]",
+      "Attribute.hair_brush_type.[0]",
+      "Attribute.hair_clip_type.[0]",
+      "Attribute.hair_colour_tools.[0]",
+      "Attribute.hair_dye_type.[0]",
+      "Attribute.hair_extension_type.[0]",
+      "Attribute.hair_serum_type.[0]",
+      "Attribute.hair_styling_product_type.[0]",
+      "Attribute.hair_styling_tools.[0]",
+      "Attribute.hair_treatment_type.[0]",
+      "Attribute.hand_foot_and_nail_tool_type.[0]",
+      "Attribute.headband_type.[0]",
+      "Attribute.lip_balm_type.[0]",
+      "Attribute.lip_care_product_type.[0]",
+      "Attribute.lip_gloss_type.[0]",
+      "Attribute.lip_liner_type.[0]",
+      "Attribute.lipstick_type.[0]",
+      "Attribute.make_up_coverage",
+      "Attribute.makeup_bag_type.[0]",
+      "Attribute.makeup_format",
+      "Attribute.makeup_mirror_type.[0]",
+      "Attribute.makeup_remover_type.[0]",
+      "Attribute.makeup_type.[0]",
+      "Attribute.manual_toothbrush_type.[0]",
+      "Attribute.mascara_type.[0]",
+      "Attribute.menstrual_cup_type.[0]",
+      "Attribute.menstrual_pad_type.[0]",
+      "Attribute.moisturiser_type.[0]",
+      "Attribute.mouthwash_type.[0]",
+      "Attribute.nail_art_accessory_type.[0]",
+      "Attribute.nail_care_product_type.[0]",
+      "Attribute.nail_lamp_type.[0]",
+      "Attribute.nail_polish_finish_type.[0]",
+      "Attribute.primer_type.[0]",
+      "Attribute.shaving_and_hair_removal_product_type.[0]",
+      "Attribute.shaving_equipment_type.[0]",
+      "Attribute.skin_care_mask_type.[0]",
+      "Attribute.skin_care_product_type.[0]",
+      "Attribute.skin_care_toner_type.[0]",
+      "Attribute.skin_care_tool_type.[0]",
+      "Attribute.sleeping_cap_types.[0]",
+      "Attribute.soaps_and_cleanser_type",
+      "Attribute.sponge_and_wedge_type.[0]",
+      "Attribute.tampon_type.[0]",
+      "Attribute.toothbrush_head_type.[0]",
+      "Attribute.toothpaste_type.[0]",
+      "Attribute.tweezer_type.[0]",
+      "Attribute.wipes_type",
+      "Attribute.uv_gel_types.[0]",
+      "Attribute.free_from_alcohol",
+      "Attribute.is_organic",
+      "Attribute.is_vegan",
+      "Attribute.is_hand_made",
+      "Attribute.is_hypoallergenic",
+      "Attribute.is_disposable",
+      "Attribute.is_human_hair",
+      "Attribute.is_mobile",
+      "Attribute.is_reusable",
+      "Attribute.is_synthetic",
+      "Attribute.is_washable",
+      "Attribute.free_from_parabens",
+      "Attribute.free_from_sulphate",
+      "Attribute.ingredient_preference.[0]",
+      "Attribute.energy_rating",
+      "Attribute.capacity.value",
+      "Attribute.chair_type",
+      "Attribute.active_ingredients",
+      "Attribute.power_source",
+      "Attribute.is_rechargeable",
+      "Attribute.is_lightweight",
+      "Attribute.bristle_firmness",
+      "Attribute.is_non_slip",
+      "Attribute.scent_type.[0]",
+      "Attribute.product_shape",
+      "Attribute.body_art_tool_type",
+      "Attribute.foot_care_treatment_type",
+      "Attribute.has_expiry_days",
+      "Attribute.number_of_compartments",
+      "Attribute.sahpra_approved_device",
+      "Attribute.is_waterproof",
+      "Attribute.is_battery_operated",
+      "Attribute.proudly_south_african",
+      "Attribute.zero_rated_vat",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.microneedling_accessories.[0]",
+      "Attribute.number_of_pieces",
+      "Attribute.alcohol_free",
+      "Attribute.makeup_finish"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.colour_hex_code",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.hair_length.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.volume_variant.unit",
+      "Variant.attribute.size_in_cm.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

@@ -1,0 +1,2272 @@
+{
+  "source_file": "loadsheet-257.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 308,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.artificial_flora_placement",
+      "label": "Artificial Flora Placement",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.bag_closure_type",
+      "label": "Bag Closure Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.bean_bag_chair_size",
+      "label": "Bean Bag Chair Size",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.bin_shape",
+      "label": "Bin Shape",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.blade_material.[0]",
+      "label": "Blade Material",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.blade_type.[0]",
+      "label": "Blade Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.bottle_special_features",
+      "label": "Bottle Special Features",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.bowls_type",
+      "label": "Bowls Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.bulb_type",
+      "label": "Bulb Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.bakeware_type",
+      "label": "Bakeware Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.baking_utensil_type",
+      "label": "Baking Utensil Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.barware_type",
+      "label": "Barware Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Variant.attribute.ice_tray_capacity.[0]",
+      "label": "Ice Tray Capacity",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.ice_shape.[0]",
+      "label": "Ice Shape",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.catering_type",
+      "label": "Catering Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.by_user.[0]",
+      "label": "By User",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.can_tilt",
+      "label": "Can Tilt",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.candle_holder_mounting_type",
+      "label": "Candle Holder Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.care_instructions",
+      "label": "Care Instructions",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.casserole_care_instructions",
+      "label": "Casserole Care Instructions",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.chair_features.[0]",
+      "label": "Chair Features",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.chair_fill_material",
+      "label": "Chair Fill Material",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.chair_type",
+      "label": "Chair Type",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Variant.attribute.towel_type",
+      "label": "Towel Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.chair_recommended_use.[0]",
+      "label": "Chair Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.clock_display_type",
+      "label": "Clock Display Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.clock_features",
+      "label": "Clock Features",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.clock_power_source_type.[0]",
+      "label": "Clock Power Source Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.coffee_grinder_type",
+      "label": "Coffee Grinder Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.control_method",
+      "label": "Control Method",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.controls_type",
+      "label": "Controls Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.cookware_finish",
+      "label": "Cookware Finish",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.cookware_type",
+      "label": "Cookware Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.cup_features",
+      "label": "Cup Features",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.curtain_opacity",
+      "label": "Curtain Opacity",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.curtain_pattern",
+      "label": "Curtain Pattern",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.curtain_room_type",
+      "label": "Curtain Room Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.curtain_top_type",
+      "label": "Curtain Top Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.curtain_type",
+      "label": "Curtain Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.decor_rack_type.[0]",
+      "label": "Decor Rack Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.desk_lighting_features",
+      "label": "Desk Lighting Features",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.drinkware_type",
+      "label": "Drinkware Type",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.diffuser_shape",
+      "label": "Diffuser Shape",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.entertainment_centre_tv_stand_type.[0]",
+      "label": "Entertainment Centre Tv Stand Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.energy_rating",
+      "label": "Energy Rating",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.fabric.[0]",
+      "label": "Fabric",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.filter_type",
+      "label": "Filter Type",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.flask_size",
+      "label": "Flask Size",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.placemat_type",
+      "label": "Placemat Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.coaster_type",
+      "label": "Coaster Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.food_grinder_mill_type",
+      "label": "Food Grinder Mill Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.fireplace_accessory_type",
+      "label": "Fireplace Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.flatware_type",
+      "label": "Flatware Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.food_and_beverage_carrier_type",
+      "label": "Food And Beverage Carrier Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.food_storage_type",
+      "label": "Food Storage Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.furniture_set_type.[0]",
+      "label": "Furniture Set Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.french_press_style",
+      "label": "French Press Style",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.furniture_cover_closure_type",
+      "label": "Furniture Cover Closure Type",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.has_adjustable_racking",
+      "label": "Has Adjustable Racking",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.has_adjustable_shelves",
+      "label": "Has Adjustable Shelves",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.has_cutlery_tray",
+      "label": "Has Cutlery Tray",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.has_egg_tray",
+      "label": "Has Egg Tray",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.has_lid",
+      "label": "Has Lid",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.has_pedal",
+      "label": "Has Pedal",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.has_straw",
+      "label": "Has Straw",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.has_water_dispenser",
+      "label": "Has Water Dispenser",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.household_appliance_type",
+      "label": "Household Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.hotwater_bottle_inner_material",
+      "label": "Hotwater Bottle Inner Material",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.coffee_machine_accessory_type",
+      "label": "Coffee Machine Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.home_decor_type",
+      "label": "Home Decor Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.household_supply_type",
+      "label": "Household Supply Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.cleaning_chemicals_application.[0]",
+      "label": "Cleaning Chemicals Application",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.formulation_types.[0]",
+      "label": "Formulation Types",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.flag_type.[0]",
+      "label": "Flag Type",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.internal_coating",
+      "label": "Internal Coating",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.is_assembly_required",
+      "label": "Is Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.is_biodegradable",
+      "label": "Is Biodegradable",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.is_bpa_free",
+      "label": "Is Bpa Free",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.is_childproof",
+      "label": "Is Childproof",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.is_detachable",
+      "label": "Is Detachable",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.is_dishwasher_safe",
+      "label": "Is Dishwasher Safe",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.is_disposable",
+      "label": "Is Disposable",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.is_electronic",
+      "label": "Is Electronic",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.is_ergonomic",
+      "label": "Is Ergonomic",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.is_freestanding",
+      "label": "Is Freestanding",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.is_freezer_safe",
+      "label": "Is Freezer Safe",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.is_insulated",
+      "label": "Is Insulated",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.is_luggage_adjustable",
+      "label": "Adjustable",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.is_magnetic",
+      "label": "Is Magnetic",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.is_microwavable",
+      "label": "Is Microwavable",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.is_microwave_safe",
+      "label": "Is Microwave Safe",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.is_non_stick",
+      "label": "Is Non Stick",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.is_oven_safe",
+      "label": "Is Oven Safe",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.is_ptfe_free",
+      "label": "Is Ptfe Free",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.is_scented",
+      "label": "Is Scented",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.is_wall_mounted",
+      "label": "Is Wall Mounted",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.is_washable",
+      "label": "Is Washable",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.is_cordless",
+      "label": "Is Cordless",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.is_heat_resistant",
+      "label": "Is Heat Resistant",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.uv_protection",
+      "label": "UV Protection",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.has_bluetooth",
+      "label": "Has Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.heat_resistance",
+      "label": "Heat Resistance",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.sound_type",
+      "label": "Sound Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.appliance_replacement_parts",
+      "label": "Appliance Replacement Parts",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.kitchen_scale_capacity.value",
+      "label": "Kitchen Scale Capacity",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.knife_type",
+      "label": "Knife Type",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.kitchen_appliance_type",
+      "label": "Kitchen Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.kitchen_organizers_type",
+      "label": "Kitchen Organizers Type",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.kitchen_tool_and_utensil_type",
+      "label": "Kitchen Tool And Utensil Type",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.leg_material_type",
+      "label": "Leg Material Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.indoor_lighting_type",
+      "label": "Indoor Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.lifter_type.[0]",
+      "label": "Lifter Type",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.light_fixture_shade_material.[0]",
+      "label": "Light Fixture Shade Material",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.light_fixture_special_features.[0]",
+      "label": "Light Fixture Special Features",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.lights_and_lamps_power_source",
+      "label": "Lights And Lamps Power Source",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.microwave_type.[0]",
+      "label": "Microwave Type",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.mirror_frame_material",
+      "label": "Mirror Frame Material",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.mirror_length.value",
+      "label": "Mirror Length",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.mirror_width.value",
+      "label": "Mirror Width",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.mirror_shape",
+      "label": "Mirror Shape",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.number_of_cups.[0]",
+      "label": "Number of Cups",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.number_of_drawers",
+      "label": "Number of Drawers",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.number_of_lights",
+      "label": "Number of Lights",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.number_of_shelves",
+      "label": "Number of Shelves",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.opening_mechanism",
+      "label": "Opening Mechanism",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.orientation",
+      "label": "Orientation",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.oven_type",
+      "label": "Oven Type",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.pan_compatible_devices.[0]",
+      "label": "Pan Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.pattern",
+      "label": "Pattern",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.plant_type",
+      "label": "Plant Type",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.plate_type",
+      "label": "Plate Type",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.power_generation",
+      "label": "Power Generation",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.pressure_cooker_type",
+      "label": "Pressure Cooker Type",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.product_functionality",
+      "label": "Product Functionality",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.product_style",
+      "label": "Product Style",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.product_theme",
+      "label": "Product Theme",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.pull_type",
+      "label": "Pull Type",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.requires_assembly",
+      "label": "Requires Assembly",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.room_type",
+      "label": "Room Type",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.rug_backing_material.[0]",
+      "label": "Rug Backing Material",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.rug_or_mat_features.[0]",
+      "label": "Rug or Mat Features",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.scent_type.[0]",
+      "label": "Scent Type",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.screw_type",
+      "label": "Screw Type",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.sculpture_recommended_use.[0]",
+      "label": "Sculpture Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.sofa_seating_capacity",
+      "label": "Sofa Seating Capacity",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.sofa_type",
+      "label": "Sofa Type",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.sofa_accessory_type",
+      "label": "Sofa Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.storage_type",
+      "label": "Storage Type",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.style_of_apron",
+      "label": "Style of Apron",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.tableware_type",
+      "label": "Tableware Type",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.table_shape",
+      "label": "Table Shape",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.table_special_features",
+      "label": "Table Special Features",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.furniture_accessories",
+      "label": "Furniture Accessory",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.table_top_material.[0]",
+      "label": "Table Top Material",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.throw_pillow_closure_type",
+      "label": "Throw Pillow Closure Type",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.valances_opacity",
+      "label": "Valances Opacity",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.valances_top_type",
+      "label": "Valances Top Type",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Attribute.volume.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.stove_type.[0]",
+      "label": "Stove Type",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.window_treatment_accessories_type.[0]",
+      "label": "Window Treatment Accessories Type",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.window_film_installation_type.[0]",
+      "label": "Window Film Installation Type",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Attribute.window_film_type.[0]",
+      "label": "Window Film Type",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Attribute.wall_art_theme",
+      "label": "Wall Art Theme",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Attribute.water_cooler_type",
+      "label": "Water Cooler Type",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Attribute.water_filter_type",
+      "label": "Water Filter Type",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Attribute.water_usage.value",
+      "label": "Water Usage Value",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Attribute.wine_glass_type",
+      "label": "Wine Glass Type",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Variant.attribute.canvas_size",
+      "label": "Canvas Size",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Variant.attribute.cookware_size.value",
+      "label": "Cookware Size",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Variant.attribute.curtain_size.length",
+      "label": "Curtain Size Length",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Variant.attribute.curtain_size.width",
+      "label": "Curtain Size Width",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Variant.attribute.pillow_size",
+      "label": "Pillow Size",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Square Length in cm",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Square Width in cm",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Attribute.laundry_supply_type",
+      "label": "Laundry Supply Type",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Attribute.ironing_board_type",
+      "label": "Ironing Board Type",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Attribute.floor_cleaner_features",
+      "label": "Floor Cleaner Features",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.cleaning_agent_surface_recommendation",
+      "label": "Cleaning Agent Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.bristle_firmness",
+      "label": "Bristle Firmness",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.towel_shape",
+      "label": "Towel Shape",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.food_mixer_and_blender_accessory_type",
+      "label": "Food Mixer And Blender Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.duster_head_material.[0]",
+      "label": "Duster Head Material",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.dye_form",
+      "label": "Dye Form",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.seasons.[0]",
+      "label": "Seasons [0]",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Variant.attribute.weight.value",
+      "label": "Weight Value",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Attribute.freezer_accessory_type",
+      "label": "Freezer Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Attribute.detergent_form",
+      "label": "Detergent Form",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Attribute.is_refillable",
+      "label": "Is Refillable",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Attribute.is_linen_extra_length",
+      "label": "Is Linen Extra Length",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Variant.attribute.bed_size",
+      "label": "Bed Size",
+      "note": ""
+    },
+    {
+      "index": 232,
+      "key": "Attribute.dishwasher_parts_and_accessory_type",
+      "label": "Dishwasher Parts and  Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 233,
+      "key": "Attribute.mop_head",
+      "label": "Mop Head",
+      "note": ""
+    },
+    {
+      "index": 234,
+      "key": "Attribute.detergent_size",
+      "label": "Detergent Size",
+      "note": ""
+    },
+    {
+      "index": 235,
+      "key": "Attribute.proudly_south_african",
+      "label": "Provide Takealot with your Proudly SA membership number and tick yes if this product is manufactured locally according to Proudly SA standards. https://apply.takealot.com/form-77374/proudly-sa",
+      "note": ""
+    },
+    {
+      "index": 236,
+      "key": "Attribute.pillow_filling_type",
+      "label": "Pillow Filling Type",
+      "note": ""
+    },
+    {
+      "index": 237,
+      "key": "Attribute.number_of_baskets",
+      "label": "Basket Count",
+      "note": ""
+    },
+    {
+      "index": 238,
+      "key": "Attribute.flask_and_travel_mug_accessory_type",
+      "label": "Flask & Travel Mug Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 239,
+      "key": "Attribute.cleaning_supply_type.[0]",
+      "label": "Cleaning Supply Type",
+      "note": ""
+    },
+    {
+      "index": 240,
+      "key": "Attribute.bedding_type",
+      "label": "Bedding Type",
+      "note": ""
+    },
+    {
+      "index": 241,
+      "key": "Attribute.rinse_aid_features",
+      "label": "Rinse Aid Features",
+      "note": ""
+    },
+    {
+      "index": 242,
+      "key": "Attribute.broom_type",
+      "label": "Broom Type",
+      "note": ""
+    },
+    {
+      "index": 243,
+      "key": "Attribute.household_foils_wraps_types.[0]",
+      "label": "Household Foils Wraps Types",
+      "note": ""
+    },
+    {
+      "index": 244,
+      "key": "Attribute.duvet_filler",
+      "label": "Duvet Filler",
+      "note": ""
+    },
+    {
+      "index": 245,
+      "key": "Attribute.type_of_sheet",
+      "label": "Type of Sheet",
+      "note": ""
+    },
+    {
+      "index": 246,
+      "key": "Attribute.microwave_oven_accessory_type",
+      "label": "Microwave Oven Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 247,
+      "key": "Attribute.bed_sheet_special_features.[0]",
+      "label": "Bed Sheet Special Features",
+      "note": ""
+    },
+    {
+      "index": 248,
+      "key": "Attribute.mop_type",
+      "label": "Mop Type",
+      "note": ""
+    },
+    {
+      "index": 249,
+      "key": "Attribute.mop_accessory_type.[0]",
+      "label": "Mop Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 250,
+      "key": "Attribute.weave_type",
+      "label": "Weave Type",
+      "note": ""
+    },
+    {
+      "index": 251,
+      "key": "Attribute.refrigerator_accessory_type",
+      "label": "Refrigerator Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 252,
+      "key": "Attribute.has_reversable_doors",
+      "label": "Reversable Doors",
+      "note": ""
+    },
+    {
+      "index": 253,
+      "key": "Attribute.ironing_boards_material",
+      "label": "Ironing Boards Material",
+      "note": ""
+    },
+    {
+      "index": 254,
+      "key": "Attribute.bedding_size",
+      "label": "Bedding Size",
+      "note": ""
+    },
+    {
+      "index": 255,
+      "key": "Attribute.sleeper_couch_type",
+      "label": "Sleeper Couch Type",
+      "note": ""
+    },
+    {
+      "index": 256,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 257,
+      "key": "Attribute.broom_surface_recommendation.[0]",
+      "label": "Broom Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 258,
+      "key": "Attribute.thread_count",
+      "label": "Thread Count",
+      "note": ""
+    },
+    {
+      "index": 259,
+      "key": "Attribute.lighting_type",
+      "label": "Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 260,
+      "key": "Attribute.detergent_scent",
+      "label": "Detergent Scent",
+      "note": ""
+    },
+    {
+      "index": 261,
+      "key": "Attribute.rack_or_hanger_placement",
+      "label": "Rack or Hanger Placement",
+      "note": ""
+    },
+    {
+      "index": 262,
+      "key": "Attribute.cleaning_consumables_special_features.[0]",
+      "label": "Cleaning Consumables Special Features",
+      "note": ""
+    },
+    {
+      "index": 263,
+      "key": "Attribute.window_treatment_type.[0]",
+      "label": "Window Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 264,
+      "key": "Attribute.tog_rate",
+      "label": "Tog Rate",
+      "note": ""
+    },
+    {
+      "index": 265,
+      "key": "Attribute.coffee_machine_parts_type.[0]",
+      "label": "Coffee Machine Parts Type",
+      "note": ""
+    },
+    {
+      "index": 266,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 267,
+      "key": "Attribute.broom_length.value",
+      "label": "Broom Length value",
+      "note": ""
+    },
+    {
+      "index": 268,
+      "key": "Attribute.broom_head_width.value",
+      "label": "Broom Head Width value",
+      "note": ""
+    },
+    {
+      "index": 269,
+      "key": "Attribute.ironing_board_size.width",
+      "label": "Ironing Board Size Width",
+      "note": ""
+    },
+    {
+      "index": 270,
+      "key": "Attribute.ironing_board_size.length",
+      "label": "Ironing Board Size length",
+      "note": ""
+    },
+    {
+      "index": 271,
+      "key": "Attribute.cooktop_accessory_type",
+      "label": "Cooktop Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 272,
+      "key": "Attribute.is_machine_washable",
+      "label": "Is Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 273,
+      "key": "Attribute.is_induction_stove_compatible",
+      "label": "Is Induction Stove Compatible",
+      "note": ""
+    },
+    {
+      "index": 274,
+      "key": "Attribute.requires_batteries",
+      "label": "Requires Batteries",
+      "note": ""
+    },
+    {
+      "index": 275,
+      "key": "Attribute.intended_surface_usage.[0]",
+      "label": "Intended Usage",
+      "note": ""
+    },
+    {
+      "index": 276,
+      "key": "Attribute.surface_recommendation.[0]",
+      "label": "Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 277,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 278,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 279,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 280,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 281,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 282,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 283,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 284,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 285,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 286,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 287,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 288,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 289,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 290,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 291,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 292,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 293,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 294,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 295,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 296,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 297,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 298,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 299,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 300,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 301,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 302,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 303,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 304,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 305,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 306,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 307,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 308,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "257": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Decor (17145)",
+      "Chairs (16192)",
+      "Furniture Sets (16206)",
+      "Tables (16255)",
+      "Waste Containment (17484)",
+      "Barware (17496)",
+      "Catering (20025)",
+      "Cookware & Bakeware (17518)",
+      "Food & Beverage Carriers (17562)",
+      "Storage Bottle (30965)",
+      "Food Storage (17577)",
+      "Kitchen Appliance Accessories (17595)",
+      "Kitchen Appliances (17658)",
+      "Kitchen Tools & Utensils (17737)",
+      "Tableware (17843)",
+      "Lighting (18030)",
+      "Living Room Fireplaces & Accessories (30372)",
+      "Sofa Accessories (16248)",
+      "Leather Care (29584)",
+      "Household Cleaning Supplies (17377)",
+      "Laundry Supplies (17419)",
+      "Linens & Bedding (18061)",
+      "Benches (16164)",
+      "Cookbook Stands (20053)",
+      "Carts & Islands (16187)",
+      "Entertainment Centers & TV Stands (16205)",
+      "Sofas (16251)",
+      "Sleeper Couches (30714)",
+      "Hot Water Bottles (20052)",
+      "Draining Racks & Mats (20031)",
+      "Placemats & Coasters (30884)",
+      "Outdoor Dining (30968)"
+    ],
+    "1.22761": [
+      "Flags (30761)",
+      "Sound Devices (30874)",
+      "Clocks->Wall Clocks (17174)",
+      "Clocks->Desk & Shelf Clocks (17172)",
+      "Clocks->Alarm Clocks (17171)",
+      "Barometers & Weather Stations (20091)",
+      "Fabric (22875)",
+      "Coat & Hat Racks (17175)",
+      "Candles (17194)",
+      "Vases (17257)",
+      "Decorative Frames & Stands (30997)",
+      "Decorative Bowls (17178)",
+      "Napkin Rings (17227)",
+      "Throw Pillows (17254)",
+      "Picture Frames (17230)",
+      "Home Fragrance Accessories->Candle Holders (17204)",
+      "Window Treatment Accessories->Curtain & Drape Rods & Accessories (17265)",
+      "Trunks (17255)",
+      "Artificial Flora (17147)",
+      "Mirrors (17225)",
+      "Tissue Boxes (22529)",
+      "Memo Clips & Card Holders (20035)",
+      "Wall Art (22814)",
+      "Sculptures & Ornaments (29614)",
+      "Rugs (17235)",
+      "Wallpaper (17258)",
+      "Decorative Urns (30569)",
+      "Window Treatments->Window Films (17272)",
+      "Window Treatments->Curtains & Drapes (17269)",
+      "Window Treatments->Window Valances & Cornices (17274)",
+      "Window Treatments->Window Blinds & Shades (17271)",
+      "Home Fragrances->Diffusers & Refills (20034)"
+    ],
+    "7.0.4": [
+      "Bean Bag Chairs (16194)",
+      "Kitchen & Dining Room Chairs (16201)",
+      "Childrens Chairs (22576)",
+      "Childrens Stools (22575)",
+      "Folding Chairs & Stools (16198)",
+      "Arm Chairs, Recliners & Sleeper Chairs (16193)"
+    ],
+    "3": [
+      "Kitchen & Dining Furniture Sets (16209)",
+      "Bathroom Furniture Sets (16207)"
+    ],
+    "24651943": [
+      "Accent Tables->End Tables (16258)",
+      "Accent Tables->Coffee Tables (16257)",
+      "Activity Tables (16260)",
+      "Childrens Tables (22577)",
+      "Kitchen & Dining Room Tables (16262)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_knife_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Knife Type\", \"sheet_name\": \"Knife Type\"}, \"Attribute_materials_0_\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Bins (30370)",
+      "Recycling Containers (17487)",
+      "Waste Paper Bins (17488)"
+    ],
+    "False": [
+      "Flasks & Travel Mug Accessories (30759)",
+      "Urban Travel Mugs (30967)",
+      "Lunch Bags (30827)",
+      "Water Bottles->Drinking Bottle (30966)",
+      "Flasks (17569)",
+      "Lunch Boxes & Totes (17571)",
+      "Thermoses (17574)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.part_number",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.artificial_flora_placement",
+      "Attribute.bag_closure_type",
+      "Attribute.bean_bag_chair_size",
+      "Attribute.bin_shape",
+      "Attribute.blade_material.[0]",
+      "Attribute.blade_type.[0]",
+      "Attribute.bottle_special_features",
+      "Attribute.bowls_type",
+      "Attribute.bulb_type",
+      "Attribute.bakeware_type",
+      "Attribute.baking_utensil_type",
+      "Attribute.barware_type",
+      "Attribute.ice_shape.[0]",
+      "Attribute.catering_type",
+      "Attribute.by_user.[0]",
+      "Attribute.can_tilt",
+      "Attribute.candle_holder_mounting_type",
+      "Attribute.capacity.value",
+      "Attribute.care_instructions",
+      "Attribute.casserole_care_instructions",
+      "Attribute.chair_features.[0]",
+      "Attribute.chair_fill_material",
+      "Attribute.chair_type",
+      "Attribute.chair_recommended_use.[0]",
+      "Attribute.clock_display_type",
+      "Attribute.clock_features",
+      "Attribute.clock_power_source_type.[0]",
+      "Attribute.coffee_grinder_type",
+      "Attribute.control_method",
+      "Attribute.controls_type",
+      "Attribute.cookware_finish",
+      "Attribute.cookware_type",
+      "Attribute.cup_features",
+      "Attribute.curtain_opacity",
+      "Attribute.curtain_pattern",
+      "Attribute.curtain_room_type",
+      "Attribute.curtain_top_type",
+      "Attribute.curtain_type",
+      "Attribute.decor_rack_type.[0]",
+      "Attribute.desk_lighting_features",
+      "Attribute.drinkware_type",
+      "Attribute.diffuser_shape",
+      "Attribute.entertainment_centre_tv_stand_type.[0]",
+      "Attribute.energy_rating",
+      "Attribute.fabric.[0]",
+      "Attribute.filter_type",
+      "Attribute.finish_type",
+      "Attribute.flask_size",
+      "Attribute.placemat_type",
+      "Attribute.coaster_type",
+      "Attribute.food_grinder_mill_type",
+      "Attribute.fireplace_accessory_type",
+      "Attribute.flatware_type",
+      "Attribute.food_and_beverage_carrier_type",
+      "Attribute.food_storage_type",
+      "Attribute.furniture_set_type.[0]",
+      "Attribute.french_press_style",
+      "Attribute.furniture_cover_closure_type",
+      "Attribute.has_adjustable_racking",
+      "Attribute.has_adjustable_shelves",
+      "Attribute.has_cutlery_tray",
+      "Attribute.has_egg_tray",
+      "Attribute.has_handle",
+      "Attribute.has_lid",
+      "Attribute.has_pedal",
+      "Attribute.has_straw",
+      "Attribute.has_water_dispenser",
+      "Attribute.household_appliance_type",
+      "Attribute.hotwater_bottle_inner_material",
+      "Attribute.coffee_machine_accessory_type",
+      "Attribute.home_decor_type",
+      "Attribute.household_supply_type",
+      "Attribute.cleaning_chemicals_application.[0]",
+      "Attribute.formulation_types.[0]",
+      "Attribute.flag_type.[0]",
+      "Attribute.internal_coating",
+      "Attribute.is_assembly_required",
+      "Attribute.is_biodegradable",
+      "Attribute.is_bpa_free",
+      "Attribute.is_childproof",
+      "Attribute.is_detachable",
+      "Attribute.is_dishwasher_safe",
+      "Attribute.is_disposable",
+      "Attribute.is_electronic",
+      "Attribute.is_ergonomic",
+      "Attribute.is_foldable",
+      "Attribute.is_freestanding",
+      "Attribute.is_freezer_safe",
+      "Attribute.is_hand_made",
+      "Attribute.is_heavy_duty",
+      "Attribute.is_insulated",
+      "Attribute.is_luggage_adjustable",
+      "Attribute.is_magnetic",
+      "Attribute.is_microwavable",
+      "Attribute.is_microwave_safe",
+      "Attribute.is_non_slip",
+      "Attribute.is_non_stick",
+      "Attribute.is_oven_safe",
+      "Attribute.is_ptfe_free",
+      "Attribute.is_rechargeable",
+      "Attribute.is_reusable",
+      "Attribute.is_scented",
+      "Attribute.is_wall_mounted",
+      "Attribute.is_waterproof",
+      "Attribute.is_washable",
+      "Attribute.is_cordless",
+      "Attribute.is_portable",
+      "Attribute.is_heat_resistant",
+      "Attribute.uv_protection",
+      "Attribute.has_bluetooth",
+      "Attribute.heat_resistance",
+      "Attribute.sound_type",
+      "Attribute.power_source",
+      "Attribute.appliance_replacement_parts",
+      "Attribute.kitchen_scale_capacity.value",
+      "Attribute.knife_type",
+      "Attribute.kitchen_appliance_type",
+      "Attribute.kitchen_organizers_type",
+      "Attribute.kitchen_tool_and_utensil_type",
+      "Attribute.leg_material_type",
+      "Attribute.indoor_lighting_type",
+      "Attribute.lifter_type.[0]",
+      "Attribute.light_fixture_shade_material.[0]",
+      "Attribute.light_fixture_special_features.[0]",
+      "Attribute.lights_and_lamps_power_source",
+      "Attribute.microwave_type.[0]",
+      "Attribute.mirror_frame_material",
+      "Attribute.mirror_length.value",
+      "Attribute.mirror_width.value",
+      "Attribute.mirror_shape",
+      "Attribute.mounting_type",
+      "Attribute.number_of_compartments",
+      "Attribute.number_of_cups.[0]",
+      "Attribute.number_of_drawers",
+      "Attribute.number_of_lights",
+      "Attribute.number_of_pieces",
+      "Attribute.number_of_shelves",
+      "Attribute.opening_mechanism",
+      "Attribute.operation_mode",
+      "Attribute.orientation",
+      "Attribute.oven_type",
+      "Attribute.pan_compatible_devices.[0]",
+      "Attribute.pattern_type",
+      "Attribute.pattern",
+      "Attribute.plant_type",
+      "Attribute.plate_type",
+      "Attribute.power_generation",
+      "Attribute.power.value",
+      "Attribute.pressure_cooker_type",
+      "Attribute.product_functionality",
+      "Attribute.product_shape",
+      "Attribute.product_style",
+      "Attribute.product_theme",
+      "Attribute.pull_type",
+      "Attribute.requires_assembly",
+      "Attribute.room_type",
+      "Attribute.rug_backing_material.[0]",
+      "Attribute.rug_or_mat_features.[0]",
+      "Attribute.scent_type.[0]",
+      "Attribute.screw_type",
+      "Attribute.sculpture_recommended_use.[0]",
+      "Attribute.sofa_seating_capacity",
+      "Attribute.sofa_type",
+      "Attribute.sofa_accessory_type",
+      "Attribute.storage_type",
+      "Attribute.style_of_apron",
+      "Attribute.tableware_type",
+      "Attribute.table_shape",
+      "Attribute.table_special_features",
+      "Attribute.furniture_accessories",
+      "Attribute.table_top_material.[0]",
+      "Attribute.throw_pillow_closure_type",
+      "Attribute.valances_opacity",
+      "Attribute.valances_top_type",
+      "Attribute.volume.value",
+      "Attribute.stove_type.[0]",
+      "Attribute.window_treatment_accessories_type.[0]",
+      "Attribute.window_film_installation_type.[0]",
+      "Attribute.window_film_type.[0]",
+      "Attribute.wall_art_theme",
+      "Attribute.water_cooler_type",
+      "Attribute.water_filter_type",
+      "Attribute.water_usage.value",
+      "Attribute.wine_glass_type",
+      "Attribute.laundry_supply_type",
+      "Attribute.ironing_board_type",
+      "Attribute.floor_cleaner_features",
+      "Attribute.cleaning_agent_surface_recommendation",
+      "Attribute.bristle_firmness",
+      "Attribute.towel_shape",
+      "Attribute.food_mixer_and_blender_accessory_type",
+      "Attribute.duster_head_material.[0]",
+      "Attribute.dye_form",
+      "Attribute.seasons.[0]",
+      "Attribute.freezer_accessory_type",
+      "Attribute.detergent_form",
+      "Attribute.is_refillable",
+      "Attribute.is_linen_extra_length",
+      "Attribute.dishwasher_parts_and_accessory_type",
+      "Attribute.mop_head",
+      "Attribute.detergent_size",
+      "Attribute.proudly_south_african",
+      "Attribute.pillow_filling_type",
+      "Attribute.number_of_baskets",
+      "Attribute.flask_and_travel_mug_accessory_type",
+      "Attribute.cleaning_supply_type.[0]",
+      "Attribute.bedding_type",
+      "Attribute.rinse_aid_features",
+      "Attribute.broom_type",
+      "Attribute.household_foils_wraps_types.[0]",
+      "Attribute.duvet_filler",
+      "Attribute.type_of_sheet",
+      "Attribute.microwave_oven_accessory_type",
+      "Attribute.bed_sheet_special_features.[0]",
+      "Attribute.mop_type",
+      "Attribute.mop_accessory_type.[0]",
+      "Attribute.weave_type",
+      "Attribute.refrigerator_accessory_type",
+      "Attribute.has_reversable_doors",
+      "Attribute.ironing_boards_material",
+      "Attribute.bedding_size",
+      "Attribute.sleeper_couch_type",
+      "Attribute.broom_surface_recommendation.[0]",
+      "Attribute.thread_count",
+      "Attribute.lighting_type",
+      "Attribute.detergent_scent",
+      "Attribute.rack_or_hanger_placement",
+      "Attribute.cleaning_consumables_special_features.[0]",
+      "Attribute.window_treatment_type.[0]",
+      "Attribute.tog_rate",
+      "Attribute.coffee_machine_parts_type.[0]",
+      "Attribute.is_smart",
+      "Attribute.broom_length.value",
+      "Attribute.broom_head_width.value",
+      "Attribute.ironing_board_size.width",
+      "Attribute.ironing_board_size.length",
+      "Attribute.cooktop_accessory_type",
+      "Attribute.is_machine_washable",
+      "Attribute.is_induction_stove_compatible",
+      "Attribute.requires_batteries",
+      "Attribute.intended_surface_usage.[0]",
+      "Attribute.surface_recommendation.[0]",
+      "Attribute.pack_type",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.ice_tray_capacity.[0]",
+      "Variant.attribute.towel_type",
+      "Variant.attribute.canvas_size",
+      "Variant.attribute.cookware_size.value",
+      "Variant.attribute.curtain_size.length",
+      "Variant.attribute.curtain_size.width",
+      "Variant.attribute.pack_size",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.pillow_size",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.volume_variant.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

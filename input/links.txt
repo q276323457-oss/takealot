@@ -1,0 +1,5 @@
+# one 1688 url per line
+# https://detail.1688.com/offer/xxxxxxxxxxxx.html
+https://detail.1688.com/offer/961619147425.html
+https://detail.1688.com/offer/955469220401.html?kj_agent_plugin=aliprice&fromkv=xytTrace%3A0
+https://detail.1688.com/offer/943175602938.html?offerId=943175602938&hotSaleSkuId=6011221834805&spm=a260k.home2025.recommendpart.78

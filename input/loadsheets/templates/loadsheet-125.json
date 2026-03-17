@@ -1,0 +1,722 @@
+{
+  "source_file": "loadsheet-125.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 85,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.film_genre.[0]",
+      "label": "Film Genre",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.film_format.[0]",
+      "label": "Disc Format",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.dvd_region.[0]",
+      "label": "DVD Region",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.blu_ray_region.[0]",
+      "label": "Blu-ray Region",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.fpb_rating",
+      "label": "FPB Rating",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.fpb_code",
+      "label": "FPB Certification",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.fpb_consumer_advice",
+      "label": "FPB Consumer Advice",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.movie_franchise",
+      "label": "Movie Franchise",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.bedding_size",
+      "label": "Bedding Size",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.has_lock",
+      "label": "Has Lock",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.film_fpb_rating",
+      "label": "Age Restriction",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.release_year",
+      "label": "Release Year",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number Of Pieces",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.has_laptop_compartment",
+      "label": "Has Laptop Compartment",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.has_wheels",
+      "label": "Wheeled",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_assembly_required",
+      "label": "Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.toy_characters.[0]",
+      "label": "Toy Characters",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.paper_size",
+      "label": "Paper Size",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.seasons.[0]",
+      "label": "Seasons",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.is_dustproof",
+      "label": "Is Dustproof",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.is_oven_safe",
+      "label": "Oven Safe",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.is_microwave_safe",
+      "label": "Microwave Safe",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.is_non_stick",
+      "label": "Non-Stick",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.is_dishwasher_safe",
+      "label": "Dishwasher Safe",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.suitcase_shell_type",
+      "label": "Suitcase Shell Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.suitcase_lock_type",
+      "label": "Suitcase Lock Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.number_of_players.max",
+      "label": "Maximimum Number Of Players",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.number_of_players.min",
+      "label": "Minimum Number Of Players",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.number_of_seats",
+      "label": "Number of Seats",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "125": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "TV Series (19681)",
+      "Movies (19698)",
+      "Merchandise (22310)"
+    ],
+    "4.33846": [
+      "Kids & Family->Animation & Cartoons (28438)",
+      "Kids & Family->Educational (28439)",
+      "Reality TV (28440)",
+      "Musicals (19697)",
+      "Action & Adventure (19682)",
+      "Exercise & Fitness (19691)",
+      "Music Video & Concert (19696)",
+      "LGBT (19692)",
+      "Anime (19684)",
+      "Comedy (19686)",
+      "Documentary (19688)",
+      "Drama (19689)",
+      "Crime (19687)",
+      "Thriller (19951)",
+      "Fantasy (19690)",
+      "Animation (19683)",
+      "Historical (19693)",
+      "Horror (19694)",
+      "Military & War (19695)",
+      "Science Fiction (19949)",
+      "Western (19952)",
+      "Romance (19948)",
+      "Sports (19950)",
+      "World Cinema (19953)"
+    ],
+    "7.0.4": [
+      "Foreign (28433)",
+      "Cult (28428)",
+      "Bollywood (28430)",
+      "Educational (28431)",
+      "Kids & Family->Kids Special Interests (28476)",
+      "Kids & Family->Family Films (28477)",
+      "Faith & Spirituality (28432)",
+      "Special Interest->Karaoke (28435)",
+      "Special Interest->Sports (28465)",
+      "Special Interest->Dance (28472)",
+      "Special Interest->Cars (28466)",
+      "Special Interest->DIY (28467)",
+      "Special Interest->Food (28468)",
+      "Special Interest->Outdoors (28469)",
+      "Special Interest->Adult Interests (28470)",
+      "Special Interest->Self-Improvement (28471)",
+      "Special Interest->Indoors (28473)",
+      "Special Interest->Travel (28474)",
+      "Special Interest->Childcare (28475)",
+      "Classics (28436)",
+      "Stand Up Comedy (28437)",
+      "Exercise & Fitness (22003)",
+      "Crime (21998)",
+      "Short Films (28429)",
+      "World Cinema (22018)",
+      "Action & Adventure (21983)",
+      "Music Video & Concert (22010)",
+      "Musicals (22012)",
+      "Anime (21995)",
+      "Fantasy (22002)",
+      "Historical (22006)",
+      "LGBT (22004)",
+      "Comedy (21997)",
+      "Science Fiction (22014)",
+      "Western (22017)",
+      "Thriller (22016)",
+      "Documentary (22000)",
+      "Animation (21994)",
+      "Military & War (22009)",
+      "Romance (22013)",
+      "Drama (22026)",
+      "Horror (22007)",
+      "Sports (22015)"
+    ],
+    "3": [
+      "Toys (22323)",
+      "Novelty (28441)",
+      "Bedding & Linen (22312)",
+      "Clothing (22313)",
+      "Coasters (22314)",
+      "Figurines (22316)",
+      "Jewellery (22317)",
+      "Stationery (22322)",
+      "Lighting (22318)",
+      "Luggage (22319)",
+      "Posters (22321)",
+      "Electronic Accessories (22315)",
+      "Mugs & Crockery (22320)",
+      "Furniture (29578)",
+      "Bathroom Accessories (22311)"
+    ],
+    "22095036": [
+      "TV Series (19681)",
+      "Movies (19698)",
+      "Merchandise (22310)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Variant_shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Sizes\", \"sheet_name\": \"Shoe Sizes\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}}": [
+      "LOOKUP_TOPLEVEL19681",
+      "LOOKUP_TOPLEVEL19698",
+      "LOOKUP_TOPLEVEL22310"
+    ],
+    "False": [
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Images.image_url_1"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.film_genre.[0]",
+      "Attribute.film_format.[0]",
+      "Attribute.dvd_region.[0]",
+      "Attribute.blu_ray_region.[0]",
+      "Attribute.fpb_rating",
+      "Attribute.fpb_code",
+      "Attribute.fpb_consumer_advice",
+      "Attribute.movie_franchise",
+      "Attribute.bedding_size",
+      "Attribute.has_lock",
+      "Attribute.film_fpb_rating",
+      "Attribute.release_year",
+      "Attribute.number_of_pieces",
+      "Attribute.has_laptop_compartment",
+      "Attribute.has_wheels",
+      "Attribute.is_assembly_required",
+      "Attribute.is_waterproof",
+      "Attribute.toy_characters.[0]",
+      "Attribute.seasons.[0]",
+      "Attribute.is_dustproof",
+      "Attribute.is_water_resistant",
+      "Attribute.is_oven_safe",
+      "Attribute.is_microwave_safe",
+      "Attribute.is_non_stick",
+      "Attribute.is_dishwasher_safe",
+      "Attribute.suitcase_shell_type",
+      "Attribute.suitcase_lock_type",
+      "Attribute.number_of_players.max",
+      "Attribute.number_of_players.min",
+      "Attribute.product_shape",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.number_of_seats"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.paper_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

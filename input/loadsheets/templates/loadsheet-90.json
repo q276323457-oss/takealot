@@ -1,0 +1,1279 @@
+{
+  "source_file": "loadsheet-90.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 160,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.seasons.[0]",
+      "label": "Season",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.pants_size.length",
+      "label": "Pants Length in Inches",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.pants_size.waist",
+      "label": "Pants Waist Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.sock_features",
+      "label": "Sock Features",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.socks_type",
+      "label": "Socks Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.sleeve_length",
+      "label": "Sleeve Length",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.cycling_discipline",
+      "label": "Cycling Discipline",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Variant.attribute.helmet_size",
+      "label": "Helmet Size",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.helmet_type.[0]",
+      "label": "Helmet Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.bike_bag_type",
+      "label": "Type of Bike Bag",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.bike_cover_type",
+      "label": "Bike Cover Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.bike_rack_type",
+      "label": "Bike Rack Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.bike_speed",
+      "label": "Bike Speeds",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.bike_wheel_size",
+      "label": "Bike Wheel Size",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.chainring",
+      "label": "Chainring Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.handlebar_length.value",
+      "label": "Handlebar Length",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Variant.attribute.bike_tyre_width",
+      "label": "Bike Tyre Width",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.crank_length.value",
+      "label": "Crank Length",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.stem_length.value",
+      "label": "Stem Length",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.seat_post_length.value",
+      "label": "Seat Post Length",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.seat_post_diameter.value",
+      "label": "Seat Diameter",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.fork_travel.value",
+      "label": "Fork Travel Length",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Variant.attribute.tube_size.value",
+      "label": "Tube Size",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.flavour_type",
+      "label": "Flavor Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.suspension_type",
+      "label": "Suspension Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.hub_type",
+      "label": "Hub Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.has_quick_release",
+      "label": "Has Quick Release",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.has_temperature_control",
+      "label": "Has Temperature Control",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.has_v_brake",
+      "label": "Has V-Brake",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.gradations",
+      "label": "Gradations",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.mount_size.value",
+      "label": "Mount Size value",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.number_of_holes",
+      "label": "Number of Holes",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.crank",
+      "label": "Crank",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.driver_caliber",
+      "label": "Driver Caliber",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.has_shifter",
+      "label": "Has Shifter",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.axle_options",
+      "label": "Axle Options",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.fork_rebound",
+      "label": "Fork Rebound",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.cleat_type",
+      "label": "Cleat Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.free_from_sulphate",
+      "label": "Free From Sulphate",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.stem_clamp_type",
+      "label": "Stem Clamp Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.has_adjustable_seat",
+      "label": "Has Adjustable Seat",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.stiffness_adjustable",
+      "label": "Stiffness Adjustable",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.number_of_vents",
+      "label": "Number of Vents",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.has_pegs",
+      "label": "Has Pegs",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.has_swivel_handlebar",
+      "label": "Has Swivel Handlebar",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.free_from_parabens",
+      "label": "Free From Parabens",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.thread_type",
+      "label": "Thread Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.pedal_spindle_type",
+      "label": "Pedal Spindle Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.zip_length.value",
+      "label": "Zip Length value",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.is_non_toxic",
+      "label": "Is Non-Toxic",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.is_flammable",
+      "label": "Is Flammable",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.brake_connector_type",
+      "label": "Brake Connector Type",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.shifter_style",
+      "label": "Shifter Style",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.number_of_chainlinks",
+      "label": "Number of Chainlinks",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.has_rotational_clamp",
+      "label": "Has Rotational Clamp",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.is_tension_adjustable",
+      "label": "Is Tension Adjustable",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.chainline",
+      "label": "Chainline",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.headtube_length.value",
+      "label": "Headtube Length",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.free_from_alcohol",
+      "label": "Free from alcohol",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.is_hypoallergenic",
+      "label": "Is Hypoallergenic",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.anti_chafing_product_type.[0]",
+      "label": "Anti Chafing Product Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.stem_type",
+      "label": "Stem Type",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.has_pedal_assist_system_setting",
+      "label": "Has Pedal Assist System Setting",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.tights_type",
+      "label": "Tights Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.is_polarised",
+      "label": "Is Polarised",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.shorts_type",
+      "label": "Shorts Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.eyewear_type.[0]",
+      "label": "Eyewear Type",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.bottom_fit_type",
+      "label": "Bottom Fit Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.cleat_material",
+      "label": "Cleat Material",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.bottom_features",
+      "label": "Bottom Features",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.fork_material",
+      "label": "Fork Material",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.has_memory_card_slot",
+      "label": "Has Memory Card Slot",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.sport_clothing_benefits",
+      "label": "Sport Clothing Benefits",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.drivetrain_speed",
+      "label": "Drivetrain Speed",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.crank_arms",
+      "label": "Crank Arms",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.has_gauge",
+      "label": "Has Gauge",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.bike_style",
+      "label": "Bike Style",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.includes_tray",
+      "label": "Includes Tray",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.fork_type",
+      "label": "Fork Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.brake_lever_strength",
+      "label": "Brake Lever Strength",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.locker_system",
+      "label": "Locker System",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.compression_adjustment",
+      "label": "Compression Adjustment",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.is_windproof",
+      "label": "Windproof",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.motor_type",
+      "label": "Motor Type",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.is_self_sealing",
+      "label": "Is Self-Sealing",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.is_tubeless",
+      "label": "Is Tubeless",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.axle_type",
+      "label": "Axle Type",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.handlebar_type",
+      "label": "Handlebar Type",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.has_display_screen",
+      "label": "Has Display Screen",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.spring_type",
+      "label": "Spring Type",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.has_clip_on_base",
+      "label": "Has Clip on Base",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.toe_cap_size",
+      "label": "Toe Cap Size",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.has_expandable_storage",
+      "label": "Has Expandable Storage",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.suspension_system",
+      "label": "Suspension System",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.shoe_function",
+      "label": "Shoe Function",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "90": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Clothing (14026)",
+      "Equipment (14027)",
+      "Accessories (14028)",
+      "Consumables (14029)"
+    ],
+    "4.33059": [
+      "Cycling Socks (14035)",
+      "Armwarmers (14083)",
+      "Gilets (14089)",
+      "Leg warmers (14093)",
+      "Footwear (23171)",
+      "Cycling Shorts (14087)",
+      "Base Layers (14084)",
+      "Bibs (14085)",
+      "Headgear & Cycling Caps (14086)",
+      "Cycling Masks (29583)",
+      "Jackets (14032)",
+      "Cycling Tights (14088)",
+      "Overshoes (14094)",
+      "Toe Caps (14096)",
+      "Gloves (14033)",
+      "Jerseys (14092)"
+    ],
+    "7.0.4": [
+      "Cycling->Parts->Shifting Levers (14118)",
+      "Cycling->Parts->Chains (14104)",
+      "Cycling->Parts->Cranksets (14105)",
+      "Cycling->Parts->Brake Parts (14098)",
+      "Cycling->Parts->Derailleurs (14106)",
+      "Cycling->Parts->Forks (14107)",
+      "Cycling->Parts->Handlebars (14110)",
+      "Cycling->Parts->Chain Guides (14102)",
+      "Cycling->Parts->Tyre Sealant (14122)",
+      "Cycling->Parts->Chainrings (14103)",
+      "Cycling->Parts->Pedals & Cleats (14114)",
+      "Cycling->Parts->Wheels (14123)",
+      "Cycling->Parts->Frames (14108)",
+      "Cycling->Parts->Bottom Brackets (14097)",
+      "Cycling->Parts->Brakes (14099)",
+      "Cycling->Parts->Cables (14100)",
+      "Cycling->Parts->Cassettes & Freewheels (14101)",
+      "Cycling->Parts->Headset Spacers (14111)",
+      "Cycling->Parts->Hubs (14113)",
+      "Cycling->Parts->Spokes (14119)",
+      "Cycling->Parts->Tubes (14121)",
+      "Cycling->Parts->Saddles (14115)",
+      "Cycling->Parts->Stems (14120)",
+      "Cycling->Parts->Tyres (23192)",
+      "Cycling->Parts->Grips (14109)",
+      "Cycling->Parts->Headsets (14112)",
+      "Cycling->Parts->Seat Clamps (14116)",
+      "Cycling->Parts->Seat Posts (14117)",
+      "Cycling->Protective gear->Helmets->Road Helmets (29018)",
+      "Cycling->Protective gear->Helmets->MTB Helmets (29017)",
+      "Cycling->Protective gear->Helmets->Junior Helmets (29016)",
+      "Cycling->Protective gear->Knee Guards (14056)",
+      "Cycling->Workshop->Workstands (14154)",
+      "Cycling->Workshop->Pressure Washers (14152)",
+      "Cycling->Workshop->Lubes Cleaning (14151)",
+      "Cycling->Workshop->Tools (14153)",
+      "Cycling->Bikes->Kids Bikes (23183)",
+      "Cycling->Bikes->Dual Suspension MTB Bikes (14158)",
+      "Cycling->Bikes->Road Bikes (14156)",
+      "Cycling->Bikes->Hard Tail MTB (14157)",
+      "Cycling->Bikes->BMX Bikes (14165)",
+      "Cycling->Bikes->Electric Bikes (14159)",
+      "Cycling->Bikes->Hybrid Bikes (14163)",
+      "Cycling->Bikes->Cyclocross Bikes (14164)",
+      "Cycling->Bikes->Tandem Bikes (14162)",
+      "Cycling->Bikes->Triathlon/TT Bikes (14161)"
+    ],
+    "3": [
+      "Cycling Tech->Cycling Tech Accessories (29573)",
+      "Cycling Tech->Action Cameras (14129)",
+      "Cycling Tech->Bike Lights (14130)",
+      "Cycling Tech->Bike Trainer Accessories (14132)",
+      "Cycling Tech->GPS Units (14135)",
+      "Cycling Tech->Heart Rate Monitors (14134)",
+      "Cycling Tech->Power Meters (14136)",
+      "Cycling Tech->Wearable Tech (14137)",
+      "Cycling Tech->Cycle Computers (14133)",
+      "Cycling Tech->Bike Trainers (14131)",
+      "Eyewear->Sport (29015)",
+      "Eyewear->Lenses (29167)",
+      "Eyewear->Lifestyle (29014)",
+      "Hydration->Bottle Cages (14138)",
+      "Hydration->Water Bottles (14139)",
+      "Hydration->Hydration Backpacks (14140)",
+      "Kids Accessories->Water Bottles (14142)",
+      "Kids Accessories->Bells (14143)",
+      "Kids Accessories->Children's Bikes Accessories (14141)",
+      "Safety Accessories->Helmet accessories (14148)",
+      "Safety Accessories->Bells (14149)",
+      "Safety Accessories->Locks (14147)",
+      "Safety Accessories->Reflective Gear (14145)",
+      "Safety Accessories->Reflective Lights (14144)",
+      "Safety Accessories->Bike Lights (14150)",
+      "Gloves (30765)",
+      "Bags, Carriers & Stands->Bike Stands (14127)",
+      "Bags, Carriers & Stands->Trailers & Tagalongs (14128)",
+      "Bags, Carriers & Stands->Backpacks & Bags (14124)",
+      "Bags, Carriers & Stands->Bike Racks (14126)",
+      "Bags, Carriers & Stands->Bike Covers (14125)",
+      "Bags, Carriers & Stands->Wheel Bags (23170)",
+      "Personal Care Products->Anti Chafing Products (30788)",
+      "Personal Care Products->Chamois Cream (23550)",
+      "Mudguards (14062)",
+      "Handlebar Tape (14065)",
+      "Rim Tape (14064)",
+      "Saddle Covers (14066)",
+      "Valve Caps (14067)",
+      "Bike Care Products (14063)",
+      "Bike Mirrors (14044)",
+      "Bike Pump (14051)",
+      "Child Seats (14059)",
+      "CO2 Cartridges & Adapter (14052)"
+    ],
+    "76425378": [
+      "Recovery (14042)",
+      "Energy (14041)",
+      "Hydration (14040)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_chainring\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Chainring Size\", \"sheet_name\": \"Chainring Size\"}, \"Attribute_flavour_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Flavour Type\", \"sheet_name\": \"Flavour Type\"}, \"Variant_attribute_shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Size\", \"sheet_name\": \"Shoe Size\"}, \"Variant_attribute_bike_tyre_width\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Bike Tyre Width\", \"sheet_name\": \"Bike Tyre Width\"}}": [
+      "Clothing (14026)",
+      "Equipment (14027)",
+      "Accessories (14028)",
+      "Consumables (14029)"
+    ],
+    "False": [
+      "Attribute.whats_in_the_box",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.materials.[0]",
+      "Attribute.merchant_packaged_weight.value",
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.seasons.[0]",
+      "Attribute.sock_features",
+      "Attribute.socks_type",
+      "Attribute.sleeve_length",
+      "Attribute.cycling_discipline",
+      "Attribute.helmet_type.[0]",
+      "Attribute.bike_bag_type",
+      "Attribute.bike_cover_type",
+      "Attribute.bike_rack_type",
+      "Attribute.bike_speed",
+      "Attribute.bike_wheel_size",
+      "Attribute.chainring",
+      "Attribute.handlebar_length.value",
+      "Attribute.crank_length.value",
+      "Attribute.stem_length.value",
+      "Attribute.seat_post_length.value",
+      "Attribute.seat_post_diameter.value",
+      "Attribute.fork_travel.value",
+      "Attribute.is_waterproof",
+      "Attribute.flavour_type",
+      "Attribute.is_water_resistant",
+      "Attribute.suspension_type",
+      "Attribute.hub_type",
+      "Attribute.has_quick_release",
+      "Attribute.has_temperature_control",
+      "Attribute.has_v_brake",
+      "Attribute.gradations",
+      "Attribute.mount_size.value",
+      "Attribute.number_of_holes",
+      "Attribute.crank",
+      "Attribute.driver_caliber",
+      "Attribute.has_shifter",
+      "Attribute.axle_options",
+      "Attribute.fork_rebound",
+      "Attribute.is_adjustable",
+      "Attribute.cleat_type",
+      "Attribute.free_from_sulphate",
+      "Attribute.stem_clamp_type",
+      "Attribute.has_adjustable_seat",
+      "Attribute.stiffness_adjustable",
+      "Attribute.screen_size.value",
+      "Attribute.number_of_vents",
+      "Attribute.has_pegs",
+      "Attribute.has_swivel_handlebar",
+      "Attribute.free_from_parabens",
+      "Attribute.thread_type",
+      "Attribute.pedal_spindle_type",
+      "Attribute.zip_length.value",
+      "Attribute.is_non_toxic",
+      "Attribute.is_flammable",
+      "Attribute.brake_connector_type",
+      "Attribute.shifter_style",
+      "Attribute.number_of_chainlinks",
+      "Attribute.has_rotational_clamp",
+      "Attribute.is_tension_adjustable",
+      "Attribute.chainline",
+      "Attribute.headtube_length.value",
+      "Attribute.free_from_alcohol",
+      "Attribute.is_hypoallergenic",
+      "Attribute.anti_chafing_product_type.[0]",
+      "Attribute.stem_type",
+      "Attribute.connectivities.[0]",
+      "Attribute.has_pedal_assist_system_setting",
+      "Attribute.tights_type",
+      "Attribute.is_polarised",
+      "Attribute.shorts_type",
+      "Attribute.eyewear_type.[0]",
+      "Attribute.bottom_fit_type",
+      "Attribute.cleat_material",
+      "Attribute.bottom_features",
+      "Attribute.fork_material",
+      "Attribute.has_memory_card_slot",
+      "Attribute.sport_clothing_benefits",
+      "Attribute.drivetrain_speed",
+      "Attribute.crank_arms",
+      "Attribute.has_gauge",
+      "Attribute.bike_style",
+      "Attribute.includes_tray",
+      "Attribute.fork_type",
+      "Attribute.brake_lever_strength",
+      "Attribute.has_handle",
+      "Attribute.locker_system",
+      "Attribute.compression_adjustment",
+      "Attribute.is_windproof",
+      "Attribute.motor_type",
+      "Attribute.sports.[0]",
+      "Attribute.eyewear_lens_features",
+      "Attribute.is_self_sealing",
+      "Attribute.diameter.value",
+      "Attribute.mounting_type",
+      "Attribute.closure_type",
+      "Attribute.is_tubeless",
+      "Attribute.axle_type",
+      "Attribute.handlebar_type",
+      "Attribute.has_display_screen",
+      "Attribute.spring_type",
+      "Attribute.has_clip_on_base",
+      "Attribute.toe_cap_size",
+      "Attribute.has_expandable_storage",
+      "Attribute.suspension_system",
+      "Attribute.shoe_function",
+      "Attribute.proudly_south_african",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.pants_size.length",
+      "Variant.attribute.pants_size.waist",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.helmet_size",
+      "Variant.attribute.bike_tyre_width",
+      "Variant.attribute.tube_size.value",
+      "Variant.attribute.size_in_cm.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

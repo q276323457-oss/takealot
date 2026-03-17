@@ -1,0 +1,652 @@
+{
+  "source_file": "loadsheet-92.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 81,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "Attribute.sparkling_wine_type",
+      "label": "Sparkling Wine Type",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "Attribute.fortified_and_dessert_wines",
+      "label": "Fortified and Dessert Wines",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.wine_estate.[0]",
+      "label": "Wine Estate",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.cultivar.[0]",
+      "label": "Cultivar Type",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.beer_type",
+      "label": "Beer Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.is_gluten_free",
+      "label": "Gluten Free",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.whisky_type",
+      "label": "Whisky Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.tequila_type",
+      "label": "Tequila Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.rum_type",
+      "label": "Rum Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.liqueurs_and_aperitifs_type",
+      "label": "Liqueurs and Aperitifs Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.grappa_type",
+      "label": "Grappa Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.cane_type",
+      "label": "Cane Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.vodka_type",
+      "label": "Vodka Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.gin_type",
+      "label": "Gin Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.rose_type",
+      "label": "Rose Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.white_wine_type",
+      "label": "White Wine Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.red_wine_type",
+      "label": "Red Wine Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.wine_type.[0]",
+      "label": "Wine Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.cognac_type",
+      "label": "Cognac Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.brandy_type",
+      "label": "Brandy Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.years_aged",
+      "label": "Years Aged",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.premix_type",
+      "label": "Premix Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.water_type",
+      "label": "Water Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.flavour_type",
+      "label": "Flavour Type",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.alcohol_content",
+      "label": "Alcohol Content",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.awards.[0]",
+      "label": "Product Awards",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.target_customer.[0]",
+      "label": "Target Customer",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.volume.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.volume.unit",
+      "label": "Product Volume Metric",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume for Variant",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_liquor",
+      "label": "Liquor Product",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.has_r638_certificate",
+      "label": "Has R638 Certificate",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Variant.attribute.volume_variant.unit",
+      "label": "Volume Variant Unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "92": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Alcoholic Beverages (15803)",
+      "Energy Drinks (30649)",
+      "Soft Drinks (30650)",
+      "Non-Alcoholic (19709)",
+      "Premixes & Mocktails (21691)",
+      "Gifting (20726)"
+    ],
+    "4.33126": [
+      "Mixed Packs (30578)",
+      "Liquor & Spirits->Gin (15812)",
+      "Liquor & Spirits->Liqueurs & Aperitifs (15813)",
+      "Liquor & Spirits->Grappa (19717)",
+      "Liquor & Spirits->Cane (19715)",
+      "Liquor & Spirits->Tequila (15816)",
+      "Liquor & Spirits->Slivovitz (30528)",
+      "Liquor & Spirits->Brandy (15811)",
+      "Liquor & Spirits->Rum (15814)",
+      "Liquor & Spirits->Absinthe (15810)",
+      "Liquor & Spirits->Vodka (15817)",
+      "Liquor & Spirits->Cognac (19716)",
+      "Liquor & Spirits->Whiskey (15818)",
+      "Cocktails & Premixes (29593)",
+      "Wine->Fortified & Dessert Wines (19719)",
+      "Wine->Gift Sets (19724)",
+      "Wine->Mixed Cases (29612)",
+      "Wine->Rose (19721)",
+      "Wine->White Wine (19720)",
+      "Wine->Red Wine (19722)",
+      "Wine->Champagne & Sparkling Wine (19718)",
+      "Beers & Ciders->Craft Beer (20722)",
+      "Beers & Ciders->Beer (20725)",
+      "Beers & Ciders->Cider (20724)",
+      "Brewing & Distilling Kits (29616)",
+      "Mixers & Infusions (15806)"
+    ],
+    "7.0.4": [
+      "Energy Drinks (30649)"
+    ],
+    "3": [
+      "Soft Drinks (30650)"
+    ],
+    "71949124": [
+      "Mixers & Infusions (19711)",
+      "Beverage Colourants (28528)",
+      "Non-Alcoholic Beer (20723)",
+      "Non-Alcoholic Wines (22586)",
+      "Water (19714)",
+      "Fruit Juices & Iced Tea (19713)",
+      "Soft Drinks (19710)",
+      "Energy Drinks (19712)",
+      "Non-Alcoholic Spirits (22863)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_cultivar_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Cultivar\", \"sheet_name\": \"Cultivar\"}, \"Attribute_wine_estate_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Wine Estates\", \"sheet_name\": \"Wine Estates\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Premixes & Mocktails (21691)"
+    ],
+    "False": [
+      "Attribute.whats_in_the_box",
+      "Attribute.pack_type",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Images.image_url_1"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.sparkling_wine_type",
+      "Attribute.fortified_and_dessert_wines",
+      "Attribute.wine_estate.[0]",
+      "Attribute.cultivar.[0]",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.beer_type",
+      "Attribute.is_gluten_free",
+      "Attribute.whisky_type",
+      "Attribute.tequila_type",
+      "Attribute.rum_type",
+      "Attribute.liqueurs_and_aperitifs_type",
+      "Attribute.grappa_type",
+      "Attribute.cane_type",
+      "Attribute.vodka_type",
+      "Attribute.gin_type",
+      "Attribute.rose_type",
+      "Attribute.white_wine_type",
+      "Attribute.red_wine_type",
+      "Attribute.wine_type.[0]",
+      "Attribute.cognac_type",
+      "Attribute.brandy_type",
+      "Attribute.years_aged",
+      "Attribute.premix_type",
+      "Attribute.water_type",
+      "Attribute.flavour_type",
+      "Attribute.alcohol_content",
+      "Attribute.proudly_south_african",
+      "Attribute.awards.[0]",
+      "Attribute.is_hand_made",
+      "Attribute.target_customer.[0]",
+      "Attribute.volume.value",
+      "Attribute.volume.unit",
+      "Attribute.has_expiry_days",
+      "Attribute.pack_type",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_liquor",
+      "Attribute.is_hazardous",
+      "Attribute.has_r638_certificate"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.volume_variant.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

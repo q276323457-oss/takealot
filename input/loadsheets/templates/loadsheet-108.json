@@ -1,0 +1,656 @@
+{
+  "source_file": "loadsheet-108.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 83,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.fits_laptop_screen_size.value",
+      "label": "Laptop Screen Size",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Screen Resolution",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.network_locked",
+      "label": "Network Locked",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.network_provider",
+      "label": "Network Provider",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.airtime_data",
+      "label": "Airtime or Data",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.airtime_value",
+      "label": "Airtime Value",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Variant.attribute.mobile_data_type.[0]",
+      "label": "Mobile Data",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Operating System",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.cpu_speed.value",
+      "label": "CPU Speed",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.battery_capacity.value",
+      "label": "Battery Capacity",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Space",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.ram_size.value",
+      "label": "RAM Size",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.sim_card_type",
+      "label": "SIM Support",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.digital_camera_resolution.value",
+      "label": "Camera Resolution",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.video_capture_resolution",
+      "label": "Video Capture Resolution",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.number_of_lenses",
+      "label": "Number of Lenses",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.number_of_slots",
+      "label": "Number of Slots",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.lens_types.[0]",
+      "label": "Camera Lens Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.audio_jacks.[0]",
+      "label": "Audio Jack",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.is_3g_enabled",
+      "label": "3G Enabled",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.is_2g_enabled",
+      "label": "2G Enabled",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_4g_enabled",
+      "label": "4G Enabled",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.is_5g_enabled",
+      "label": "5G Enabled",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.is_portable",
+      "label": "Portable",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.biometric_security_feature",
+      "label": "Biometric Security Feature",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.has_wireless_charging_compatibility",
+      "label": "Wireless Charging",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.bluetooth_version",
+      "label": "Bluetooth Version",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.account_generation",
+      "label": "Account Generation",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.is_refurbished",
+      "label": "Is Certified Pre-Owned",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.new_or_used_condition",
+      "label": "New or Used Condition",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "108": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Mobile Phones (15522)",
+      "FM Transmitters (15433)",
+      "Tablets and E-Readers (15546)",
+      "Airtime & Data (20088)"
+    ],
+    "4.33066": [
+      "Cellphone & Sim Card Bundles (31093)",
+      "Feature Phones (22460)",
+      "Smartphones (22459)",
+      "Certified Pre-Owned Mobile Devices (30824)"
+    ],
+    "7.0.4": [
+      "FM Transmitters (15433)"
+    ],
+    "3": [
+      "Tablets and E-Readers (15546)"
+    ],
+    "76304695": [
+      "Prepaid Airtime & Data (15518)",
+      "Sim Cards (23252)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_connectivities_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Connectivities\", \"sheet_name\": \"Connectivities\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}, \"Attribute_display_standards_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Display Standards\", \"sheet_name\": \"Display Standards\"}}": [
+      "Mobile Phones (15522)",
+      "FM Transmitters (15433)",
+      "Tablets and E-Readers (15546)",
+      "Airtime & Data (20088)"
+    ],
+    "False": [
+      "Attribute.is_5g_enabled",
+      "Attribute.number_of_lenses",
+      "Attribute.customer_registration_required",
+      "Attribute.is_4g_enabled",
+      "Attribute.network_locked",
+      "Attribute.has_wireless_charging_compatibility",
+      "Attribute.whats_in_the_box",
+      "Attribute.sim_card_type",
+      "Attribute.is_2g_enabled",
+      "Attribute.model_number",
+      "Attribute.is_refurbished",
+      "Attribute.is_3g_enabled",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.audio_jacks.[0]",
+      "Attribute.screen_size.value",
+      "Attribute.lens_types.[0]",
+      "Attribute.ram_size.value",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.battery_capacity.value",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.digital_camera_resolution.value",
+      "Attribute.operating_systems.[0]",
+      "color.main",
+      "color.secondary",
+      "color.name",
+      "Images.image_url_1"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.screen_size.value",
+      "Attribute.fits_laptop_screen_size.value",
+      "Attribute.display_standards.[0]",
+      "Attribute.network_locked",
+      "Attribute.network_provider",
+      "Attribute.airtime_data",
+      "Attribute.operating_systems.[0]",
+      "Attribute.cpu_speed.value",
+      "Attribute.battery_type",
+      "Attribute.battery_capacity.value",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.ram_size.value",
+      "Attribute.sim_card_type",
+      "Attribute.digital_camera_resolution.value",
+      "Attribute.video_capture_resolution",
+      "Attribute.number_of_lenses",
+      "Attribute.number_of_slots",
+      "Attribute.lens_types.[0]",
+      "Attribute.audio_jacks.[0]",
+      "Attribute.is_3g_enabled",
+      "Attribute.is_2g_enabled",
+      "Attribute.is_4g_enabled",
+      "Attribute.is_5g_enabled",
+      "Attribute.is_portable",
+      "Attribute.is_water_resistant",
+      "Attribute.biometric_security_feature",
+      "Attribute.connectivities.[0]",
+      "Attribute.has_wireless_charging_compatibility",
+      "Attribute.bluetooth_version",
+      "Attribute.account_generation",
+      "Attribute.is_refurbished",
+      "Attribute.proudly_south_african",
+      "Attribute.customer_registration_required",
+      "Attribute.new_or_used_condition",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.airtime_value",
+      "Variant.attribute.mobile_data_type.[0]"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

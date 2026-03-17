@@ -1,0 +1,623 @@
+{
+  "source_file": "loadsheet-98.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 79,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.is_luggage_adjustable",
+      "label": "Adjustable",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.has_lock",
+      "label": "Lockable",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.fits_laptop_screen_size.value",
+      "label": "Laptop Screen Size",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.has_laptop_compartment",
+      "label": "Has Laptop Compartment",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.has_adjustable_straps",
+      "label": "Adjustable Straps",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.has_wheels",
+      "label": "Wheeled",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.bag_types.[0]",
+      "label": "Bag Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.number_of_wheels",
+      "label": "Number of Wheels",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.holds_number_of_cans",
+      "label": "Number of Cans",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.is_luggage_shell_hard",
+      "label": "Hard Shell",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.is_luggage_expandable",
+      "label": "Expandable",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.luggage_replacement_part_type.[0]",
+      "label": "Luggage Rreplacement Part Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.has_anti_theft_design",
+      "label": "Has Anti Theft Design",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.lock_type.[0]",
+      "label": "Lock Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.usb_connectivity.[0]",
+      "label": "Usb Connectivity",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.output_voltage.value",
+      "label": "Output Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.tear_resistant",
+      "label": "Tear Resistant",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.pillow_filling_type",
+      "label": "Pillow Filling Type",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size In Cm",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.is_windproof",
+      "label": "Windproof",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Variant.attribute.luggage_size.value",
+      "label": "Luggage Size",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.capacity.value",
+      "label": "Product Capacity Value",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "98": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Backpacks (18129)",
+      "Briefcases (18130)",
+      "Business Bags (19828)",
+      "Cabin Cases (19830)",
+      "Cosmetic & Toiletry Bags (18131)",
+      "Drawstring Bags (19837)",
+      "Duffel Bags (18134)",
+      "Garment Bags (18136)",
+      "Gym Bags (19833)",
+      "Kids Luggage (19831)",
+      "Laptop Bags (19827)",
+      "Luggage Accessories (18137)",
+      "Luggage Sets (19832)",
+      "Messenger Bags (18146)",
+      "Pilot Cases (19829)",
+      "Rain Gear (19834)",
+      "Road Travel (19835)",
+      "Sleep Comfort (19836)",
+      "Suitcases (18148)",
+      "Travel Bags & Cases (18149)",
+      "Handbags & Wallets (23131)",
+      "Medical Bags (30413)"
+    ],
+    "5.32109": [
+      "School Backpacks (19840)",
+      "Kids Backpacks (19839)",
+      "Student Backpacks (19841)",
+      "Sports & Outdoor Backpacks (19843)",
+      "Conference Bags (19845)",
+      "Backpacks (29590)",
+      "Anti-Theft Backpack (19844)",
+      "Tech Backpacks (19842)"
+    ],
+    "7.0.4": [
+      "Briefcases (18130)"
+    ],
+    "3": [
+      "Overnight Bags (19846)",
+      "Accessories (29591)"
+    ],
+    "22674208": [
+      "Cabin Cases (19830)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Toiletry Accessories (23179)",
+      "Medical Accessories (23180)",
+      "Nail Kits (23178)",
+      "Travel Bottles & Containers (23177)",
+      "Cosmetic Bags (23173)",
+      "Toiletry Bags (23172)"
+    ],
+    "False": [
+      "Kids Luggage (19831)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.is_luggage_adjustable",
+      "Attribute.has_lock",
+      "Attribute.fits_laptop_screen_size.value",
+      "Attribute.number_of_compartments",
+      "Attribute.has_laptop_compartment",
+      "Attribute.has_handle",
+      "Attribute.has_adjustable_straps",
+      "Attribute.has_wheels",
+      "Attribute.bag_types.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.number_of_wheels",
+      "Attribute.holds_number_of_cans",
+      "Attribute.is_luggage_shell_hard",
+      "Attribute.is_luggage_expandable",
+      "Attribute.luggage_replacement_part_type.[0]",
+      "Attribute.is_adjustable",
+      "Attribute.has_anti_theft_design",
+      "Attribute.lock_type.[0]",
+      "Attribute.usb_connectivity.[0]",
+      "Attribute.input_voltage.value",
+      "Attribute.output_voltage.value",
+      "Attribute.rated_voltage.value",
+      "Attribute.tear_resistant",
+      "Attribute.pillow_filling_type",
+      "Attribute.is_windproof",
+      "Attribute.capacity.value",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.luggage_size.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

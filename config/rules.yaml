@@ -1,0 +1,46 @@
+version: "takealot_v1_47"
+constraints:
+  title_max_len: 75
+  subtitle_max_len: 110
+  key_features_min_len: 200
+  image_min_width: 600
+  image_max_width: 5000
+  image_min_height: 600
+  image_max_height: 5000
+  image_max_size_mb: 10
+  product_coverage_min: 0.85
+  product_coverage_max: 0.95
+  main_bg_color: "#ffffff"
+  allowed_image_types: ["jpg", "jpeg", "png"]
+forbidden_terms:
+  - magical
+  - miracle
+  - miraculous
+  - worlds best
+  - 100% safe
+  - no side effects
+  - guaranteed
+  - perpetual youth
+  - cure
+  - diagnosis
+  - treatment
+trademark_restricted:
+  - iphone
+  - ipad
+  - macbook
+  - macbook air
+  - macbook pro
+  - imac
+  - apple watch
+  - airpods
+  - apple tv
+  - homepod
+category_image_minimums:
+  clothing: 5
+  accessories: 5
+  shoes: 3
+  socks: 2
+  wallets: 2
+  watches: 2
+  jewellery: 1
+  toys: 1

@@ -1,0 +1,958 @@
+{
+  "source_file": "loadsheet-246.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 109,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.pants_size.waist",
+      "label": "Pants Waist Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.pants_size.length",
+      "label": "Pants Length in Inches",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.jacket_size.[0]",
+      "label": "Jacket Size",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.jacket_length",
+      "label": "Jacket Length",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.pant_style",
+      "label": "Pants Style",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.pant_length",
+      "label": "Pants Length",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.jeans_style",
+      "label": "Jean Style",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.jacket_type.[0]",
+      "label": "Jacket Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.dress_style",
+      "label": "Dress Style",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.belt_accessory_type",
+      "label": "Belt Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.bra_accessory_type",
+      "label": "Bra Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.socks_type",
+      "label": "Sock Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.is_novelty_wear",
+      "label": "Novelty Wear",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.sleeve_length",
+      "label": "Sleeve Length",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.sleeve_type",
+      "label": "Sleeve Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.knitwear_type",
+      "label": "Knitwear Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.body_length",
+      "label": "Body Length",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.neckline",
+      "label": "Neckline",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.hosiery_type.[0]",
+      "label": "Hosiery Type",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.silhouette",
+      "label": "Silhouette",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.occasion",
+      "label": "Occasion",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.lifestyle",
+      "label": "Lifestyle",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.inseam.[0]",
+      "label": "Inseam",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.fleece_type",
+      "label": "Fleece Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.neck_style",
+      "label": "Neck Style",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.bra_type",
+      "label": "Bra Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Variant.attribute.bra_size",
+      "label": "Bra Size",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.support_type",
+      "label": "Bra Support Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.padding",
+      "label": "Bra Padding Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.strap_type",
+      "label": "Strap Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.panty_style",
+      "label": "Panty Style",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.underwear_pack_type.[0]",
+      "label": "Underwear Pack Type",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.print_type",
+      "label": "Print Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.featured_character.[0]",
+      "label": "Featured Character",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.pyjama_type",
+      "label": "Pyjama Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.special_sizes",
+      "label": "Special Sizes",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.collar_style",
+      "label": "Collar Style",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.one_piece_style",
+      "label": "One Piece Style",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.swimwear_style",
+      "label": "Swimwear Style",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.bikini_top_style",
+      "label": "Bikini Top Style",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.bikini_bottom_style",
+      "label": "Bikini Bottom Style",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.bottom_fit_type",
+      "label": "Bottom Fit Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.fit_type",
+      "label": "Fit Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.swimsuit_piece_count",
+      "label": "Swimsuit Piece Count",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.apparel_closure_orientation",
+      "label": "Apparel Closure Orientation",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.embellishment_feature",
+      "label": "Embellishment Feature",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.rise",
+      "label": "Rise",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.clasp_type.[0]",
+      "label": "Clasp Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.included_components.[0]",
+      "label": "Included Components",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.target_zone",
+      "label": "Target Zone",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.product_benefits.[0]",
+      "label": "Product Benefits",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.seasons.[0]",
+      "label": "Season",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.watch_accessory_type.[0]",
+      "label": "Watch Accessory Type [0]",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "246": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "2.30273": [
+      "Boys->Clothing->Blazers & Jackets (29211)",
+      "Boys->Clothing->Knitwear & Jerseys (29217)",
+      "Boys->Clothing->Hoodies, Sweatshirts & Fleece (29216)",
+      "Boys->Clothing->Bottoms->Jeans (29213)",
+      "Boys->Clothing->Bottoms->Shorts (29215)",
+      "Boys->Clothing->Bottoms->Pants & Trousers (29214)",
+      "Boys->Clothing->Schoolwear->Trousers (29228)",
+      "Boys->Clothing->Schoolwear->Knitwear & Jerseys (29221)",
+      "Boys->Clothing->Schoolwear->Ties (29226)",
+      "Boys->Clothing->Schoolwear->Blazers & Jackets (29220)",
+      "Boys->Clothing->Schoolwear->Shirts (29222)",
+      "Boys->Clothing->Schoolwear->Tracksuits (29227)",
+      "Boys->Clothing->Schoolwear->Socks (29224)",
+      "Boys->Clothing->Schoolwear->Shorts (29223)",
+      "Boys->Clothing->Sleepwear->Pyjamas (29231)",
+      "Boys->Clothing->Sleepwear->Bathrobes (29230)",
+      "Boys->Clothing->Onesies & Sets->Jumpsuits (29596)",
+      "Boys->Clothing->Onesies & Sets->Playsuits (29597)",
+      "Boys->Clothing->Onesies & Sets->Sets (29598)",
+      "Boys->Clothing->Tracksuits (29239)",
+      "Boys->Clothing->Swim & Beachwear->Beachwear (29234)",
+      "Boys->Clothing->Tops & T-Shirts->T-Shirts (29236)",
+      "Boys->Clothing->Tops & T-Shirts->Tops (29237)",
+      "Boys->Clothing->Tops & T-Shirts->Vests (29238)",
+      "Boys->Clothing->Underwear->Boxers & Briefs (29241)",
+      "Boys->Clothing->Underwear->Base Layers (29244)",
+      "Boys->Clothing->Underwear->Socks (29243)",
+      "Boys->Clothing->Underwear->Sets (29242)",
+      "Boys->Footwear->Formal Shoes (30822)",
+      "Girls->Clothing->Tops & T-Shirts->T-Shirts (29329)",
+      "Girls->Clothing->Tops & T-Shirts->Vests (29331)",
+      "Girls->Clothing->Tops & T-Shirts->Tops (29330)",
+      "Girls->Clothing->Jumpsuits & Playsuits (29302)",
+      "Girls->Clothing->Dresses (29299)",
+      "Girls->Clothing->Hoodies, Sweatshirts & Fleece (29301)",
+      "Girls->Clothing->Knitwear & Jerseys (29305)",
+      "Girls->Clothing->Tracksuits (29332)",
+      "Girls->Clothing->Onesies & Sets->Sets (29601)",
+      "Girls->Clothing->Onesies & Sets->Playsuits (29304)",
+      "Girls->Clothing->Onesies & Sets->Jumpsuits (29303)",
+      "Girls->Clothing->Schoolwear->Tracksuits (29320)",
+      "Girls->Clothing->Schoolwear->Skirts (29316)",
+      "Girls->Clothing->Schoolwear->Dresses (29310)",
+      "Girls->Clothing->Schoolwear->School Bags (29313)",
+      "Girls->Clothing->Schoolwear->Shorts (29315)",
+      "Girls->Clothing->Schoolwear->Blazers & Jackets (29309)",
+      "Girls->Clothing->Schoolwear->Knitwear & Jerseys (29312)",
+      "Girls->Clothing->Schoolwear->Shirts (29314)",
+      "Girls->Clothing->Schoolwear->Socks & Hosiery (29317)",
+      "Girls->Clothing->Schoolwear->Sportswear (29318)",
+      "Girls->Clothing->Schoolwear->Ties (29319)",
+      "Girls->Clothing->Schoolwear->Trousers (29321)",
+      "Girls->Clothing->Sleepwear->Bathrobes (29323)",
+      "Girls->Clothing->Sleepwear->Pyjamas (29324)",
+      "Girls->Clothing->Party Wear Dresses (29300)",
+      "Girls->Clothing->Swim & Beachwear->Beachwear (29327)",
+      "Girls->Clothing->Blazers & Jackets (29292)",
+      "Girls->Clothing->Underwear->Panties (29334)",
+      "Girls->Clothing->Underwear->Base Layers (29337)",
+      "Girls->Clothing->Underwear->Sets (29335)",
+      "Girls->Clothing->Underwear->Socks (29336)",
+      "Girls->Clothing->Bottoms->Leggings, Tights & Jeggings (29295)",
+      "Girls->Clothing->Bottoms->Skirts (29298)",
+      "Girls->Clothing->Bottoms->Jeans (29294)",
+      "Girls->Clothing->Bottoms->Shorts (29297)",
+      "Girls->Clothing->Bottoms->Pants & Trousers (29296)"
+    ],
+    "7.0.4": [
+      "Clothing->Shirts->Formal (29401)",
+      "Clothing->Shirts->Casual (29400)",
+      "Clothing->Suits->Jackets (29403)",
+      "Clothing->Suits->Suit Sets (29405)",
+      "Clothing->Suits->Pants (29404)",
+      "Clothing->Blazers, Jackets & Coats (29388)",
+      "Clothing->Hoodies, Sweatshirts & Fleece (29395)",
+      "Clothing->Tracksuit Sets (29413)",
+      "Clothing->Underwear, Sleepwear & Socks->Boxers & Briefs (29416)",
+      "Clothing->Underwear, Sleepwear & Socks->Socks (29419)",
+      "Clothing->Underwear, Sleepwear & Socks->Pyjamas (29417)",
+      "Clothing->Underwear, Sleepwear & Socks->Vests & Base Layers (29420)",
+      "Clothing->Underwear, Sleepwear & Socks->Bathrobes (29415)",
+      "Clothing->Tops & T-Shirts->T-Shirts (29411)",
+      "Clothing->Tops & T-Shirts->Vests (29412)",
+      "Clothing->Tops & T-Shirts->Polos & Golfers (29410)",
+      "Clothing->Knitwear & Jerseys->Cardigans (29397)",
+      "Clothing->Knitwear & Jerseys->Jerseys (29398)",
+      "Clothing->Bottoms->Pants & Trousers (29392)",
+      "Clothing->Bottoms->Joggers (29391)",
+      "Clothing->Bottoms->Jeans (29390)",
+      "Clothing->Bottoms->Shorts (29393)",
+      "Clothing->Swim & Beachwear->Beachwear (29407)",
+      "Clothing->Dungarees (30733)"
+    ],
+    "3": [
+      "Clothing->Playsuits (30978)",
+      "Clothing->Maternity->Dresses & Jumpsuits (29543)",
+      "Clothing->Maternity->Tops (29546)",
+      "Clothing->Maternity->Bottoms (29542)",
+      "Clothing->Maternity->Swimwear (29545)",
+      "Clothing->Maternity->Jackets & Coats (29544)",
+      "Clothing->Suits->Jackets (29527)",
+      "Clothing->Suits->Suit Sets (29528)",
+      "Clothing->Suits->Bottoms (29526)",
+      "Clothing->Tracksuits (29541)",
+      "Clothing->Blazers, Jackets & Coats (29497)",
+      "Clothing->Hoodies, Sweatshirts & Fleece (29513)",
+      "Clothing->Bottoms->Leggings, Tights & Jeggings (29504)",
+      "Clothing->Bottoms->Skirts (29507)",
+      "Clothing->Bottoms->Shorts (29506)",
+      "Clothing->Bottoms->Jeans (29503)",
+      "Clothing->Bottoms->Pants & Trousers (29505)",
+      "Clothing->Underwear->Bra Accessories (30976)",
+      "Clothing->Underwear->Hosiery (29551)",
+      "Clothing->Underwear->Bras (29548)",
+      "Clothing->Underwear->Camisoles (29549)",
+      "Clothing->Underwear->Occasionwear (29552)",
+      "Clothing->Underwear->Panties (29553)",
+      "Clothing->Underwear->Shapewear (29555)",
+      "Clothing->Underwear->Sets (29554)",
+      "Clothing->Underwear->Base Layers (29557)",
+      "Clothing->Underwear->Socks (29556)",
+      "Clothing->Jumpsuits (29511)",
+      "Clothing->Sleep & Loungewear->Pyjamas (29523)",
+      "Clothing->Sleep & Loungewear->Bathrobes (29521)",
+      "Clothing->Sleep & Loungewear->Negligees (29522)",
+      "Clothing->Swim & Beachwear->Swimsuits (29534)",
+      "Clothing->Swim & Beachwear->Bikini Sets (30608)",
+      "Clothing->Swim & Beachwear->Kaftans & Cover Ups (29533)",
+      "Clothing->Swim & Beachwear->Boardshorts & Rashvests (29530)",
+      "Clothing->Swim & Beachwear->Bikini Bottoms (29531)",
+      "Clothing->Swim & Beachwear->Bikini Tops (29532)",
+      "Clothing->Dresses->Occasion (29512)",
+      "Clothing->Dresses->Formal (29510)",
+      "Clothing->Dresses->Casual (29509)",
+      "Clothing->Blouses & Shirts->Shirts (29500)",
+      "Clothing->Blouses & Shirts->Tunics (29501)",
+      "Clothing->Blouses & Shirts->Blouses (29499)",
+      "Clothing->Knitwear & Jerseys->Jerseys (29608)",
+      "Clothing->Knitwear & Jerseys->Cardigans (29607)",
+      "Clothing->Knitwear & Jerseys->Poncho (29609)",
+      "Clothing->Tops & T-Shirts->Camisoles (29536)",
+      "Clothing->Tops & T-Shirts->Tops (29539)",
+      "Clothing->Tops & T-Shirts->T-Shirts (29538)",
+      "Clothing->Tops & T-Shirts->Polos & Golfers (29537)",
+      "Accessories->Jewellery->Jewellery Cleaners (30811)"
+    ],
+    "105248634": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_bra_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Bra Type\", \"sheet_name\": \"Bra Type\"}, \"Attribute_neckline\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Neckline\", \"sheet_name\": \"Neckline\"}, \"Attribute_pant_style\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Pants Style\", \"sheet_name\": \"Pants Style\"}, \"Attribute_print_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Print Type\", \"sheet_name\": \"Print Type\"}, \"Attribute_dress_style\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Dress Style\", \"sheet_name\": \"Dress Style\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_panty_style\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Panty Style\", \"sheet_name\": \"Panty Style\"}, \"Attribute_sleeve_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Sleeve Type\", \"sheet_name\": \"Sleeve Type\"}, \"Attribute_closure_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Closure Type\", \"sheet_name\": \"Closure Type\"}, \"Variant.attribute.bra_size\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Bra Sizes\", \"sheet_name\": \"Bra Sizes\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}, \"Attribute_jacket_coat_style_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Dress Size\", \"sheet_name\": \"Dress Size\"}, \"Attribute_embellishment_feature\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Embellishment Feature\", \"sheet_name\": \"Embellishment Feature\"}}": [
+      "LOOKUP_TOPLEVEL29179",
+      "LOOKUP_TOPLEVEL29349",
+      "LOOKUP_TOPLEVEL29434"
+    ],
+    "False": [
+      "Attribute.neckline",
+      "Attribute.knitwear_type",
+      "Attribute.whats_in_the_box",
+      "Attribute.sleeve_length",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.materials.[0]",
+      "Attribute.merchant_packaged_weight.value",
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.jacket_length",
+      "Attribute.pant_style",
+      "Attribute.pant_length",
+      "Attribute.jeans_style",
+      "Attribute.jacket_type.[0]",
+      "Attribute.dress_style",
+      "Attribute.belt_accessory_type",
+      "Attribute.bra_accessory_type",
+      "Attribute.socks_type",
+      "Attribute.is_novelty_wear",
+      "Attribute.sleeve_length",
+      "Attribute.sleeve_type",
+      "Attribute.knitwear_type",
+      "Attribute.body_length",
+      "Attribute.neckline",
+      "Attribute.hosiery_type.[0]",
+      "Attribute.silhouette",
+      "Attribute.occasion",
+      "Attribute.lifestyle",
+      "Attribute.inseam.[0]",
+      "Attribute.fleece_type",
+      "Attribute.neck_style",
+      "Attribute.closure_type",
+      "Attribute.bra_type",
+      "Attribute.support_type",
+      "Attribute.padding",
+      "Attribute.strap_type",
+      "Attribute.panty_style",
+      "Attribute.underwear_pack_type.[0]",
+      "Attribute.print_type",
+      "Attribute.featured_character.[0]",
+      "Attribute.pyjama_type",
+      "Attribute.special_sizes",
+      "Attribute.collar_style",
+      "Attribute.one_piece_style",
+      "Attribute.swimwear_style",
+      "Attribute.bikini_top_style",
+      "Attribute.bikini_bottom_style",
+      "Attribute.bottom_fit_type",
+      "Attribute.fit_type",
+      "Attribute.swimsuit_piece_count",
+      "Attribute.apparel_closure_orientation",
+      "Attribute.embellishment_feature",
+      "Attribute.rise",
+      "Attribute.clasp_type.[0]",
+      "Attribute.is_hand_made",
+      "Attribute.included_components.[0]",
+      "Attribute.target_zone",
+      "Attribute.product_benefits.[0]",
+      "Attribute.seasons.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_water_resistant",
+      "Attribute.watch_accessory_type.[0]"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.pants_size.waist",
+      "Variant.attribute.pants_size.length",
+      "Variant.attribute.jacket_size.[0]",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.bra_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

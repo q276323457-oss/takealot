@@ -1,0 +1,2295 @@
+{
+  "source_file": "loadsheet-99.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 297,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Material",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.brand_compatibility",
+      "label": "Brand Compatibility",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.chair_frame_material",
+      "label": "Chair Frame Material",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.chair_back_style",
+      "label": "Chair Back Style",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.movement_type",
+      "label": "Movement Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.seating_capacity",
+      "label": "Seating Capacity",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.table_shape",
+      "label": "Table Shape",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number Of Pieces",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.number_of_doors",
+      "label": "Number of Doors",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.strap_size.value",
+      "label": "Strap Size",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Variant.attribute.weight.value",
+      "label": "Weight",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.shoe_width",
+      "label": "Shoe Width",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.furniture_included_items.[0]",
+      "label": "Furniture Included Items",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.control_method",
+      "label": "Control Method",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.set_size.[0]",
+      "label": "Set Size",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.light_path_distance.value",
+      "label": "Light Path Distance",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.light_bulb_base_type",
+      "label": "Light Bulb Base Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.bulb_type",
+      "label": "Bulb Type",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.installation_type",
+      "label": "Installation Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.reusability",
+      "label": "Reusability",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.swivel_type",
+      "label": "Swivel Type",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.lure_type",
+      "label": "Lure Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.line_types",
+      "label": "Line Types",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.hook_type",
+      "label": "Hook Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.boating_accessory_type",
+      "label": "Boating Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.gun_maintenance_product_type.[0]",
+      "label": "Gun Maintenance Product Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.braai_types.[0]",
+      "label": "Braai Types",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.blade_shape",
+      "label": "Blade Shape",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.kitchen_tool_and_utensil_type",
+      "label": "Kitchen Tool and Utensil Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.flask_size",
+      "label": "Flask Size",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.food_storage_type",
+      "label": "Food Storage Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.container_type",
+      "label": "Container Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Variant.attribute.pillow_size",
+      "label": "Pillow Size",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.pillow_filler_stuffing",
+      "label": "Pillow Filler/Stuffing",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.pillow_features",
+      "label": "Pillow Features",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.pillow_firmness",
+      "label": "Pillow Firmness",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.standup_paddleboarding_accessories",
+      "label": "Standup Paddleboarding Accessories",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.longboard_type",
+      "label": "Longboard Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.archery_bow_types",
+      "label": "Archery Bow Types",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.canoe_type",
+      "label": "Canoe Type",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.water_sports_apparel_features",
+      "label": "Water Sports Apparel Features",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.goggles_recommended_uses",
+      "label": "Goggles Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.quickdraw_types",
+      "label": "Quickdraw Types",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.belay_type",
+      "label": "Belay Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.windboard_type",
+      "label": "Windboard Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.buoyancy_compensator_types",
+      "label": "Buoyancy Compensator Types",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.surf_leash_type",
+      "label": "Surf Leash Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.arrow_type",
+      "label": "Arrow Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.twin_tip_type",
+      "label": "Twin Tip Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.gun_magazine_pouches_type",
+      "label": "Gun Magazine Pouches Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.archery_quiver_types",
+      "label": "Archery Quiver Types",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.rope_type",
+      "label": "Rope Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.float_type",
+      "label": "Float Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.surfboard_fin_type",
+      "label": "Surfboard Fin Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.crossbow_types",
+      "label": "Crossbow Types",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.sinker_type",
+      "label": "Sinker Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.snorkel_type.[0]",
+      "label": "Snorkel Type",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.surfboard_length",
+      "label": "Surfboard Length",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.bar_type",
+      "label": "Bar Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.fin_type",
+      "label": "Fin Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.engine_type",
+      "label": "Engine Type",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.paddle_types.[0]",
+      "label": "Paddle Types",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.height_from_ground.value",
+      "label": "Height From Ground",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.focus_type",
+      "label": "Focus Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.min_focal_length.value",
+      "label": "Min Focal Length",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.max_focal_length.value",
+      "label": "Max Focal Length",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.max_aperture_value",
+      "label": "Maximum Aperture",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.min_aperture_value",
+      "label": "Minimum Aperture",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.video_camera_type",
+      "label": "Video Camera Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.lens_mounting_type",
+      "label": "Lens Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.opening_mechanism",
+      "label": "Opening Mechanism",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.channels",
+      "label": "Number of Channels",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.switch_type",
+      "label": "Switch Type",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.filter_type",
+      "label": "Filter Type",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Variant.attribute.eyewear_shape",
+      "label": "Eyewear Shape",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.eyewear_lens_type",
+      "label": "Eyewear Lens type",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size Width",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size Length",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.water_resistance_level.value",
+      "label": "Water Resistance Level",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.is_splash_proof",
+      "label": "Splash Proof",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.windsurfing_sail_type",
+      "label": "Windsurfing Sail Type",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Variant.attribute.sport_age_range.[0]",
+      "label": "Sports Age Range",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.is_fireproof",
+      "label": "Is Fireproof",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.windfoiling_type",
+      "label": "Windfoiling Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.din_valve",
+      "label": "Din Valve",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.buoy_type",
+      "label": "Buoy Type",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.sup_board_type",
+      "label": "SUP Board Type",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.kayak_type",
+      "label": "Kayak Type",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.masts_type",
+      "label": "Masts Type",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.gauge_type",
+      "label": "Gauge Type",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.wax_type",
+      "label": "Wax Type",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.face_profile",
+      "label": "Face Profile",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.arrow_rests_type",
+      "label": "Arrow Rests Type",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.windsurfing_base_type",
+      "label": "Windsurfing Base Type",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.finger_length",
+      "label": "Finger Length",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.sport_harness_type",
+      "label": "Sport Harness Type",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.boom_type",
+      "label": "Boom Type",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.diving_fin_types",
+      "label": "Diving Fin Types",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.target_type",
+      "label": "Target Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.nose_plug_type",
+      "label": "Nose Plug Type",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.earplug_type",
+      "label": "Earplug Type",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.neckline",
+      "label": "Neckline",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Variant.attribute.helmet_size",
+      "label": "Helmet Size",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.helmet_type.[0]",
+      "label": "Helmet Type",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.wetsuit_type",
+      "label": "Wetsuit Type",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.body_length",
+      "label": "Body Length",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.sleeve_length",
+      "label": "Sleeve Length",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.is_polarised",
+      "label": "Is Polarised",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.eyewear_type.[0]",
+      "label": "Eyewear Type",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.glove_type",
+      "label": "Glove Type",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.camping_uses.[0]",
+      "label": "Best Uses",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.capacity.value",
+      "label": "Product Capacity",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.number_of_sleeps_persons",
+      "label": "Tent Capacity",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.number_of_persons",
+      "label": "Number of People",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.groundsheet_type.[0]",
+      "label": "Groundsheet Type",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.chair_type",
+      "label": "Chair Type",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.rod_type",
+      "label": "Rod Type",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.reel_type",
+      "label": "Reel Type",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.bait_type",
+      "label": "Bait Type",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.tackle_type.[0]",
+      "label": "Tackle Type",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.gazebo_size.value",
+      "label": "Gazebo Size",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.gazebo_frame_material.[0]",
+      "label": "Gazebo Frame Material",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.gazebo_accessory_type.[0]",
+      "label": "Gazebo Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.backpack_type.[0]",
+      "label": "Backpack Type",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.brightness.value",
+      "label": "Brightness",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Variant.attribute.bed_size",
+      "label": "Outdoor Bedsize",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Variant.attribute.jacket_size.[0]",
+      "label": "Jacket Size",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Variant.attribute.right_hand_left_hand",
+      "label": "Right or Left Hand",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.size_type.[0]",
+      "label": "Size Type",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.has_gas",
+      "label": "Has Gas",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.has_lid",
+      "label": "Lid",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.has_straw",
+      "label": "Has Straw",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.cup_features",
+      "label": "Cup Features",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.has_topo_mapping_technology",
+      "label": "Has TOPO Mapping Technology",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.holds_number_of_cans",
+      "label": "Number of Cans",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.potjie_size",
+      "label": "Potjie Size",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.binocular_type",
+      "label": "Binocular Type",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.digital_camera_resolution.value",
+      "label": "Digital Camera Resolution",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.audio_recording_type",
+      "label": "Audio Recording Type",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.optical_zoom",
+      "label": "Optical Zoom",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.has_image_stabilization",
+      "label": "Image Stabilization",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.lens_types.[0]",
+      "label": "Lens type",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.is_bundle",
+      "label": "Bundle",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.calibre.[0]",
+      "label": "Calibre",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.muzzle_energy",
+      "label": "Muzzle Energy",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.ammunition_type",
+      "label": "Ammunition Type",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.regulator_type",
+      "label": "Regulator Type",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.chalk_type",
+      "label": "Chalk Type",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.sleeping_bag_use.[0]",
+      "label": "Sleeping Bag Use",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.sleeping_bag_size.value",
+      "label": "Sleeping Bag Size",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.is_magnetic",
+      "label": "Is Magnetic",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Attribute.travel_mug_special_features.[0]",
+      "label": "Travel Mug Special Features",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.fishing_tool_type.[0]",
+      "label": "Fishing Tool Type",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.fishing_accessory_type.[0]",
+      "label": "Fishing Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.camping_table_style.[0]",
+      "label": "Camping Table Style",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Attribute.trail_weight.[0]",
+      "label": "Trail Weight",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Device Operating Systems",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Attribute.airbed_thickness.[0]",
+      "label": "Airbed Thickness",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Attribute.table_frame_material.[0]",
+      "label": "Table Frame Material",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Attribute.hand_orientation.[0]",
+      "label": "Hand Orientation",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Attribute.table_top_material.[0]",
+      "label": "Table Top Material",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Attribute.knife_handle_material.[0]",
+      "label": "Knife Handle Material",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Attribute.pole_material.[0]",
+      "label": "Pole Material",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Attribute.lighting_accessory_type.[0]",
+      "label": "Lighting Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Attribute.gps_features.[0]",
+      "label": "GPS Features",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Attribute.tent_base_material.[0]",
+      "label": "Tent Base Material",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Attribute.braai_utensil_type.[0]",
+      "label": "Braai Utensil Type",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Attribute.insect_protection_type.[0]",
+      "label": "Insect Protection Type",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Attribute.spray_pattern",
+      "label": "Spray Pattern",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Attribute.food_flask_special_features.[0]",
+      "label": "Food Flask Special Features",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Attribute.utility_cart_recommended_use.[0]",
+      "label": "Utility Cart Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Attribute.wheel_type",
+      "label": "Wheel Type",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Attribute.seasons.[0]",
+      "label": "Seasons",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.optics_specific_uses.[0]",
+      "label": "Optics Specific Uses",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.seat_recliner_operating_mechanism.[0]",
+      "label": "Seat Recliner Operating Mechanism",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.grill_accessory_type.[0]",
+      "label": "Grill Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.fishing_technique.[0]",
+      "label": "Fishing Technique",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.surface_recommendation.[0]",
+      "label": "Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.table_base_type.[0]",
+      "label": "Table Base Type",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.fishing_line_type.[0]",
+      "label": "Fishing Line Type",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Attribute.water_storage_features.[0]",
+      "label": "Water Storage Features",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Attribute.fishing_rod_grip_type.[0]",
+      "label": "Fishing Rod Grip Type",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standard",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Attribute.blade_material.[0]",
+      "label": "Blade Material",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Attribute.magnification.[0]",
+      "label": "Magnification",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Attribute.blade_edge.[0]",
+      "label": "Blade Edge",
+      "note": ""
+    },
+    {
+      "index": 232,
+      "key": "Attribute.umbrella_style.[0]",
+      "label": "Umbrella Style",
+      "note": ""
+    },
+    {
+      "index": 233,
+      "key": "Attribute.umbrella_accessory_type.[0]",
+      "label": "Umbrella Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 234,
+      "key": "Attribute.shade_accessory_type.[0]",
+      "label": "Shade Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 235,
+      "key": "Attribute.shade_cloth_type.[0]",
+      "label": "Shade Cloth Type",
+      "note": ""
+    },
+    {
+      "index": 236,
+      "key": "Variant.attribute.swimming_fins_size",
+      "label": "Swimming Fins Size",
+      "note": ""
+    },
+    {
+      "index": 237,
+      "key": "Attribute.surfboard_storage_type.[0]",
+      "label": "Surfboard Storage Type",
+      "note": ""
+    },
+    {
+      "index": 238,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 239,
+      "key": "Attribute.has_altimeter",
+      "label": "Altimeter",
+      "note": ""
+    },
+    {
+      "index": 240,
+      "key": "Attribute.has_sleep_monitor",
+      "label": "Sleep Monitor",
+      "note": ""
+    },
+    {
+      "index": 241,
+      "key": "Attribute.has_step_counter",
+      "label": "Step Counter",
+      "note": ""
+    },
+    {
+      "index": 242,
+      "key": "Attribute.has_gps",
+      "label": "GPS",
+      "note": ""
+    },
+    {
+      "index": 243,
+      "key": "Attribute.effectiveness_range.value",
+      "label": "Effectiveness Range",
+      "note": ""
+    },
+    {
+      "index": 244,
+      "key": "Attribute.type_of_pepper_spray",
+      "label": "Type of Pepper Spray",
+      "note": ""
+    },
+    {
+      "index": 245,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 246,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 247,
+      "key": "Attribute.has_distance_tracking",
+      "label": "Distance Tracking",
+      "note": ""
+    },
+    {
+      "index": 248,
+      "key": "Attribute.bezel_size.value",
+      "label": "Bezel Size",
+      "note": ""
+    },
+    {
+      "index": 249,
+      "key": "Attribute.car_body_type.[0]",
+      "label": "Car Body Type",
+      "note": ""
+    },
+    {
+      "index": 250,
+      "key": "Attribute.car_model_and_year.[0]",
+      "label": "Car Model and Year",
+      "note": ""
+    },
+    {
+      "index": 251,
+      "key": "Attribute.car_make.[0]",
+      "label": "Car Make",
+      "note": ""
+    },
+    {
+      "index": 252,
+      "key": "Attribute.has_monitoring_capabilities",
+      "label": "Has Monitoring Capabilities",
+      "note": ""
+    },
+    {
+      "index": 253,
+      "key": "Attribute.has_glonass",
+      "label": "GLONASS",
+      "note": ""
+    },
+    {
+      "index": 254,
+      "key": "Attribute.has_music_player",
+      "label": "Music Player",
+      "note": ""
+    },
+    {
+      "index": 255,
+      "key": "Attribute.has_heart_rate_monitor",
+      "label": "Heart Rate Monitor",
+      "note": ""
+    },
+    {
+      "index": 256,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 257,
+      "key": "Attribute.has_sas_messaging_technology",
+      "label": "SAS Messaging Technology",
+      "note": ""
+    },
+    {
+      "index": 258,
+      "key": "Attribute.has_2way_calling",
+      "label": "2Way Calling",
+      "note": ""
+    },
+    {
+      "index": 259,
+      "key": "Attribute.inflatable_boat_type.[0]",
+      "label": "Inflatable Boat Type",
+      "note": ""
+    },
+    {
+      "index": 260,
+      "key": "Attribute.has_smart_notification_technology",
+      "label": "Smart Notification Technology",
+      "note": ""
+    },
+    {
+      "index": 261,
+      "key": "Attribute.volume.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 262,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 263,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 264,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 265,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 266,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 267,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 268,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 269,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 270,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 271,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 272,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 273,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 274,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 275,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 276,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 277,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 278,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 279,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 280,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 281,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 282,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 283,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 284,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 285,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 286,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 287,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 288,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 289,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 290,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 291,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 292,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 293,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 294,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 295,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 296,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 297,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "99": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Fishing (19005)",
+      "Navigation & Radios (21671)",
+      "Camping & Hiking (18829)",
+      "Chairs (19851)",
+      "Outdoor Meals on the Go (30476)",
+      "GPS Tracking Devices (15716)",
+      "Optics (15357)",
+      "Outdoor Cleaning Detergents (19863)",
+      "Hammocks (17933)",
+      "Canopies & Gazebos (17939)",
+      "Outdoor Umbrellas & Sunshades (17955)",
+      "Hydration Systems (19119)",
+      "Beach,Boating & Watersports (18739)",
+      "Travel Mugs & Tumblers (22258)",
+      "4x4 Accessories (22413)",
+      "Electrical Performance Parts (22412)",
+      "GPS Accessories (15712)",
+      "Stun Guns (22868)",
+      "Hunting Apparel & Footwear (23040)",
+      "Motor Vehicle Performance Parts (20703)",
+      "Climbing & Mountaineering (18859)",
+      "Two-Way Radios (15506)",
+      "Optic Accessories (15333)",
+      "GPS Map Data & Software (18372)",
+      "Hiking Apparel (29307)",
+      "Shooting (19058)",
+      "Catapults & Slingshots (30758)"
+    ],
+    "4.33129": [
+      "Fishing Rods->Fly Fishing (28905)",
+      "Fishing Rods->Saltwater (28907)",
+      "Fishing Rods->Freshwater (28906)",
+      "Fishing Tackle->Other Tackle (28525)",
+      "Fishing Tackle->Fishing Bait (19024)",
+      "Fishing Tackle->Fishing Sinkers (19027)",
+      "Fishing Tackle->Fishing Hooks (19026)",
+      "Fishing Tackle->Fishing Lures (22457)",
+      "Sunglasses->Accessories (29162)",
+      "Sunglasses->Costa (29164)",
+      "Sunglasses->Polarized (29163)",
+      "Line (19011)",
+      "Fishing Accessories (23227)",
+      "Tools (28904)",
+      "Tackle Bags & Boxes (19034)",
+      "Rigging (28903)",
+      "Combos (29160)",
+      "Fishing Apparel & Footwear (19887)",
+      "Fishing Reels (19017)"
+    ],
+    "7.0.4": [
+      "Navigation & Radios (21671)"
+    ],
+    "3": [
+      "Backpacks (28655)",
+      "Outdoor Hobbies & Activities->Outdoor Play->Kites (30567)",
+      "Compass & Tracking (18844)",
+      "Camping Furniture->Sets (30687)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Hammocks (31119)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Stretchers (28484)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Airbeds (18832)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Pumps (28483)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Foam Mattresses (28481)",
+      "Camping Furniture->Airbeds, Mats & Stretchers->Pillows (28482)",
+      "Camping Furniture->Storage & Waste (19855)",
+      "Camping Furniture->Chairs->Festival (28513)",
+      "Camping Furniture->Chairs->Loungers (28514)",
+      "Camping Furniture->Chairs->Recliners (28515)",
+      "Camping Furniture->Chairs->Stools (28516)",
+      "Camping Furniture->Chairs->Armchairs (28511)",
+      "Camping Furniture->Chairs->Directors Chairs (28512)",
+      "Camping Furniture->Furniture Covers (19852)",
+      "Camping Furniture->Tables (19856)",
+      "Gadgets & Tools->Knives & Tools->Camping Tools (28453)",
+      "Gadgets & Tools->Knives & Tools->Batons (31046)",
+      "Gadgets & Tools->Knives & Tools->Sharpeners (28450)",
+      "Gadgets & Tools->Knives & Tools->Survival Kits (28451)",
+      "Gadgets & Tools->Knives & Tools->Tactical Knives (28452)",
+      "Gadgets & Tools->Knives & Tools->Folding Knives (28448)",
+      "Gadgets & Tools->Knives & Tools->Saws, Axes & Shovels (28449)",
+      "Gadgets & Tools->Knives & Tools->Fixed Blade (28447)",
+      "Gadgets & Tools->Knives & Tools->Hunting Knives (18837)",
+      "Gadgets & Tools->Knives & Tools->Multi Tools (18838)",
+      "Gadgets & Tools->Emergency & Survival (19862)",
+      "Gadgets & Tools->Metal Detectors (21547)",
+      "Gadgets & Tools->Ropes & Cords (19892)",
+      "Gadgets & Tools->Power Conversions (19889)",
+      "Storage & Packs->Hydration Systems (19119)",
+      "Storage & Packs->Storage Boxes (22409)",
+      "Storage & Packs->Daypacks (28519)",
+      "Storage & Packs->Waist Packs (28520)",
+      "Storage & Packs->Storage Bags (22408)",
+      "Storage & Packs->Backpacks (28518)",
+      "Storage & Packs->Waterproof Storage & Liners (19897)",
+      "Storage & Packs->Packing Solutions & Accessories (21550)",
+      "Straps & Sacks (19886)",
+      "Sleeping Mats (18851)",
+      "Portable Toilets & Showers (18845)",
+      "Lighting->Lamps & Lanterns (21546)",
+      "Lighting->Fans (21544)",
+      "Lighting->Lighting Accessories (28454)",
+      "Lighting->Headlamps (19895)",
+      "Lighting->Micro Lighting (21548)",
+      "Lighting->Safety (28455)",
+      "Lighting->Strips & Candles (19894)",
+      "Lighting->Torches (21549)",
+      "Lighting->Spotlights (22411)",
+      "Tents & Shelters->Gazebos & Shade->Gazebo Accessories (30939)",
+      "Tents & Shelters->Gazebos & Shade->Gazebo Walls (28460)",
+      "Tents & Shelters->Gazebos & Shade->Gazebos (28527)",
+      "Tents & Shelters->Gazebos & Shade->Gazebo Weights (17945)",
+      "Tents & Shelters->Gazebos & Shade->Vehicle Shade (28461)",
+      "Tents & Shelters->Bell Tents (22896)",
+      "Tents & Shelters->Dome Tents (21431)",
+      "Tents & Shelters->Family Tents (21432)",
+      "Tents & Shelters->Groundsheets (18854)",
+      "Tents & Shelters->Hiking Tents (21433)",
+      "Tents & Shelters->Instant Tents (21434)",
+      "Tents & Shelters->Rooftop Tents (21436)",
+      "Tents & Shelters->Safari Canvas Tents (21435)",
+      "Tents & Shelters->Accessories->Tent Accessories (28523)",
+      "Tents & Shelters->Accessories->Dividers (18853)",
+      "Tents & Shelters->Accessories->Pegs (21442)",
+      "Tents & Shelters->Accessories->Repair Kits (21444)",
+      "Tents & Shelters->Accessories->Tent Poles & Stakes (18855)",
+      "Health & Hygiene->Showers (28458)",
+      "Health & Hygiene->Portable Toilets (18847)",
+      "Health & Hygiene->Insect Protection (28457)",
+      "Health & Hygiene->Towels (30998)",
+      "Health & Hygiene->Washing Machines (19857)",
+      "Health & Hygiene->Water Treatment (19858)",
+      "Health & Hygiene->First Aid Kits (28456)",
+      "Health & Hygiene->Laundry & Washlines (19854)",
+      "Outdoor Kitchen ->Outdoor Meals on the Go (30476)",
+      "Outdoor Kitchen ->Braai->Braai Ovens (30879)",
+      "Outdoor Kitchen ->Braai->Cookers & Grills (19866)",
+      "Outdoor Kitchen ->Braai->Covers & Storage (28486)",
+      "Outdoor Kitchen ->Braai->Grids (19876)",
+      "Outdoor Kitchen ->Braai->Grill Accessories (28487)",
+      "Outdoor Kitchen ->Braai->Utensils (29585)",
+      "Outdoor Kitchen ->Kitchen->Wash Up Stands (19882)",
+      "Outdoor Kitchen ->Kitchen->Accessories (28504)",
+      "Outdoor Kitchen ->Kitchen->Kitchen Units (19878)",
+      "Outdoor Kitchen ->Kitchen->Storage & Waste (28503)",
+      "Outdoor Kitchen ->Kitchen->Basins & Drain Racks (19896)",
+      "Outdoor Kitchen ->Flasks & Travel Mugs->Travel Flasks (28496)",
+      "Outdoor Kitchen ->Flasks & Travel Mugs->Food Flasks (28494)",
+      "Outdoor Kitchen ->Flasks & Travel Mugs->Mugs (28495)",
+      "Outdoor Kitchen ->Cast Iron->Jaffle Irons (28489)",
+      "Outdoor Kitchen ->Cast Iron->Grills & Pans (28488)",
+      "Outdoor Kitchen ->Cast Iron->Pots & Potjies (28490)",
+      "Outdoor Kitchen ->Tableware->Cups & Mugs (28505)",
+      "Outdoor Kitchen ->Tableware->Drinkware (28507)",
+      "Outdoor Kitchen ->Tableware->Table Cloths, Clamps & Serveware (28509)",
+      "Outdoor Kitchen ->Tableware->Cutlery (28506)",
+      "Outdoor Kitchen ->Tableware->Plates & Bowls (28508)",
+      "Outdoor Kitchen ->Gas->Covers & Storage (28500)",
+      "Outdoor Kitchen ->Gas->Cylinders (28501)",
+      "Outdoor Kitchen ->Gas->Accessories (28497)",
+      "Outdoor Kitchen ->Gas->Cartridges (28498)",
+      "Outdoor Kitchen ->Gas->Cooker Tops & Stoves (28499)",
+      "Outdoor Kitchen ->Picnic (19879)",
+      "Outdoor Kitchen ->Water Storage->Containers (28463)",
+      "Outdoor Kitchen ->Water Storage->Jugs (28464)",
+      "Outdoor Kitchen ->Water Storage->Collapsible Water Carriers (28462)",
+      "Outdoor Kitchen ->Water Storage->Water Bottles (22866)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Pots & Potjies (19880)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Utensils (19881)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Storage (19873)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Jaffle Irons (19877)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Kitchen Tools (28492)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Kettles & Teapots (28491)",
+      "Outdoor Kitchen ->Camping Cookware & Dinnerware->Grills & Pans (23164)",
+      "Pillows & Liners (22407)",
+      "Sleeping Bags (18850)",
+      "Trekking Poles (18842)",
+      "Coolers & Refrigeration->Cooler Boxes (19869)",
+      "Coolers & Refrigeration->Jugs (28444)",
+      "Coolers & Refrigeration->Cooler Bags (19868)",
+      "Coolers & Refrigeration->Ice Bricks (19870)",
+      "Coolers & Refrigeration->Mobile Refrigeration->Accessories->Battery Chargers & External Power (19859)",
+      "Coolers & Refrigeration->Mobile Refrigeration->Accessories->Cables & Plugs (19860)",
+      "Coolers & Refrigeration->Mobile Refrigeration->Freezer Only (22406)",
+      "Coolers & Refrigeration->Mobile Refrigeration->Thermo Electric Coolers (19872)",
+      "Coolers & Refrigeration->Mobile Refrigeration->Fridge Freezers (28446)"
+    ],
+    "79595656": [
+      "Festival (28513)",
+      "Loungers (28514)",
+      "Recliners (28515)",
+      "Stools (28516)",
+      "Armchairs (28511)",
+      "Directors Chairs (28512)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Outdoor Meals on the Go (30476)"
+    ],
+    "False": [
+      "Gazebo Accessories (30940)",
+      "Gazebos (28510)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.part_number",
+      "Attribute.brand_compatibility",
+      "Attribute.chair_frame_material",
+      "Attribute.chair_back_style",
+      "Attribute.movement_type",
+      "Attribute.seating_capacity",
+      "Attribute.table_shape",
+      "Attribute.number_of_pieces",
+      "Attribute.number_of_doors",
+      "Attribute.pattern_type",
+      "Attribute.strap_size.value",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.shoe_width",
+      "Attribute.furniture_included_items.[0]",
+      "Attribute.control_method",
+      "Attribute.set_size.[0]",
+      "Attribute.light_path_distance.value",
+      "Attribute.light_bulb_base_type",
+      "Attribute.bulb_type",
+      "Attribute.installation_type",
+      "Attribute.reusability",
+      "Attribute.swivel_type",
+      "Attribute.lure_type",
+      "Attribute.line_types",
+      "Attribute.hook_type",
+      "Attribute.boating_accessory_type",
+      "Attribute.gun_maintenance_product_type.[0]",
+      "Attribute.is_portable",
+      "Attribute.braai_types.[0]",
+      "Attribute.blade_shape",
+      "Attribute.kitchen_tool_and_utensil_type",
+      "Attribute.flask_size",
+      "Attribute.food_storage_type",
+      "Attribute.container_type",
+      "Attribute.pillow_filler_stuffing",
+      "Attribute.pillow_features",
+      "Attribute.pillow_firmness",
+      "Attribute.standup_paddleboarding_accessories",
+      "Attribute.longboard_type",
+      "Attribute.archery_bow_types",
+      "Attribute.canoe_type",
+      "Attribute.water_sports_apparel_features",
+      "Attribute.goggles_recommended_uses",
+      "Attribute.quickdraw_types",
+      "Attribute.belay_type",
+      "Attribute.windboard_type",
+      "Attribute.buoyancy_compensator_types",
+      "Attribute.surf_leash_type",
+      "Attribute.arrow_type",
+      "Attribute.twin_tip_type",
+      "Attribute.gun_magazine_pouches_type",
+      "Attribute.archery_quiver_types",
+      "Attribute.rope_type",
+      "Attribute.float_type",
+      "Attribute.surfboard_fin_type",
+      "Attribute.crossbow_types",
+      "Attribute.sinker_type",
+      "Attribute.snorkel_type.[0]",
+      "Attribute.surfboard_length",
+      "Attribute.bar_type",
+      "Attribute.fin_type",
+      "Attribute.engine_type",
+      "Attribute.paddle_types.[0]",
+      "Attribute.height_from_ground.value",
+      "Attribute.finish_type",
+      "Attribute.focus_type",
+      "Attribute.min_focal_length.value",
+      "Attribute.max_focal_length.value",
+      "Attribute.max_aperture_value",
+      "Attribute.min_aperture_value",
+      "Attribute.power_source",
+      "Attribute.video_camera_type",
+      "Attribute.lens_mounting_type",
+      "Attribute.battery_type",
+      "Attribute.operation_mode",
+      "Attribute.opening_mechanism",
+      "Attribute.channels",
+      "Attribute.mounting_type",
+      "Attribute.switch_type",
+      "Attribute.filter_type",
+      "Attribute.eyewear_lens_type",
+      "Attribute.diameter.value",
+      "Attribute.water_resistance_level.value",
+      "Attribute.number_of_compartments",
+      "Attribute.product_shape",
+      "Attribute.is_heavy_duty",
+      "Attribute.is_water_resistant",
+      "Attribute.is_splash_proof",
+      "Attribute.is_adjustable",
+      "Attribute.windsurfing_sail_type",
+      "Attribute.is_fireproof",
+      "Attribute.windfoiling_type",
+      "Attribute.din_valve",
+      "Attribute.buoy_type",
+      "Attribute.sup_board_type",
+      "Attribute.kayak_type",
+      "Attribute.masts_type",
+      "Attribute.gauge_type",
+      "Attribute.wax_type",
+      "Attribute.face_profile",
+      "Attribute.arrow_rests_type",
+      "Attribute.windsurfing_base_type",
+      "Attribute.finger_length",
+      "Attribute.power.value",
+      "Attribute.sport_harness_type",
+      "Attribute.boom_type",
+      "Attribute.diving_fin_types",
+      "Attribute.target_type",
+      "Attribute.nose_plug_type",
+      "Attribute.earplug_type",
+      "Attribute.neckline",
+      "Attribute.helmet_type.[0]",
+      "Attribute.wetsuit_type",
+      "Attribute.body_length",
+      "Attribute.sleeve_length",
+      "Attribute.eyewear_lens_features",
+      "Attribute.is_polarised",
+      "Attribute.eyewear_type.[0]",
+      "Attribute.glove_type",
+      "Attribute.closure_type",
+      "Attribute.camping_uses.[0]",
+      "Attribute.capacity.value",
+      "Attribute.number_of_sleeps_persons",
+      "Attribute.number_of_persons",
+      "Attribute.groundsheet_type.[0]",
+      "Attribute.chair_type",
+      "Attribute.rod_type",
+      "Attribute.reel_type",
+      "Attribute.bait_type",
+      "Attribute.tackle_type.[0]",
+      "Attribute.gazebo_size.value",
+      "Attribute.gazebo_frame_material.[0]",
+      "Attribute.gazebo_accessory_type.[0]",
+      "Attribute.backpack_type.[0]",
+      "Attribute.brightness.value",
+      "Attribute.size_type.[0]",
+      "Attribute.sports.[0]",
+      "Attribute.has_gas",
+      "Attribute.has_lid",
+      "Attribute.has_handle",
+      "Attribute.has_straw",
+      "Attribute.cup_features",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.holds_number_of_cans",
+      "Attribute.potjie_size",
+      "Attribute.binocular_type",
+      "Attribute.digital_camera_resolution.value",
+      "Attribute.audio_recording_type",
+      "Attribute.optical_zoom",
+      "Attribute.has_image_stabilization",
+      "Attribute.lens_types.[0]",
+      "Attribute.is_bundle",
+      "Attribute.calibre.[0]",
+      "Attribute.muzzle_energy",
+      "Attribute.ammunition_type",
+      "Attribute.regulator_type",
+      "Attribute.chalk_type",
+      "Attribute.light_source",
+      "Attribute.sleeping_bag_use.[0]",
+      "Attribute.sleeping_bag_size.value",
+      "Attribute.is_waterproof",
+      "Attribute.is_magnetic",
+      "Attribute.travel_mug_special_features.[0]",
+      "Attribute.fishing_tool_type.[0]",
+      "Attribute.fishing_accessory_type.[0]",
+      "Attribute.camping_table_style.[0]",
+      "Attribute.trail_weight.[0]",
+      "Attribute.operating_systems.[0]",
+      "Attribute.airbed_thickness.[0]",
+      "Attribute.table_frame_material.[0]",
+      "Attribute.hand_orientation.[0]",
+      "Attribute.table_top_material.[0]",
+      "Attribute.knife_handle_material.[0]",
+      "Attribute.pole_material.[0]",
+      "Attribute.lighting_accessory_type.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.gps_features.[0]",
+      "Attribute.tent_base_material.[0]",
+      "Attribute.braai_utensil_type.[0]",
+      "Attribute.insect_protection_type.[0]",
+      "Attribute.spray_pattern",
+      "Attribute.food_flask_special_features.[0]",
+      "Attribute.utility_cart_recommended_use.[0]",
+      "Attribute.wheel_type",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.seasons.[0]",
+      "Attribute.optics_specific_uses.[0]",
+      "Attribute.seat_recliner_operating_mechanism.[0]",
+      "Attribute.grill_accessory_type.[0]",
+      "Attribute.fishing_technique.[0]",
+      "Attribute.surface_recommendation.[0]",
+      "Attribute.table_base_type.[0]",
+      "Attribute.fishing_line_type.[0]",
+      "Attribute.water_storage_features.[0]",
+      "Attribute.fishing_rod_grip_type.[0]",
+      "Attribute.display_standards.[0]",
+      "Attribute.blade_material.[0]",
+      "Attribute.magnification.[0]",
+      "Attribute.blade_edge.[0]",
+      "Attribute.umbrella_style.[0]",
+      "Attribute.umbrella_accessory_type.[0]",
+      "Attribute.shade_accessory_type.[0]",
+      "Attribute.shade_cloth_type.[0]",
+      "Attribute.surfboard_storage_type.[0]",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.has_altimeter",
+      "Attribute.has_sleep_monitor",
+      "Attribute.has_step_counter",
+      "Attribute.has_gps",
+      "Attribute.effectiveness_range.value",
+      "Attribute.type_of_pepper_spray",
+      "Attribute.touchscreen_enabled",
+      "Attribute.screen_size.value",
+      "Attribute.has_distance_tracking",
+      "Attribute.bezel_size.value",
+      "Attribute.car_body_type.[0]",
+      "Attribute.car_model_and_year.[0]",
+      "Attribute.car_make.[0]",
+      "Attribute.has_monitoring_capabilities",
+      "Attribute.has_glonass",
+      "Attribute.has_music_player",
+      "Attribute.has_heart_rate_monitor",
+      "Attribute.has_bluetooth",
+      "Attribute.has_sas_messaging_technology",
+      "Attribute.has_2way_calling",
+      "Attribute.inflatable_boat_type.[0]",
+      "Attribute.has_smart_notification_technology",
+      "Attribute.volume.value",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.customer_registration_required",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.pillow_size",
+      "Variant.attribute.eyewear_shape",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.sport_age_range.[0]",
+      "Variant.attribute.helmet_size",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.jacket_size.[0]",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.right_hand_left_hand",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.bag_size.value",
+      "Variant.attribute.swimming_fins_size",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.packed_quantity"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

@@ -1,0 +1,895 @@
+{
+  "source_file": "loadsheet-248.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 108,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.lifestyle",
+      "label": "Lifestyle",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.piercing_type.[0]",
+      "label": "Piercing Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.jewellery_type.[0]",
+      "label": "Jewellery Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.eyewear_accessory_type.[0]",
+      "label": "Eyewear Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.necklace_type",
+      "label": "Necklace Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.clasp_type.[0]",
+      "label": "Clasp Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.belt_type.[0]",
+      "label": "Belt Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.belt_accessory_type",
+      "label": "Belt Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.metal_type.[0]",
+      "label": "Metal Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.stone_type.[0]",
+      "label": "Stone Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.shape",
+      "label": "Item Shape",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.stone_creation_method",
+      "label": "Stone Creation Method",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.theme.[0]",
+      "label": "Theme",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.customizable",
+      "label": "Customizable",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.featured_character.[0]",
+      "label": "Featured Character",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.tie_type.[0]",
+      "label": "Tie Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.ring_type.[0]",
+      "label": "Ring Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.earring_type",
+      "label": "Earring Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.bracelet_type.[0]",
+      "label": "Bracelet Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.accessories_pack_type",
+      "label": "Accessories Pack Type",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.has_adjustable_straps",
+      "label": "Has Adjustable Straps",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Variant.attribute.ring_size",
+      "label": "Ring Size",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.stone_shape",
+      "label": "Stone Shape",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Variant.attribute.carat_size",
+      "label": "Carat Size",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.embellishment_feature",
+      "label": "Embellishment Feature",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Variant.attribute.jewellery_size.value",
+      "label": "Jewellery Size",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.special_sizes",
+      "label": "Special Sizes",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.strap_size.value",
+      "label": "Strap Size Value",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.hosiery_type.[0]",
+      "label": "Hosiery Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.scarf_types",
+      "label": "Scarf Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.socks_type",
+      "label": "Sock Type",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.fit_type",
+      "label": "Fit Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.included_components.[0]",
+      "label": "Included Components",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.watch_type.[0]",
+      "label": "Watch Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.watch_accessory_type.[0]",
+      "label": "Watch Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.band_material",
+      "label": "Band Material",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.watch_features.[0]",
+      "label": "Watch Features",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.watch_movement",
+      "label": "Watch Movement",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.is_polarised",
+      "label": "Polarised",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.eyewear_lens_type",
+      "label": "Lens Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Variant.attribute.eyewear_shape",
+      "label": "Eyewear Shape",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.headwear_type",
+      "label": "Headwear Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.watch_case_size",
+      "label": "Watch Case Size",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.is_novelty_wear",
+      "label": "Novelty Wear",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.eyewear_type.[0]",
+      "label": "Eyewear Shape",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.dental_accessory_placement",
+      "label": "Dental Accessory Placement",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.dental_accessory_type",
+      "label": "Dental Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.is_permanent",
+      "label": "Is Permanent",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.glasses_features.[0]",
+      "label": "Eyewear Features",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.bra_accessory_type",
+      "label": "Bra Accessory Type",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "248": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "2.30271": [
+      "Boys->Accessories->Socks (29194)",
+      "Boys->Accessories->Watches (29196)",
+      "Boys->Accessories->Belts (29182)",
+      "Boys->Accessories->Sets (29595)",
+      "Boys->Accessories->Eyewear (29183)",
+      "Boys->Accessories->Gloves & Mittens (29185)",
+      "Boys->Accessories->Scarves (29193)",
+      "Boys->Accessories->Hats, Caps & Beanies->Caps (29189)",
+      "Boys->Accessories->Hats, Caps & Beanies->Beanies (29188)",
+      "Boys->Accessories->Hats, Caps & Beanies->Hats (29190)",
+      "Boys->Footwear->Formal Shoes (30822)",
+      "Girls->Accessories->Watches (29276)",
+      "Girls->Accessories->Jewellery (29272)",
+      "Girls->Accessories->Socks (29274)",
+      "Girls->Accessories->Sets (29600)",
+      "Girls->Accessories->Gloves & Mittens (29261)",
+      "Girls->Accessories->Belts (29258)",
+      "Girls->Accessories->Hats, Caps & Beanies->Caps (29269)",
+      "Girls->Accessories->Hats, Caps & Beanies->Hats (29270)",
+      "Girls->Accessories->Hats, Caps & Beanies->Beanies (29268)",
+      "Girls->Accessories->Hair Accessories->Tiaras (29265)",
+      "Girls->Accessories->Hair Accessories->Hair Ties (29599)",
+      "Girls->Accessories->Hair Accessories->Clips & Hair Pins (29263)",
+      "Girls->Accessories->Hair Accessories->Head & Alice Bands (29264)",
+      "Girls->Accessories->Scarves (29273)",
+      "Girls->Accessories->Eyewear (29259)"
+    ],
+    "7.0.4": [
+      "Accessories->Scarves (29373)",
+      "Accessories->Belts (29353)",
+      "Accessories->Ties (29375)",
+      "Accessories->Eyewear (29354)",
+      "Accessories->Belt Accessories (30742)",
+      "Accessories->Eyewear Accessories (29355)",
+      "Accessories->Handkerchiefs (30655)",
+      "Accessories->Gloves & Mittens (29356)",
+      "Accessories->Socks (29374)",
+      "Accessories->Hats, Caps & Beanies->Caps (29359)",
+      "Accessories->Hats, Caps & Beanies->Beanies (29358)",
+      "Accessories->Hats, Caps & Beanies->Hats (29360)",
+      "Accessories->Jewellery->Dental (30774)",
+      "Accessories->Jewellery->Jewellery Cleaners (30810)",
+      "Accessories->Jewellery->Bracelets (29363)",
+      "Accessories->Jewellery->Brooches & Pins (29364)",
+      "Accessories->Jewellery->Necklaces (29370)",
+      "Accessories->Jewellery->Earrings (29367)",
+      "Accessories->Jewellery->Cufflinks (29366)",
+      "Accessories->Jewellery->Jewellery Sets (29368)",
+      "Accessories->Jewellery->Body Piercings (29362)",
+      "Accessories->Jewellery->Loose Stones (29369)",
+      "Accessories->Jewellery->Pendants (29371)",
+      "Accessories->Jewellery->Rings (29372)",
+      "Accessories->Jewellery->Charms (29365)",
+      "Accessories->Watches & Accessories->Watches (29602)",
+      "Accessories->Watches & Accessories->Accessories (29603)"
+    ],
+    "3": [
+      "Clothing->Playsuits (30978)",
+      "Clothing->Underwear->Bra Accessories (30976)",
+      "Accessories->Hosiery (29462)",
+      "Accessories->Ties (29484)",
+      "Accessories->Gloves & Mittens (29453)",
+      "Accessories->Hats, Caps & Beanies->Caps (29460)",
+      "Accessories->Hats, Caps & Beanies->Beanies (29459)",
+      "Accessories->Hats, Caps & Beanies->Hats (29461)",
+      "Accessories->Jewellery->Dental (30773)",
+      "Accessories->Jewellery->Necklaces (29473)",
+      "Accessories->Jewellery->Jewellery Cleaners (30811)",
+      "Accessories->Jewellery->Body Piercings (29465)",
+      "Accessories->Jewellery->Bangles (29464)",
+      "Accessories->Jewellery->Earrings (29470)",
+      "Accessories->Jewellery->Anklets (30642)",
+      "Accessories->Jewellery->Brooches & Pins (29467)",
+      "Accessories->Jewellery->Loose Stones (29472)",
+      "Accessories->Jewellery->Cufflinks (29469)",
+      "Accessories->Jewellery->Bracelets (29466)",
+      "Accessories->Jewellery->Charms (29468)",
+      "Accessories->Jewellery->Jewellery Sets (29471)",
+      "Accessories->Jewellery->Pendants (29474)",
+      "Accessories->Jewellery->Rings (29475)",
+      "Accessories->Eyewear Accessories (29452)",
+      "Accessories->Belt Accessories (30743)",
+      "Accessories->Belts (29450)",
+      "Accessories->Scarves (29482)",
+      "Accessories->Eyewear (29451)",
+      "Accessories->Watches & Accessories->Accessories (29606)",
+      "Accessories->Watches & Accessories->Watches (29605)",
+      "Accessories->Socks (29483)",
+      "Accessories->Hair Accessories->Hair Ties (29604)",
+      "Accessories->Hair Accessories->Tiaras (29457)",
+      "Accessories->Hair Accessories->Head & Alice Bands (29456)",
+      "Accessories->Hair Accessories->Hair Clips & Pins (29455)"
+    ],
+    "105250787": [
+      "Kids (29179)",
+      "Men (29349)",
+      "Women (29434)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}}": [
+      "LOOKUP_TOPLEVEL29179",
+      "LOOKUP_TOPLEVEL29349",
+      "LOOKUP_TOPLEVEL29434"
+    ],
+    "False": [
+      "Attribute.whats_in_the_box",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.materials.[0]",
+      "Attribute.merchant_packaged_weight.value",
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.lifestyle",
+      "Attribute.piercing_type.[0]",
+      "Attribute.jewellery_type.[0]",
+      "Attribute.eyewear_accessory_type.[0]",
+      "Attribute.necklace_type",
+      "Attribute.clasp_type.[0]",
+      "Attribute.closure_type",
+      "Attribute.belt_type.[0]",
+      "Attribute.belt_accessory_type",
+      "Attribute.metal_type.[0]",
+      "Attribute.stone_type.[0]",
+      "Attribute.shape",
+      "Attribute.stone_creation_method",
+      "Attribute.theme.[0]",
+      "Attribute.customizable",
+      "Attribute.featured_character.[0]",
+      "Attribute.tie_type.[0]",
+      "Attribute.ring_type.[0]",
+      "Attribute.earring_type",
+      "Attribute.bracelet_type.[0]",
+      "Attribute.accessories_pack_type",
+      "Attribute.has_adjustable_straps",
+      "Attribute.embellishment_feature",
+      "Attribute.special_sizes",
+      "Attribute.strap_size.value",
+      "Attribute.hosiery_type.[0]",
+      "Attribute.scarf_types",
+      "Attribute.socks_type",
+      "Attribute.fit_type",
+      "Attribute.included_components.[0]",
+      "Attribute.watch_type.[0]",
+      "Attribute.watch_accessory_type.[0]",
+      "Attribute.band_material",
+      "Attribute.watch_features.[0]",
+      "Attribute.watch_movement",
+      "Attribute.is_polarised",
+      "Attribute.eyewear_lens_type",
+      "Attribute.headwear_type",
+      "Attribute.watch_case_size",
+      "Attribute.is_novelty_wear",
+      "Attribute.eyewear_type.[0]",
+      "Attribute.is_hand_made",
+      "Attribute.dental_accessory_placement",
+      "Attribute.dental_accessory_type",
+      "Attribute.is_permanent",
+      "Attribute.glasses_features.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_water_resistant",
+      "Attribute.bra_accessory_type"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.ring_size",
+      "Variant.attribute.stone_shape",
+      "Variant.attribute.carat_size",
+      "Variant.attribute.jewellery_size.value",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.eyewear_shape"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

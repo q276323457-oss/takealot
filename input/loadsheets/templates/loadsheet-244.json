@@ -1,0 +1,1250 @@
+{
+  "source_file": "loadsheet-244.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 156,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Color",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Color Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.shoe_model",
+      "label": "Shoe Model",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.sport_age_range.[0]",
+      "label": "Proficiency Level",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.swimming_sock_sizes",
+      "label": "Swimming Sock Sizes",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Variant.attribute.bra_size",
+      "label": "Bra Size",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.jacket_type.[0]",
+      "label": "Jacket Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.neckline",
+      "label": "Neckline Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.sleeve_length",
+      "label": "Sleeve Length",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Variant.attribute.pants_size.waist",
+      "label": "Pants Waist Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Variant.attribute.pants_size.length",
+      "label": "Pants Length in Inches",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.heel_to_toe_drop",
+      "label": "Heel to Toe Drop",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Variant.attribute.sock_size",
+      "label": "Sock Size",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.socks_type",
+      "label": "Sock Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.boot_surface_type",
+      "label": "Boot Surface",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.soccer_boot_type",
+      "label": "Soccer Boot Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.foot_arch_types",
+      "label": "Foot Arch Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.shoe_function",
+      "label": "Shoe Function",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.comfort",
+      "label": "Running Shoe Comfort",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.distance_suitablility.[0]",
+      "label": "Distance Suitablity",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_polarised",
+      "label": "Is Polarised",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.eyewear_type.[0]",
+      "label": "Eyewear Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.roller_skate_type",
+      "label": "Roller Skate Type",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Variant.attribute.compression_sleeve_size",
+      "label": "Compression Sleeve Size",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.compression_sock_sizes",
+      "label": "Compression Sock Size",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.swimwear_clothing_function",
+      "label": "Swimwear Function",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.sport_clothing_style",
+      "label": "Sport Clothing Style",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.hoodie_type",
+      "label": "Hoodie Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.jogger_type",
+      "label": "Jogger Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.glove_type",
+      "label": "Glove Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.fit_type",
+      "label": "Fit Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.jacket_features",
+      "label": "Jacket Features",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.headwear_type",
+      "label": "Headwear type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.bikini_bottom_style",
+      "label": "Bikini Bottom style",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.bikini_top_style",
+      "label": "Bikini Top Style",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.field_hockey_accessory_type",
+      "label": "Field Hockey Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.bottom_fit_type",
+      "label": "Bottom Fit Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.wetsuit_type",
+      "label": "Wetsuit Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.is_removable",
+      "label": "Is Removable",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.vest_type",
+      "label": "Vest Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.soccer_fan_gear_features",
+      "label": "Soccer Fan Gear Features",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.sports_clothing_type",
+      "label": "Sports Clothing Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.footwear_ideal_use",
+      "label": "Footwear Ideal Use",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.ballet_shoe_sole_type",
+      "label": "Ballet Shoe Sole Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.ballet_shoe_style_type",
+      "label": "Ballet Shoe Style Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.sport_clothing_ideal_use",
+      "label": "Sport Clothing Ideal Use",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.belt_type.[0]",
+      "label": "Belt Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.kit_type",
+      "label": "Kit Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.shorts_type",
+      "label": "Shorts Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.sneaker_style",
+      "label": "Sneaker Style",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.sock_features",
+      "label": "Sock Features",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.teams",
+      "label": "Teams",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.reflective_gear_features",
+      "label": "Reflective Gear Features",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.clasp_type.[0]",
+      "label": "Clasp Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.soccer_teams",
+      "label": "Soccer Teams",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.body_length",
+      "label": "Body Length",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.water_sports_apparel_features",
+      "label": "Water Sports Apparel Features",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.product_benefits.[0]",
+      "label": "Product Benefits",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.tights_type",
+      "label": "Tights Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.underwear_style",
+      "label": "Underwear Style",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.blouse_features",
+      "label": "Blouse Features",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.skirt_or_skort_type",
+      "label": "Skirt or Skort Type",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.bra_type",
+      "label": "Bra Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.eyewear_lens_type",
+      "label": "Eyewear Lens type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.collar_style",
+      "label": "Collar Style",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Variant.attribute.chaps_and_gaiters_size.[0]",
+      "label": "Chaps and Gaiters Size",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Variant.attribute.weight.unit",
+      "label": "Weight Unit",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Variant.attribute.weight.value",
+      "label": "Weight",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Variant.attribute.eyewear_shape",
+      "label": "Eyewear Shape",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Variant.attribute.glove_size.[0]",
+      "label": "Training Glove Size",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.fan_merchandise_features",
+      "label": "Fan Merchandise Features",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.rugby_fan_gear_features",
+      "label": "Rugby Fan Gear Features",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.snow_suit_features",
+      "label": "Snow Suit Features",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.tennis_accessory_features",
+      "label": "Tennis Accessory Features",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.underwear_pack_type.[0]",
+      "label": "Underwear Pack Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.bottom_features",
+      "label": "Bottom Features",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.sport_clothing_benefits",
+      "label": "Sport Clothing Benefits",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.top_features",
+      "label": "Top Features",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.pant_style",
+      "label": "Pant Style",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.pant_length",
+      "label": "Pant Length",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.cycling_shoe_type",
+      "label": "Cycling Shoe Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.flag_type.[0]",
+      "label": "Flag Type",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.padding",
+      "label": "Padding",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.seasons.[0]",
+      "label": "Season",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.racquet_string_types.[0]",
+      "label": "Racquet String Type",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.engine_capacity.unit",
+      "label": "engine capacity unit",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.engine_capacity.value",
+      "label": "engine capacity value",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.net_types.[0]",
+      "label": "Net Types",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.finger_length",
+      "label": "Finger Length",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.grip_types",
+      "label": "Grip Types",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Variant.attribute.wheel_size.unit",
+      "label": "Wheel Size Unit",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Variant.attribute.wheel_size.value",
+      "label": "Wheel Size Value",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.chassis_type",
+      "label": "Chassis Type",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.padel_racket_type.[0]",
+      "label": "Padel Racket Type [0]",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.racquet_type.[0]",
+      "label": "Racquet Type",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Variant.attribute.bag_size.unit",
+      "label": "Bag Size Unit",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size Value",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.bag_types.[0]",
+      "label": "Bag Types",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.engine_power.unit",
+      "label": "Engine Power Unit",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.engine_power.value",
+      "label": "Engine Power Value",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.padel_accessory_type.[0]",
+      "label": "Padel Accessory Type [0]",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.is_fireproof",
+      "label": "Is Fireproof",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "244": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Tops (30515)",
+      "Bottoms (22431)",
+      "Footwear (14510)",
+      "Swimwear (29174)",
+      "Clothing Accessories (14410)",
+      "Running Clothing (19627)",
+      "Sunglasses (29161)",
+      "Snow Sports Clothing (28992)",
+      "Boating & Water Sport Apparel (18751)",
+      "Hunting & Fishing Clothing (14303)",
+      "Water Polo Clothing (29129)",
+      "Combat Sports Clothing (22799)",
+      "Training Clothing (29019)",
+      "Compression (30524)",
+      "Golf Clothing (20668)",
+      "Squash Clothing (29045)",
+      "Baseball Clothing (29085)",
+      "Basketball Clothing (29089)",
+      "Field Hockey (18479)",
+      "Netball Clothing (20651)",
+      "Soccer Clothing (20641)",
+      "Tennis (18590)",
+      "Padel (30416)",
+      "Roller Skating (19127)",
+      "Go-Karting (19921)",
+      "Riding Apparel & Accessories (19000)",
+      "Equestrian (18971)",
+      "Fan Gear (19914)",
+      "Rugby Clothing (20646)",
+      "Cricket Clothing (20635)",
+      "Track & Field Shoes (29056)"
+    ],
+    "1.35396": [
+      "Dance Dresses, Skirts & Costume (14301)",
+      "Hoodies (22792)",
+      "Sports Bras (22439)",
+      "Sweaters (30519)",
+      "Vests (30520)",
+      "Shirts (30521)",
+      "Jerseys (30518)",
+      "Gilets (30517)",
+      "Gis (30522)",
+      "Polos & Golfers (22794)",
+      "Dresses (30563)",
+      "Jackets (22793)",
+      "Blouses (30516)",
+      "T-Shirts (22795)",
+      "Tracksuit Tops (22797)",
+      "Tank Tops (22796)"
+    ],
+    "7.0.4": [
+      "Pants (30509)",
+      "Bibs (30504)",
+      "Capris (30505)",
+      "Cycling Pants (30506)",
+      "Shorts (30510)",
+      "Cycling Shorts (30507)",
+      "Skorts (30512)",
+      "Tights (30513)",
+      "Tracksuit Bottoms (30523)",
+      "Trousers (30514)",
+      "Joggers (30508)",
+      "Skirts (30511)",
+      "Underwear (30503)"
+    ],
+    "3": [
+      "Aqua Shoes (30992)",
+      "Dancing (30876)",
+      "Fitness (19909)",
+      "Soccer (19910)",
+      "Hiking (23044)",
+      "Padel (30816)",
+      "Volleyball (29104)",
+      "Basketball->Mid (29093)",
+      "Basketball->High-Tops (29092)",
+      "Diving->Booties (29106)",
+      "Court (19911)",
+      "Squash Footwear->Squash Shoes (28804)",
+      "Golf->Spikeless (29013)",
+      "Golf->Spike (29012)",
+      "Baseball->Cleats (29088)",
+      "Sport Sandals (20718)",
+      "Skateboarding (28991)",
+      "Cycling Footwear (22481)",
+      "Running->Trail->Neutral (28817)",
+      "Running->Trail->Barefoot (28816)",
+      "Running->Trail->Stability (28818)",
+      "Running->Road->Stability (28815)",
+      "Running->Road->Neutral (28814)",
+      "Running->Road->Barefoot (28813)",
+      "Gymnastics (28990)",
+      "Lifestyle (19908)",
+      "Tennis Shoes (20659)",
+      "Snow Sports Footwear->Snowboard Bindings (19190)",
+      "Snow Sports Footwear->Snowboard Boots (19191)",
+      "Snow Sports Footwear->Ski Bindings (19183)",
+      "Snow Sports Footwear->Ski Boots (19184)",
+      "Netball Shoes (20652)",
+      "Combat Shoes (20717)",
+      "Rugby Boots->Backline (29103)",
+      "Rugby Boots->Frontline (29102)",
+      "Hockey Footwear->Outdoor (29099)",
+      "Hockey Footwear->Indoor (29098)",
+      "Yoga & Pilates Footwear (29044)",
+      "Cricket Footwear->Spikeless (29095)",
+      "Cricket Footwear->Spikes (29094)",
+      "Fishing Footwear->Shoes (29119)",
+      "Fishing Footwear->Boots (29118)",
+      "Fishing Footwear->Slops (29120)"
+    ],
+    "6937842": [
+      "Bodysuits (29124)",
+      "One-Piece Suits (29125)",
+      "Swimming Shorts (29123)",
+      "Bikinis (29121)",
+      "Wetsuits (29127)",
+      "Briefs & Jammers (29122)",
+      "Two-Piece Suits (29126)",
+      "Rash Vests (29128)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_sports_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Primary Sports Type\", \"sheet_name\": \"Primary Sports Type\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}}": [
+      "Gloves & Mittens (14428)",
+      "Leg Warmers (14451)",
+      "Compression Wear (22436)",
+      "Headwear (14447)",
+      "Arm Warmers & Sleeves (14411)",
+      "Reflective Gear (22438)"
+    ],
+    "False": [
+      "Leg & Neck Gaiters (30916)",
+      "Hoodies (29114)",
+      "Shirts (29116)",
+      "Vests (29117)",
+      "Beanies (29107)",
+      "Pants (29111)",
+      "Watershorts (29113)",
+      "Hats & Caps (29109)",
+      "Gloves (29108)",
+      "Shorts (29112)",
+      "Jackets (29115)",
+      "Socks (29110)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.sports.[0]",
+      "Attribute.shoe_model",
+      "Attribute.jacket_type.[0]",
+      "Attribute.neckline",
+      "Attribute.sleeve_length",
+      "Attribute.heel_to_toe_drop",
+      "Attribute.socks_type",
+      "Attribute.boot_surface_type",
+      "Attribute.soccer_boot_type",
+      "Attribute.foot_arch_types",
+      "Attribute.shoe_function",
+      "Attribute.comfort",
+      "Attribute.distance_suitablility.[0]",
+      "Attribute.is_polarised",
+      "Attribute.eyewear_type.[0]",
+      "Attribute.roller_skate_type",
+      "Attribute.compression_sock_sizes",
+      "Attribute.swimwear_clothing_function",
+      "Attribute.sport_clothing_style",
+      "Attribute.hoodie_type",
+      "Attribute.jogger_type",
+      "Attribute.glove_type",
+      "Attribute.fit_type",
+      "Attribute.jacket_features",
+      "Attribute.headwear_type",
+      "Attribute.bikini_bottom_style",
+      "Attribute.bikini_top_style",
+      "Attribute.field_hockey_accessory_type",
+      "Attribute.bottom_fit_type",
+      "Attribute.wetsuit_type",
+      "Attribute.is_removable",
+      "Attribute.vest_type",
+      "Attribute.soccer_fan_gear_features",
+      "Attribute.sports_clothing_type",
+      "Attribute.footwear_ideal_use",
+      "Attribute.ballet_shoe_sole_type",
+      "Attribute.ballet_shoe_style_type",
+      "Attribute.sport_clothing_ideal_use",
+      "Attribute.belt_type.[0]",
+      "Attribute.kit_type",
+      "Attribute.shorts_type",
+      "Attribute.sneaker_style",
+      "Attribute.sock_features",
+      "Attribute.teams",
+      "Attribute.reflective_gear_features",
+      "Attribute.clasp_type.[0]",
+      "Attribute.soccer_teams",
+      "Attribute.body_length",
+      "Attribute.water_sports_apparel_features",
+      "Attribute.product_benefits.[0]",
+      "Attribute.tights_type",
+      "Attribute.underwear_style",
+      "Attribute.blouse_features",
+      "Attribute.skirt_or_skort_type",
+      "Attribute.bra_type",
+      "Attribute.eyewear_lens_type",
+      "Attribute.collar_style",
+      "Attribute.fan_merchandise_features",
+      "Attribute.rugby_fan_gear_features",
+      "Attribute.snow_suit_features",
+      "Attribute.tennis_accessory_features",
+      "Attribute.underwear_pack_type.[0]",
+      "Attribute.bottom_features",
+      "Attribute.sport_clothing_benefits",
+      "Attribute.top_features",
+      "Attribute.pant_style",
+      "Attribute.pant_length",
+      "Attribute.is_waterproof",
+      "Attribute.is_adjustable",
+      "Attribute.cycling_shoe_type",
+      "Attribute.flag_type.[0]",
+      "Attribute.padding",
+      "Attribute.seasons.[0]",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.racquet_string_types.[0]",
+      "Attribute.engine_capacity.unit",
+      "Attribute.engine_capacity.value",
+      "Attribute.net_types.[0]",
+      "Attribute.finger_length",
+      "Attribute.grip_types",
+      "Attribute.chassis_type",
+      "Attribute.padel_racket_type.[0]",
+      "Attribute.racquet_type.[0]",
+      "Attribute.bag_types.[0]",
+      "Attribute.engine_power.unit",
+      "Attribute.engine_power.value",
+      "Attribute.padel_accessory_type.[0]",
+      "Attribute.is_fireproof"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.sport_age_range.[0]",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.swimming_sock_sizes",
+      "Variant.attribute.bra_size",
+      "Variant.attribute.pants_size.waist",
+      "Variant.attribute.pants_size.length",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.sock_size",
+      "Variant.attribute.compression_sleeve_size",
+      "Variant.attribute.pack_size",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.chaps_and_gaiters_size.[0]",
+      "Variant.attribute.weight.unit",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.eyewear_shape",
+      "Variant.attribute.glove_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.wheel_size.unit",
+      "Variant.attribute.wheel_size.value",
+      "Variant.attribute.bag_size.unit",
+      "Variant.attribute.bag_size.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

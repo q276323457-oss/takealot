@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+output/runs/
+logs/
+browser_profile/
+browser_profile_playwright/
+*.log
+dist/
+build/
+.runtime/license_private.pem
+.runtime/auth/
+.runtime/license.json
+.runtime/ui_config.json

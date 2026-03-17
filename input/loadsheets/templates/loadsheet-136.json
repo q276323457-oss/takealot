@@ -1,0 +1,1103 @@
+{
+  "source_file": "loadsheet-136.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 135,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.brand_compatibility",
+      "label": "Brand Compatibility",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.pants_size.waist",
+      "label": "Pants Waist Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.pants_size.length",
+      "label": "Pants Length in Inches",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.car_model_and_year.[0]",
+      "label": "Car Model and Year",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size in cm",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.car_make.[0]",
+      "label": "Car Make",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.car_part_position.[0]",
+      "label": "Car Part Position",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.battery_capacity.unit",
+      "label": "Battery Capacity unit",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.car_body_type.[0]",
+      "label": "Car Body Type",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.number_of_holes",
+      "label": "Number of Holes",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.paint_type.[0]",
+      "label": "Paint Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.wheel_tyre_width.value",
+      "label": "Tyre Width",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.wheel_aspect_ratio",
+      "label": "Wheel Aspect Ratio",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Variant.attribute.wheel_rim_size.value",
+      "label": "Wheel Rim Size",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Variant.attribute.helmet_size",
+      "label": "Helmet Size",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Variant.attribute.tyre_size.value",
+      "label": "Tyre Size",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.is_run_flat",
+      "label": "Run-Flat Tyre",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.speed_rating.[0]",
+      "label": "Speed Rating",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.audio_sensitivity.value",
+      "label": "Audio Sensitivity",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.vehicle_transmission_type",
+      "label": "Vehicle Transmission Type",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.hand_cleaner_form.[0]",
+      "label": "Hand Cleaner Form",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.volume.value",
+      "label": "Volume Value",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.scent_type.[0]",
+      "label": "Scent Type",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.motorcycle_make",
+      "label": "Motorcycle Make",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.requires_auxiliary_power",
+      "label": "Requires Auxiliary Power",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.has_topo_mapping_technology",
+      "label": "Has TOPO Mapping Technology",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.air_filter_type",
+      "label": "Air Filter Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.motor_vehicle_light_type",
+      "label": "Motor Vehicle Light Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.bike_rack_type",
+      "label": "Bike Rack Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Variant.attribute.wheel_size.value",
+      "label": "Wheel Size",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standard",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.brightness.value",
+      "label": "Brightness",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Variant.attribute.size_in_cm.unit",
+      "label": "Size in cm",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.has_ultraviolet_light_protection",
+      "label": "Has Ultraviolet Light Protection",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Variant.attribute.rug_size.unit",
+      "label": "Flat Size",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size Width",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size Length",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.pet_size",
+      "label": "Pet Size",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.screen_types.[0]",
+      "label": "Screen Types",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.video_capture_resolution",
+      "label": "Video Capture Resolution",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.winch_type",
+      "label": "Winch Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.carburetor_type",
+      "label": "Carburetor Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.connector_type",
+      "label": "Connector Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.car_type",
+      "label": "Car Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.engine_type",
+      "label": "Engine Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.has_zips",
+      "label": "Has Zips",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.flag_type.[0]",
+      "label": "Flag Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.has_remote_control",
+      "label": "Has Remote Control",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.batteries_included",
+      "label": "Batteries Included",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.model_name",
+      "label": "Model Name",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.vehicle_lighting_type",
+      "label": "Vehicle Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.vehicle_body_part_type",
+      "label": "Vehicle Body Part Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.channels",
+      "label": "Channels",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.supported_image_format.[0]",
+      "label": "Supported Image Format",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.optical_zoom",
+      "label": "Optical Zoom",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.battery_capacity.value",
+      "label": "Battery Capacity",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.cable_type",
+      "label": "Cable Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.is_luggage_adjustable",
+      "label": "Adjustable",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Variant.attribute.luggage_size.unit",
+      "label": "Do not use",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Variant.attribute.luggage_size.value",
+      "label": "Luggage Size",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.is_luggage_expandable",
+      "label": "Is Luggage Expandable",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.has_image_stabilization",
+      "label": "Image Stabilization",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.is_synthetic",
+      "label": "Is Synthetic",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.steering_wheel_lock_type",
+      "label": "Steering Wheel Lock Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "136": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "4x4 Parts & Accessories (20701)",
+      "Motorcycle Accessories (20705)",
+      "Motorcycle Parts & Service (20704)",
+      "Motor Vehicle Electronics (19370)",
+      "Motor Vehicle Parts (19381)",
+      "Vehicle Maintenance, Care & Decor (19413)",
+      "Vehicle Performance Additives (19463)",
+      "Vehicle Safety & Security (19481)",
+      "Vehicle Storage & Cargo (19519)",
+      "Jacks (20970)",
+      "Exterior Accessories (20793)",
+      "Reverse Assist (21178)",
+      "Tow Ropes (21162)",
+      "Motorcycle Washes & Waxes (21150)",
+      "Hand Cleaner (30614)",
+      "Automotive GPS (23216)",
+      "All Terrain Off-Road Go-Karts (30953)"
+    ],
+    "4.34012": [
+      "Lighting (21895)",
+      "4x4 Accessories (22413)",
+      "Winches (21894)",
+      "Electrical Performance Parts (22412)"
+    ],
+    "7.0.4": [
+      "Accessories->Fairings & Protection (22021)",
+      "Accessories->Screens (22025)",
+      "Accessories->Motorcycle Tie Downs (22023)",
+      "Accessories->Covers->Seat Covers (31052)",
+      "Accessories->Covers->Full Motorcycle Covers (31051)",
+      "Accessories->Luggage->Tail Bags (31056)",
+      "Accessories->Luggage->Saddlebags (31054)",
+      "Accessories->Luggage->Tank Bags (31055)",
+      "Accessories->Electronics & GPS (22020)",
+      "Accessories->Motorcycle Stickers & Decals (22022)",
+      "Accessories->Motorcycle Tools (22024)"
+    ],
+    "3": [
+      "Motorcycle Gaskets (31075)",
+      "Motorcycle Fuel Filters (31074)",
+      "Motorcycle Spark Plugs (22041)",
+      "Motorcycle Oil Filters (22040)",
+      "Chains & Sprockets (22035)",
+      "Suspension Parts & Oils (22044)",
+      "Motorcycle Exhausts (22043)",
+      "Brake Parts (22034)",
+      "Motorcyle Air Filters (22042)",
+      "Greases, Lubes & Silicones (22036)",
+      "Motorcycle Engine Oils (22038)",
+      "Motorcycle Engine Parts (29610)",
+      "Motorcycle Gearbox Oils (22039)",
+      "Handlebars, Grips & Mirrors (22037)"
+    ],
+    "20307176": [
+      "Motor Vehicle Subwoofers (19379)",
+      "Motor Vehicle Speakers (19378)",
+      "Motor Vehicle Amplifiers (19372)",
+      "Motor Vehicle Parking Cameras (19376)",
+      "Car Electronic Accessories (21917)",
+      "Car Audio Accessories (21916)",
+      "DVD Screens (22046)",
+      "Receiver & Head Units (21918)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Variant_attribute_shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Size\", \"sheet_name\": \"Shoe Size\"}}": [
+      "Motor Vehicle Frame & Body Parts (19390)",
+      "Motor Vehicle Engine Parts->Oil Pumps (31092)",
+      "Motor Vehicle Engine Parts->Clutch Parts (21941)",
+      "Motor Vehicle Engine Parts->Alternators (21938)",
+      "Motor Vehicle Engine Parts->Cabin Filters (31049)",
+      "Motor Vehicle Engine Parts->Electrical Parts & Sensors (22265)",
+      "Motor Vehicle Engine Parts->Fuel Pumps (22287)",
+      "Motor Vehicle Engine Parts->Carburetor (30651)",
+      "Motor Vehicle Engine Parts->Belts & Tensioners (21939)",
+      "Motor Vehicle Engine Parts->Cables (21940)",
+      "Motor Vehicle Engine Parts->Diesel Filters (21942)",
+      "Motor Vehicle Engine Parts->Engine Mounts (21943)",
+      "Motor Vehicle Engine Parts->Fuel Injectors (22286)",
+      "Motor Vehicle Engine Parts->Gaskets (21944)",
+      "Motor Vehicle Engine Parts->Housings & Covers (21945)",
+      "Motor Vehicle Engine Parts->Petrol Filters (21946)",
+      "Motor Vehicle Engine Parts->Starter Motors (21948)",
+      "Motor Vehicle Engine Parts->Pistons & Conrods (21947)",
+      "Motor Vehicle Engine Parts->Water Pumps (21949)",
+      "Motor Vehicle Wheel Systems->Wheel Bearings (30492)",
+      "Motor Vehicle Wheel Systems->Motor Vehicle Tyre Accessories (19406)",
+      "Motor Vehicle Wheel Systems->Motor Vehicle Rims & Wheels->Motorcycle Rims & Wheels (19404)",
+      "Motor Vehicle Wheel Systems->Motor Vehicle Rims & Wheels->Automotive Rims & Wheels (19403)",
+      "Motor Vehicle Wheel Systems->Tyre & Wheel Care (21956)",
+      "Motor Vehicle Wheel Systems->Motor Vehicle Tyres->Automotive Tyres (19408)",
+      "Motor Vehicle Wheel Systems->Motor Vehicle Tyres->Motorcycle Tyres (19409)",
+      "Motor Vehicle Braking->Brake Shoes & Drums (21923)",
+      "Motor Vehicle Braking->Brake Pads (21922)",
+      "Motor Vehicle Braking->Caliper & Housings (21924)",
+      "Motor Vehicle Braking->Brake Discs (21921)",
+      "Motor Vehicle Climate Control->Aircon Parts & Hoses (21925)",
+      "Motor Vehicle Climate Control->Aircon Pumps (21926)",
+      "Motor Vehicle Climate Control->Radiators (21927)",
+      "Motor Vehicle Mirrors (19394)",
+      "Motor Vehicle Interior Accessories->Automotive Interior Enhancement (31095)",
+      "Motor Vehicle Interior Accessories->Safety Belts (31082)",
+      "Motor Vehicle Interior Accessories->Car Seat Covers (21907)",
+      "Motor Vehicle Interior Accessories->Car Manual Holders (30873)",
+      "Motor Vehicle Interior Accessories->Car Key Accessories (22905)",
+      "Motor Vehicle Interior Accessories->Jerry Cans (22268)",
+      "Motor Vehicle Interior Accessories->Steering Wheel Hubs (31044)",
+      "Motor Vehicle Interior Accessories->Phone Holders (31048)",
+      "Motor Vehicle Interior Accessories->Steering Wheel Knobs (29175)",
+      "Motor Vehicle Interior Accessories->Funnels (21908)",
+      "Motor Vehicle Interior Accessories->Anti Smash (21906)",
+      "Motor Vehicle Interior Accessories->Pedals (21909)",
+      "Motor Vehicle Interior Accessories->Pet Travel Accessories (21910)",
+      "Motor Vehicle Interior Accessories->Sun Shades (21911)",
+      "Motor Vehicle Interior Accessories->Stowing & Tidying (22284)",
+      "Motor Vehicle Interior Accessories->Steering Wheel Locks (30736)",
+      "Motor Vehicle Performance Parts->ECUs (21932)",
+      "Motor Vehicle Performance Parts->Performance Air Intakes & Filters (21934)",
+      "Motor Vehicle Performance Parts->Camshafts (21931)",
+      "Motor Vehicle Performance Parts->Intercoolers (21933)",
+      "Motor Vehicle Performance Parts->Turbocharger Parts (21935)",
+      "Motor Vehicle Performance Parts->Turbochargers (21936)",
+      "Caravan & Trailer Accessories->Caravan Awnings (21899)",
+      "Caravan & Trailer Accessories->Caravan & Trailer Parts (21898)",
+      "Caravan & Trailer Accessories->Caravan Ladders (21900)",
+      "Caravan & Trailer Accessories->Caravan Racks & Storage (21901)",
+      "Caravan & Trailer Accessories->Caravan Tent & Panels (21902)",
+      "Caravan & Trailer Accessories->Caravan & Trailer Bike Racks (21897)",
+      "Motor Vehicle Exterior Accessories->Glass & Window Parts->Auto Glass->Windshields (31067)",
+      "Motor Vehicle Exterior Accessories->Towbars (21905)",
+      "Motor Vehicle Exterior Accessories->Headlight & Body Protectors (22283)",
+      "Motor Vehicle Exterior Accessories->Bullbar & Side Steps (21903)",
+      "Motor Vehicle Exterior Accessories->Ties & Straps (21904)",
+      "Motor Vehicle Exterior Accessories->Lights (30644)",
+      "Motor Vehicle Exhaust (19389)",
+      "CV & Universal Joints (21937)",
+      "Motor Vehicle Carpet & Upholstery (19383)",
+      "Lightbulbs & LED (19393)",
+      "Motor Vehicle Suspension Parts (19398)",
+      "Motor Vehicle Transmission & Drivetrain Parts (19400)"
+    ],
+    "False": [
+      "Jacks (20970)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.part_number",
+      "Attribute.brand_compatibility",
+      "Attribute.materials.[0]",
+      "Attribute.car_model_and_year.[0]",
+      "Attribute.car_make.[0]",
+      "Attribute.car_part_position.[0]",
+      "Attribute.battery_capacity.unit",
+      "Attribute.car_body_type.[0]",
+      "Attribute.number_of_holes",
+      "Attribute.paint_type.[0]",
+      "Attribute.wheel_tyre_width.value",
+      "Attribute.wheel_aspect_ratio",
+      "Attribute.is_run_flat",
+      "Attribute.speed_rating.[0]",
+      "Attribute.audio_sensitivity.value",
+      "Attribute.vehicle_transmission_type",
+      "Attribute.hand_cleaner_form.[0]",
+      "Attribute.volume.value",
+      "Attribute.scent_type.[0]",
+      "Attribute.motorcycle_make",
+      "Attribute.requires_auxiliary_power",
+      "Attribute.is_heavy_duty",
+      "Attribute.light_source",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.air_filter_type",
+      "Attribute.motor_vehicle_light_type",
+      "Attribute.bike_rack_type",
+      "Attribute.display_standards.[0]",
+      "Attribute.brightness.value",
+      "Attribute.capacity.value",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.has_ultraviolet_light_protection",
+      "Attribute.diameter.value",
+      "Attribute.product_shape",
+      "Attribute.pet_size",
+      "Attribute.screen_size.value",
+      "Attribute.screen_types.[0]",
+      "Attribute.video_capture_resolution",
+      "Attribute.power_source",
+      "Attribute.winch_type",
+      "Attribute.carburetor_type",
+      "Attribute.connectivities.[0]",
+      "Attribute.connector_type",
+      "Attribute.power.value",
+      "Attribute.car_type",
+      "Attribute.engine_type",
+      "Attribute.is_water_resistant",
+      "Attribute.has_zips",
+      "Attribute.is_rechargeable",
+      "Attribute.flag_type.[0]",
+      "Attribute.has_remote_control",
+      "Attribute.batteries_included",
+      "Attribute.model_name",
+      "Attribute.battery_type",
+      "Attribute.vehicle_lighting_type",
+      "Attribute.vehicle_body_part_type",
+      "Attribute.channels",
+      "Attribute.supported_image_format.[0]",
+      "Attribute.optical_zoom",
+      "Attribute.battery_capacity.value",
+      "Attribute.cable_type",
+      "Attribute.is_waterproof",
+      "Attribute.is_luggage_adjustable",
+      "Attribute.is_luggage_expandable",
+      "Attribute.has_image_stabilization",
+      "Attribute.is_synthetic",
+      "Attribute.steering_wheel_lock_type",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_hazardous"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.pants_size.waist",
+      "Variant.attribute.pants_size.length",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.wheel_rim_size.value",
+      "Variant.attribute.helmet_size",
+      "Variant.attribute.tyre_size.value",
+      "Variant.attribute.wheel_size.value",
+      "Variant.attribute.size_in_cm.unit",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.rug_size.unit",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.luggage_size.unit",
+      "Variant.attribute.luggage_size.value",
+      "Variant.attribute.packed_quantity"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

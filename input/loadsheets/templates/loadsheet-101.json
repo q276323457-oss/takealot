@@ -1,0 +1,2002 @@
+{
+  "source_file": "loadsheet-101.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 256,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.dietary_requirements.[0]",
+      "label": "Primary Dietary Requirements",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.spf_rating",
+      "label": "SPF Rating",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.active_ingredients",
+      "label": "Ingredients",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.skin_concern.[0]",
+      "label": "Skin Concern",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.makeup_finish",
+      "label": "Make Up Finish",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.flavour_type",
+      "label": "Flavor Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.deodorant_type.[0]",
+      "label": "Deodorant Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.format_personal_care.[0]",
+      "label": "Personal Care Format",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.condition.[0]",
+      "label": "Primary Condition",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.vitamin_or_mineral_types.[0]",
+      "label": "Vitamin or Mineral Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.format_healthcare.[0]",
+      "label": "Healthcare Product Format",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.is_vegan",
+      "label": "Is Vegan?",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Variant.attribute.reading_glasses_strength",
+      "label": "Reading Glasses Strength",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.quit_smoking_device_type.[0]",
+      "label": "Quit Smoking Device Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.pemf_device_type.[0]",
+      "label": "PEMF Device Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.equipment_type",
+      "label": "Health Equipment Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.medication_dispenser_type.[0]",
+      "label": "Medication Dispenser Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.medicine_or_substance_schedule",
+      "label": "Medicine or Substance Schedule",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.sahpra_approved_device",
+      "label": "SAHPRA Approved Device",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.cpap_accessory_type.[0]",
+      "label": "CPAP Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.mask_compatibility.[0]",
+      "label": "Mask Compatibility",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.humidification.[0]",
+      "label": "Humidification",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.data_recording.[0]",
+      "label": "Data Recording",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivities",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.filter_type",
+      "label": "Filter Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.noise_level.[0]",
+      "label": "Noise Level",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.catheter_type",
+      "label": "Catheter Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.catheter_uses",
+      "label": "Catheter Uses",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.screen_display_type.[0]",
+      "label": "Screen Display Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.cpap_pressure_relief.[0]",
+      "label": "Cpap Pressure Relief",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.compression_sock_sizes",
+      "label": "Compression Sock Sizes",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Variant.attribute.vape_flavour",
+      "label": "Vape Flavour",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.has_heart_rate_monitor",
+      "label": "Heart Rate Monitor",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.has_glonass",
+      "label": "GLONASS",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.has_distance_tracking",
+      "label": "Distance Tracking",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.has_calorie_counter",
+      "label": "Calorie Counter",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.has_step_counter",
+      "label": "Step Counter",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.bezel_size.value",
+      "label": "Bezel Size",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.has_sleep_monitor",
+      "label": "Sleep Monitor",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.has_music_player",
+      "label": "Music Player",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.has_smart_notification_technology",
+      "label": "Smart Notification Technology",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.has_altimeter",
+      "label": "Altimeter",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.has_gps",
+      "label": "GPS",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.is_refillable",
+      "label": "Is Refillable",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.lens_color",
+      "label": "Lens Color",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.lens_coatings",
+      "label": "Lens Coatings",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.eyewear_lens_type",
+      "label": "Eyewear Lens Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.ingredient_preference.[0]",
+      "label": "Ingredient Preference",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.mask_accessory_type",
+      "label": "Mask Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.spiritual_wellness_product_type",
+      "label": "Spiritual Wellness Product Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.astm_fluid_rating",
+      "label": "ASTM Fluid Rating",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.mask_filter_class.[0]",
+      "label": "Mask Filter Class",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.has_safe_zone_technology",
+      "label": "Safe Zone Technology",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.incontinence_and_ostomy_product_type",
+      "label": "Incontinence and Ostomy Product Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.bathroom_and_toilet_aid_type",
+      "label": "Bathroom and Toilet Aid Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.has_sas_messaging_technology",
+      "label": "SAS Messaging Technology",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.medical_thermometer_type",
+      "label": "Medical Thermometer Type",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.has_temperature_control",
+      "label": "Has Temperature Control",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.medical_cooler_type.[0]",
+      "label": "Medical Cooler Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.otoscope_type.[0]",
+      "label": "Otoscope Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.beauty_product_benefits.[0]",
+      "label": "Beauty Product Benefits",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.beauty_equipment_type.[0]",
+      "label": "Beauty Equipment Type",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.target_use_body_part",
+      "label": "Target Use Body Part",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.has_monitoring_capabilities",
+      "label": "Has Monitoring Capabilities",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.water_resistance_level.value",
+      "label": "Water Resistance Level",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.medical_thermometers_display_type",
+      "label": "Medical Thermometers Display Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.scent",
+      "label": "Scent",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.magnification.[0]",
+      "label": "Magnification",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.adult_nappies_material",
+      "label": "Adult Nappies Material",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size value",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.has_topo_mapping_technology",
+      "label": "Has TOPO Mapping Technology",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.has_instructions_or_directions_for_use",
+      "label": "Has Instructions or Directions for Use",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.itching_and_rash_treatment_type",
+      "label": "Itching and Rash Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.furniture_aid_type",
+      "label": "Furniture Aid Type",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.hand_orientation.[0]",
+      "label": "Hand Orientation",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.wheelchair_type",
+      "label": "Wheelchair Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.bandages_and_bandaging_supply_type",
+      "label": "Bandages and Bandaging Supply Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.container_type",
+      "label": "Container Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.fit_type",
+      "label": "Fit Type",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.footwear_features.[0]",
+      "label": "Footwear Features  [0]",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.pattern",
+      "label": "Pattern",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.shoe_width",
+      "label": "Shoe Width",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.embellishment_feature",
+      "label": "Embellishment Feature",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Sizes",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.toe_style",
+      "label": "Toe Style",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.comfort",
+      "label": "Comfort",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.outsole_material",
+      "label": "Outsole Material",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.wheelchair_accessory_type",
+      "label": "Wheelchair Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Variant.attribute.cellphone_compatibility.[0]",
+      "label": "Cellphone Compatibility",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.has_sos_panic_button",
+      "label": "SOS Panic Button",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Resolution Height",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Resolution Width",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.bulb_type",
+      "label": "Bulb Type",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.has_2way_calling",
+      "label": "2Way Calling",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated VAT",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.battery_life.value",
+      "label": "Battery Life",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.strap_size.value",
+      "label": "Strap Size",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.hair_concerns.[0]",
+      "label": "Hair Concerns",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.hair_type",
+      "label": "Hair Type",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.vision_care_type",
+      "label": "Vision Care Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.medical_thermometer_outer_material",
+      "label": "Medical Thermometer Outer Material",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.lice_treatment_type",
+      "label": "Lice Treatment Type",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.artificial_sweeteners_free",
+      "label": "Artificial Sweeteners Free",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.is_compressible",
+      "label": "Is Compressible",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.is_caffeine_free",
+      "label": "Is Caffeine Free",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.is_dioxin_free",
+      "label": "Is Dioxin Free",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.is_soy_free",
+      "label": "Is Soy Free",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.powder_free",
+      "label": "Powder Free",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.is_stain_resistant",
+      "label": "Is Stain Resistant",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.is_peanut_free",
+      "label": "Is Peanut Free",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.is_wall_mounted",
+      "label": "Wall-mounted",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.is_bpa_free",
+      "label": "BPA Free",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.free_from_parabens",
+      "label": "Is Paraben Free",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.is_backlit",
+      "label": "Is Backlit",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.is_chlorine_free",
+      "label": "Is Chlorine Free",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.is_egg_free",
+      "label": "Is Egg Free",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.is_gluten_free",
+      "label": "is Gluten Free",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.is_dairy_free",
+      "label": "Is Dairy Free",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.is_non_slip",
+      "label": "Is Non Slip",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.is_compact",
+      "label": "Is Compact",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.phthalate_free",
+      "label": "Phthalate Free",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.is_shellfish_free",
+      "label": "Is Shellfish Free",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.is_sugar_free",
+      "label": "Is Sugar Free",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.is_washable",
+      "label": "Is Washable",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.latex_free",
+      "label": "Latex Free",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.is_corn_free",
+      "label": "Is Corn Free",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.is_dye_free",
+      "label": "Is Dye Free",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.is_inflatable",
+      "label": "Is Inflatable",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.is_chemical_resistant",
+      "label": "Is Chemical Resistant",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.alcohol_free",
+      "label": "Alcohol Free",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.is_microwaveable",
+      "label": "Is Microwaveable",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.is_lactose_free",
+      "label": "Is Lactose Free",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.is_disposable",
+      "label": "Is Disposable",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.is_lockable",
+      "label": "Is Lockable",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.is_wearable",
+      "label": "Is Wearable",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.is_flexible",
+      "label": "Is Flexible",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.is_mountable",
+      "label": "Is Mountable",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.is_non_gmo",
+      "label": "Is Non GMO",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.is_removable",
+      "label": "Is Removable",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.is_vape",
+      "label": "Age Verification",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.artificial_flavors_free",
+      "label": "Artificial Flavors Free",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.is_leak_proof",
+      "label": "Is Leak Proof",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.artificial_preservatives_free",
+      "label": "Artificial Preservatives Free",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.is_foldable",
+      "label": "Foldable",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Variant.attribute.bra_size",
+      "label": "Bra Size",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.ear_device_maintenance_type",
+      "label": "Ear Device Maintenance Type",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.is_magnesium_stearate_free",
+      "label": "Is Magnesium Stearate Free",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.sanitizer_application_surface",
+      "label": "Sanitizer Application Surface",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.intended_use",
+      "label": "Intended Use",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.sanitizer_place_of_use",
+      "label": "Sanitizer Place Of Use",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.intended_place_of_use",
+      "label": "Intended Place of Use",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Variant.attribute.age_range.min",
+      "label": "Min Age Range",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Variant.attribute.age_range.max",
+      "label": "Max Age Range",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Variant.attribute.capsule_count",
+      "label": "Capsule Count",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.capsule_closure_type",
+      "label": "Capsule Closure Type",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.diagnostic_test_type",
+      "label": "Diagnostic Test Type",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.medical_mattress_type",
+      "label": "Medical Mattress Type",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Attribute.eyewear_accessories",
+      "label": "Eyewear Accessories",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.red_light_therapy_device_type",
+      "label": "Red Light Therapy Device Type",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.treatment_area.[0]",
+      "label": "Treatment Area",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.oxygen_purity_type.[0]",
+      "label": "Oxygen Purity Type",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Attribute.airflow_capacity",
+      "label": "Airflow Capacityn",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Attribute.cotton_product_type.[0]",
+      "label": "Cotton Product Type",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standards",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Attribute.oxygen_concentrator_type.[0]",
+      "label": "Oxygen Concentrator Type",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity for Variant",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size for Ordering",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 232,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 233,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 234,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 235,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 236,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 237,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 238,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 239,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 240,
+      "key": "Attribute.has_r638_certificate",
+      "label": "Has R638 Certificate",
+      "note": ""
+    },
+    {
+      "index": 241,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 242,
+      "key": "Attribute.care_instructions",
+      "label": "Care Instructions",
+      "note": ""
+    },
+    {
+      "index": 243,
+      "key": "Attribute.has_remote_control",
+      "label": "Has Remote Control",
+      "note": ""
+    },
+    {
+      "index": 244,
+      "key": "Attribute.is_antibacterial",
+      "label": "Is Antibacterial",
+      "note": ""
+    },
+    {
+      "index": 245,
+      "key": "Attribute.intensity_levels",
+      "label": "Intensity Levels",
+      "note": ""
+    },
+    {
+      "index": 246,
+      "key": "Attribute.is_battery_operated",
+      "label": "Is Battery Operated",
+      "note": ""
+    },
+    {
+      "index": 247,
+      "key": "Attribute.is_sensitive_adult_content",
+      "label": "Is Sensitive Adult Content",
+      "note": ""
+    },
+    {
+      "index": 248,
+      "key": "Attribute.is_moisture_resistant",
+      "label": "Is Moisture Resistant",
+      "note": ""
+    },
+    {
+      "index": 249,
+      "key": "Attribute.is_ergonomic",
+      "label": "Is Ergonomic",
+      "note": ""
+    },
+    {
+      "index": 250,
+      "key": "Attribute.is_machine_washable",
+      "label": "Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 251,
+      "key": "Variant.attribute.ring_size",
+      "label": "Ring Size ring_size",
+      "note": ""
+    },
+    {
+      "index": 252,
+      "key": "Attribute.device_type.[0]",
+      "label": "Device Type [0]",
+      "note": ""
+    },
+    {
+      "index": 253,
+      "key": "Variant.attribute.size_in_cm.unit",
+      "label": "Size (in/cm) size_in_cm  unit",
+      "note": ""
+    },
+    {
+      "index": 254,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 255,
+      "key": "Attribute.compression_adjustment",
+      "label": "Compression Adjustment",
+      "note": ""
+    },
+    {
+      "index": 256,
+      "key": "Attribute.is_durable",
+      "label": "Is Durable",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "101": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Health Care (16782)",
+      "Wearable Tech (19883)",
+      "Stethoscopes (15170)",
+      "Stethoscope Accessories (30762)",
+      "Sanitizers & Wipes (16887)",
+      "Ear Care (16991)",
+      "Smoking Alternatives & Electronic Cigarettes (16145)",
+      "Vision Care (17098)",
+      "Face Shields (30443)"
+    ],
+    "4.33258": [
+      "Orthopedic Leg Walker Boots (31125)",
+      "Dermatoscopes (31098)",
+      "Catheters (31078)",
+      "Cotton Wool (31076)",
+      "Medical Socks (30760)",
+      "Intense Pulsed Light Wrinkle Reducing Devices (30875)",
+      "Anti-Choking Devices (30881)",
+      "Anti-Snoring Devices (30882)",
+      "Compression Packs (30888)",
+      "Medication Dispensers (30783)",
+      "Empty Capsules (30772)",
+      "PEMF Devices (30795)",
+      "Medical Tape Measures (30927)",
+      "Orthopedic Inserts & Soles (30924)",
+      "Medical Stadiometers (30928)",
+      "Ostomy (30933)",
+      "Medical Coolers (30942)",
+      "Orthopaedic Shoes (30943)",
+      "Massagers (17044)",
+      "Orthopaedic Knee Braces (30963)",
+      "Medical Binders & Bras (30962)",
+      "Medical Orthopaedic Knee Braces (30964)",
+      "Respiratory Care->Oxygen Concentrators (30864)",
+      "Respiratory Care->CPAP Accessories (30675)",
+      "Respiratory Care->COPD Breathing Aids (30855)",
+      "Respiratory Care->Nebulizers (16860)",
+      "Medical Tests->Urine Tests (23259)",
+      "Medical Tests->Ovulation Kits (30727)",
+      "Medical Tests->Thyroid Test Kits (30730)",
+      "Medical Tests->Hormone Test Kits (30728)",
+      "Medical Tests->Vaginal PH Level Test Kits (30729)",
+      "Medical Tests->Allergy Test Kits (16834)",
+      "Medical Tests->Urinary Tract Infection Tests (16839)",
+      "Medical Tests->Pregnancy Tests (16838)",
+      "Medical Tests->Drug Tests (16836)",
+      "Ear Device Maintenance (30845)",
+      "Diagnostic Testing (30848)",
+      "Red Light Therapy Devices (30854)",
+      "Medical Mattresses (30858)",
+      "Hair Care (30609)",
+      "Health Monitors->Peak Flow Meters (30726)",
+      "Health Monitors->Lancets (30725)",
+      "Inserts & Soles (30288)",
+      "DNA Ancestry Tests (30502)",
+      "Spiritual Wellness (30672)",
+      "First Aid->Equipment (21553)",
+      "First Aid->Hot & Cold Therapies->Heat Rubs (16817)",
+      "First Aid->Hot & Cold Therapies->Heating Pads (16818)",
+      "First Aid->Hot & Cold Therapies->Ice Packs (16819)",
+      "First Aid->Antiseptics & Cleaning Supplies (16812)",
+      "First Aid->Gloves & Masks->Gloves (30426)",
+      "First Aid->Gloves & Masks->Masks->Mask Accessories (30688)",
+      "First Aid->Gloves & Masks->Masks->Cloth Masks (30429)",
+      "First Aid->Gloves & Masks->Masks->Medical Masks (30428)",
+      "First Aid->Cotton Wool & Swabs (21552)",
+      "First Aid->First Aid Kits (16815)",
+      "First Aid->Itch & Rash (21556)",
+      "First Aid->Insect Repellent (21555)",
+      "First Aid->Lice & Worms (21557)",
+      "First Aid->Burns & Blisters (21551)",
+      "First Aid->Medical Tape & Bandages (16820)",
+      "Mobility & Accessibility->Accessibility Equipment->Wheelchairs (16846)",
+      "Mobility & Accessibility->Accessibility Furniture & Fixtures->Furniture Aids (21651)",
+      "Mobility & Accessibility->Accessibility Furniture & Fixtures->Bathroom & Toilet Aids (21652)",
+      "Mobility & Accessibility->Accessibility Equipment Accessories (16847)",
+      "Health Food->Kits (28423)",
+      "Health Food->Nuts & Seeds (21564)",
+      "Health Food->Snacks (21568)",
+      "Health Food->Soups & Sauces (21569)",
+      "Health Food->Specialised Nutrition (21570)",
+      "Health Food->Breakfast (21559)",
+      "Health Food->Grains & Legumes (21561)",
+      "Health Food->Herbs & Spices (21562)",
+      "Health Food->Drinks & Shakes (21560)",
+      "Health Food->Baking (21558)",
+      "Health Food->Superfoods (21571)",
+      "Health Food->Sweeteners (21572)",
+      "Health Food->Meal Kits & Ready To Be Made (30417)",
+      "Health Food->Oil & Salad Dressings (21565)",
+      "Health Food->Honey & Spreads (21563)",
+      "Health Food->Relishes & Condiments (21566)",
+      "Sexual Health->Lubricants (22391)",
+      "Sexual Health->Condoms (22390)",
+      "Sexual Health->Creams, Oils & Sprays (30430)",
+      "Sexual Health->Performance Supplements (22392)",
+      "Ear Devices (16828)",
+      "Incontinence Pads (16829)",
+      "Medicine & Treatments->Sleep (22401)",
+      "Medicine & Treatments->Aromatherapy (20128)",
+      "Medicine & Treatments->Colds, Coughs & Flu (20123)",
+      "Medicine & Treatments->Hair, Skin & Nails (20129)",
+      "Medicine & Treatments->Pregnancy & Babies (20131)",
+      "Medicine & Treatments->Quit Smoking (20132)",
+      "Medicine & Treatments->Immune Support (23098)",
+      "Medicine & Treatments->Digestion & Nausea (20124)",
+      "Medicine & Treatments->Muscles, Bones & Joints (20130)",
+      "Medicine & Treatments->Skin Conditions & Nappy Rash (20127)",
+      "Medicine & Treatments->Pain & Fever (20125)",
+      "Medicine & Treatments->Allergies & Sinus (20122)",
+      "Medicine & Treatments->Inflammation (20133)",
+      "Medicine & Treatments->Infection Support (23058)",
+      "Biometric Monitors->Medical Body Weight Scales (30930)",
+      "Biometric Monitors->Blood Ketone & Glucose Meter (16798)",
+      "Biometric Monitors->Blood Pressure Monitors (16799)",
+      "Biometric Monitors->Alcohol Breathalyzer (16802)",
+      "Biometric Monitors->Medical Thermometers (16805)",
+      "Biometric Monitors->Blood Ketone & Glucose Meter Accessories (30731)",
+      "Biometric Monitors->Pulse Oximeters (16807)",
+      "Biometric Monitors->Body Weight Scales (16801)",
+      "Fitness & Nutrition->Mass Builders (20138)",
+      "Fitness & Nutrition->Pre-Workout (20119)",
+      "Fitness & Nutrition->Amino Acids (22419)",
+      "Fitness & Nutrition->Endurance (20121)",
+      "Fitness & Nutrition->Creatine (16826)",
+      "Fitness & Nutrition->Energy (22478)",
+      "Fitness & Nutrition->Slimming (20120)",
+      "Fitness & Nutrition->Vitamins & Supplements->Pregnancy Support (21607)",
+      "Fitness & Nutrition->Vitamins & Supplements->Immune Support (21634)",
+      "Fitness & Nutrition->Vitamins & Supplements->Vitamins & Minerals->Minerals (21605)",
+      "Fitness & Nutrition->Vitamins & Supplements->Mind & Memory (21636)",
+      "Fitness & Nutrition->Vitamins & Supplements->Digestion (21620)",
+      "Fitness & Nutrition->Vitamins & Supplements->Bones & Joint Health (21612)",
+      "Fitness & Nutrition->Vitamins & Supplements->Protein Supplements (22423)",
+      "Fitness & Nutrition->Vitamins & Supplements->Children (21613)",
+      "Fitness & Nutrition->Vitamins & Supplements->Allergies & Sinus (21610)",
+      "Fitness & Nutrition->Vitamins & Supplements->Mood & Anxiety Support (21637)",
+      "Fitness & Nutrition->Vitamins & Supplements->Probiotics (21608)",
+      "Fitness & Nutrition->Vitamins & Supplements->Vitamins A-E (21609)",
+      "Fitness & Nutrition->Vitamins & Supplements->Weight Loss (21639)",
+      "Fitness & Nutrition->Vitamins & Supplements->Cleansing & Detox (21614)",
+      "Fitness & Nutrition->Vitamins & Supplements->Diabetes (21619)",
+      "Fitness & Nutrition->Vitamins & Supplements->Eye & Ear Care (21631)",
+      "Fitness & Nutrition->Vitamins & Supplements->Energy & Tonics (21622)",
+      "Fitness & Nutrition->Vitamins & Supplements->Hair, Skin & Nails (21632)",
+      "Fitness & Nutrition->Vitamins & Supplements->Antioxidants (21611)",
+      "Fitness & Nutrition->Vitamins & Supplements->Colds, Coughs & Flu (21615)",
+      "Fitness & Nutrition->Vitamins & Supplements->Womens Health (21640)",
+      "Fitness & Nutrition->Vitamins & Supplements->Heart Health (21633)",
+      "Fitness & Nutrition->Vitamins & Supplements->Mens Health (21635)",
+      "Fitness & Nutrition->Vitamins & Supplements->Multivitamins (21606)",
+      "Fitness & Nutrition->Vitamins & Supplements->Omega & Essential Fatty Acids (20115)",
+      "Fitness & Nutrition->Vitamins & Supplements->Sleep Aids (21638)",
+      "Fitness & Nutrition->Vitamins & Supplements->Nutraceuticals (21641)",
+      "Fitness & Nutrition->Recovery & Supplements (21672)",
+      "Fitness & Nutrition->Whey Protein Powder (20137)",
+      "Fitness & Nutrition->Supplement Shakers & Accessories (19926)",
+      "Humidifiers,Purifiers & Diffusers (23043)",
+      "Sanitizing Equipment (30391)",
+      "Otoscopes (30732)",
+      "Oxygen (16861)",
+      "Tape Measures (21653)",
+      "Pillboxes (16858)",
+      "Enema Kits & Accessories (30753)",
+      "Adult Nappies (21659)",
+      "Stadiometers (21655)",
+      "TENS Devices (28595)"
+    ],
+    "7.0.4": [
+      "Digital Rings (30865)",
+      "Certified Pre-Owned Wearables (30904)",
+      "Pedometers (22426)"
+    ],
+    "3": [
+      "Stethoscopes (15170)"
+    ],
+    "90740367": [
+      "Stethoscope Accessories (30762)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_condition_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Condition\", \"sheet_name\": \"Condition\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_flavour_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Flavour Type\", \"sheet_name\": \"Flavour Type\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}, \"Attribute_dietary_requirement_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Dietary Requirements\", \"sheet_name\": \"Dietary Requirements\"}}": [
+      "Wipes (30724)",
+      "Sanitizers (30723)"
+    ],
+    "False": [
+      "Health Care (16782)",
+      "Wearable Tech (19883)",
+      "Stethoscopes (15170)",
+      "Stethoscope Accessories (30762)",
+      "Sanitizers & Wipes (16887)",
+      "Ear Care (16991)",
+      "Smoking Alternatives & Electronic Cigarettes (16145)",
+      "Vision Care (17098)",
+      "Face Shields (30443)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.dietary_requirements.[0]",
+      "Attribute.spf_rating",
+      "Attribute.active_ingredients",
+      "Attribute.skin_concern.[0]",
+      "Attribute.makeup_finish",
+      "Attribute.is_waterproof",
+      "Attribute.flavour_type",
+      "Attribute.deodorant_type.[0]",
+      "Attribute.format_personal_care.[0]",
+      "Attribute.condition.[0]",
+      "Attribute.vitamin_or_mineral_types.[0]",
+      "Attribute.format_healthcare.[0]",
+      "Attribute.is_vegan",
+      "Attribute.quit_smoking_device_type.[0]",
+      "Attribute.pemf_device_type.[0]",
+      "Attribute.equipment_type",
+      "Attribute.medication_dispenser_type.[0]",
+      "Attribute.medicine_or_substance_schedule",
+      "Attribute.sahpra_approved_device",
+      "Attribute.cpap_accessory_type.[0]",
+      "Attribute.mask_compatibility.[0]",
+      "Attribute.humidification.[0]",
+      "Attribute.data_recording.[0]",
+      "Attribute.power_source",
+      "Attribute.connectivities.[0]",
+      "Attribute.filter_type",
+      "Attribute.noise_level.[0]",
+      "Attribute.catheter_type",
+      "Attribute.catheter_uses",
+      "Attribute.screen_display_type.[0]",
+      "Attribute.cpap_pressure_relief.[0]",
+      "Attribute.compression_sock_sizes",
+      "Attribute.is_hand_made",
+      "Attribute.has_heart_rate_monitor",
+      "Attribute.has_glonass",
+      "Attribute.has_distance_tracking",
+      "Attribute.has_calorie_counter",
+      "Attribute.has_step_counter",
+      "Attribute.bezel_size.value",
+      "Attribute.has_sleep_monitor",
+      "Attribute.has_music_player",
+      "Attribute.has_smart_notification_technology",
+      "Attribute.has_altimeter",
+      "Attribute.has_gps",
+      "Attribute.is_smart",
+      "Attribute.is_refillable",
+      "Attribute.eyewear_lens_features",
+      "Attribute.lens_color",
+      "Attribute.lens_coatings",
+      "Attribute.eyewear_lens_type",
+      "Attribute.proudly_south_african",
+      "Attribute.is_water_resistant",
+      "Attribute.sports.[0]",
+      "Attribute.ingredient_preference.[0]",
+      "Attribute.mask_accessory_type",
+      "Attribute.spiritual_wellness_product_type",
+      "Attribute.astm_fluid_rating",
+      "Attribute.mask_filter_class.[0]",
+      "Attribute.has_safe_zone_technology",
+      "Attribute.incontinence_and_ostomy_product_type",
+      "Attribute.bathroom_and_toilet_aid_type",
+      "Attribute.has_sas_messaging_technology",
+      "Attribute.medical_thermometer_type",
+      "Attribute.has_temperature_control",
+      "Attribute.medical_cooler_type.[0]",
+      "Attribute.otoscope_type.[0]",
+      "Attribute.beauty_product_benefits.[0]",
+      "Attribute.beauty_equipment_type.[0]",
+      "Attribute.target_use_body_part",
+      "Attribute.has_monitoring_capabilities",
+      "Attribute.water_resistance_level.value",
+      "Attribute.medical_thermometers_display_type",
+      "Attribute.touchscreen_enabled",
+      "Attribute.scent",
+      "Attribute.light_source",
+      "Attribute.magnification.[0]",
+      "Attribute.adult_nappies_material",
+      "Attribute.screen_size.value",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.has_instructions_or_directions_for_use",
+      "Attribute.itching_and_rash_treatment_type",
+      "Attribute.furniture_aid_type",
+      "Attribute.hand_orientation.[0]",
+      "Attribute.wheelchair_type",
+      "Attribute.bandages_and_bandaging_supply_type",
+      "Attribute.container_type",
+      "Attribute.fit_type",
+      "Attribute.footwear_features.[0]",
+      "Attribute.closure_type",
+      "Attribute.pattern",
+      "Attribute.shoe_width",
+      "Attribute.embellishment_feature",
+      "Attribute.toe_style",
+      "Attribute.comfort",
+      "Attribute.outsole_material",
+      "Attribute.wheelchair_accessory_type",
+      "Attribute.has_sos_panic_button",
+      "Attribute.pixel_resolution.height",
+      "Attribute.pixel_resolution.width",
+      "Attribute.battery_type",
+      "Attribute.battery_size.[0]",
+      "Attribute.bulb_type",
+      "Attribute.has_2way_calling",
+      "Attribute.customer_registration_required",
+      "Attribute.zero_rated_vat",
+      "Attribute.battery_life.value",
+      "Attribute.strap_size.value",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.hair_concerns.[0]",
+      "Attribute.hair_type",
+      "Attribute.vision_care_type",
+      "Attribute.medical_thermometer_outer_material",
+      "Attribute.lice_treatment_type",
+      "Attribute.artificial_sweeteners_free",
+      "Attribute.has_bluetooth",
+      "Attribute.is_compressible",
+      "Attribute.is_caffeine_free",
+      "Attribute.is_dioxin_free",
+      "Attribute.is_soy_free",
+      "Attribute.is_reusable",
+      "Attribute.powder_free",
+      "Attribute.is_stain_resistant",
+      "Attribute.is_peanut_free",
+      "Attribute.is_wall_mounted",
+      "Attribute.is_bpa_free",
+      "Attribute.free_from_parabens",
+      "Attribute.is_backlit",
+      "Attribute.is_chlorine_free",
+      "Attribute.is_egg_free",
+      "Attribute.is_gluten_free",
+      "Attribute.is_lightweight",
+      "Attribute.is_dairy_free",
+      "Attribute.is_non_slip",
+      "Attribute.is_compact",
+      "Attribute.phthalate_free",
+      "Attribute.is_shellfish_free",
+      "Attribute.is_sugar_free",
+      "Attribute.is_washable",
+      "Attribute.latex_free",
+      "Attribute.is_corn_free",
+      "Attribute.is_dye_free",
+      "Attribute.is_inflatable",
+      "Attribute.is_portable",
+      "Attribute.is_chemical_resistant",
+      "Attribute.alcohol_free",
+      "Attribute.is_microwaveable",
+      "Attribute.is_lactose_free",
+      "Attribute.is_adjustable",
+      "Attribute.is_disposable",
+      "Attribute.is_lockable",
+      "Attribute.is_wearable",
+      "Attribute.is_flexible",
+      "Attribute.is_mountable",
+      "Attribute.is_non_gmo",
+      "Attribute.is_removable",
+      "Attribute.is_vape",
+      "Attribute.artificial_flavors_free",
+      "Attribute.is_leak_proof",
+      "Attribute.artificial_preservatives_free",
+      "Attribute.is_foldable",
+      "Attribute.ear_device_maintenance_type",
+      "Attribute.is_magnesium_stearate_free",
+      "Attribute.sanitizer_application_surface",
+      "Attribute.intended_use",
+      "Attribute.sanitizer_place_of_use",
+      "Attribute.intended_place_of_use",
+      "Attribute.capsule_closure_type",
+      "Attribute.diagnostic_test_type",
+      "Attribute.medical_mattress_type",
+      "Attribute.eyewear_accessories",
+      "Attribute.red_light_therapy_device_type",
+      "Attribute.treatment_area.[0]",
+      "Attribute.oxygen_purity_type.[0]",
+      "Attribute.airflow_capacity",
+      "Attribute.cotton_product_type.[0]",
+      "Attribute.display_standards.[0]",
+      "Attribute.oxygen_concentrator_type.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_hazardous",
+      "Attribute.has_r638_certificate",
+      "Attribute.care_instructions",
+      "Attribute.has_remote_control",
+      "Attribute.is_antibacterial",
+      "Attribute.intensity_levels",
+      "Attribute.is_battery_operated",
+      "Attribute.is_sensitive_adult_content",
+      "Attribute.is_moisture_resistant",
+      "Attribute.is_ergonomic",
+      "Attribute.is_machine_washable",
+      "Attribute.device_type.[0]",
+      "Attribute.is_rechargeable",
+      "Attribute.compression_adjustment",
+      "Attribute.is_durable"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.reading_glasses_strength",
+      "Variant.attribute.vape_flavour",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.cellphone_compatibility.[0]",
+      "Variant.attribute.bra_size",
+      "Variant.attribute.age_range.min",
+      "Variant.attribute.age_range.max",
+      "Variant.attribute.capsule_count",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.pack_size",
+      "Variant.attribute.ring_size",
+      "Variant.attribute.size_in_cm.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "source_file": "loadsheet-109.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 182,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.music_instrument_type.[0]",
+      "label": "Instrument Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.classical_instruments",
+      "label": "Classical Instruments",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.guitar_orientations.[0]",
+      "label": "Guitar Orientation",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.guitar_type.[0]",
+      "label": "Guitar Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.guitar_strings_number",
+      "label": "Number of Strings",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.guitar_stands_recommended_uses.[0]",
+      "label": "Guitar Stands Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.guitar_pedal_effect_type.[0]",
+      "label": "Guitar Pedal Effect Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.number_of_guitars",
+      "label": "Number of Guitars",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.guitar_capos_recommended_use.[0]",
+      "label": "Guitar Capos Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.guitar_stand_features.[0]",
+      "label": "Guitar Stand Features",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.pectrum_thickness.[0]",
+      "label": "Pectrum Thickness",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.microphone_types.[0]",
+      "label": "Microphone Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.microphone_form_factor.[0]",
+      "label": "Microphone Form Factor",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.microphones_device_compatibility",
+      "label": "Microphones Device Compatibility",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.audio_jacks.[0]",
+      "label": "Audio Jacks",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.rated_frequency.value",
+      "label": "Rated Frequency",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.polar_pattern",
+      "label": "Polar Pattern",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.keyboard_keys",
+      "label": "Number of Keys",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.piano_type",
+      "label": "Piano Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.headphone_styles.[0]",
+      "label": "Headphone Fit/Style",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.dj_headphone_recommended_uses.[0]",
+      "label": "Dj Headphone Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.headphones_noise_control.[0]",
+      "label": "Headphones Noise Control",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.headphones_control_type.[0]",
+      "label": "Headphones Control Type",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.headphone_features.[0]",
+      "label": "Headphone Features",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.has_rotating_headphone_cups",
+      "label": "Has Rotating Headphone Cups",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.driver_type.[0]",
+      "label": "Driver Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.number_of_drivers",
+      "label": "Number of Headphone Drivers",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.in_ear_monitors_features.[0]",
+      "label": "In Ear Monitors Features",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.public_address_system_features.[0]",
+      "label": "Public Address System Features",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.number_of_inputs",
+      "label": "Number of Inputs",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.is_midi_compatible",
+      "label": "Is MIDI Compatible",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.equalizer_type.[0]",
+      "label": "Equalizer Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.amplifier_type.[0]",
+      "label": "Amplifier Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.amplifier_class.[0]",
+      "label": "Amplifier Class",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.amplifier_features.[0]",
+      "label": "Amplifier Features",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.amplifier_special_effects.[0]",
+      "label": "Amplifier Special Effects",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.amplifier_configuration.[0]",
+      "label": "Amplifier Configuration",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.number_of_hdmi_ports",
+      "label": "Number of HDMI Ports",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.electronic_tuner_type.[0]",
+      "label": "Electronic Tuner Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.sound_mixer_type.[0]",
+      "label": "Sound Mixer Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.turntable_type.[0]",
+      "label": "Turntable Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.audio_mixer_type.[0]",
+      "label": "Audio Mixer Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.audio_recording_type",
+      "label": "Audio Recording Type",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.audio_recorder_features.[0]",
+      "label": "Audio Recorder Features",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.sound_or_audio_mixers_features.[0]",
+      "label": "Sound or Audio Mixers Features",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.effect_machines_style.[0]",
+      "label": "Effect Machines Style",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.number_of_effects",
+      "label": "Number of Effects",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.has_recording_options",
+      "label": "Has Recording Options",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.recording_capability.[0]",
+      "label": "Recording Capability",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.music_player_style.[0]",
+      "label": "Music Player Style",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.effect_machines_compatible_devices.[0]",
+      "label": "Effect Machines Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.compatible_musical_instruments.[0]",
+      "label": "Compatible Musical Instruments",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.channels",
+      "label": "Channels",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.speaker_accessory_type",
+      "label": "Speaker Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.number_of_usb_ports",
+      "label": "Number Of Usb Ports",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.fast_charging",
+      "label": "Fast Charging",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_clip_on_tuner",
+      "label": "Is Clip On Tuner",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.tuner_app_connectivity",
+      "label": "Tuner App Connectivity",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.includes_phono_preamp",
+      "label": "Includes Phono Preamp",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.audio_sensitivity.value",
+      "label": "Audio Sensitivity",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.is_powered_subwoofer",
+      "label": "Is Powered Subwoofer",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.subwoofers_recommended_uses.[0]",
+      "label": "Subwoofers Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.max_power_output.value",
+      "label": "Max Power Output",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.audio_output_mode",
+      "label": "Audio Output Mode",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.speaker_mountings.[0]",
+      "label": "Speaker Mountings",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.controller_type",
+      "label": "Controller Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.studio_equipment_and_monitors_recommended_uses.[0]",
+      "label": "Studio Equipment and Monitors Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.stage_lighting_features.[0]",
+      "label": "Stage Lighting Features",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.stage_equipment_lighting_type.[0]",
+      "label": "Stage Equipment Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.energy_rating",
+      "label": "Energy Rating",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.drum_pedal_spring_design_type.[0]",
+      "label": "Drum Pedal Spring Design Type",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.pedal_type.[0]",
+      "label": "Pedal Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.drum_head_pitch.[0]",
+      "label": "Drum Head Pitch",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.music_racks_and_stands_features.[0]",
+      "label": "Music Racks and Stands Features",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.chair_features.[0]",
+      "label": "Chair Features",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.strap_size.value",
+      "label": "Strap Size",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.graphics_cards_interface.[0]",
+      "label": "Graphics Cards Interface",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.personal_computer_usage.[0]",
+      "label": "Personal Computer Usage",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.cpu_core_types.[0]",
+      "label": "CPU Core Types",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.ram_size.value",
+      "label": "RAM Size",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.storage_capacity.value",
+      "label": "Storage Capacity (GB)",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.hardware_platform.[0]",
+      "label": "Hardware Platform",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.sheet_music_clips_features.[0]",
+      "label": "Sheet Music Clips Features",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.double_sided",
+      "label": "Is Double-sided",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.is_padded",
+      "label": "Is Padded",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.is_detachable",
+      "label": "Is Detachable",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.has_adjustable_straps",
+      "label": "Has Adjustable Straps",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.has_send_or_return",
+      "label": "Has Send or Return",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.has_weighted_keys",
+      "label": "Has Weighted Keys",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.has_record_out",
+      "label": "Has Record Out",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.has_split_cue",
+      "label": "Has Split Cue",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.violin_accessory_type",
+      "label": "Violin Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.ethernet_hub_or_port",
+      "label": "Ethernet Hubs or Ports",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.has_retractable_wire_brushes",
+      "label": "Has Retractable Wire Brushes",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.has_cable",
+      "label": "Has Cable",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.has_software_support",
+      "label": "Has Software Support",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.tear_resistant",
+      "label": "Tear Resistant",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.is_stretchable",
+      "label": "Is Stretchable",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.is_rechargeable",
+      "label": "Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.is_portable",
+      "label": "Portable",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.has_noise_cancelling",
+      "label": "Noise Cancelling",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in cm",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.peripheral_connectivities.[0]",
+      "label": "Peripheral Connectivities",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.audio_replacement_part_type",
+      "label": "Audio Replacement Part Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.is_wireless",
+      "label": "Is Wireless",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.adapter_features.[0]",
+      "label": "Adapter Features",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.output_voltage.value",
+      "label": "Output Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.connector_type",
+      "label": "Connector Type",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.has_bluetooth",
+      "label": "Has Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.has_integrated_remote",
+      "label": "Has Integrated Remoted",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size pack_size",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.output_voltage.unit",
+      "label": "Output Voltage unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "109": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Musical Instrument & Orchestra Accessories (14724)",
+      "Musical Instruments (14877)",
+      "Audio Mixers (15430)",
+      "Subwoofers (20828)",
+      "Public Address Systems (15467)",
+      "Microphones (15437)",
+      "Stage Equipment (15468)",
+      "Turntables & Record Players (15461)",
+      "Effects Processors (15440)",
+      "Equalizers (15441)",
+      "Audio Amplifiers (15427)",
+      "DJ & Specialty Audio (15464)",
+      "Acoustic Panels (30694)",
+      "Cables & Jacks (30696)",
+      "Mic Windshields & Pop Filters (30695)",
+      "Monitors & Stands (30693)",
+      "Turntable Accessories (15424)",
+      "DJ Headphones (22278)"
+    ],
+    "4.33055": [
+      "Metronomes (14740)",
+      "String Instrument Accessories->Guitar Accessories->Guitar Capos (14781)",
+      "String Instrument Accessories->Guitar Accessories->Guitar Parts (14784)",
+      "String Instrument Accessories->Guitar Accessories->Repair Tool Kits (30835)",
+      "String Instrument Accessories->Guitar Accessories->Accessory Kits (30836)",
+      "String Instrument Accessories->Guitar Accessories->Guitar Locks & Pins (30838)",
+      "String Instrument Accessories->Guitar Accessories->Plectrums (14786)",
+      "String Instrument Accessories->Guitar Accessories->Guitar Stands (14788)",
+      "String Instrument Accessories->Strings (22790)",
+      "String Instrument Accessories->Violin Accessories (30847)",
+      "String Instrument Accessories->Power Supply Adapters (30849)",
+      "String Instrument Accessories->Straps (22803)",
+      "String Instrument Accessories->Cables (22802)",
+      "Woodwind Instrument Accessories (14806)",
+      "Microphone Accessories (30843)",
+      "Instrument Pick-ups (30846)",
+      "Music Bags & Cases->Sheet Music Clips (14746)",
+      "Music Bags & Cases->Music Bags (14744)",
+      "Music Bags & Cases->Music Cases (14745)",
+      "Music Stands & Hangers (14747)",
+      "Electronic Tuners (14739)",
+      "Percussion Accessories->Drum Kit Hardware->Bass Drum Beaters (14766)",
+      "Percussion Accessories->Drum Kit Hardware->Drum Kit Mounting Hardware (14767)",
+      "Percussion Accessories->Drum Kit Hardware->Drum Pedals (14768)",
+      "Percussion Accessories->Concert & Mallet Percussion (14776)",
+      "Percussion Accessories->Drum Heads (14763)",
+      "Percussion Accessories->Drum Sticks & Brushes (14771)",
+      "Practice Pads (19954)",
+      "Chairs, Stools & Benches (30744)"
+    ],
+    "7.0.4": [
+      "Arrangers (22551)",
+      "Electronic Musical Instruments->Musical Keyboards (14890)",
+      "Electronic Musical Instruments->MIDI Controllers (14889)",
+      "Electronic Musical Instruments->Sound Synthesizers (14891)",
+      "Woodwinds->Melodicas (14937)",
+      "Woodwinds->Harmonicas (14935)",
+      "Bass (22252)",
+      "Drums & Percussion->Cymbals (14894)",
+      "Drums & Percussion->Traditional Instruments (28629)",
+      "Drums & Percussion->Hand Drums (21400)",
+      "Drums & Percussion->Gongs (14898)",
+      "Drums & Percussion->Hardware (21401)",
+      "Drums & Percussion->Practice Pads (14919)",
+      "Drums & Percussion->Drum Set, Timbales and Roto Tom (14895)",
+      "Drums & Percussion->Hand Percussion (14899)",
+      "Drums & Percussion->Electronic Drums (14896)",
+      "Accordions & Concertinas (14878)",
+      "Classical (21445)",
+      "String Instruments->Violins (14929)",
+      "String Instruments->Guitars (14925)",
+      "Pianos (14922)"
+    ],
+    "3": [
+      "Audio Mixers (15430)"
+    ],
+    "75166055": [
+      "Subwoofers (20828)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Public Address Systems (15467)"
+    ],
+    "False": [
+      "Equalizers (15441)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.music_instrument_type.[0]",
+      "Attribute.classical_instruments",
+      "Attribute.guitar_orientations.[0]",
+      "Attribute.guitar_type.[0]",
+      "Attribute.guitar_strings_number",
+      "Attribute.guitar_stands_recommended_uses.[0]",
+      "Attribute.guitar_pedal_effect_type.[0]",
+      "Attribute.number_of_guitars",
+      "Attribute.guitar_capos_recommended_use.[0]",
+      "Attribute.guitar_stand_features.[0]",
+      "Attribute.pectrum_thickness.[0]",
+      "Attribute.microphone_types.[0]",
+      "Attribute.microphone_form_factor.[0]",
+      "Attribute.microphones_device_compatibility",
+      "Attribute.audio_jacks.[0]",
+      "Attribute.rated_frequency.value",
+      "Attribute.polar_pattern",
+      "Attribute.power_source",
+      "Attribute.keyboard_keys",
+      "Attribute.piano_type",
+      "Attribute.headphone_styles.[0]",
+      "Attribute.dj_headphone_recommended_uses.[0]",
+      "Attribute.headphones_noise_control.[0]",
+      "Attribute.headphones_control_type.[0]",
+      "Attribute.headphone_features.[0]",
+      "Attribute.has_rotating_headphone_cups",
+      "Attribute.driver_type.[0]",
+      "Attribute.number_of_drivers",
+      "Attribute.in_ear_monitors_features.[0]",
+      "Attribute.public_address_system_features.[0]",
+      "Attribute.number_of_inputs",
+      "Attribute.is_midi_compatible",
+      "Attribute.equalizer_type.[0]",
+      "Attribute.amplifier_type.[0]",
+      "Attribute.amplifier_class.[0]",
+      "Attribute.amplifier_features.[0]",
+      "Attribute.amplifier_special_effects.[0]",
+      "Attribute.amplifier_configuration.[0]",
+      "Attribute.number_of_hdmi_ports",
+      "Attribute.electronic_tuner_type.[0]",
+      "Attribute.sound_mixer_type.[0]",
+      "Attribute.turntable_type.[0]",
+      "Attribute.audio_mixer_type.[0]",
+      "Attribute.audio_recording_type",
+      "Attribute.audio_recorder_features.[0]",
+      "Attribute.sound_or_audio_mixers_features.[0]",
+      "Attribute.effect_machines_style.[0]",
+      "Attribute.number_of_effects",
+      "Attribute.has_recording_options",
+      "Attribute.recording_capability.[0]",
+      "Attribute.music_player_style.[0]",
+      "Attribute.effect_machines_compatible_devices.[0]",
+      "Attribute.compatible_musical_instruments.[0]",
+      "Attribute.channels",
+      "Attribute.speaker_accessory_type",
+      "Attribute.number_of_usb_ports",
+      "Attribute.battery_size.[0]",
+      "Attribute.battery_type",
+      "Attribute.operation_mode",
+      "Attribute.fast_charging",
+      "Attribute.is_clip_on_tuner",
+      "Attribute.tuner_app_connectivity",
+      "Attribute.includes_phono_preamp",
+      "Attribute.input_voltage.value",
+      "Attribute.audio_sensitivity.value",
+      "Attribute.is_powered_subwoofer",
+      "Attribute.subwoofers_recommended_uses.[0]",
+      "Attribute.max_power_output.value",
+      "Attribute.audio_output_mode",
+      "Attribute.mounting_type",
+      "Attribute.speaker_mountings.[0]",
+      "Attribute.controller_type",
+      "Attribute.studio_equipment_and_monitors_recommended_uses.[0]",
+      "Attribute.stage_lighting_features.[0]",
+      "Attribute.stage_equipment_lighting_type.[0]",
+      "Attribute.light_source",
+      "Attribute.energy_rating",
+      "Attribute.is_lightweight",
+      "Attribute.is_foldable",
+      "Attribute.drum_pedal_spring_design_type.[0]",
+      "Attribute.pedal_type.[0]",
+      "Attribute.drum_head_pitch.[0]",
+      "Attribute.compatible_devices",
+      "Attribute.music_racks_and_stands_features.[0]",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.chair_features.[0]",
+      "Attribute.strap_size.value",
+      "Attribute.graphics_cards_interface.[0]",
+      "Attribute.personal_computer_usage.[0]",
+      "Attribute.cpu_core_types.[0]",
+      "Attribute.ram_size.value",
+      "Attribute.storage_capacity.value",
+      "Attribute.hardware_platform.[0]",
+      "Attribute.sheet_music_clips_features.[0]",
+      "Attribute.number_of_pieces",
+      "Attribute.double_sided",
+      "Attribute.is_padded",
+      "Attribute.is_detachable",
+      "Attribute.has_adjustable_straps",
+      "Attribute.has_send_or_return",
+      "Attribute.has_weighted_keys",
+      "Attribute.has_record_out",
+      "Attribute.has_split_cue",
+      "Attribute.violin_accessory_type",
+      "Attribute.ethernet_hub_or_port",
+      "Attribute.has_retractable_wire_brushes",
+      "Attribute.has_cable",
+      "Attribute.has_software_support",
+      "Attribute.tear_resistant",
+      "Attribute.is_stretchable",
+      "Attribute.is_adjustable",
+      "Attribute.is_rechargeable",
+      "Attribute.is_portable",
+      "Attribute.has_noise_cancelling",
+      "Attribute.is_waterproof",
+      "Attribute.is_water_resistant",
+      "Attribute.power.value",
+      "Attribute.product_shape",
+      "Attribute.peripheral_connectivities.[0]",
+      "Attribute.audio_replacement_part_type",
+      "Attribute.is_wireless",
+      "Attribute.adapter_features.[0]",
+      "Attribute.output_voltage.value",
+      "Attribute.connectivities.[0]",
+      "Attribute.connector_type",
+      "Attribute.has_bluetooth",
+      "Attribute.has_integrated_remote",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.output_voltage.unit"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.bag_size.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.pack_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

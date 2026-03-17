@@ -1,0 +1,1224 @@
+{
+  "source_file": "loadsheet-123.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 155,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Materials",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.coffee_strengths.[0]",
+      "label": "Coffee Strength",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.coffee_types.[0]",
+      "label": "Coffee Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.coffee_country_of_origin.[0]",
+      "label": "Coffee Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.roast_type",
+      "label": "Roast Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.milk_cream_types.[0]",
+      "label": "Milk Cream Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.tea_types.[0]",
+      "label": "Tea Types",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.tea_format.[0]",
+      "label": "Tea Format",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.dried_fruits_nuts_types.[0]",
+      "label": "Dried Fruit and Nuts Types",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.rice_pasta_types.[0]",
+      "label": "Rice and Pasta Types",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.pulse_type.[0]",
+      "label": "Pulse Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.baking_mixes_and_flour_types.[0]",
+      "label": "Baking Mixes and Flour Types",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.baking_mix_types.[0]",
+      "label": "Baking Mix Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.oils_vinegar_sauce_types.[0]",
+      "label": "Oils and Vinegar Sauce Types",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.sauce_types.[0]",
+      "label": "Sauce Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.casing_type.[0]",
+      "label": "Casing Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.herbs_spices_types.[0]",
+      "label": "Herbs and Spices Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.juice_types.[0]",
+      "label": "Juice Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.snack_types.[0]",
+      "label": "Snack Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.sportsdrink_types.[0]",
+      "label": "Sportsdrink Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_vegan",
+      "label": "Is Vegan",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.household_foils_wraps_types.[0]",
+      "label": "Household Foil and Wrap Types",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.paper_towel_form",
+      "label": "Paper Towel Form",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.paper_towel_ply",
+      "label": "Paper Towel Ply",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.mop_type",
+      "label": "Mop Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.mop_head",
+      "label": "Mop Head",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.mop_accessory_type.[0]",
+      "label": "Mop Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.broom_type",
+      "label": "Broom Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.broom_head_width.value",
+      "label": "Broom Head Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.broom_length.value",
+      "label": "Broom Head Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.broom_surface_recommendation.[0]",
+      "label": "Broom Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.bristle_firmness",
+      "label": "Bristle Firmness",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.duster_head_material.[0]",
+      "label": "Duster Head Material",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.ironing_board_size.width",
+      "label": "Ironing Board Size Width",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.ironing_board_size.length",
+      "label": "Ironing Board Size Length",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.ironing_boards_material",
+      "label": "Ironing Boards Material",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.ironing_board_type",
+      "label": "Ironing Board Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.insect_repellent_types.[0]",
+      "label": "Household Insect Repellent Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.surface_recommendation.[0]",
+      "label": "Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.floor_cleaner_features",
+      "label": "Floor Cleaner Features",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.detergent_scent",
+      "label": "Detergent Scent",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.intended_surface_usage.[0]",
+      "label": "Intended Surface Usage",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.detergent_form",
+      "label": "Detergent Form",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.dye_form",
+      "label": "Dye Form",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.rinse_aid_features",
+      "label": "Rinse Aid Features",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.detergent_size",
+      "label": "Detergent Size",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.cleaning_supply_type.[0]",
+      "label": "Cleaning Supply Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.laundry_supply_type",
+      "label": "Laundry Supply Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.storage_type",
+      "label": "Storage Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.scent_type.[0]",
+      "label": "Scent Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.battery_capacity.value",
+      "label": "Battery Capacity",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.cleaning_consumables_special_features.[0]",
+      "label": "Cleaning Consumables Special Features",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.cleaning_agent_surface_recommendation",
+      "label": "Cleaning Agent Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.dietary_requirement_types.[0]",
+      "label": "Free From Dietary Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.vitamin_or_mineral_types.[0]",
+      "label": "Vitamin or Mineral Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.water_type",
+      "label": "Water Type",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery size",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.battery_cell_composition",
+      "label": "Battery Cell Composition",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.battery_reusability.[0]",
+      "label": "Battery Reusability",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.is_refillable",
+      "label": "Refillable",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.flavour_type",
+      "label": "Flavour",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.active_ingredients",
+      "label": "Ingredients",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.batteries_recommended_use",
+      "label": "Batteries Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.has_lid",
+      "label": "Lid",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.fast_charging",
+      "label": "Fast Charging",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.is_freestanding",
+      "label": "Is Freestanding",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.rack_or_hanger_placement",
+      "label": "Rack or Hanger Placement",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.target_customer.[0]",
+      "label": "Target Customer",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.reusability",
+      "label": "Reusability",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.laptop_compatibility",
+      "label": "Laptop Compatibility",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.fabric.[0]",
+      "label": "Fabric",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.dietary_requirements.[0]",
+      "label": "Dietary Requirements",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.sanitizer_application_surface",
+      "label": "Sanitizer Application Surface",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.towel_shape",
+      "label": "Towel Shape",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.battery_capacity.unit",
+      "label": "Battery Capacity unit",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.intended_use",
+      "label": "Intended Use",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.medicine_or_substance_schedule",
+      "label": "Medicine or Substance Schedule",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender genders [0]",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.formulation_types.[0]",
+      "label": "Formulation Types",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.is_soy_free",
+      "label": "Is Soy Free",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.is_egg_free",
+      "label": "Is Egg Free",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.is_non_gmo",
+      "label": "Is Non GMO",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.is_scented",
+      "label": "Is Scented",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.is_animal_fat_free",
+      "label": "Is Animal Fat Free",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.cleaning_chemicals_application.[0]",
+      "label": "Cleaning Chemicals Application",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.is_gluten_free",
+      "label": "Is Gluten Free",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.sahpra_approved_device",
+      "label": "sahpra approved device",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.sanitizer_place_of_use",
+      "label": "Sanitizer Place Of Use",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.pack_type",
+      "label": "Pack Type",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated VAT",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.volume.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.volume.unit",
+      "label": "Product Volume Metric",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Variant.attribute.weight.value",
+      "label": "Product Weight Value (Variant)",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume for Variant",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.has_r638_certificate",
+      "label": "Has R638 Certificate",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.rated_voltage.unit",
+      "label": "Rated Voltage unit",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.expiry_days",
+      "label": "Expiry days",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "123": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Food Items (15834)",
+      "Household Cleaning Supplies (17377)",
+      "Laundry Supplies (17419)",
+      "Household Paper Products (17413)",
+      "Sports Drinks (15830)",
+      "Tea & Infusions (15831)",
+      "Water (15833)",
+      "Hot Chocolate (15824)",
+      "Juice (15825)",
+      "Long Life Milk & Dairy Alternatives (15826)",
+      "Mocha (22512)",
+      "Coffee (15821)",
+      "Mixes (22755)",
+      "Plastic Wrap (17587)",
+      "Foil (17585)",
+      "Household Insect Repellents (17447)",
+      "Shoe Care (17453)",
+      "Sanitizers & Wipes (16887)",
+      "Soap & Body Wash (16886)",
+      "Toothpaste (17066)",
+      "Manual Toothbrushes (20136)",
+      "Electric Toothbrushes (20135)",
+      "Garbage Bags & Bin Liners (17376)",
+      "Soft Drinks (19710)",
+      "Batteries (15677)",
+      "Air Fresheners (17208)",
+      "Biscuits, Rusks & Crackers (15841)",
+      "Energy Drinks (19712)",
+      "Flavoured Syrups (28597)",
+      "Home Fragrances (17207)"
+    ],
+    "4.34045": [
+      "Grains, Rice & Cereal->Breakfast Cereals (16086)",
+      "Grains, Rice & Cereal->Rice (16091)",
+      "Dairy Products->Coffee Creamer (15924)",
+      "Cooking & Baking Ingredients->Oils & Vinegar (15918)",
+      "Cooking & Baking Ingredients->Baking & Ingredients (22758)",
+      "Cooking & Baking Ingredients->Sugar & Sweeteners (15914)",
+      "Cooking & Baking Ingredients->Cooking Oils (15894)",
+      "Condiments, Spices & Sauces->Herbs & Spices (16109)",
+      "Canned & Jarred Foods (22523)",
+      "Cook In Sauces, Soups & Meal Kits (16132)",
+      "Food Casings (30698)",
+      "Condiments & Sauces->Mayonnaise (15866)",
+      "Condiments & Sauces->Olives & Capers (15868)",
+      "Condiments & Sauces->Salad Dressing (15873)",
+      "Condiments & Sauces->Tomato Sauce (15864)",
+      "Condiments & Sauces->Relish & Chutney (15872)",
+      "Condiments & Sauces->Pickled Fruits & Vegetables (15870)",
+      "Condiments & Sauces->Honey (15861)",
+      "Condiments & Sauces->Syrup (15877)",
+      "Condiments & Sauces->Sauces (15863)",
+      "Dips & Spreads->Jams, Honeys & Spreads (15936)",
+      "Dips & Spreads->Guacamole (15934)",
+      "Dips & Spreads->Nut Butters (15937)",
+      "Dips & Spreads->Cream Cheese (15933)",
+      "Dips & Spreads->Cheese Dips & Spreads (15932)",
+      "Dips & Spreads->Vegetable Dip (15940)",
+      "Snack Foods->Chips & Savoury Snacks (16117)",
+      "Snack Foods->Biltong & Dry Wors (16121)",
+      "Rice, Pasta & Pulses->Rice (30645)",
+      "Rice, Pasta & Pulses->Pasta (30646)",
+      "Rice, Pasta & Pulses->Pulses (30647)",
+      "Desserts (28596)",
+      "Dietary & Lifestyle (22513)",
+      "Nuts & Seeds (16103)",
+      "Occasional Gifts (15941)",
+      "Sweets & Chocolates (15852)"
+    ],
+    "7.0.4": [
+      "Household Cleaning Consumables->Bleach & Disinfectants (30935)",
+      "Household Cleaning Consumables->Eco-friendly Cleaning (30936)",
+      "Household Cleaning Consumables->Polishers (30937)",
+      "Household Cleaning Consumables->Scourers & Steel Wool (30938)",
+      "Household Cleaning Consumables->Dishwashing Liquid, Powders & Tablets (17392)",
+      "Household Cleaning Consumables->Rinse Aids (17401)",
+      "Household Cleaning Consumables->All-Purpose Cleaners (17389)",
+      "Household Cleaning Consumables->Kitchen Cleaners (22517)",
+      "Household Cleaning Consumables->Floor Cleaners (17395)",
+      "Household Cleaning Consumables->Descalers & Decalcifiers (17391)",
+      "Household Cleaning Consumables->Carpet Cleaners (17390)",
+      "Household Cleaning Consumables->Bathroom Cleaners (17404)",
+      "Household Cleaning Consumables->Dishwasher Salt (22524)",
+      "Household Cleaning Consumables->Refuse Bags & Liners (23097)",
+      "Household Cleaning Consumables->Glass & Surface Cleaners (17397)",
+      "Household Cleaning Consumables->Dishwasher Cleaners (17393)",
+      "Household Cleaning Consumables->Upholstery Cleaners (17394)",
+      "Household Cleaning Consumables->Drain Openers (22756)",
+      "Brooms & Sweepers (17380)",
+      "Cloths & Wipes (17410)",
+      "Mop Accessories (17378)",
+      "Squeegees (17412)",
+      "Mops (17407)",
+      "Scrub Brushes (17409)",
+      "Glass Cleaners (22522)",
+      "Buckets (17381)",
+      "Feather Dusters (17385)"
+    ],
+    "3": [
+      "Powder Laundry Detergents (30949)",
+      "Ironing Board Pads & Covers (17431)",
+      "Ironing Boards (17433)",
+      "Rotary Airer (23055)",
+      "Fabric Dyes (22510)",
+      "Liquid Laundry Detergents (17436)",
+      "Clothes Pegs & Pins (23057)",
+      "Fabric Softeners & Dryer Sheets (17426)",
+      "Fabric Stain Removers (17427)",
+      "Indoor Airer (23056)",
+      "Hand Wash & Delicates (22511)",
+      "Laundry Detergent Capsules & Tablets (22757)"
+    ],
+    "80932920": [
+      "Paper Towels (17416)",
+      "Toilet Paper (17417)",
+      "Facial Tissues (17414)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute.flavour_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Flavour Type\", \"sheet_name\": \"Flavour Type\"}, \"Attribute_rice_pasta_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Types of Rice & Pasta\", \"sheet_name\": \"Types of Rice & Pasta\"}, \"Attribute_herbs_spices_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Types of Herbs & Spices\", \"sheet_name\": \"Types of Herbs & Spices\"}, \"Attribute_dried_fruits_nuts_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Types of Dried Fruit and Nuts\", \"sheet_name\": \"Types of Dried Fruit and Nuts\"}, \"Attribute_dietary_requirement_types_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Dietary Requirements\", \"sheet_name\": \"Dietary Requirements\"}}": [
+      "Sports Drinks (15830)"
+    ],
+    "False": [
+      "Long Life Milk & Dairy Alternatives (15826)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.coffee_strengths.[0]",
+      "Attribute.coffee_types.[0]",
+      "Attribute.coffee_country_of_origin.[0]",
+      "Attribute.roast_type",
+      "Attribute.milk_cream_types.[0]",
+      "Attribute.tea_types.[0]",
+      "Attribute.tea_format.[0]",
+      "Attribute.dried_fruits_nuts_types.[0]",
+      "Attribute.rice_pasta_types.[0]",
+      "Attribute.pulse_type.[0]",
+      "Attribute.baking_mixes_and_flour_types.[0]",
+      "Attribute.baking_mix_types.[0]",
+      "Attribute.oils_vinegar_sauce_types.[0]",
+      "Attribute.sauce_types.[0]",
+      "Attribute.casing_type.[0]",
+      "Attribute.herbs_spices_types.[0]",
+      "Attribute.juice_types.[0]",
+      "Attribute.is_rechargeable",
+      "Attribute.snack_types.[0]",
+      "Attribute.sportsdrink_types.[0]",
+      "Attribute.is_vegan",
+      "Attribute.household_foils_wraps_types.[0]",
+      "Attribute.is_heavy_duty",
+      "Attribute.paper_towel_form",
+      "Attribute.paper_towel_ply",
+      "Attribute.product_shape",
+      "Attribute.mop_type",
+      "Attribute.mop_head",
+      "Attribute.mop_accessory_type.[0]",
+      "Attribute.broom_type",
+      "Attribute.broom_head_width.value",
+      "Attribute.broom_length.value",
+      "Attribute.broom_surface_recommendation.[0]",
+      "Attribute.bristle_firmness",
+      "Attribute.duster_head_material.[0]",
+      "Attribute.ironing_board_size.width",
+      "Attribute.ironing_board_size.length",
+      "Attribute.ironing_boards_material",
+      "Attribute.ironing_board_type",
+      "Attribute.insect_repellent_types.[0]",
+      "Attribute.surface_recommendation.[0]",
+      "Attribute.floor_cleaner_features",
+      "Attribute.detergent_scent",
+      "Attribute.intended_surface_usage.[0]",
+      "Attribute.detergent_form",
+      "Attribute.dye_form",
+      "Attribute.rinse_aid_features",
+      "Attribute.detergent_size",
+      "Attribute.cleaning_supply_type.[0]",
+      "Attribute.laundry_supply_type",
+      "Attribute.storage_type",
+      "Attribute.scent_type.[0]",
+      "Attribute.rated_voltage.value",
+      "Attribute.battery_capacity.value",
+      "Attribute.cleaning_consumables_special_features.[0]",
+      "Attribute.cleaning_agent_surface_recommendation",
+      "Attribute.dietary_requirement_types.[0]",
+      "Attribute.vitamin_or_mineral_types.[0]",
+      "Attribute.water_type",
+      "Attribute.is_hand_made",
+      "Attribute.battery_type",
+      "Attribute.battery_size.[0]",
+      "Attribute.battery_cell_composition",
+      "Attribute.battery_reusability.[0]",
+      "Attribute.is_refillable",
+      "Attribute.flavour_type",
+      "Attribute.active_ingredients",
+      "Attribute.batteries_recommended_use",
+      "Attribute.has_lid",
+      "Attribute.pattern_type",
+      "Attribute.fast_charging",
+      "Attribute.is_freestanding",
+      "Attribute.rack_or_hanger_placement",
+      "Attribute.target_customer.[0]",
+      "Attribute.reusability",
+      "Attribute.laptop_compatibility",
+      "Attribute.proudly_south_african",
+      "Attribute.has_expiry_days",
+      "Attribute.fabric.[0]",
+      "Attribute.dietary_requirements.[0]",
+      "Attribute.sanitizer_application_surface",
+      "Attribute.towel_shape",
+      "Attribute.battery_capacity.unit",
+      "Attribute.intended_use",
+      "Attribute.medicine_or_substance_schedule",
+      "Attribute.formulation_types.[0]",
+      "Attribute.is_soy_free",
+      "Attribute.is_egg_free",
+      "Attribute.is_non_gmo",
+      "Attribute.is_scented",
+      "Attribute.is_animal_fat_free",
+      "Attribute.cleaning_chemicals_application.[0]",
+      "Attribute.is_gluten_free",
+      "Attribute.sahpra_approved_device",
+      "Attribute.sanitizer_place_of_use",
+      "Attribute.pack_type",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.zero_rated_vat",
+      "Attribute.volume.value",
+      "Attribute.volume.unit",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.has_r638_certificate",
+      "Attribute.rated_voltage.unit",
+      "Attribute.expiry_days"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.volume_variant.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

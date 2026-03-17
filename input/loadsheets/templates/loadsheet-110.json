@@ -1,0 +1,1734 @@
+{
+  "source_file": "loadsheet-110.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 231,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.chair_type",
+      "label": "Chair Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.chair_features.[0]",
+      "label": "Chair Features",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.chair_fill_material",
+      "label": "Chair Fill Material",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.chair_frame_material",
+      "label": "Chair Frame Material",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.movement_type",
+      "label": "Movement Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.desk_design",
+      "label": "Desk Design",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.desk_features",
+      "label": "Desk Features",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.desk_table_type",
+      "label": "Desk Table Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.desk_lighting_features",
+      "label": "Desk Lighting Features",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.is_height_adjustable",
+      "label": "Height Adjustable",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.desk_included_components.[0]",
+      "label": "Desk Included Components",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.number_of_shelves",
+      "label": "Number of Shelves",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.number_of_drawers",
+      "label": "Number of Drawers",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.storage_type",
+      "label": "Storage Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.cabinet_style.[0]",
+      "label": "Cabinet Style",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.credenza_door_style.[0]",
+      "label": "Credenza Door Style",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.projector_usage.[0]",
+      "label": "Projector Usage",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.projector_screen_type.[0]",
+      "label": "Projector Screen Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standards",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.projector_lamp_type.[0]",
+      "label": "Projector Lamp Type",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.projector_throw.[0]",
+      "label": "Projector Throw",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.projector_technology",
+      "label": "Projector Technology",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.projector_form_factor.[0]",
+      "label": "Projector Form Factor",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.video_projector_feature",
+      "label": "Video Projector Feature",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.video_projector_controller_type",
+      "label": "Video Projector Controller Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.can_tilt",
+      "label": "Can Tilt",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.has_wheels",
+      "label": "Has Wheels",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.fast_charging",
+      "label": "fast Charging",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.double_sided_printing",
+      "label": "Has Double Sided Printing",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.requires_assembly",
+      "label": "Requires Assembly",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.plant_type",
+      "label": "Plant Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.planter_mount_type",
+      "label": "Planter Mount Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.is_portable",
+      "label": "Portable",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.printer_type.[0]",
+      "label": "Printer Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.printer_part_type",
+      "label": "Printer Part Type",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.printer_capacity",
+      "label": "Printer Capacity",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.print_speed_colour.value",
+      "label": "Print Speed in Colour",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.print_speed_bw.value",
+      "label": "Print Speed in Black",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.printer_resolution.[0]",
+      "label": "Printer Resolution",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.classification",
+      "label": "Classification",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.printer_cartridge_type.[0]",
+      "label": "Cartridge Model",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.ink_colour.[0]",
+      "label": "Colour of Ink",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.ink_toner_type",
+      "label": "Ink Toner Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.cartridge_type.[0]",
+      "label": "Cartridge Type",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.page_yield",
+      "label": "Page Yield",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.capacity.value",
+      "label": "Product Capacity Value",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.printer_function.[0]",
+      "label": "Printer Function",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.printer_output.[0]",
+      "label": "Printer Output",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.printer_special_features",
+      "label": "Printer Special Features",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.printer_print_media",
+      "label": "Printer Print Media",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.printer_operating_system",
+      "label": "Printer Operating System",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.voice_recorder_compatibility",
+      "label": "Voice Recorder Compatibility",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.filament_type",
+      "label": "Filament Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Variant.attribute.paper_size",
+      "label": "Paper Size",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.photo_paper_features",
+      "label": "Photo Paper Features",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.is_biodegradable",
+      "label": "Biodegradable",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_renewable",
+      "label": "Renewable",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_recyclable",
+      "label": "Recyclable",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.tape_type",
+      "label": "Tape Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.label_type",
+      "label": "Label Type",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.adhesive_type",
+      "label": "Adhesive Type",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.mouse_pad_size.value",
+      "label": "Mouse Pad Size",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.supports_printer_cartridge_type.[0]",
+      "label": "Printer Cartridge Support",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.shredder_cut_types.[0]",
+      "label": "Shredder Cut Types",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Variant.attribute.shredder_sheet_capacity",
+      "label": "Shredder Sheet Capacity",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.shredder_usage",
+      "label": "Shredder Usage",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.document_feeder",
+      "label": "Document Feeder",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.automatic_document_feeder_capacity",
+      "label": "Automatic Document Feeder Capacity",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Capacity (GB)",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.binding_machine_type",
+      "label": "Binding Machine Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.sheet_capacity",
+      "label": "Sheet Capacity",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.video_encoding.[0]",
+      "label": "Video Encoding",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.brightness.value",
+      "label": "Brightness",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.calculator_type",
+      "label": "Calculator Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Device Operating System",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.airtime_data",
+      "label": "Airtime or Data",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.is_4g_enabled",
+      "label": "4G Enabled",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.is_5g_enabled",
+      "label": "5G Enabled",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.network_provider",
+      "label": "Network Provider",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.number_of_telephone_lines",
+      "label": "Number of Telephone Lines",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.numbers_of_arms",
+      "label": "Numbers of Arms",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.number_of_hooks",
+      "label": "Number of Hooks",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.contrast_ratio",
+      "label": "Contrast Ratio",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.by_user.[0]",
+      "label": "By User",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.by_office_user.[0]",
+      "label": "Office User Type",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.board_type",
+      "label": "Notice Board Type",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.is_ergonomic",
+      "label": "Ergonomic",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.is_magnetic",
+      "label": "Magnetic",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.is_non_slip",
+      "label": "Non Slip",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.laptop_support_recommended_uses",
+      "label": "Laptop Support Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.laser_cutter_resolution",
+      "label": "Laser Cutter Resolution",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.laser_engraver_resolution.[0]",
+      "label": "Laser Engraver Resolution",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.hardware_interface",
+      "label": "Hardware Interface",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.body_positioner_firmness",
+      "label": "Body Positioner Firmness",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.body_positioner_special_features",
+      "label": "Body Positioner Special Features",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.body_positioner_target_use",
+      "label": "Body Positioner Target Use",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.body_positioner_shape",
+      "label": "Body Positioner Shape",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.has_adjustable_straps",
+      "label": "Adjustable Straps",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.stand_features",
+      "label": "Stand Features",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.scanner_type",
+      "label": "Scanner Type",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.scanner_resolution",
+      "label": "Scanner Resolution",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.year_planner_format",
+      "label": "Year Planner Format",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.year_type",
+      "label": "Year Type",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.connector_type",
+      "label": "Connector Type",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.led_life",
+      "label": "LED Life",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.has_display_screen",
+      "label": "Has Display Screen",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Variant.attribute.tape_length.value",
+      "label": "Tape Length",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.office_furniture_shape",
+      "label": "Office Furniture Shape",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.product_theme",
+      "label": "Product Theme",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.pattern",
+      "label": "Pattern",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.printer_part_3d",
+      "label": "Printer Part 3D",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.accessory_type_printer_3d",
+      "label": "3D Printer Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.laser_cutter_type",
+      "label": "Laser Cutter Type",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.software_compatibility",
+      "label": "Software Compatibility",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.material_compatibility",
+      "label": "Material Compatibility",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.view_angle.value",
+      "label": "View Angle",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.supported_image_format.[0]",
+      "label": "Image Format",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.supported_video_format.[0]",
+      "label": "Video format",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.video_and_image_requirements.[0]",
+      "label": "Video & Image Requirements",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Resolution Width",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Resolution Height",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.display_diameter.value",
+      "label": "Display Diameter",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Variant.attribute.mobile_data_type.[0]",
+      "label": "Mobile Data Type",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.aspect_ratio.[0]",
+      "label": "Aspect Ratio",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.light_fixture_shade_material.[0]",
+      "label": "Light Fixture Shade Material",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.lights_and_lamps_power_source",
+      "label": "Lights and Lamps Power Source",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.extendable_length.unit",
+      "label": "Extendable Length unit",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.extendable_length.value",
+      "label": "Extendable Length",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.mouse_pad_size.unit",
+      "label": "Mouse Pad Size unit",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.cabinet_type.[0]",
+      "label": "Cabinet Type",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.number_of_lights",
+      "label": "Number of Lights",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.biometric_security_feature",
+      "label": "Biometric Security Feature",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.light_bulb_features",
+      "label": "Light Bulb Features",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.indoor_lighting_type",
+      "label": "Indoor Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.weight_limit.value",
+      "label": "Weight Limit",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.screen_protectors_special_features",
+      "label": "Screen Protectors Special Features",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.is_foldable",
+      "label": "Foldable",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.is_3g_enabled",
+      "label": "Is 3G Enabled",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.is_freestanding",
+      "label": "Is Freestanding",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.is_2g_enabled",
+      "label": "Is 2G Enabled",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.output_voltage.unit",
+      "label": "Output Voltage unit",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.output_voltage.value",
+      "label": "Output Voltage",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.angle.unit",
+      "label": "Angle unit",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.angle.value",
+      "label": "Angle value",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.laptop_compatibility",
+      "label": "Laptop Compatibility",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.bulb_type",
+      "label": "Bulb Type",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.lighting_type",
+      "label": "Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.lens_attachments_functionality",
+      "label": "Lens Attachments Functionality",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.has_adjustable_racking",
+      "label": "Adjustable Racking",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.shelf_type",
+      "label": "Shelf Type",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.charger_type.[0]",
+      "label": "Charger Type",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.light_fixture_special_features.[0]",
+      "label": "Light Fixture Special Features",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.screen_surface",
+      "label": "Screen Surface",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.tablet_compatibility.[0]",
+      "label": "Tablet Compatibility",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Variant.attribute.extension_capacity.value",
+      "label": "Extension Capacity",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Variant.attribute.rug_size.unit",
+      "label": "Flat Size rug_size  unit",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size rug_size  width",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size rug_size  length",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "110": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Office Equipment (18284)",
+      "Lighting (18030)",
+      "General Office Supplies (18238)",
+      "Presentation Supplies (18329)",
+      "Print, Copy, Scan & Fax (15739)",
+      "Cabinets & Storage (16168)",
+      "Office Furniture (16214)",
+      "Shelving (16243)",
+      "Barcode Scanners (15618)",
+      "Telephone (15510)",
+      "Binding Machines (18221)",
+      "Projectors (15763)",
+      "Projector Accessories (15775)",
+      "Office & Chair Mats (18274)",
+      "Laser Cutters & Engravers (30856)"
+    ],
+    "4.33180": [
+      "Transcribers & Dictation Systems->Accessories (22246)",
+      "Transcribers & Dictation Systems->Transcription Kits (22387)",
+      "Transcribers & Dictation Systems->Music Recorders (22389)",
+      "Transcribers & Dictation Systems->Conference Kits (22388)",
+      "Transcribers & Dictation Systems->Smart Pens (22386)",
+      "Transcribers & Dictation Systems->Voice Recorders (22385)",
+      "Point-of-Sale Equipment->All-in-One Terminals (19986)",
+      "Point-of-Sale Equipment->Thermal Printers (19999)",
+      "Point-of-Sale Equipment->Receipt Printers (19998)",
+      "Point-of-Sale Equipment->Cash Registers (23025)",
+      "Point-of-Sale Equipment->POS Touch Screen Monitors (23026)",
+      "Point-of-Sale Equipment->POS Supplies (23027)",
+      "Smart Display Devices (28598)",
+      "Conference (30643)",
+      "Office Shredders (18290)",
+      "Calculators->Graphing (19976)",
+      "Calculators->Scientific (19978)",
+      "Calculators->Basic (19973)",
+      "Calculators->Desktop (19974)",
+      "Calculators->Financial (19975)",
+      "Calculators->Printing (19977)",
+      "Label Makers (18288)",
+      "Time & Attendance Clocks (18292)",
+      "Trimmers & Guillotines (19984)",
+      "Laminators (18289)"
+    ],
+    "7.0.4": [
+      "Desk Lamps & Lighting (22248)"
+    ],
+    "3": [
+      "Stationery Packs (22173)",
+      "Laminating Tape (22345)",
+      "Shredder Supplies (19987)",
+      "Paper Products->Printer & Copier Paper->Premium Paper (20001)",
+      "Paper Products->Printer & Copier Paper->Printer Paper (22237)",
+      "Paper Products->Printer & Copier Paper->Photo Paper (20000)"
+    ],
+    "22673596": [
+      "Whiteboards (18339)",
+      "Display Boards->Bulletin Boards (18334)",
+      "Wireless Presenters (18345)",
+      "Blackboard Vinyl (23552)",
+      "Easels (18341)",
+      "Glass Boards (19979)",
+      "Flip Charts (22998)",
+      "Board Supports (20002)",
+      "Notice Boards (19981)",
+      "Chalkboards (18330)",
+      "Year Planners (22348)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_ink_colour_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Ink Colour\", \"sheet_name\": \"Ink Colour\"}, \"Variant_attribute_paper_size\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Paper Size\", \"sheet_name\": \"Paper Size\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}, \"Attribute_printer_cartridge_type_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Printer Cartridge Type\", \"sheet_name\": \"Printer Cartridge Type\"}}": [
+      "3D Printer Replacement Parts & Kits (30857)",
+      "3D Scanners (23367)",
+      "3D Printers (15741)",
+      "3D Printing Pens (23368)",
+      "3D Printing Materials (23369)",
+      "Printers, Copiers & Fax Machines->Certified Pre-Owned Printers (30905)",
+      "Printers, Copiers & Fax Machines->Laser Printers (19995)",
+      "Printers, Copiers & Fax Machines->Inkjet Printers (19993)",
+      "Printers, Copiers & Fax Machines->Dot Matrix Printers (19991)",
+      "Printers, Copiers & Fax Machines->Photo Printers (19996)",
+      "Printers, Copiers & Fax Machines->Ink Tank Printers (19992)",
+      "Printers, Copiers & Fax Machines->Copiers (22238)",
+      "Printers, Copiers & Fax Machines->Fax Machines (22251)",
+      "Printers, Copiers & Fax Machines->Label Printers (19994)",
+      "3D Printer Accessories (15740)",
+      "Printer, Copier & Fax Machine Accessories->Printer, Copier & Fax Machine Replacement Parts (15754)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Labels & Tapes (30815)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Ink Bottles (19983)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Printer Drums & Drum Kits (15744)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Printer Ribbons (15747)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Toner Waste Units (19988)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Toner Cartridges (30671)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Inkjet Cartridges (15750)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Filaments (19982)",
+      "Scanners (15757)"
+    ],
+    "False": [
+      "VOIP (19972)",
+      "Cordless Phones (15513)",
+      "Corded Phones (15512)",
+      "Mobile Phones->Cellphone & Sim Card Bundles (31093)",
+      "Telephone Accessories (15524)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.chair_type",
+      "Attribute.chair_features.[0]",
+      "Attribute.chair_fill_material",
+      "Attribute.chair_frame_material",
+      "Attribute.movement_type",
+      "Attribute.desk_design",
+      "Attribute.desk_features",
+      "Attribute.desk_table_type",
+      "Attribute.desk_lighting_features",
+      "Attribute.is_height_adjustable",
+      "Attribute.desk_included_components.[0]",
+      "Attribute.number_of_shelves",
+      "Attribute.number_of_drawers",
+      "Attribute.storage_type",
+      "Attribute.cabinet_style.[0]",
+      "Attribute.credenza_door_style.[0]",
+      "Attribute.projector_usage.[0]",
+      "Attribute.projector_screen_type.[0]",
+      "Attribute.display_standards.[0]",
+      "Attribute.projector_lamp_type.[0]",
+      "Attribute.projector_throw.[0]",
+      "Attribute.projector_technology",
+      "Attribute.projector_form_factor.[0]",
+      "Attribute.video_projector_feature",
+      "Attribute.video_projector_controller_type",
+      "Attribute.operation_mode",
+      "Attribute.can_tilt",
+      "Attribute.has_wheels",
+      "Attribute.fast_charging",
+      "Attribute.double_sided_printing",
+      "Attribute.requires_assembly",
+      "Attribute.plant_type",
+      "Attribute.planter_mount_type",
+      "Attribute.mounting_type",
+      "Attribute.is_portable",
+      "Attribute.printer_type.[0]",
+      "Attribute.printer_part_type",
+      "Attribute.printer_capacity",
+      "Attribute.print_speed_colour.value",
+      "Attribute.print_speed_bw.value",
+      "Attribute.printer_resolution.[0]",
+      "Attribute.classification",
+      "Attribute.part_number",
+      "Attribute.printer_cartridge_type.[0]",
+      "Attribute.ink_colour.[0]",
+      "Attribute.ink_toner_type",
+      "Attribute.cartridge_type.[0]",
+      "Attribute.page_yield",
+      "Attribute.capacity.value",
+      "Attribute.printer_function.[0]",
+      "Attribute.printer_output.[0]",
+      "Attribute.printer_special_features",
+      "Attribute.printer_print_media",
+      "Attribute.printer_operating_system",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.voice_recorder_compatibility",
+      "Attribute.filament_type",
+      "Attribute.photo_paper_features",
+      "Attribute.is_biodegradable",
+      "Attribute.is_renewable",
+      "Attribute.is_recyclable",
+      "Attribute.tape_type",
+      "Attribute.label_type",
+      "Attribute.adhesive_type",
+      "Attribute.mouse_pad_size.value",
+      "Attribute.supports_printer_cartridge_type.[0]",
+      "Attribute.shredder_cut_types.[0]",
+      "Attribute.shredder_usage",
+      "Attribute.document_feeder",
+      "Attribute.automatic_document_feeder_capacity",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.binding_machine_type",
+      "Attribute.sheet_capacity",
+      "Attribute.video_encoding.[0]",
+      "Attribute.brightness.value",
+      "Attribute.calculator_type",
+      "Attribute.connectivities.[0]",
+      "Attribute.operating_systems.[0]",
+      "Attribute.airtime_data",
+      "Attribute.is_4g_enabled",
+      "Attribute.is_5g_enabled",
+      "Attribute.network_provider",
+      "Attribute.number_of_telephone_lines",
+      "Attribute.numbers_of_arms",
+      "Attribute.number_of_hooks",
+      "Attribute.contrast_ratio",
+      "Attribute.by_user.[0]",
+      "Attribute.by_office_user.[0]",
+      "Attribute.board_type",
+      "Attribute.is_ergonomic",
+      "Attribute.is_magnetic",
+      "Attribute.is_waterproof",
+      "Attribute.is_non_slip",
+      "Attribute.laptop_support_recommended_uses",
+      "Attribute.laser_cutter_resolution",
+      "Attribute.laser_engraver_resolution.[0]",
+      "Attribute.hardware_interface",
+      "Attribute.touchscreen_enabled",
+      "Attribute.body_positioner_firmness",
+      "Attribute.body_positioner_special_features",
+      "Attribute.body_positioner_target_use",
+      "Attribute.body_positioner_shape",
+      "Attribute.has_adjustable_straps",
+      "Attribute.stand_features",
+      "Attribute.scanner_type",
+      "Attribute.scanner_resolution",
+      "Attribute.year_planner_format",
+      "Attribute.year_type",
+      "Attribute.connector_type",
+      "Attribute.power.value",
+      "Attribute.led_life",
+      "Attribute.has_display_screen",
+      "Attribute.battery_size.[0]",
+      "Attribute.battery_type",
+      "Attribute.office_furniture_shape",
+      "Attribute.product_shape",
+      "Attribute.product_theme",
+      "Attribute.pattern",
+      "Attribute.printer_part_3d",
+      "Attribute.accessory_type_printer_3d",
+      "Attribute.laser_cutter_type",
+      "Attribute.software_compatibility",
+      "Attribute.material_compatibility",
+      "Attribute.view_angle.value",
+      "Attribute.input_voltage.value",
+      "Attribute.supported_image_format.[0]",
+      "Attribute.supported_video_format.[0]",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.video_and_image_requirements.[0]",
+      "Attribute.pixel_resolution.width",
+      "Attribute.pixel_resolution.height",
+      "Attribute.display_diameter.value",
+      "Attribute.compatible_devices",
+      "Attribute.aspect_ratio.[0]",
+      "Attribute.has_bluetooth",
+      "Attribute.light_fixture_shade_material.[0]",
+      "Attribute.lights_and_lamps_power_source",
+      "Attribute.extendable_length.unit",
+      "Attribute.extendable_length.value",
+      "Attribute.mouse_pad_size.unit",
+      "Attribute.cabinet_type.[0]",
+      "Attribute.number_of_lights",
+      "Attribute.biometric_security_feature",
+      "Attribute.light_bulb_features",
+      "Attribute.indoor_lighting_type",
+      "Attribute.weight_limit.value",
+      "Attribute.screen_protectors_special_features",
+      "Attribute.is_foldable",
+      "Attribute.is_3g_enabled",
+      "Attribute.is_hand_made",
+      "Attribute.is_freestanding",
+      "Attribute.is_2g_enabled",
+      "Attribute.output_voltage.unit",
+      "Attribute.output_voltage.value",
+      "Attribute.rated_voltage.value",
+      "Attribute.angle.unit",
+      "Attribute.angle.value",
+      "Attribute.laptop_compatibility",
+      "Attribute.is_water_resistant",
+      "Attribute.bulb_type",
+      "Attribute.power_source",
+      "Attribute.lighting_type",
+      "Attribute.lens_attachments_functionality",
+      "Attribute.has_adjustable_racking",
+      "Attribute.pattern_type",
+      "Attribute.shelf_type",
+      "Attribute.charger_type.[0]",
+      "Attribute.light_fixture_special_features.[0]",
+      "Attribute.screen_surface",
+      "Attribute.finish_type",
+      "Attribute.tablet_compatibility.[0]",
+      "Attribute.proudly_south_african",
+      "Attribute.customer_registration_required",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.paper_size",
+      "Variant.attribute.shredder_sheet_capacity",
+      "Variant.attribute.tape_length.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.mobile_data_type.[0]",
+      "Variant.attribute.pack_size",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.extension_capacity.value",
+      "Variant.attribute.rug_size.unit",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

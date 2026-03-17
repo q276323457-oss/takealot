@@ -1,0 +1,1164 @@
+{
+  "source_file": "loadsheet-122.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 142,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Other Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Materials",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.paint_media.[0]",
+      "label": "Paint Medium",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.pen_types.[0]",
+      "label": "Pen Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.ink_type.[0]",
+      "label": "Ink Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.paper_size",
+      "label": "Paper Size",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.ribbon_trim_width.value",
+      "label": "Ribbon Trim Width",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.ribbon_trim_length.value",
+      "label": "Ribbon Trim Length",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.by_office_user.[0]",
+      "label": "Office User Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.is_magnetic",
+      "label": "Is Magnetic",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.languages.[0]",
+      "label": "Primary Languages",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Variant.attribute.staples_size",
+      "label": "Staple Size",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.sewing_machine_types.[0]",
+      "label": "Sewing Machine Types",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.number_of_stitches.max",
+      "label": "Number of Stitches Max",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.number_of_stitches.min",
+      "label": "Number of Stitches Min",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.shredder_cut_types.[0]",
+      "label": "Shredder Cut Types",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Variant.attribute.shredder_sheet_capacity",
+      "label": "Shredder Sheet Capacity",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.board_type",
+      "label": "Notice Board Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.led_life",
+      "label": "LED Life",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Variant.attribute.canvas_size",
+      "label": "Canvas Size",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size Width",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size Length",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.power.unit",
+      "label": "Power Unit",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.view_angle.value",
+      "label": "View Angle",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage value",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.photo_paper_features",
+      "label": "Photo Paper Features",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.is_recyclable",
+      "label": "Is Recyclable",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.year_planner_format",
+      "label": "Year Planner Format",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.calendar_type.[0]",
+      "label": "Calendar Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Variant.attribute.tape_length.value",
+      "label": "Tape Length",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.voice_recorder_compatibility",
+      "label": "Voice Recorder Compatibility",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility [0]",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.solar_power_types.[0]",
+      "label": "Solar Power Types",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.energy_rating",
+      "label": "Energy Rating",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.has_light",
+      "label": "Has Light",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.has_ruler",
+      "label": "Has Ruler",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.has_clip",
+      "label": "Has Clip",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.calculator_type",
+      "label": "Calculator Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.shredder_usage",
+      "label": "Shredder Usage",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.printer_function.[0]",
+      "label": "Printer Function",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.printer_operating_system",
+      "label": "Printer Operating System",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.requires_batteries",
+      "label": "Requires Batteries",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.is_biodegradable",
+      "label": "Is Biodegradable",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.is_pre_cut",
+      "label": "Is Pre Cut",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.is_dishwasher_safe",
+      "label": "Is Dishwasher Safe",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.is_oven_safe",
+      "label": "Is Oven Safe",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.is_microwave_safe",
+      "label": "Is Microwave Safe",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.has_dividers",
+      "label": "Has Dividers",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.requires_lock",
+      "label": "Requires Lock",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.lock_type.[0]",
+      "label": "Lock Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.is_self_adhesive",
+      "label": "Is Self Adhesive",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.is_adhesive",
+      "label": "Is Adhesive",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.is_non_stick",
+      "label": "Is Non Stick",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.is_machine_washable",
+      "label": "Is Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.is_tumble_dryer_safe",
+      "label": "Is Tumble Dryer Safe",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.is_linen_extra_length",
+      "label": "Is Linen Extra Length",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.sewing_accessory_type.[0]",
+      "label": "Sewing Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.year_type",
+      "label": "Year Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.is_renewable",
+      "label": "Is Renewable",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.craft_kit_type",
+      "label": "Craft Kit Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.is_assembly_required",
+      "label": "Is Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.printer_output.[0]",
+      "label": "Printer Output",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.tablet_compatibility.[0]",
+      "label": "Tablet Compatibility",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Capacity value",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.candle_making_supply_type",
+      "label": "Candle Making Supply Type",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.supported_image_format.[0]",
+      "label": "Image Format",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.supported_video_format.[0]",
+      "label": "Video format",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.video_and_image_requirements.[0]",
+      "label": "Video & Image Requirements",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Resolution Width",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Resolution Height",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.display_diameter.value",
+      "label": "Display Diameter",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size (EU/UK)",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.printer_cartridge_type.[0]",
+      "label": "Printer Cartridge Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity for Variant",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.diameter.unit",
+      "label": "Diameter unit",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter value",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Variant.attribute.pack_size",
+      "label": "Pack Size pack_size",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Variant.attribute.tape_length.unit",
+      "label": "Tape Length",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Variant.attribute.size_in_cm.unit",
+      "label": "Size (in/cm) size_in_cm  unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "122": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Book Accessories (18206)",
+      "Christmas (20584)",
+      "Desk Pads & Blotters (18211)",
+      "Filing & Organization (18212)",
+      "General Office Supplies (18238)",
+      "Gifting (20595)",
+      "Office & Chair Mats (18274)",
+      "Office Equipment (18284)",
+      "Office Instruments (18295)",
+      "Paper Handling (18322)",
+      "Presentation Supplies (18329)",
+      "Shipping Supplies (18346)",
+      "Cardstock & Scrapbooking Paper (14527)",
+      "Arts & Crafts (14514)",
+      "Bags & Cases (22169)",
+      "Signage (15260)",
+      "Markers & Highlighters (18313)",
+      "Art & Craft Kits (14515)",
+      "Fine Writing (20578)",
+      "Art & Craft Paint (14542)",
+      "Pens (18321)",
+      "Palette Knives (14616)",
+      "Art Brushes (14629)",
+      "Palettes (14617)",
+      "Art & Craft Paint (14542)"
+    ],
+    "4.33901": [
+      "Bookmarks (18210)",
+      "Plastic Covering (22349)",
+      "Book Covers (18207)"
+    ],
+    "7.0.4": [
+      "Christmas Crafts & Stationery->Writing Tools (22110)",
+      "Christmas Crafts & Stationery->Bunting (22109)",
+      "Christmas Crafts & Stationery->Scrapbooking (22108)",
+      "Christmas Cards->Tags (22095)",
+      "Christmas Cards->Stick On Labels (22094)",
+      "Christmas Cards->Cards (22093)",
+      "Christmas Cards->Value Packs (22096)",
+      "Crackers & Table Decor->Crackers (22101)",
+      "Crackers & Table Decor->Glass (22104)",
+      "Crackers & Table Decor->Table Decorations (22102)",
+      "Crackers & Table Decor->Linen (22105)",
+      "Crackers & Table Decor->Serveware & Tableware (22103)",
+      "Wrapping->Gift Bags (30944)",
+      "Wrapping->Value Packs (22097)",
+      "Advent Calendars (20592)",
+      "Stockings, Hats & Sacks->Hats (22107)",
+      "Stockings, Hats & Sacks->Sacks (22106)",
+      "Stockings, Hats & Sacks->Stockings (20591)",
+      "Christmas Trees->Tree Bags (30564)",
+      "Christmas Trees->Wooden (22099)",
+      "Christmas Trees->Traditional (22098)",
+      "Christmas Trees->Fiber Optic Trees (23370)",
+      "Christmas Lights->Curtain Lights (22183)",
+      "Christmas Lights->Indoor (22181)",
+      "Christmas Lights->Outdoor (22182)",
+      "Christmas Decorations->Wreaths (22176)",
+      "Christmas Decorations->Decor (22180)",
+      "Christmas Decorations->Bauble & Tree Decorations (22178)",
+      "Christmas Decorations->Holiday Figurines & Nativity (22179)",
+      "Christmas Decorations->Tinsel & Garlands (22177)"
+    ],
+    "3": [
+      "Desk Pads & Blotters (18211)"
+    ],
+    "74547492": [
+      "Storage->Storage Boxes & Tubes (22207)",
+      "Storage->Media Storage (22208)",
+      "Storage->Document Boxes (22206)",
+      "Storage->Index Card Filing (22209)",
+      "Desk Organizers->Magazine Files (22143)",
+      "Desk Organizers->Memo Cubes & Refills (22145)",
+      "Desk Organizers->Drawers (22146)",
+      "Desk Organizers->Telephone Indexes (22147)",
+      "Desk Organizers->Mouse Pads (22149)",
+      "Desk Organizers->Waste Paper Bins (22148)",
+      "Desk Organizers->Stationery & Document Holders (22144)",
+      "Desk Organizers->Letter Trays & Sets (22142)",
+      "Business Card Stands (18223)",
+      "Cash Boxes (18228)",
+      "Wallets & Envelopes (22350)",
+      "Diaries (22167)",
+      "Pen & Pencil Cases (18235)",
+      "Binding Supplies->Binder Accessories->Binder Rings (18216)",
+      "Binding Supplies->Binder Accessories->Index Dividers (18217)",
+      "Binding Supplies->Binders (18219)",
+      "Binding Supplies->Binding Combs & Spines (18220)",
+      "Binding Supplies->Binding Covers (22160)",
+      "Binding Supplies->Slide Binders (22159)",
+      "Filing Organisers->Filing Sleeves & Pockets (22210)",
+      "Filing Organisers->Photo Albums (22211)",
+      "Calendars, Organizers & Planners (18225)",
+      "Filing->Lever Arch Files (22200)",
+      "Filing->Quotation Files (22202)",
+      "Filing->Expanding Files (22205)",
+      "Filing->Display Files (22203)",
+      "Filing->Ring Binders (22201)",
+      "Filing->Suspension Files (22204)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_paper_size\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Paper Sizes\", \"sheet_name\": \"Paper Sizes\"}}": [
+      "Rubber Bands (18268)",
+      "Erasers (18241)",
+      "Tacks & Pushpins (18270)",
+      "Correction Fluids, Pens & Tapes (18240)",
+      "Cleaning (20580)",
+      "Wall Charts (20583)",
+      "Calculate, Cut & Measure->Rulers (22091)",
+      "Accounting & Log Books->Pen Carbon Books (22089)",
+      "Accounting & Log Books->Record & Log Books (22088)",
+      "Accounting & Log Books->Accounting Books (22087)",
+      "Accounting & Log Books->Payroll Books & Registers (22111)",
+      "Stickers (22174)",
+      "Ticket Rolls (22112)",
+      "Stationery Packs (22173)",
+      "Laminating Tape (22345)",
+      "Educational Sundries (22175)",
+      "Office Tape (18251)",
+      "Staples (18269)",
+      "Writing Slates (22166)",
+      "Shredder Supplies (19987)",
+      "Laminating Film, Pouches & Sheets (18249)",
+      "Labels & Tags->Address Labels (18243)",
+      "Labels & Tags->Label Tapes & Refill Rolls (18246)",
+      "Labels & Tags->Book Labels (22213)",
+      "Labels & Tags->White Roll & Sheet Labels (22215)",
+      "Labels & Tags->Notarial Seals & Waxes (22217)",
+      "Labels & Tags->Colour Code Labels (22219)",
+      "Labels & Tags->Information & Instruction Labels (22216)",
+      "Labels & Tags->Lever Arch Labels (22212)",
+      "Labels & Tags->Printer Labels (22214)",
+      "Labels & Tags->Shipping Labels (18247)",
+      "Labels & Tags->Tags (22218)",
+      "Paper Products->Notebooks & Notepads->Writing & Exam Pads (22153)",
+      "Paper Products->Notebooks & Notepads->Hard Cover Books (22150)",
+      "Paper Products->Notebooks & Notepads->Exercise Books (22164)",
+      "Paper Products->Notebooks & Notepads->Journals (22156)",
+      "Paper Products->Notebooks & Notepads->Wire Bound Books (22152)",
+      "Paper Products->Notebooks & Notepads->Notebooks (22154)",
+      "Paper Products->Notebooks & Notepads->Soft Cover Books (22151)",
+      "Paper Products->Notebooks & Notepads->Professional Notebooks (22155)",
+      "Paper Products->Printer & Copier Paper->Premium Paper (20001)",
+      "Paper Products->Printer & Copier Paper->Printer Paper (22237)",
+      "Paper Products->Printer & Copier Paper->Photo Paper (20000)",
+      "Paper Products->Envelopes (18260)",
+      "Paper Products->Paper (22346)",
+      "Paper Products->Blank ID Cards (18255)",
+      "Paper Products->Paper & Project Board (22157)",
+      "Paper Products->Sticky Notes (18267)"
+    ],
+    "False": [
+      "Paperweights (18327)",
+      "Hole Punches (18324)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.paint_media.[0]",
+      "Attribute.pen_types.[0]",
+      "Attribute.ink_type.[0]",
+      "Attribute.by_office_user.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.is_magnetic",
+      "Attribute.languages.[0]",
+      "Attribute.sewing_machine_types.[0]",
+      "Attribute.number_of_stitches.max",
+      "Attribute.number_of_stitches.min",
+      "Attribute.shredder_cut_types.[0]",
+      "Attribute.board_type",
+      "Attribute.led_life",
+      "Attribute.power.value",
+      "Attribute.power.unit",
+      "Attribute.view_angle.value",
+      "Attribute.input_voltage.value",
+      "Attribute.photo_paper_features",
+      "Attribute.is_recyclable",
+      "Attribute.operation_mode",
+      "Attribute.year_planner_format",
+      "Attribute.calendar_type.[0]",
+      "Attribute.voice_recorder_compatibility",
+      "Attribute.mounting_type",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.battery_type",
+      "Attribute.solar_power_types.[0]",
+      "Attribute.energy_rating",
+      "Attribute.power_source",
+      "Attribute.has_light",
+      "Attribute.has_ruler",
+      "Attribute.has_clip",
+      "Attribute.product_shape",
+      "Attribute.calculator_type",
+      "Attribute.shredder_usage",
+      "Attribute.printer_function.[0]",
+      "Attribute.printer_operating_system",
+      "Attribute.battery_size.[0]",
+      "Attribute.requires_batteries",
+      "Attribute.is_rechargeable",
+      "Attribute.is_portable",
+      "Attribute.is_biodegradable",
+      "Attribute.is_pre_cut",
+      "Attribute.is_waterproof",
+      "Attribute.is_dishwasher_safe",
+      "Attribute.is_oven_safe",
+      "Attribute.is_microwave_safe",
+      "Attribute.has_dividers",
+      "Attribute.requires_lock",
+      "Attribute.lock_type.[0]",
+      "Attribute.is_self_adhesive",
+      "Attribute.is_adhesive",
+      "Attribute.is_non_stick",
+      "Attribute.is_machine_washable",
+      "Attribute.is_tumble_dryer_safe",
+      "Attribute.is_linen_extra_length",
+      "Attribute.sewing_accessory_type.[0]",
+      "Attribute.year_type",
+      "Attribute.is_hand_made",
+      "Attribute.is_renewable",
+      "Attribute.craft_kit_type",
+      "Attribute.is_assembly_required",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.printer_output.[0]",
+      "Attribute.tablet_compatibility.[0]",
+      "Attribute.compatible_devices",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.candle_making_supply_type",
+      "Attribute.supported_image_format.[0]",
+      "Attribute.supported_video_format.[0]",
+      "Attribute.video_and_image_requirements.[0]",
+      "Attribute.pixel_resolution.width",
+      "Attribute.pixel_resolution.height",
+      "Attribute.display_diameter.value",
+      "Attribute.printer_cartridge_type.[0]",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.diameter.unit",
+      "Attribute.diameter.value"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.paper_size",
+      "Variant.attribute.ribbon_trim_width.value",
+      "Variant.attribute.ribbon_trim_length.value",
+      "Variant.attribute.staples_size",
+      "Variant.attribute.shredder_sheet_capacity",
+      "Variant.attribute.canvas_size",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.tape_length.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.pack_size",
+      "Variant.attribute.tape_length.unit",
+      "Variant.attribute.size_in_cm.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

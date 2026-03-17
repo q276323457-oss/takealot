@@ -1,0 +1,1432 @@
+{
+  "source_file": "loadsheet-117.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 190,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.coffee_machine_types.[0]",
+      "label": "Coffee Machine Type",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.coffee_machine_accessory_type",
+      "label": "Coffee Machine Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.microwave_type.[0]",
+      "label": "Microwave Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.number_of_cups.[0]",
+      "label": "Number of Cups",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.number_of_slices",
+      "label": "Number of Slices",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.knife_type",
+      "label": "Knife Type",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.is_dishwasher_safe",
+      "label": "Dishwasher Safe",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.has_adjustable_racking",
+      "label": "Adjustable Racking",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.has_cutlery_tray",
+      "label": "Cutlery Tray",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.freezer_drawer_count",
+      "label": "Number of Drawers",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.has_fast_freeze_setting",
+      "label": "Fast Freeze Setting",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.has_ice_cube_tray",
+      "label": "Ice Cube Tray",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.has_led_touch_control",
+      "label": "LED Display / Touch Control",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.has_egg_tray",
+      "label": "Has Egg Tray",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.is_oven_safe",
+      "label": "Oven Safe",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.is_non_stick",
+      "label": "Non-Stick",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.oven_type",
+      "label": "Oven Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.sewing_machine_types.[0]",
+      "label": "Sewing Machine Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.vacuum_function.[0]",
+      "label": "Vacuum Function",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.vacuum_features",
+      "label": "Vacuum Features",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_cordless",
+      "label": "Is Cordless",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.heating_type",
+      "label": "Heater Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.heating_method",
+      "label": "Heating Method",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.runtime",
+      "label": "Runtime",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.water_cooler_type",
+      "label": "Water Cooler Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.fan_type.[0]",
+      "label": "Fan Type",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.blade_diameter.value",
+      "label": "Blade Diameter",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.is_electronic",
+      "label": "Electronic?",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.water_usage.value",
+      "label": "Water Usage",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.power_generation",
+      "label": "Power Generation",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.energy_rating",
+      "label": "Energy Rating",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.reusability",
+      "label": "Reusability",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.cord_length.value",
+      "label": "Cord Length Value",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.volume.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.interface",
+      "label": "Interface",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.power.value",
+      "label": "Power Usage",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.electric_skillets_and_woks_features.[0]",
+      "label": "Electric Skillets & Woks Features",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.stove_top_cooker",
+      "label": "Stove Top Cooker",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.number_of_doors",
+      "label": "Number of Doors",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.fridge_shelve_count",
+      "label": "Number of shelves",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.battery_capacity.value",
+      "label": "Battery Capacity Value",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.electric_kettle_material",
+      "label": "Electric Kettle Material",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.switch_type",
+      "label": "Switch Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.detergent_scent",
+      "label": "Detergent Scent",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.requires_batteries",
+      "label": "Requires Batteries",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.food_processor_features.[0]",
+      "label": "Food Processor Features",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.juicer_type",
+      "label": "Juicer Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.stove_features.[0]",
+      "label": "Stove Features",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.cooking_appliance_accessories_type",
+      "label": "Cooking Appliance Accessories Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.has_reversable_doors",
+      "label": "Reversible doors",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.appliance_replacement_parts",
+      "label": "Appliance Replacement Parts",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.heater_special_features",
+      "label": "Heater Special Features",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.vacuum_filter_type",
+      "label": "Vacuum Filter Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.number_of_functions",
+      "label": "Number of Functions",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.internal_coating",
+      "label": "Internal Coating",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.boiler_material",
+      "label": "Boiler Material",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.control_method",
+      "label": "Control Method",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.hot_plate_special_features",
+      "label": "Hot Plate Special Features",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.number_of_heating_elements",
+      "label": "Numberof Heating Elements",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.floor_steam_cleaner_accessory_type",
+      "label": "Floor & Steam Cleaner Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.recommended_fan_uses.[0]",
+      "label": "Recommended Fan Uses",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.blade_shape",
+      "label": "Blade Shape",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.blade_material.[0]",
+      "label": "Blade Material",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.food_processor_recommended_uses.[0]",
+      "label": "Food Processor Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.installation_type",
+      "label": "Installation Type",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.beverage_maker_type",
+      "label": "Beverage Maker Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.iron_features",
+      "label": "Iron Features",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.number_of_baskets",
+      "label": "Basket Count",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.surface_recommendation.[0]",
+      "label": "Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.airfryer_capacity.value",
+      "label": "Airfryer Capacity Value",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.appliance_special_features.[0]",
+      "label": "Appliance Special Features",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.mist_type",
+      "label": "Mist Type",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.filter_type",
+      "label": "Filter Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.blender_capacity.value",
+      "label": "Blender Capacity value",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.intended_surface_usage.[0]",
+      "label": "Intended Usage",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage Value",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.floor_cleaner_features",
+      "label": "Floor Cleaner Features",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.pressure_cooker_type",
+      "label": "Pressure Cooker Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.cookware_type",
+      "label": "Cookware Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.number_of_stitches.min",
+      "label": "Minimum Number of Stitches",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.number_of_stitches.max",
+      "label": "Maximum Number of Stitches",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.fryer_material.[0]",
+      "label": "Fryer Material",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.beverage_refrigerator",
+      "label": "Beverage Refrigerator",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.laundry_load_type",
+      "label": "Laundry Load Type",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.sole_plate_type",
+      "label": "Sole Plate",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.blender_or_mixer_recommended_use.[0]",
+      "label": "Blender or Mixer Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.mixer_and_blender_special_features.[0]",
+      "label": "Mixer and Blender Special Features",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.blending_container_material",
+      "label": "Blending Container Material",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.food_grinder_mill_type",
+      "label": "Food Grinder & Mill Type",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.electric_fan_design",
+      "label": "Electric Fan Design",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.toaster_features.[0]",
+      "label": "Toaster Features",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.washing_machine_type.[0]",
+      "label": "Washing Machine Type",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.room_type",
+      "label": "Room Type",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.indoor_lighting_type",
+      "label": "Indoor Lighting Type",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.has_adjustable_shelves",
+      "label": "Adjustable Shelves",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.bedding_size",
+      "label": "Bedding Size",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.air_fryer_type",
+      "label": "Air Fryer Type",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.waffle_maker_special_features",
+      "label": "Waffle Maker Special Features",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.cooker_recommended_uses.[0]",
+      "label": "Cooker Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.air_treatments",
+      "label": "Air Treatments",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.kitchen_appliance_type",
+      "label": "Kitchen Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.household_appliance_type",
+      "label": "Household Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.climate_control_appliance_type",
+      "label": "Climate Control Appliance Type",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.vacuum_accessories_type",
+      "label": "Vacuum Accessories Type",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.kitchen_tool_and_utensil_type",
+      "label": "Kitchen Tool And Utensil Type",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.household_appliance_accessories_type",
+      "label": "Household Appliance Accessories Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.small_appliance_replacement_parts.[0]",
+      "label": "Small Appliance Replacement Parts",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.food_mixer_and_blender_accessory_type",
+      "label": "Food Mixer And Blender Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.number_of_speeds",
+      "label": "Number of Speeds",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.is_bpa_free",
+      "label": "BPA Free",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.is_ptfe_free",
+      "label": "PTFE Free",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.fitted",
+      "label": "Fitted",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.sandwich_maker_type",
+      "label": "Sandwich Maker Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.sandwich_makers_features.[0]",
+      "label": "Sandwich Makers Features",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.humidification_method",
+      "label": "Humidification Method",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.coffee_machine_type",
+      "label": "Coffee Machine Type",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.radiator_type",
+      "label": "Appliance Coverage Area",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.heating_radiator_special_features.[0]",
+      "label": "Heating Radiator Special Features",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Variant.attribute.air_conditioner_capacity",
+      "label": "Air Conditioner Capacity",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.controls_type",
+      "label": "Controls Type",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.coffee_grinder_type",
+      "label": "Coffee Grinder Type",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.is_childproof",
+      "label": "Childproof",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.hotwater_bottle_inner_material",
+      "label": "Hotwater Bottle Inner Material",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.water_filter_type",
+      "label": "Type",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.is_microwavable",
+      "label": "Microwavable",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Variant.attribute.cookware_size.unit",
+      "label": "Cookware Size cookware_size  unit",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Variant.attribute.cookware_size.value",
+      "label": "Cookware Size cookware_size  value",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "product size product_size  [0]",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "117": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Household Appliance Accessories (17305)",
+      "Small Household Appliance Replacement Parts (30947)",
+      "Kitchen Appliances (17658)",
+      "Small Kitchen Appliance Replacement Parts (30941)",
+      "Textile Craft Machines (14653)",
+      "Ceiling Fans (17343)",
+      "Ventilation Fans (17346)",
+      "Household Appliances (17335)",
+      "Pressure Cookers & Multi-Cookers (17546)",
+      "Food Mixer & Blender Accessories (17622)",
+      "Electric Knives (17763)"
+    ],
+    "5.32276": [
+      "Laundry Appliance Accessories->Iron Accessories (17321)",
+      "Laundry Appliance Accessories->Steam Press Accessories (17322)",
+      "Laundry Appliance Accessories->Washer Dryer Stack Stands (21197)",
+      "Laundry Appliance Accessories->Washer & Dryer Accessories (17323)",
+      "Vacuum Accessories->Tubes (21849)",
+      "Vacuum Accessories->Covers (21842)",
+      "Vacuum Accessories->Pads (21847)",
+      "Vacuum Accessories->Brushes (21841)",
+      "Vacuum Accessories->Replacement Parts (21848)",
+      "Vacuum Accessories->Vacuum Batteries (21851)",
+      "Vacuum Accessories->Belts (21840)",
+      "Vacuum Accessories->Lamp Bulbs (21845)",
+      "Vacuum Accessories->Hose (21844)",
+      "Vacuum Accessories->Nozzles (21846)",
+      "Vacuum Accessories->Filters (21843)",
+      "Vacuum Accessories->Vacuum Bags (21850)",
+      "Floor & Steam Cleaner Accessories (17313)"
+    ],
+    "7.0.4": [
+      "Small Household Appliance Replacement Parts (30947)"
+    ],
+    "3": [
+      "Choppers & Slicers (22255)",
+      "Manual Coffee Grinders (30959)",
+      "Non-electrical Fondues (30960)",
+      "Hot Plates (30663)",
+      "Ice Makers (17702)",
+      "Electric Skillets & Woks (17676)",
+      "Coffee Grinders (30830)",
+      "Deep Fryers (17671)",
+      "Electric Can Openers (31041)",
+      "Oven & Hob Sets (30583)",
+      "Milk Steamers (30584)",
+      "Water Coolers (17733)",
+      "Cooking Appliance Accessories (23225)",
+      "Food Grinders & Mills (17686)",
+      "Beverage Makers (17717)",
+      "Kettles (17675)",
+      "Toasters & Grills->Toasters (17728)",
+      "Toasters & Grills->Sandwich Makers (17727)",
+      "Toasters & Grills->Waffle & Donut Makers (17730)",
+      "Biltong Makers (17685)",
+      "Food Mixers & Blenders->Stick Blenders (20006)",
+      "Food Mixers & Blenders->Jug Blenders (20005)",
+      "Food Mixers & Blenders->Smoothie Maker (20007)",
+      "Juicers (17703)",
+      "Milk Frothers (17706)",
+      "Air Fryers (23032)",
+      "Food Processors & Mixers->Food Processors (20009)",
+      "Food Processors & Mixers->Hand Mixers (20010)",
+      "Food Processors & Mixers->Stand Mixers (20011)",
+      "Food Cookers & Steamers->Slow Cookers (17682)",
+      "Food Cookers & Steamers->Food Steamers (17680)",
+      "Hot Drink Machines->Coffee Machines (17663)",
+      "Vacuum Sealers (17732)",
+      "Food Warmers (17689)",
+      "Health Grills (21859)",
+      "Fridges & Freezers->Upright Freezer (30907)",
+      "Fridges & Freezers->Bottom Freezer Fridge (30908)",
+      "Fridges & Freezers->Upright Fridges (30910)",
+      "Fridges & Freezers->Top Freezer Fridge (30909)",
+      "Fridges & Freezers->Beverage Refrigerator (30587)",
+      "Electrical Fondue Pots (17677)"
+    ],
+    "22094160": [
+      "Small Kitchen Appliance Replacement Parts (30941)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Sewing Machines (14657)"
+    ],
+    "False": [
+      "Food Mixer & Blender Accessories (17622)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.coffee_machine_types.[0]",
+      "Attribute.coffee_machine_accessory_type",
+      "Attribute.microwave_type.[0]",
+      "Attribute.number_of_cups.[0]",
+      "Attribute.number_of_slices",
+      "Attribute.knife_type",
+      "Attribute.is_dishwasher_safe",
+      "Attribute.has_adjustable_racking",
+      "Attribute.has_cutlery_tray",
+      "Attribute.freezer_drawer_count",
+      "Attribute.has_fast_freeze_setting",
+      "Attribute.has_ice_cube_tray",
+      "Attribute.has_led_touch_control",
+      "Attribute.has_egg_tray",
+      "Attribute.is_oven_safe",
+      "Attribute.is_non_stick",
+      "Attribute.oven_type",
+      "Attribute.sewing_machine_types.[0]",
+      "Attribute.vacuum_function.[0]",
+      "Attribute.vacuum_features",
+      "Attribute.is_cordless",
+      "Attribute.heating_type",
+      "Attribute.heating_method",
+      "Attribute.compatible_devices",
+      "Attribute.connectivities.[0]",
+      "Attribute.runtime",
+      "Attribute.water_cooler_type",
+      "Attribute.fan_type.[0]",
+      "Attribute.blade_diameter.value",
+      "Attribute.is_electronic",
+      "Attribute.water_usage.value",
+      "Attribute.part_number",
+      "Attribute.power_generation",
+      "Attribute.energy_rating",
+      "Attribute.reusability",
+      "Attribute.cord_length.value",
+      "Attribute.volume.value",
+      "Attribute.capacity.value",
+      "Attribute.mounting_type",
+      "Attribute.interface",
+      "Attribute.power.value",
+      "Attribute.electric_skillets_and_woks_features.[0]",
+      "Attribute.stove_top_cooker",
+      "Attribute.number_of_doors",
+      "Attribute.fridge_shelve_count",
+      "Attribute.operation_mode",
+      "Attribute.battery_capacity.value",
+      "Attribute.electric_kettle_material",
+      "Attribute.switch_type",
+      "Attribute.detergent_scent",
+      "Attribute.requires_batteries",
+      "Attribute.food_processor_features.[0]",
+      "Attribute.juicer_type",
+      "Attribute.stove_features.[0]",
+      "Attribute.cooking_appliance_accessories_type",
+      "Attribute.has_reversable_doors",
+      "Attribute.appliance_replacement_parts",
+      "Attribute.heater_special_features",
+      "Attribute.vacuum_filter_type",
+      "Attribute.number_of_functions",
+      "Attribute.internal_coating",
+      "Attribute.boiler_material",
+      "Attribute.control_method",
+      "Attribute.hot_plate_special_features",
+      "Attribute.number_of_heating_elements",
+      "Attribute.floor_steam_cleaner_accessory_type",
+      "Attribute.recommended_fan_uses.[0]",
+      "Attribute.blade_shape",
+      "Attribute.blade_material.[0]",
+      "Attribute.food_processor_recommended_uses.[0]",
+      "Attribute.battery_type",
+      "Attribute.installation_type",
+      "Attribute.beverage_maker_type",
+      "Attribute.iron_features",
+      "Attribute.number_of_baskets",
+      "Attribute.surface_recommendation.[0]",
+      "Attribute.airfryer_capacity.value",
+      "Attribute.appliance_special_features.[0]",
+      "Attribute.mist_type",
+      "Attribute.filter_type",
+      "Attribute.blender_capacity.value",
+      "Attribute.intended_surface_usage.[0]",
+      "Attribute.finish_type",
+      "Attribute.input_voltage.value",
+      "Attribute.floor_cleaner_features",
+      "Attribute.pressure_cooker_type",
+      "Attribute.cookware_type",
+      "Attribute.number_of_stitches.min",
+      "Attribute.number_of_stitches.max",
+      "Attribute.fryer_material.[0]",
+      "Attribute.beverage_refrigerator",
+      "Attribute.laundry_load_type",
+      "Attribute.sole_plate_type",
+      "Attribute.blender_or_mixer_recommended_use.[0]",
+      "Attribute.mixer_and_blender_special_features.[0]",
+      "Attribute.blending_container_material",
+      "Attribute.food_grinder_mill_type",
+      "Attribute.electric_fan_design",
+      "Attribute.toaster_features.[0]",
+      "Attribute.washing_machine_type.[0]",
+      "Attribute.room_type",
+      "Attribute.indoor_lighting_type",
+      "Attribute.has_adjustable_shelves",
+      "Attribute.bedding_size",
+      "Attribute.air_fryer_type",
+      "Attribute.power_source",
+      "Attribute.waffle_maker_special_features",
+      "Attribute.cooker_recommended_uses.[0]",
+      "Attribute.air_treatments",
+      "Attribute.kitchen_appliance_type",
+      "Attribute.household_appliance_type",
+      "Attribute.climate_control_appliance_type",
+      "Attribute.vacuum_accessories_type",
+      "Attribute.kitchen_tool_and_utensil_type",
+      "Attribute.household_appliance_accessories_type",
+      "Attribute.small_appliance_replacement_parts.[0]",
+      "Attribute.food_mixer_and_blender_accessory_type",
+      "Attribute.number_of_speeds",
+      "Attribute.is_bpa_free",
+      "Attribute.is_ptfe_free",
+      "Attribute.fitted",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.sandwich_maker_type",
+      "Attribute.sandwich_makers_features.[0]",
+      "Attribute.humidification_method",
+      "Attribute.coffee_machine_type",
+      "Attribute.radiator_type",
+      "Attribute.heating_radiator_special_features.[0]",
+      "Attribute.controls_type",
+      "Attribute.coffee_grinder_type",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.is_childproof",
+      "Attribute.is_smart",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.hotwater_bottle_inner_material",
+      "Attribute.water_filter_type",
+      "Attribute.is_microwavable",
+      "Attribute.is_rechargeable"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.air_conditioner_capacity",
+      "Variant.attribute.cookware_size.unit",
+      "Variant.attribute.cookware_size.value",
+      "Variant.attribute.product_size.[0]"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "source_file": "loadsheet-258.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 91,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Strap Material",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Primary Connectivity",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.has_distance_tracking",
+      "label": "Distance Tracking",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.has_music_player",
+      "label": "Music Player",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.has_safe_zone_technology",
+      "label": "Safe Zone Technology",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.cellphone_compatibility.[0]",
+      "label": "Cellphone Compatibility",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.operating_systems.[0]",
+      "label": "Device Operating System",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.brand_compatibility",
+      "label": "Brand Compatibility",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.has_topo_mapping_technology",
+      "label": "TOPO Mapping Technology",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.has_2way_calling",
+      "label": "2Way Calling",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.has_step_counter",
+      "label": "Step Counter",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.has_sleep_monitor",
+      "label": "Sleep Monitor",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.has_heart_rate_monitor",
+      "label": "Heart Rate Monitor",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.has_calorie_counter",
+      "label": "Calorie Counter",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.has_sas_messaging_technology",
+      "label": "SAS Messaging Technology",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.has_smart_notification_technology",
+      "label": "Smart Notification Technology",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.has_monitoring_capabilities",
+      "label": "Monitoring Capabilities",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.has_gps",
+      "label": "GPS",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.has_glonass",
+      "label": "GLONASS",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.has_altimeter",
+      "label": "Altimeter",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.has_sos_panic_button",
+      "label": "SOS Panic Button",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.gps_features.[0]",
+      "label": "GPS Features",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.strap_size.value",
+      "label": "Strap Size",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.bezel_size.value",
+      "label": "Bezel Size",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.is_portable",
+      "label": "Portable",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.car_make.[0]",
+      "label": "Car Make",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.display_standards.[0]",
+      "label": "Display Standards",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.display_diameter.value",
+      "label": "Display Diameter",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Width in Pixels",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Height in Pixels",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.battery_life.value",
+      "label": "Battery Life",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Variant.attribute.ring_size",
+      "label": "Ring Size",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.car_body_type.[0]",
+      "label": "Car Body Type [0]",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.power.value",
+      "label": "Power value",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.car_model_and_year.[0]",
+      "label": "Car Model and Year [0]",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "258": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "GPS Tracking Devices (15716)",
+      "Wearable Tech (19883)"
+    ],
+    "1.21629": [
+      "Fitness GPS (23217)",
+      "Outdoor GPS (23221)",
+      "Handheld GPS (23220)",
+      "GPS Trackers (23219)",
+      "Street GPS (21670)"
+    ],
+    "7.0.4": [
+      "Digital Rings (30865)",
+      "Certified Pre-Owned Wearables (30904)",
+      "Smart Watches (20081)",
+      "Sport Watches (19919)",
+      "Golf Watches (22307)",
+      "Activity Trackers (19884)",
+      "Heart Rate Monitors & GPS (22425)",
+      "Dive Watches (29141)",
+      "Eyewear (23215)",
+      "Hybrid Watches (20080)",
+      "Security Tracker Devices (20082)"
+    ],
+    "3": [
+      "GPS Tracking Devices (15716)",
+      "Wearable Tech (19883)"
+    ],
+    "78725533": [
+      "LOOKUP_TOPLEVEL15716",
+      "LOOKUP_TOPLEVEL19883"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_connectivities_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Connectivities\", \"sheet_name\": \"Connectivities\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Attribute.whats_in_the_box",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Images.image_url_1"
+    ],
+    "False": [
+      "Attribute.whats_in_the_box",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.has_monitoring_capabilities",
+      "Attribute.has_glonass",
+      "Attribute.model_number",
+      "Attribute.brand_compatibility",
+      "Attribute.has_gps",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.connectivities.[0]",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.gps_features.[0]",
+      "Images.image_url_1"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.has_bluetooth",
+      "Attribute.has_distance_tracking",
+      "Attribute.has_music_player",
+      "Attribute.has_safe_zone_technology",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.operating_systems.[0]",
+      "Attribute.brand_compatibility",
+      "Attribute.has_topo_mapping_technology",
+      "Attribute.has_2way_calling",
+      "Attribute.has_step_counter",
+      "Attribute.has_sleep_monitor",
+      "Attribute.has_heart_rate_monitor",
+      "Attribute.has_calorie_counter",
+      "Attribute.has_sas_messaging_technology",
+      "Attribute.has_smart_notification_technology",
+      "Attribute.has_monitoring_capabilities",
+      "Attribute.has_gps",
+      "Attribute.has_glonass",
+      "Attribute.has_altimeter",
+      "Attribute.is_water_resistant",
+      "Attribute.has_sos_panic_button",
+      "Attribute.gps_features.[0]",
+      "Attribute.strap_size.value",
+      "Attribute.bezel_size.value",
+      "Attribute.is_portable",
+      "Attribute.sports.[0]",
+      "Attribute.car_make.[0]",
+      "Attribute.screen_size.value",
+      "Attribute.touchscreen_enabled",
+      "Attribute.display_standards.[0]",
+      "Attribute.display_diameter.value",
+      "Attribute.pixel_resolution.width",
+      "Attribute.pixel_resolution.height",
+      "Attribute.battery_life.value",
+      "Attribute.mounting_type",
+      "Attribute.proudly_south_african",
+      "Attribute.customer_registration_required",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.car_body_type.[0]",
+      "Attribute.power.value",
+      "Attribute.car_model_and_year.[0]"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.cellphone_compatibility.[0]",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.ring_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

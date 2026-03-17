@@ -1,0 +1,2323 @@
+{
+  "source_file": "loadsheet-243.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 309,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Color",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Color Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.genders.[0]",
+      "label": "Gender",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.eyewear_type.[0]",
+      "label": "Eyewear Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.sports.[0]",
+      "label": "Primary Sports Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.sport_age_range.[0]",
+      "label": "Proficiency Level",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.shoe_width",
+      "label": "Shoe Width",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.collar_style",
+      "label": "Collar Style",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.bow_type",
+      "label": "Hockey Bow Type",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.stick_type",
+      "label": "Hockey Stick Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Variant.attribute.hockey_stick_size.value",
+      "label": "Hockey Stick Size",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Variant.attribute.sports_protection_wear",
+      "label": "Sports Protection Wear",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Variant.attribute.soccer_glove_size.[0]",
+      "label": "Soccer Glove Size",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Variant.attribute.glove_size.[0]",
+      "label": "Training Glove Size",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.bat_wood_type",
+      "label": "Cricket Bat Wood Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Variant.attribute.cricket_bat_size_lookup",
+      "label": "Cricket Bat Size",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.tackle_type.[0]",
+      "label": "Tackle Type",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.darts_accessory_type",
+      "label": "Darts Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.reel_type",
+      "label": "Reel Type",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Variant.attribute.right_hand_left_hand",
+      "label": "Right or Left Hand",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Variant.attribute.driver_loft",
+      "label": "Driver Loft",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Variant.attribute.flex_shaft_stiffness",
+      "label": "Flex/Shaft Stiffness",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Variant.attribute.shaft_type",
+      "label": "Shaft Type",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Variant.attribute.woods",
+      "label": "Woods",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.hybrids",
+      "label": "Hybrid",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Variant.attribute.irons",
+      "label": "Irons",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Variant.attribute.iron_sets",
+      "label": "Iron Sets",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Variant.attribute.wedges",
+      "label": "Wedges",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Variant.attribute.package_sets.[0]",
+      "label": "Package Sets",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.calibre.[0]",
+      "label": "Calibre",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.muzzle_energy",
+      "label": "Muzzle Energy",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.ammunition_type",
+      "label": "Ammunition Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.has_straps",
+      "label": "Has Straps",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Variant.attribute.helmet_size",
+      "label": "Helmet Size",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.chassis_type",
+      "label": "Chassis Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.wheel_type",
+      "label": "Wheel Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.sandbag_types.[0]",
+      "label": "Sandbag Types",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.target_type",
+      "label": "Target Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.harness_features",
+      "label": "Harness Features",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.archery_bow_types",
+      "label": "Archery Bow Types",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.bar_type",
+      "label": "Bar Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.power.unit",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.power.value",
+      "label": "Power",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.interlocking",
+      "label": "Interlocking",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.range_type",
+      "label": "Range Type",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.quickdraw_types",
+      "label": "Quickdraw Types",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.incline_settings",
+      "label": "Incline Settings",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.gun_magazine_pouches_type",
+      "label": "Gun Magazine Pouches Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.unicycle_types.[0]",
+      "label": "Unicycle Types",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.skateboard_wheel_type",
+      "label": "Skateboard Wheel Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.dartboard_type",
+      "label": "Dartboard Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.plate_types",
+      "label": "Plate Types",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.windsurfing_sail_type",
+      "label": "Windsurfing Sail Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Variant.attribute.wheel_size.value",
+      "label": "Wheel Size",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.paddle_types.[0]",
+      "label": "Paddle Types",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.belay_type",
+      "label": "Belay Type",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.barbell_type.[0]",
+      "label": "Barbell Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.rangefinder_features",
+      "label": "Rangefinder Features",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.skateboard_type",
+      "label": "Skateboard Type",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.skateboard_storage_type.[0]",
+      "label": "Skateboard Storage Type",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.skateboard_ramp_type.[0]",
+      "label": "Skateboard Ramp Type",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.is_durable",
+      "label": "Is Durable",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.requires_assembly",
+      "label": "Pick from the drop down",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.cue_types.[0]",
+      "label": "Cue Types",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.racquetballs_types",
+      "label": "Racquetballs Types",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.windboard_type",
+      "label": "Windboard Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.roller_skate_type",
+      "label": "Roller Skate Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.golf_bag_stand_type.[0]",
+      "label": "Golf Bag Stand Type",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.golf_cart_types.[0]",
+      "label": "Golf Cart Types",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.ski_types.[0]",
+      "label": "Ski Types",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.band_types.[0]",
+      "label": "Band Types",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.loft_range",
+      "label": "Loft Range",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.flag_type.[0]",
+      "label": "Flag Type",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.type_of_pepper_spray",
+      "label": "Type of Pepper Spray",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.effectiveness_range.value",
+      "label": "Effectiveness Range",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.grip_types",
+      "label": "Grip Types",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Variant.attribute.dumbbell_rack_capacity",
+      "label": "Dumbbell Rack Capacity",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.racquet_string_types.[0]",
+      "label": "Racquet String Types",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.golf_gloves_type",
+      "label": "Golf Gloves Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.sport_harness_type",
+      "label": "Sport Harness Type",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.abec_rating",
+      "label": "ABEC Rating",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.bushings_type",
+      "label": "Bushings Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.regulator_type",
+      "label": "Regulator Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.glove_type",
+      "label": "Glove Type",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.lift_type.[0]",
+      "label": "Lift Type",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.racket_type.[0]",
+      "label": "Racket Type",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.rack_type",
+      "label": "Rack Type",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.squash_racket_type.[0]",
+      "label": "Squash Racket Type",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.squash_accessory_type.[0]",
+      "label": "Squash Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.padel_racket_type.[0]",
+      "label": "Padel Racket Type",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.padel_accessory_type.[0]",
+      "label": "Padel Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.snowboard_types.[0]",
+      "label": "Snowboard Types",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.brake_types",
+      "label": "Brake Types",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.engine_capacity.value",
+      "label": "Engine Capacity",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.engine_power.value",
+      "label": "Engine Power",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.rope_type",
+      "label": "Rope Type",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.sling_size",
+      "label": "Sling Size",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.helmet_type.[0]",
+      "label": "Helmet Type",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.toe_cap_size",
+      "label": "Toe Cap Size",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.finger_length",
+      "label": "Finger Length",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.grip_technology",
+      "label": "Grip Technology",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.sports_glove_padding_and_protection",
+      "label": "Sports Glove Padding and Protection",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.lanyard_material.[0]",
+      "label": "Lanyard Material",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.whistle_type.[0]",
+      "label": "Whistle Type",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.whistle_sound_type.[0]",
+      "label": "Whistle Sound Type",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.whistle_usage.[0]",
+      "label": "Whistle Usage",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.headlamp_accessory_type.[0]",
+      "label": "Headlamp Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.first_aid_kit_container_type.[0]",
+      "label": "First Aid Kit Container Type",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.first_aid_kit_type.[0]",
+      "label": "First Aid Kit Type",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.first_aid_kit_usage.[0]",
+      "label": "First Aid Kit Usage",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.golf_cart_bags_features",
+      "label": "Golf Cart Bag Features",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.golf_ball_types.[0]",
+      "label": "Golf Ball Types",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.is_fireproof",
+      "label": "Is Fireproof",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.lifting_plate_type.[0]",
+      "label": "Lifting Plate Type",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.is_freestanding",
+      "label": "Is Freestanding",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.dumbbell_type.[0]",
+      "label": "Dumbbell Type",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.weight_lifting_bench_type.[0]",
+      "label": "Weight Lifting Bench Type",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.arrow_type",
+      "label": "Arrow Type",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.spike_type.[0]",
+      "label": "Spike Type",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.arrow_rests_type",
+      "label": "Arrow Rests Type",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.crossbow_types",
+      "label": "Crossbow Types",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Attribute.field_hockey_accessory_type",
+      "label": "Field Hockey Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.net_types.[0]",
+      "label": "Net Types",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.interchangeable",
+      "label": "Interchangeable",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.archery_quiver_types",
+      "label": "Archery Quiver Types",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.shuttlecock_types.[0]",
+      "label": "Shuttlecock Types",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.chalk_type",
+      "label": "Chalk Type",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.lure_type",
+      "label": "Lure Type",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.windsurfing_base_type",
+      "label": "Windsurfing Base Type",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.bonding_type",
+      "label": "Bonding Type",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.longboard_type",
+      "label": "Longboard Type",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.surfboard_fin_type",
+      "label": "Surfboard Fin Type",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.sup_board_type",
+      "label": "SUP Board Type",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.gauge_type",
+      "label": "Gauge Type",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.line_types",
+      "label": "Line Types",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.surf_leash_type",
+      "label": "Surf Leash Type",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.face_profile",
+      "label": "Face Profile",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.canoe_type",
+      "label": "Canoe Type",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.snooker_and_pool_table_parts",
+      "label": "Snooker and Pool Table Parts",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.snooker_pool_accessory_type",
+      "label": "Snooker and Pool Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.shin_guard_types",
+      "label": "Shin-guard Types",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.soccer_ball_quality",
+      "label": "Soccer Ball Quality",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.nose_plug_type",
+      "label": "Nose Plug Type",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.snorkel_type.[0]",
+      "label": "Snorkel Type",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.diving_fin_types",
+      "label": "Diving Fin Types",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.mouth_guard_type",
+      "label": "Mouth Guard Type",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.buoy_type",
+      "label": "Buoy Type",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.earplug_type",
+      "label": "Earplug Type",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.basketball_hoop_type",
+      "label": "Basketball Hoop Type",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.basketball_equipment_type.[0]",
+      "label": "Basketball Equipment Type",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.mitt_types",
+      "label": "Mitt Type",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.usb_powered",
+      "label": "USB Powered",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.fin_type",
+      "label": "Fin Type",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.buoyancy_compensator_types",
+      "label": "Buoyancy Compensator Types",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.twin_tip_type",
+      "label": "Twin Tip Type",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.kayak_type",
+      "label": "Kayak Type",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.baseball_ball_type.[0]",
+      "label": "Baseball Ball Type",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.exercise_ball_types.[0]",
+      "label": "Exercise Ball Types",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.float_type",
+      "label": "Float Type",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.goggles_recommended_uses",
+      "label": "Goggles Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.din_valve",
+      "label": "Din Valve",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.wax_type",
+      "label": "Wax Type",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.windfoiling_type",
+      "label": "Windfoiling Type",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.bag_types.[0]",
+      "label": "Bag Types",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.swivel_type",
+      "label": "Swivel Type",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.roller_types",
+      "label": "Roller Types",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.volleyball_quality",
+      "label": "Volleyball Quality",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Attribute.fly_fish_rod_types",
+      "label": "Fly-Fish Rod Types",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.rod_type",
+      "label": "Rod Type",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.fishing_tool_type.[0]",
+      "label": "Fishing Tool Type",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.hand_orientation.[0]",
+      "label": "Hand Orientation",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Attribute.fishing_technique.[0]",
+      "label": "Fishing Technique",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Attribute.fishing_rod_grip_type.[0]",
+      "label": "Fishing Rod Grip Type",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Attribute.fishing_accessory_type.[0]",
+      "label": "Fishing Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Attribute.fishing_line_type.[0]",
+      "label": "Fishing Line Type",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Attribute.seasons.[0]",
+      "label": "Seasons",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Attribute.driver_type.[0]",
+      "label": "Driver Type",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Attribute.massage_gun_type",
+      "label": "Massage Gun Type",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Attribute.racquet_type.[0]",
+      "label": "Racquet Type",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Attribute.caliper_types",
+      "label": "Caliper Types",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Attribute.sinker_type",
+      "label": "Sinker Type",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Attribute.hook_type",
+      "label": "Hook Type",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Attribute.medal_type.[0]",
+      "label": "Medal Type",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Attribute.dart_weight.value",
+      "label": "Dart Weight",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Attribute.trail_weight.[0]",
+      "label": "Trail Weight",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Attribute.spray_pattern",
+      "label": "Pick from the drop down",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Variant.attribute.soccer_ball_size.[0]",
+      "label": "Soccer Ball Size",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Variant.attribute.sport_ball_size.[0]",
+      "label": "Sport Ball Size",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Variant.attribute.tennis_racket_length_grip_size.[0]",
+      "label": "Tennis Racket Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Attribute.boom_type",
+      "label": "Boom Type",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Attribute.foosball_table_type",
+      "label": "Foosball Table Type",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.tip_types",
+      "label": "Tip Types",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.masts_type",
+      "label": "Masts Type",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.has_heart_rate_monitor",
+      "label": "Heart Rate Monitor",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.has_glonass",
+      "label": "GLONASS",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.has_distance_tracking",
+      "label": "Distance Tracking",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.has_calorie_counter",
+      "label": "Calorie Counter",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.has_step_counter",
+      "label": "Step Counter",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Attribute.bezel_size.value",
+      "label": "Bezel Size",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Attribute.has_sleep_monitor",
+      "label": "Sleep Monitor",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Attribute.has_music_player",
+      "label": "Music Player",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Attribute.has_smart_notification_technology",
+      "label": "Smart Notification Technology",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Attribute.has_altimeter",
+      "label": "Altimeter",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Attribute.has_gps",
+      "label": "GPS",
+      "note": ""
+    },
+    {
+      "index": 232,
+      "key": "Attribute.safety_gear_pad_type",
+      "label": "Safety Gear Pad Type",
+      "note": ""
+    },
+    {
+      "index": 233,
+      "key": "Attribute.yoga_mat_type",
+      "label": "Yoga Mat Type",
+      "note": ""
+    },
+    {
+      "index": 234,
+      "key": "Variant.attribute.yoga_block_size.value",
+      "label": "Yoga Block Size",
+      "note": ""
+    },
+    {
+      "index": 235,
+      "key": "Attribute.standup_paddleboarding_accessories",
+      "label": "Standup Paddleboarding Accessories",
+      "note": ""
+    },
+    {
+      "index": 236,
+      "key": "Attribute.gun_maintenance_product_type.[0]",
+      "label": "Gun Maintenance Product Type",
+      "note": ""
+    },
+    {
+      "index": 237,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 238,
+      "key": "Variant.attribute.bearing_size.value",
+      "label": "Bearing Size",
+      "note": ""
+    },
+    {
+      "index": 239,
+      "key": "Attribute.charger_type.[0]",
+      "label": "Charger Type",
+      "note": ""
+    },
+    {
+      "index": 240,
+      "key": "Attribute.has_secure_fit",
+      "label": "Has Secure Fit",
+      "note": ""
+    },
+    {
+      "index": 241,
+      "key": "Attribute.is_ergonomic",
+      "label": "Is Ergonomic",
+      "note": ""
+    },
+    {
+      "index": 242,
+      "key": "Attribute.trampoline_accessory_type",
+      "label": "Trampoline Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 243,
+      "key": "Attribute.headphones_noise_control.[0]",
+      "label": "Headphones Noise Control",
+      "note": ""
+    },
+    {
+      "index": 244,
+      "key": "Attribute.headphones_control_type.[0]",
+      "label": "Headphones Control Type",
+      "note": ""
+    },
+    {
+      "index": 245,
+      "key": "Attribute.headphone_styles.[0]",
+      "label": "Headphone Style",
+      "note": ""
+    },
+    {
+      "index": 246,
+      "key": "Attribute.sound_quality.[0]",
+      "label": "Sound Quality",
+      "note": ""
+    },
+    {
+      "index": 247,
+      "key": "Attribute.surfboard_length",
+      "label": "Surfboard Length",
+      "note": ""
+    },
+    {
+      "index": 248,
+      "key": "Attribute.surfboard_storage_type.[0]",
+      "label": "Surfboard Storage Type",
+      "note": ""
+    },
+    {
+      "index": 249,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 250,
+      "key": "Attribute.is_windproof",
+      "label": "Windproof",
+      "note": ""
+    },
+    {
+      "index": 251,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 252,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 253,
+      "key": "Variant.attribute.bat_length.value",
+      "label": "Bat Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 254,
+      "key": "Variant.attribute.compression_sleeve_size",
+      "label": "Compression Sleeve Size",
+      "note": ""
+    },
+    {
+      "index": 255,
+      "key": "Variant.attribute.eyewear_shape",
+      "label": "Eyewear Shape",
+      "note": ""
+    },
+    {
+      "index": 256,
+      "key": "Attribute.eyewear_lens_type",
+      "label": "Eyewear Lens Type",
+      "note": ""
+    },
+    {
+      "index": 257,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 258,
+      "key": "Attribute.display_diameter.unit",
+      "label": "Display Diameter Unit",
+      "note": ""
+    },
+    {
+      "index": 259,
+      "key": "Attribute.display_diameter.value",
+      "label": "Display Diameter",
+      "note": ""
+    },
+    {
+      "index": 260,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 261,
+      "key": "Attribute.inflatable_boat_type.[0]",
+      "label": "Inflatable Boat Type",
+      "note": ""
+    },
+    {
+      "index": 262,
+      "key": "Variant.attribute.cellphone_compatibility.[0]",
+      "label": "Cellphone Compatibility",
+      "note": ""
+    },
+    {
+      "index": 263,
+      "key": "Attribute.battery_life.unit",
+      "label": "Battery Life unit",
+      "note": ""
+    },
+    {
+      "index": 264,
+      "key": "Attribute.battery_life.value",
+      "label": "Battery Life value",
+      "note": ""
+    },
+    {
+      "index": 265,
+      "key": "Variant.attribute.swimming_fins_size",
+      "label": "Swimming Fins Size",
+      "note": ""
+    },
+    {
+      "index": 266,
+      "key": "Attribute.has_monitoring_capabilities",
+      "label": "Has Monitoring Capabilities",
+      "note": ""
+    },
+    {
+      "index": 267,
+      "key": "Attribute.sport_recovery_product_type",
+      "label": "Sport Recovery Product Type",
+      "note": ""
+    },
+    {
+      "index": 268,
+      "key": "Attribute.pixel_resolution.width",
+      "label": "Display Resolution Width",
+      "note": ""
+    },
+    {
+      "index": 269,
+      "key": "Attribute.pixel_resolution.height",
+      "label": "Display Resolution Height",
+      "note": ""
+    },
+    {
+      "index": 270,
+      "key": "Attribute.touchscreen_enabled",
+      "label": "Touchscreen Enabled",
+      "note": ""
+    },
+    {
+      "index": 271,
+      "key": "Attribute.has_bluetooth",
+      "label": "Bluetooth",
+      "note": ""
+    },
+    {
+      "index": 272,
+      "key": "Attribute.resistance_bands_levels",
+      "label": "Resistance Bands Levels",
+      "note": ""
+    },
+    {
+      "index": 273,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 274,
+      "key": "Variant.attribute.weight.value",
+      "label": "Weight Value - Variants for Sports Fitness Equipment",
+      "note": ""
+    },
+    {
+      "index": 275,
+      "key": "Variant.attribute.weight.unit",
+      "label": "Weight Unit - Variants for Sports Fitness Equipment",
+      "note": ""
+    },
+    {
+      "index": 276,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 277,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 278,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 279,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 280,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 281,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 282,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 283,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 284,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 285,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 286,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 287,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 288,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 289,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 290,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 291,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 292,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 293,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 294,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 295,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 296,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 297,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 298,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 299,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 300,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 301,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 302,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 303,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 304,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 305,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 306,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 307,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 308,
+      "key": "Attribute.effectiveness_range.unit",
+      "label": "Effectiveness Range",
+      "note": ""
+    },
+    {
+      "index": 309,
+      "key": "Variant.attribute.chaps_and_gaiters_size.[0]",
+      "label": "Chaps and Gaiters Size",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "243": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Abseiling (22429)",
+      "Go-Karting (19921)",
+      "Gymnastics (18556)",
+      "Inline Skating (21227)",
+      "Climbing & Mountaineering (18859)",
+      "Roller Skating (19127)",
+      "Skateboarding (19155)",
+      "Scootering (30579)",
+      "Snow Sports (19172)",
+      "Unicycling (21239)",
+      "Accessories (21290)",
+      "Headphones (30678)",
+      "Cardio (18635)",
+      "Strength Training (20748)",
+      "Weight Lifting (21303)",
+      "Yoga & Pilates (18680)",
+      "Croquet (22416)",
+      "Darts (18730)",
+      "Foosball (18713)",
+      "Snooker & Pool (20743)",
+      "Table Tennis (20744)",
+      "Badminton (19132)",
+      "Racquet (30664)",
+      "Golf (19035)",
+      "Racquetball (28785)",
+      "Squash (28793)",
+      "Track & Field Athletics (18603)",
+      "Running (19673)",
+      "Tennis (18590)",
+      "Injury Prevention & Recovery (23048)",
+      "Scales & Calipers (19920)",
+      "Stopwatches (18666)",
+      "Cycle Computers (14133)",
+      "Wearable Tech (19883)",
+      "Baseball (18400)",
+      "Basketball (18417)",
+      "Cricket (18460)",
+      "Field Hockey (18479)",
+      "Netball (19680)",
+      "Rugby (18573)",
+      "Soccer (18580)",
+      "Volleyball (18616)",
+      "Bodyboarding (22430)",
+      "Canoeing (28837)",
+      "Diving (28930)",
+      "Fishing (19005)",
+      "Kayaking (28908)",
+      "Kiteboarding (21231)",
+      "Rowing (28927)",
+      "Snorkeling (21237)",
+      "Standup Paddleboarding (SUP) (22417)",
+      "Surfing (18778)",
+      "Swimming (18789)",
+      "Wakeboarding (18810)",
+      "Water Polo (18623)",
+      "Windsurfing (18823)",
+      "Martial Arts (21273)",
+      "Jiu Jitsu (21245)",
+      "Padel (30416)",
+      "Tubing (30431)",
+      "Shooting (19058)",
+      "Pickleball (19144)",
+      "Outdoor Sport Garden Games (30673)",
+      "Sports Bags (30769)",
+      "Combat Sports (21219)",
+      "Equestrian (18971)",
+      "Inflatable Boats (30842)"
+    ],
+    "1.35439": [
+      "Accessories->Chalk (28657)",
+      "Accessories->Slings (28658)",
+      "Safety Gear->Helmets (28667)",
+      "Safety Gear->Pads (28668)",
+      "Safety Gear->Gloves (28666)",
+      "Carabiners (28661)",
+      "Harnesses (28662)",
+      "Quickdraws (28663)",
+      "Ropes (28664)",
+      "Bags (28659)",
+      "Belay Devices (28660)"
+    ],
+    "7.0.4": [
+      "Protective Gear->Helmets (28677)",
+      "Protective Gear->Gloves (28676)",
+      "Karts (28671)",
+      "Parts (28672)",
+      "Tyres (28674)",
+      "Seats (28673)",
+      "Accessories (28670)"
+    ],
+    "3": [
+      "Trampoline Accessories (30859)",
+      "Accessories->Grips (28687)",
+      "Accessories->Ropes (28688)",
+      "Accessories->Chalk (28686)",
+      "Bars (18557)",
+      "Trampolines (28684)",
+      "Mats (28682)",
+      "Beams (28680)",
+      "Floors (18561)",
+      "Inflatables (28681)",
+      "Rhythmic Equipment (28683)",
+      "Rings (18560)"
+    ],
+    "21179433": [
+      "Accessories->Bearings (28740)",
+      "Accessories->Wheel Sets (28737)",
+      "Accessories->Axles & Screws (28739)",
+      "Accessories->Cushions (28742)",
+      "Accessories->Brake Pads (28738)",
+      "Accessories->Brakes & Stoppers (28741)",
+      "Accessories->Plates (28743)",
+      "Accessories->Toe Protection (28744)",
+      "Protective Gear->Helmets (28750)",
+      "Protective Gear->Ankle Guards (28746)",
+      "Protective Gear->Shin Guards (28752)",
+      "Protective Gear->Elbow Pads (28749)",
+      "Protective Gear->Crash Pads (28747)",
+      "Protective Gear->Knee Pads (28751)",
+      "Protective Gear->Wrist Guards (28753)",
+      "Protective Gear->Gloves (28748)",
+      "Inline Skates (19124)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_sports_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Primary Sports Type\", \"sheet_name\": \"Primary Sports Type\"}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Age Range\", \"sheet_name\": \"Age Range\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Climbing Rope Bags (18872)",
+      "Safety Gear->Pads (18865)",
+      "Safety Gear->Climbing Helmets (18864)",
+      "Safety Gear->Climbing Gloves (18863)",
+      "Climbing Crash Pads (18868)",
+      "Accessories->Slings (28691)",
+      "Accessories->Chalk (28690)",
+      "Quickdraws (18877)",
+      "Climbing Harnesses (18869)",
+      "Climbing Rope (18871)",
+      "Carabiners (18861)",
+      "Climbing Ascenders & Descenders (18866)",
+      "Ice Screws (18875)",
+      "Belay Devices (18860)",
+      "Bags (18867)"
+    ],
+    "False": [
+      "Accessories (28701)",
+      "Unicycles (28702)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.eyewear_type.[0]",
+      "Attribute.sports.[0]",
+      "Attribute.shoe_width",
+      "Attribute.collar_style",
+      "Attribute.bow_type",
+      "Attribute.stick_type",
+      "Attribute.closure_type",
+      "Attribute.bat_wood_type",
+      "Attribute.tackle_type.[0]",
+      "Attribute.darts_accessory_type",
+      "Attribute.reel_type",
+      "Attribute.calibre.[0]",
+      "Attribute.muzzle_energy",
+      "Attribute.ammunition_type",
+      "Attribute.has_straps",
+      "Attribute.chassis_type",
+      "Attribute.wheel_type",
+      "Attribute.sandbag_types.[0]",
+      "Attribute.target_type",
+      "Attribute.harness_features",
+      "Attribute.archery_bow_types",
+      "Attribute.bar_type",
+      "Attribute.power.unit",
+      "Attribute.power.value",
+      "Attribute.interlocking",
+      "Attribute.range_type",
+      "Attribute.quickdraw_types",
+      "Attribute.incline_settings",
+      "Attribute.gun_magazine_pouches_type",
+      "Attribute.unicycle_types.[0]",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.skateboard_wheel_type",
+      "Attribute.dartboard_type",
+      "Attribute.plate_types",
+      "Attribute.windsurfing_sail_type",
+      "Attribute.paddle_types.[0]",
+      "Attribute.belay_type",
+      "Attribute.barbell_type.[0]",
+      "Attribute.rangefinder_features",
+      "Attribute.skateboard_type",
+      "Attribute.skateboard_storage_type.[0]",
+      "Attribute.skateboard_ramp_type.[0]",
+      "Attribute.is_durable",
+      "Attribute.is_foldable",
+      "Attribute.is_heavy_duty",
+      "Attribute.requires_assembly",
+      "Attribute.cue_types.[0]",
+      "Attribute.racquetballs_types",
+      "Attribute.windboard_type",
+      "Attribute.roller_skate_type",
+      "Attribute.golf_bag_stand_type.[0]",
+      "Attribute.golf_cart_types.[0]",
+      "Attribute.ski_types.[0]",
+      "Attribute.band_types.[0]",
+      "Attribute.loft_range",
+      "Attribute.flag_type.[0]",
+      "Attribute.type_of_pepper_spray",
+      "Attribute.effectiveness_range.value",
+      "Attribute.grip_types",
+      "Attribute.racquet_string_types.[0]",
+      "Attribute.golf_gloves_type",
+      "Attribute.sport_harness_type",
+      "Attribute.abec_rating",
+      "Attribute.bushings_type",
+      "Attribute.regulator_type",
+      "Attribute.glove_type",
+      "Attribute.lift_type.[0]",
+      "Attribute.racket_type.[0]",
+      "Attribute.rack_type",
+      "Attribute.squash_racket_type.[0]",
+      "Attribute.squash_accessory_type.[0]",
+      "Attribute.padel_racket_type.[0]",
+      "Attribute.padel_accessory_type.[0]",
+      "Attribute.snowboard_types.[0]",
+      "Attribute.brake_types",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.engine_capacity.value",
+      "Attribute.engine_power.value",
+      "Attribute.rope_type",
+      "Attribute.sling_size",
+      "Attribute.helmet_type.[0]",
+      "Attribute.product_shape",
+      "Attribute.toe_cap_size",
+      "Attribute.finger_length",
+      "Attribute.grip_technology",
+      "Attribute.sports_glove_padding_and_protection",
+      "Attribute.lanyard_material.[0]",
+      "Attribute.whistle_type.[0]",
+      "Attribute.whistle_sound_type.[0]",
+      "Attribute.whistle_usage.[0]",
+      "Attribute.headlamp_accessory_type.[0]",
+      "Attribute.first_aid_kit_container_type.[0]",
+      "Attribute.first_aid_kit_type.[0]",
+      "Attribute.first_aid_kit_usage.[0]",
+      "Attribute.golf_cart_bags_features",
+      "Attribute.golf_ball_types.[0]",
+      "Attribute.is_fireproof",
+      "Attribute.lifting_plate_type.[0]",
+      "Attribute.is_freestanding",
+      "Attribute.dumbbell_type.[0]",
+      "Attribute.weight_lifting_bench_type.[0]",
+      "Attribute.arrow_type",
+      "Attribute.spike_type.[0]",
+      "Attribute.arrow_rests_type",
+      "Attribute.crossbow_types",
+      "Attribute.field_hockey_accessory_type",
+      "Attribute.net_types.[0]",
+      "Attribute.interchangeable",
+      "Attribute.archery_quiver_types",
+      "Attribute.shuttlecock_types.[0]",
+      "Attribute.chalk_type",
+      "Attribute.lure_type",
+      "Attribute.is_adjustable",
+      "Attribute.windsurfing_base_type",
+      "Attribute.bonding_type",
+      "Attribute.longboard_type",
+      "Attribute.surfboard_fin_type",
+      "Attribute.sup_board_type",
+      "Attribute.gauge_type",
+      "Attribute.line_types",
+      "Attribute.surf_leash_type",
+      "Attribute.face_profile",
+      "Attribute.canoe_type",
+      "Attribute.light_source",
+      "Attribute.snooker_and_pool_table_parts",
+      "Attribute.snooker_pool_accessory_type",
+      "Attribute.shin_guard_types",
+      "Attribute.soccer_ball_quality",
+      "Attribute.nose_plug_type",
+      "Attribute.snorkel_type.[0]",
+      "Attribute.diving_fin_types",
+      "Attribute.mouth_guard_type",
+      "Attribute.buoy_type",
+      "Attribute.earplug_type",
+      "Attribute.basketball_hoop_type",
+      "Attribute.basketball_equipment_type.[0]",
+      "Attribute.mitt_types",
+      "Attribute.usb_powered",
+      "Attribute.eyewear_lens_features",
+      "Attribute.fin_type",
+      "Attribute.buoyancy_compensator_types",
+      "Attribute.twin_tip_type",
+      "Attribute.kayak_type",
+      "Attribute.baseball_ball_type.[0]",
+      "Attribute.exercise_ball_types.[0]",
+      "Attribute.float_type",
+      "Attribute.goggles_recommended_uses",
+      "Attribute.din_valve",
+      "Attribute.wax_type",
+      "Attribute.windfoiling_type",
+      "Attribute.bag_types.[0]",
+      "Attribute.number_of_compartments",
+      "Attribute.swivel_type",
+      "Attribute.roller_types",
+      "Attribute.volleyball_quality",
+      "Attribute.fly_fish_rod_types",
+      "Attribute.rod_type",
+      "Attribute.fishing_tool_type.[0]",
+      "Attribute.hand_orientation.[0]",
+      "Attribute.fishing_technique.[0]",
+      "Attribute.fishing_rod_grip_type.[0]",
+      "Attribute.fishing_accessory_type.[0]",
+      "Attribute.fishing_line_type.[0]",
+      "Attribute.seasons.[0]",
+      "Attribute.driver_type.[0]",
+      "Attribute.massage_gun_type",
+      "Attribute.racquet_type.[0]",
+      "Attribute.caliper_types",
+      "Attribute.sinker_type",
+      "Attribute.hook_type",
+      "Attribute.medal_type.[0]",
+      "Attribute.dart_weight.value",
+      "Attribute.trail_weight.[0]",
+      "Attribute.spray_pattern",
+      "Attribute.boom_type",
+      "Attribute.foosball_table_type",
+      "Attribute.tip_types",
+      "Attribute.masts_type",
+      "Attribute.has_heart_rate_monitor",
+      "Attribute.has_glonass",
+      "Attribute.has_distance_tracking",
+      "Attribute.has_calorie_counter",
+      "Attribute.has_step_counter",
+      "Attribute.bezel_size.value",
+      "Attribute.has_sleep_monitor",
+      "Attribute.has_music_player",
+      "Attribute.has_smart_notification_technology",
+      "Attribute.has_altimeter",
+      "Attribute.has_gps",
+      "Attribute.safety_gear_pad_type",
+      "Attribute.yoga_mat_type",
+      "Attribute.standup_paddleboarding_accessories",
+      "Attribute.gun_maintenance_product_type.[0]",
+      "Attribute.charger_type.[0]",
+      "Attribute.has_secure_fit",
+      "Attribute.is_ergonomic",
+      "Attribute.trampoline_accessory_type",
+      "Attribute.headphones_noise_control.[0]",
+      "Attribute.headphones_control_type.[0]",
+      "Attribute.headphone_styles.[0]",
+      "Attribute.sound_quality.[0]",
+      "Attribute.surfboard_length",
+      "Attribute.surfboard_storage_type.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.is_windproof",
+      "Attribute.is_water_resistant",
+      "Attribute.eyewear_lens_type",
+      "Attribute.screen_size.value",
+      "Attribute.display_diameter.unit",
+      "Attribute.display_diameter.value",
+      "Attribute.is_portable",
+      "Attribute.inflatable_boat_type.[0]",
+      "Attribute.battery_life.unit",
+      "Attribute.battery_life.value",
+      "Attribute.has_monitoring_capabilities",
+      "Attribute.sport_recovery_product_type",
+      "Attribute.pixel_resolution.width",
+      "Attribute.pixel_resolution.height",
+      "Attribute.touchscreen_enabled",
+      "Attribute.has_bluetooth",
+      "Attribute.resistance_bands_levels",
+      "Attribute.connectivities.[0]",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.effectiveness_range.unit"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.genders.[0]",
+      "Variant.attribute.sport_age_range.[0]",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.hockey_stick_size.value",
+      "Variant.attribute.sports_protection_wear",
+      "Variant.attribute.soccer_glove_size.[0]",
+      "Variant.attribute.glove_size.[0]",
+      "Variant.attribute.cricket_bat_size_lookup",
+      "Variant.attribute.right_hand_left_hand",
+      "Variant.attribute.driver_loft",
+      "Variant.attribute.flex_shaft_stiffness",
+      "Variant.attribute.shaft_type",
+      "Variant.attribute.woods",
+      "Variant.attribute.hybrids",
+      "Variant.attribute.irons",
+      "Variant.attribute.iron_sets",
+      "Variant.attribute.wedges",
+      "Variant.attribute.package_sets.[0]",
+      "Variant.attribute.helmet_size",
+      "Variant.attribute.wheel_size.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.bag_size.value",
+      "Variant.attribute.dumbbell_rack_capacity",
+      "Variant.attribute.soccer_ball_size.[0]",
+      "Variant.attribute.sport_ball_size.[0]",
+      "Variant.attribute.tennis_racket_length_grip_size.[0]",
+      "Variant.attribute.yoga_block_size.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.bearing_size.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.bat_length.value",
+      "Variant.attribute.compression_sleeve_size",
+      "Variant.attribute.eyewear_shape",
+      "Variant.attribute.cellphone_compatibility.[0]",
+      "Variant.attribute.swimming_fins_size",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.weight.unit",
+      "Variant.attribute.chaps_and_gaiters_size.[0]"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "source_file": "loadsheet-236.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 141,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.part_number",
+      "label": "Part Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.classification",
+      "label": "Classification",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.printer_type.[0]",
+      "label": "Printer Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.printer_part_type",
+      "label": "Printer Part Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.printer_function.[0]",
+      "label": "Printer Function",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.printer_output.[0]",
+      "label": "Printer Output",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.ink_colour.[0]",
+      "label": "Colour of Filament",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.by_office_user.[0]",
+      "label": "Office User Type",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivity",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.printer_print_media",
+      "label": "Printer Print Media",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.filament_type",
+      "label": "Filament Type",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.printer_special_features",
+      "label": "Printer Special Features",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.printer_operating_system",
+      "label": "Printer Operating System",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.requires_assembly",
+      "label": "Requires Assembly",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.cartridge_type.[0]",
+      "label": "Cartridge Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.operating_system_compatibility.[0]",
+      "label": "Operating System Compatibility",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.print_speed_colour.value",
+      "label": "Print Speed",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.print_speed_bw.value",
+      "label": "Print Speed in Black",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.printer_resolution.[0]",
+      "label": "Printer Resolution",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.page_yield",
+      "label": "Page Yield",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.brakes_and_clutches_suitability",
+      "label": "Brakes and Clutches Suitability",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_speed_fully_adjustable",
+      "label": "Is Speed Fully Adjustable",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.number_of_pins",
+      "label": "Number of Pins",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.ic_function",
+      "label": "IC Function",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.number_of_operation_keys",
+      "label": "Number of Operation Keys",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.pneumatic_instrumentation_and_switches_thread_type",
+      "label": "Pneumatic Instrumentation and Switches Thread Type",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.circuit_protection_applications",
+      "label": "Circuit Protection Applications",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.struts_compatibility",
+      "label": "Struts Compatibility",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.professional_medical_supplies_user_type",
+      "label": "Professional Medical Supplies User Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.protection_rating",
+      "label": "Protection Rating",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.ic_package_type",
+      "label": "Ic Package Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.output_voltage.value",
+      "label": "Output Voltage value",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.number_of_outlets",
+      "label": "Number of Outlets",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.software_type.[0]",
+      "label": "Software Type",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.domestic_uses",
+      "label": "Domestic Uses",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.lead_free",
+      "label": "Lead Free",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.regulation_level",
+      "label": "Regulation Level",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.weather_resistant",
+      "label": "Weather Resistant",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.has_display_screen",
+      "label": "Has Display Screen",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.industrial_uses",
+      "label": "Industrial Uses",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.can_rotate",
+      "label": "Can Rotate",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.measurement_range",
+      "label": "Measurement Range",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.hydraulic_valve_thread_type",
+      "label": "Hydraulic Valve Thread Type",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.gearboxes_compatibility",
+      "label": "Gearboxes Compatibility",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.runtime",
+      "label": "Run Time",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.load_current",
+      "label": "Load Current",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.pressure_gauge_connection",
+      "label": "Pressure Gauge Connection",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.airflow_capacity",
+      "label": "Airflow Capacity",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.torque",
+      "label": "Torque",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.trip_time",
+      "label": "Trip Time",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.valve_type",
+      "label": "Valve Type",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.industry_best_suited_for",
+      "label": "Industry Best Suited For",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.applicable_equipment",
+      "label": "Applicable Equipment",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.applications",
+      "label": "Applications",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.duty_cycle",
+      "label": "Duty Cycle",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.stroke_length",
+      "label": "Stroke Length",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.is_cold_weather_resistant",
+      "label": "Is Cold Weather Resistant",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.uv_resistant",
+      "label": "UV Resistant",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.is_low_temperature_resistant",
+      "label": "Is Low Temperature Resistant",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.is_extreme_weather_resistant",
+      "label": "Is Extreme Weather Resistant",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.number_of_teeth",
+      "label": "Number of Teeth",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.is_impact_resistant",
+      "label": "Is Impact Resistant",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.is_sunlight_resistant",
+      "label": "Is Sunlight Resistant",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.is_flame_retardant",
+      "label": "Is Flame Retardant",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.is_abrasion_resistant",
+      "label": "Is Abrasion Resistant",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.is_chemical_resistant",
+      "label": "Is Chemical Resistant",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.is_high_temperature_resistant",
+      "label": "Is High Temperature Resistant",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.is_outdoor_rated",
+      "label": "Is Outdoor Rated",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.is_moisture_resistant",
+      "label": "Is Moisture Resistant",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.is_custom_weather_resistance",
+      "label": "Is Custom Weather Resistance",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.is_oil_resistant",
+      "label": "Is Oil Resistant",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.adhesive_type",
+      "label": "Adhesive Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.tape_type",
+      "label": "Tape Type",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.label_type",
+      "label": "Tabel Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.printer_part_3d",
+      "label": "Printer Part 3D",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.professional_medical_supplies_certification",
+      "label": "Professional Medical Supplies Certification",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.brakes_and_clutches_fitment_type",
+      "label": "Brakes and Clutches Fitment Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.scanner_resolution",
+      "label": "Scanner Resolution",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Variant.attribute.paper_size",
+      "label": "Paper Size",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.printer_cartridge_type.[0]",
+      "label": "Printer Cartridge Type",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "236": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Print, Copy, Scan & Fax (15739)",
+      "Agricultural Irrigation (23273)",
+      "Filtration (23277)",
+      "Hydraulics & Pneumatics Automation (23283)",
+      "Control Relays (23308)",
+      "Lab & Scientific (23341)",
+      "Occupational Health & Safety (23345)",
+      "Power Transmission (23349)",
+      "Professional Medical Supplies (23366)",
+      "Industrial Electrical & Automation (23302)",
+      "Agricultural Equipment (29574)"
+    ],
+    "4.35611": [
+      "3D Printer Replacement Parts & Kits (30857)",
+      "3D Scanners (23367)",
+      "3D Printers (15741)",
+      "3D Printing Pens (23368)",
+      "3D Printing Materials (23369)",
+      "Printers, Copiers & Fax Machines->Certified Pre-Owned Printers (30905)",
+      "3D Printer Accessories (15740)",
+      "Printer, Copier & Fax Machine Accessories->Printer, Copier & Fax Machine Replacement Parts (15754)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Labels & Tapes (30815)",
+      "Printer, Copier & Fax Machine Accessories->Printer Consumables->Toner Cartridges (30671)"
+    ],
+    "7.0.4": [
+      "Sprinklers (23275)",
+      "Irrigation Fittings & Pipes (23276)",
+      "Water Computers, Controllers & Timers (23274)"
+    ],
+    "3": [
+      "Water (23281)",
+      "Air Treatment (23278)",
+      "HVAC (23279)",
+      "Hydraulic (23280)",
+      "Medical (23282)"
+    ],
+    "82416510": [
+      "Hydraulic Components & Automation->Hydraulic Valves (23291)",
+      "Hydraulic Components & Automation->Hydraulic Pressure Gauges (23292)",
+      "Hydraulic Components & Automation->Hydraulic Instrumention & Switches (23289)",
+      "Hydraulic Components & Automation->Hydraulic Fluids & Filtration (23288)",
+      "Hydraulic Components & Automation->Hydraulic Tubing & Hoses (23290)",
+      "Hydraulic Components & Automation->Hydraulic Pumps (23287)",
+      "Hydraulic Components & Automation->Hydraulic Cylinders (23286)",
+      "Hydraulic Components & Automation->Hydraulic Adaptors & Fittings (23285)",
+      "Pneumatic Components & Automation->Pneumatic Instrumentation & Switches (23299)",
+      "Pneumatic Components & Automation->Pneumatic Counters, Controllers & Timers (23297)",
+      "Pneumatic Components & Automation->Pneumatic Adaptors & Fittings (23294)",
+      "Pneumatic Components & Automation->Pneumatic Air Compressors & Vacuums (23295)",
+      "Pneumatic Components & Automation->Pneumatic Air Preparation (23296)",
+      "Pneumatic Components & Automation->Pneumatic Cylinders & Actuators (23298)",
+      "Pneumatic Components & Automation->Pneumatic Tubing & Hoses (23300)",
+      "Pneumatic Components & Automation->Pneumatic Valves (23301)",
+      "Hydraulic & Pneumatic Tools (23303)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Control Relays (23308)"
+    ],
+    "False": [
+      "Automation & Control Gear->Control Relays (23308)",
+      "Automation & Control Gear->Circuit Protection (23306)",
+      "Automation & Control Gear->Contactors (23307)",
+      "Automation & Control Gear->Push Buttons, Pilot Lights & Control Stations (23311)",
+      "Automation & Control Gear->Electric Motors & Controllers (23309)",
+      "Automation & Control Gear->Fluid Control Systems (23310)",
+      "Automation & Control Gear->Solenoids (23317)",
+      "Automation & Control Gear->Industrial Switches (23312)",
+      "Automation & Control Gear->Panel Meters & Components (23315)",
+      "Automation & Control Gear->Machine Guards & Safety (23313)",
+      "Automation & Control Gear->Sensors & Transducers (23316)",
+      "Automation & Control Gear->PLCs & Data Acquisition (23314)",
+      "Automation & Control Gear->Power Supply (23305)",
+      "Automation & Control Gear->Sounders & Beacons (23318)",
+      "Automation & Control Gear->Timers & Counters (23319)",
+      "Robots (23339)",
+      "HVAC, Fans & Thermal Management->HVAC Sensors & Controllers (23337)",
+      "HVAC, Fans & Thermal Management->Electronic Heating & Cooling (23334)",
+      "HVAC, Fans & Thermal Management->Air Management Accessories (23333)",
+      "HVAC, Fans & Thermal Management->Electronic Humidity & Pressure Control (23335)",
+      "HVAC, Fans & Thermal Management->Fans & Accessories (23336)",
+      "Fuses, Sockets & Circuit Breakers->Electrical Installation Accessories (23330)",
+      "Fuses, Sockets & Circuit Breakers->Fuses & Accessories (23331)",
+      "Fuses, Sockets & Circuit Breakers->Industrial Circuit Breakers (23329)",
+      "Industrial & Electrical Switches (23340)",
+      "Relays (23338)",
+      "Industrial Cables & Wires->Cable Accessories & Ties (23321)",
+      "Industrial Cables & Wires->Audio Visual Cabling (23325)",
+      "Industrial Cables & Wires->Cable Conduit & Routing (23322)",
+      "Industrial Cables & Wires->Cable To Board Assemblies (23327)",
+      "Industrial Cables & Wires->Coaxial Cabling (23326)",
+      "Industrial Cables & Wires->Industrial Power Cables (23323)",
+      "Industrial Cables & Wires->Network Cabling (23324)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.part_number",
+      "Attribute.classification",
+      "Attribute.printer_type.[0]",
+      "Attribute.printer_part_type",
+      "Attribute.printer_function.[0]",
+      "Attribute.printer_output.[0]",
+      "Attribute.ink_colour.[0]",
+      "Attribute.by_office_user.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.printer_print_media",
+      "Attribute.filament_type",
+      "Attribute.printer_special_features",
+      "Attribute.printer_operating_system",
+      "Attribute.capacity.value",
+      "Attribute.requires_assembly",
+      "Attribute.compatible_devices",
+      "Attribute.cartridge_type.[0]",
+      "Attribute.operating_system_compatibility.[0]",
+      "Attribute.print_speed_colour.value",
+      "Attribute.print_speed_bw.value",
+      "Attribute.printer_resolution.[0]",
+      "Attribute.is_portable",
+      "Attribute.page_yield",
+      "Attribute.brakes_and_clutches_suitability",
+      "Attribute.is_speed_fully_adjustable",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.materials.[0]",
+      "Attribute.number_of_pins",
+      "Attribute.ic_function",
+      "Attribute.number_of_operation_keys",
+      "Attribute.pneumatic_instrumentation_and_switches_thread_type",
+      "Attribute.circuit_protection_applications",
+      "Attribute.struts_compatibility",
+      "Attribute.professional_medical_supplies_user_type",
+      "Attribute.protection_rating",
+      "Attribute.ic_package_type",
+      "Attribute.output_voltage.value",
+      "Attribute.number_of_outlets",
+      "Attribute.software_type.[0]",
+      "Attribute.domestic_uses",
+      "Attribute.lead_free",
+      "Attribute.regulation_level",
+      "Attribute.weather_resistant",
+      "Attribute.has_display_screen",
+      "Attribute.industrial_uses",
+      "Attribute.can_rotate",
+      "Attribute.is_adjustable",
+      "Attribute.measurement_range",
+      "Attribute.input_voltage.value",
+      "Attribute.hydraulic_valve_thread_type",
+      "Attribute.gearboxes_compatibility",
+      "Attribute.runtime",
+      "Attribute.is_heavy_duty",
+      "Attribute.load_current",
+      "Attribute.pressure_gauge_connection",
+      "Attribute.airflow_capacity",
+      "Attribute.torque",
+      "Attribute.trip_time",
+      "Attribute.valve_type",
+      "Attribute.industry_best_suited_for",
+      "Attribute.applicable_equipment",
+      "Attribute.applications",
+      "Attribute.duty_cycle",
+      "Attribute.stroke_length",
+      "Attribute.is_cold_weather_resistant",
+      "Attribute.uv_resistant",
+      "Attribute.is_low_temperature_resistant",
+      "Attribute.is_extreme_weather_resistant",
+      "Attribute.number_of_teeth",
+      "Attribute.is_impact_resistant",
+      "Attribute.is_sunlight_resistant",
+      "Attribute.is_flame_retardant",
+      "Attribute.is_abrasion_resistant",
+      "Attribute.is_chemical_resistant",
+      "Attribute.is_high_temperature_resistant",
+      "Attribute.is_outdoor_rated",
+      "Attribute.is_moisture_resistant",
+      "Attribute.is_custom_weather_resistance",
+      "Attribute.is_water_resistant",
+      "Attribute.is_oil_resistant",
+      "Attribute.adhesive_type",
+      "Attribute.tape_type",
+      "Attribute.product_shape",
+      "Attribute.label_type",
+      "Attribute.printer_part_3d",
+      "Attribute.professional_medical_supplies_certification",
+      "Attribute.brakes_and_clutches_fitment_type",
+      "Attribute.rated_voltage.value",
+      "Attribute.scanner_resolution",
+      "Attribute.printer_cartridge_type.[0]",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_hazardous"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.paper_size"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

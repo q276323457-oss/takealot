@@ -1,0 +1,922 @@
+{
+  "source_file": "loadsheet-96.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 98,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.lego_theme",
+      "label": "LEGO Theme",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.toy_characters.[0]",
+      "label": "Toy Character",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.toy_blocks_type.[0]",
+      "label": "Toy Block Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.is_stem_toy",
+      "label": "Stem Toy Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.stem_science_subject",
+      "label": "STEM Science Subject",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.stem_technology_and_engineering_subject",
+      "label": "STEM Technology and Engineering Subject",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.stem_mathematics_subject",
+      "label": "STEM Maths Subject",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.kids_decor_theme",
+      "label": "Kids Décor Theme",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Variant.attribute.bed_size",
+      "label": "Bed Size",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.fancy_dress_theme.[0]",
+      "label": "Fancy Dress Theme",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.type_of_instrument",
+      "label": "Type of Instrument",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.type_of_inflatable",
+      "label": "Type of Inflatable",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.toys_features.[0]",
+      "label": "Toys Features",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.featured_character.[0]",
+      "label": "Featured Character",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.container_type",
+      "label": "Container Type",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.trampoline_type",
+      "label": "Trampoline Type",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.type_of_swing",
+      "label": "Type of Swing",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.board_game_genre",
+      "label": "Board Game Genre",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.toys_interest",
+      "label": "Toys Interest",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Variant.attribute.kids_age",
+      "label": "Kids Age Range",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.is_hypoallergenic",
+      "label": "Hypoallergenic",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.is_waterproof",
+      "label": "Waterproof",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.is_inflatable",
+      "label": "Is Inflatable",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.is_assembly_required",
+      "label": "Is Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.requires_hose_connection",
+      "label": "Requires Hose Connection",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.is_collectable",
+      "label": "Is Collectable",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.remote_included",
+      "label": "Remote Included",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.makeup_finish",
+      "label": "Make Up Finish",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.trampoline_size.value",
+      "label": "Trampoline Size",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Variant.attribute.helmet_size",
+      "label": "Helmet Size",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Variant.attribute.sports_protection_wear",
+      "label": "Sports Protection Wear",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Product Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.height_from_ground.value",
+      "label": "Height From Ground",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity for Variant",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.number_of_players.min",
+      "label": "Minimum Number of Players",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.number_of_players.max",
+      "label": "Maximum Number of Players",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Variant.attribute.age_range.min",
+      "label": "Minimum Age Range",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Variant.attribute.age_range.max",
+      "label": "Maximum Age Range",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.is_battery_operated",
+      "label": "Is Battery Operated",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.balloon_accessory_type",
+      "label": "Balloon Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.has_batteries",
+      "label": "Has Batteries",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.has_expiry_days",
+      "label": "Expiry Days from Receival",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "96": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Board Games (19204)",
+      "Card Games (19206)",
+      "Outdoor Play Equipment (19216)",
+      "Puzzles (19235)",
+      "Toys (19240)",
+      "Helmets (30973)",
+      "Kids Watches (23267)",
+      "Merchandise (30666)",
+      "Card Storage & Displays (30955)"
+    ],
+    "4.33050": [
+      "Strategy Board Games (19743)",
+      "Kids Board Games (19740)",
+      "Family Board Games (19739)",
+      "Boardgame Accessories (19738)",
+      "Role Playing Board Games (19742)",
+      "Traditional Games (19744)",
+      "Party Board Games (19741)"
+    ],
+    "7.0.4": [
+      "Trading Cards (19745)",
+      "Traditional Card Games (19746)"
+    ],
+    "3": [
+      "Play Swings (19219)",
+      "Kids Pools & Inflatables (19773)",
+      "Water Play Equipment (19231)",
+      "Climbers (21875)",
+      "Jungle Gyms (22787)",
+      "Playhouses (19221)",
+      "Slides (19225)",
+      "Outdoor Playsets (20687)",
+      "Trampolines (19230)"
+    ],
+    "72244297": [
+      "Floor Puzzles (19748)",
+      "Jigsaw Puzzle Accessories (19236)",
+      "3D Puzzles (19747)",
+      "Jigsaw Puzzles (19237)",
+      "Puzzle Play Mats (19749)",
+      "Wooden & Pegged Puzzles (19239)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_toy_characters_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Toy Characters\", \"sheet_name\": \"Toy Characters\"}, \"Variant_attribute_baby_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Baby Age Range\", \"sheet_name\": \"Baby Age Range\"}, \"Variant_attribute_kids_age\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Kids Age Range\", \"sheet_name\": \"Kids Age Range\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}, \"Attribute_fancy_dress_theme_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Fancy Dress Themes\", \"sheet_name\": \"Fancy Dress Themes\"}}": [
+      "Party Supplies->Party Toys & Favours (19822)",
+      "Party Supplies->Party Wear (19823)",
+      "Party Supplies->Balloons & Accessories (28649)",
+      "Party Supplies->Invitations & Cards (19821)",
+      "Party Supplies->Table Decorations (19820)",
+      "Party Supplies->Cake Decorations (19819)",
+      "Party Supplies->Lunch Boxes & Juice Bottles (19824)",
+      "Novelty Toys (30787)",
+      "Art & Drawing Toys->Play Dough & Putty (19255)",
+      "Art & Drawing Toys->Charms (30484)",
+      "Art & Drawing Toys->Stickers (19768)",
+      "Art & Drawing Toys->Drawing & Painting (19767)",
+      "Art & Drawing Toys->Craft Kits (19766)",
+      "Art & Drawing Toys->Beads (19765)",
+      "Early Development Electronic Toys->Electronic Reading (19763)",
+      "Early Development Electronic Toys->Tablets & Accessories (19764)",
+      "Early Development Electronic Toys->Computers & Accessories (19761)",
+      "Early Development Electronic Toys->Electronic Learning Toys (19762)",
+      "Kids Sport Activities (19775)",
+      "Remote Control Toys (19324)",
+      "Activity Toys->Balls (19243)",
+      "Activity Toys->Marbles (19247)",
+      "Activity Toys->Bubble Blowing Toys (19245)",
+      "LEGO->LEGO Extended Range (31155)",
+      "LEGO->LEGO NINJAGO (21673)",
+      "LEGO->LEGO DC Batman (22485)",
+      "LEGO->LEGO Horizon Adventures (31154)",
+      "LEGO->LEGO Editions (31153)",
+      "LEGO->LEGO Gabby's Dollhouse (31152)",
+      "LEGO->LEGO ONE PIECE (31151)",
+      "LEGO->LEGO Super Mario (31150)",
+      "LEGO->LEGO Sonic the Hedgehog (31149)",
+      "LEGO->LEGO Marvel (31148)",
+      "LEGO->LEGO Icons (31147)",
+      "LEGO->LEGO DREAMZzz (31146)",
+      "LEGO->LEGO Botanicals (31145)",
+      "LEGO->LEGO Fortnite (31144)",
+      "LEGO->LEGO Wicked (31143)",
+      "LEGO->LEGO Wednesday (31142)",
+      "LEGO->LEGO Art (31141)",
+      "LEGO->LEGO Animal Crossing (31140)",
+      "LEGO->LEGO Ghostbusters (22488)",
+      "LEGO->LEGO Minecraft (22493)",
+      "LEGO->LEGO Creator (21686)",
+      "LEGO->LEGO City (21685)",
+      "LEGO->LEGO Play Themes (21677)",
+      "LEGO->LEGO DUPLO (21690)",
+      "LEGO->LEGO MINDSTORMS (21676)",
+      "LEGO->LEGO Speed Champions (21678)",
+      "LEGO->LEGO Star Wars (21681)",
+      "LEGO->LEGO Disney (21687)",
+      "LEGO->LEGO Merchandise (21682)",
+      "LEGO->LEGO Minifigures (22492)",
+      "LEGO->LEGO Education (28650)",
+      "LEGO->LEGO Friends (21688)",
+      "LEGO->LEGO Super Heroes (22496)",
+      "LEGO->LEGO Elves (21689)",
+      "LEGO->LEGO Jurassic World (22489)",
+      "LEGO->LEGO BrickHeadz (22487)",
+      "LEGO->LEGO Classic (21684)",
+      "LEGO->LEGO Harry Potter (22495)",
+      "LEGO->LEGO BOOST (22486)",
+      "LEGO->LEGO Ideas (22491)",
+      "LEGO->LEGO Nexo Knights (21674)",
+      "LEGO->LEGO Pirates of the Caribbean (22494)",
+      "LEGO->LEGO Architecture (22490)",
+      "LEGO->LEGO Junior (21683)",
+      "LEGO->LEGO Movies & TV (21675)",
+      "LEGO->LEGO Storage (21680)",
+      "LEGO->LEGO Technic (21679)",
+      "Foam Blasters & Bullets (19362)",
+      "Lawn Games (19776)",
+      "Fancy Dress (19735)",
+      "Garden Tools (19774)",
+      "Building Toys->Magnetic (19783)",
+      "Building Toys->Marble Track Sets (19266)",
+      "Building Toys->Construction Set Toys (19263)",
+      "Building Toys->Building Sets (21530)",
+      "Building Toys->Blocks (19782)",
+      "Electronic Toys->Musical Instruments (19755)",
+      "Electronic Toys->Digital Cameras (19750)",
+      "Electronic Toys->Karaoke Machines (19754)",
+      "Electronic Toys->Tablets & Accessories (19758)",
+      "Electronic Toys->Electronic Pets (19752)",
+      "Electronic Toys->Phones & Mobile Phones (19756)",
+      "Electronic Toys->Electronic Games (19751)",
+      "Electronic Toys->Electronic Reading (19753)",
+      "Electronic Toys->Walkie Talkies (19759)",
+      "Electronic Toys->Robots (19757)",
+      "Electronic Toys->Speakers (30394)",
+      "Hobbies->Trains & Accessories (19807)",
+      "Hobbies->Hobby Building Tools & Hardware (19803)",
+      "Hobbies->Coin Collecting (19802)",
+      "Hobbies->Fidget Spinners, Cubes & Desk Toys (28422)",
+      "Hobbies->Slot Cars, Race Tracks & Accessories (19806)",
+      "Hobbies->RC Vehicles & Parts (19805)",
+      "Hobbies->Models & Model Kits (19804)",
+      "Pretend Play->Makeup (30489)",
+      "Pretend Play->Pretend Weapons (23042)",
+      "Pretend Play->Playsets (29587)",
+      "Pretend Play->Pretend Professions & Role Playing (19319)",
+      "Pretend Play->Toy Tools (19322)",
+      "Pretend Play->Toy Kitchens & Play Food (19321)",
+      "Sports Toys->Fitness Toys->Hula Hoops (19352)",
+      "Riding Toys->Bikes (19771)",
+      "Riding Toys->Scooters (19772)",
+      "Riding Toys->Skateboards (19769)",
+      "Riding Toys->Skates (19770)",
+      "Riding Toys->Electric Riding Vehicles (19335)",
+      "Baby & Toddler->Reading & Writing (19799)",
+      "Baby & Toddler->Mathematics & Counting (19794)",
+      "Baby & Toddler->Flash Cards (19793)",
+      "Baby & Toddler->Bouncers & Rockers (19792)",
+      "Baby & Toddler->Mobiles & Mirrors (19795)",
+      "Baby & Toddler->Inflatables (30777)",
+      "Baby & Toddler->Bath Toys (19791)",
+      "Baby & Toddler->Activity Toys (28421)",
+      "Baby & Toddler->Matching (28419)",
+      "Baby & Toddler->Pull - Push Toys (28420)",
+      "Baby & Toddler->Stackers (28417)",
+      "Baby & Toddler->Shape Sorters (28418)",
+      "Baby & Toddler->Musical Instruments (19796)",
+      "Baby & Toddler->Walkers (19800)",
+      "Baby & Toddler->Play Mats & Cot Toys (19797)",
+      "Baby & Toddler->Rattles (19798)",
+      "Kids Decor->Bedroom Sets (19779)",
+      "Kids Decor->Kids Room Decor (19780)",
+      "Kids Decor->Kid Outdoor Furniture (19781)",
+      "Educational Toys->Sensory Play Toys (30455)",
+      "Educational Toys->Technology & Engineering (19790)",
+      "Educational Toys->Mathematics (19789)",
+      "Educational Toys->Science & Exploration Sets (19287)",
+      "Play Vehicles->Diecast (20688)",
+      "Play Vehicles->Toy Cars (19307)",
+      "Play Vehicles->Toy Motorcycles (19309)",
+      "Play Vehicles->Toy Trains & Train Sets (19312)",
+      "Play Vehicles->Toy Trucks & Construction Vehicles (19313)",
+      "Play Vehicles->Toy Airplanes (19305)",
+      "Play Vehicles->Toy Boats (19306)",
+      "Play Vehicles->Radio Control (19811)",
+      "Kites & Flying Toys->Kites (19296)",
+      "Sandplay (19777)",
+      "Dolls, Playsets & Toy Figures->Soft Toys->Interactive Soft Toys (19785)",
+      "Dolls, Playsets & Toy Figures->Soft Toys->Animal Soft Toys (19784)",
+      "Dolls, Playsets & Toy Figures->Soft Toys->Toy Character Soft Toys (19788)",
+      "Dolls, Playsets & Toy Figures->Soft Toys->Teddy Bears (19787)",
+      "Dolls, Playsets & Toy Figures->Soft Toys->Other Soft Toys (19786)",
+      "Dolls, Playsets & Toy Figures->Figurines->Bendables (21532)",
+      "Dolls, Playsets & Toy Figures->Figurines->Action Figures (21531)",
+      "Dolls, Playsets & Toy Figures->Animals (19808)",
+      "Dolls, Playsets & Toy Figures->Dollhouses (19273)",
+      "Dolls, Playsets & Toy Figures->Other Figurines (19809)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Disney Princess (23262)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Monster High (23264)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Barbie (23261)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Frozen (23263)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Enchantimals (23265)",
+      "Dolls, Playsets & Toy Figures->Dolls->Fashion Dolls->Other Fashion Dolls (23266)",
+      "Dolls, Playsets & Toy Figures->Dolls->Playsets (19816)",
+      "Dolls, Playsets & Toy Figures->Dolls->Accessories (19817)",
+      "Dolls, Playsets & Toy Figures->Dolls->Collectable Dolls (19813)",
+      "Dolls, Playsets & Toy Figures->Dolls->Dollhouse Dolls (19814)",
+      "Dolls, Playsets & Toy Figures->Dolls->Baby Dolls (19818)",
+      "Dolls, Playsets & Toy Figures->Action & Toy Figures (19269)",
+      "Water Toys (19778)"
+    ],
+    "False": [
+      "Board Games (19204)",
+      "Card Games (19206)",
+      "Outdoor Play Equipment (19216)",
+      "Puzzles (19235)",
+      "Toys (19240)",
+      "Helmets (30973)",
+      "Kids Watches (23267)",
+      "Merchandise (30666)",
+      "Card Storage & Displays (30955)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.lego_theme",
+      "Attribute.toy_characters.[0]",
+      "Attribute.toy_blocks_type.[0]",
+      "Attribute.is_stem_toy",
+      "Attribute.stem_science_subject",
+      "Attribute.stem_technology_and_engineering_subject",
+      "Attribute.stem_mathematics_subject",
+      "Attribute.kids_decor_theme",
+      "Attribute.fancy_dress_theme.[0]",
+      "Attribute.type_of_instrument",
+      "Attribute.type_of_inflatable",
+      "Attribute.toys_features.[0]",
+      "Attribute.featured_character.[0]",
+      "Attribute.container_type",
+      "Attribute.trampoline_type",
+      "Attribute.type_of_swing",
+      "Attribute.board_game_genre",
+      "Attribute.toys_interest",
+      "Attribute.is_hypoallergenic",
+      "Attribute.is_waterproof",
+      "Attribute.is_inflatable",
+      "Attribute.is_assembly_required",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.requires_hose_connection",
+      "Attribute.is_collectable",
+      "Attribute.remote_included",
+      "Attribute.makeup_finish",
+      "Attribute.product_shape",
+      "Attribute.trampoline_size.value",
+      "Attribute.closure_type",
+      "Attribute.height_from_ground.value",
+      "Attribute.number_of_players.min",
+      "Attribute.number_of_players.max",
+      "Attribute.is_battery_operated",
+      "Attribute.battery_size.[0]",
+      "Attribute.number_of_pieces",
+      "Attribute.balloon_accessory_type",
+      "Attribute.has_batteries",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.is_hand_made",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.bed_size",
+      "Variant.attribute.kids_age",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.helmet_size",
+      "Variant.attribute.sports_protection_wear",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.age_range.min",
+      "Variant.attribute.age_range.max"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

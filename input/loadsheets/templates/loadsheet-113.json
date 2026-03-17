@@ -1,0 +1,2034 @@
+{
+  "source_file": "loadsheet-113.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 267,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Variant.attribute.clothing_size_eu_uk",
+      "label": "Clothing Size International",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Variant.attribute.pants_size.waist",
+      "label": "Pants Waist Size in Inches",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Variant.attribute.pants_size.length",
+      "label": "Pants Length in Inches",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Variant.attribute.shoe_sizes",
+      "label": "Shoe Size",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.rug_size.width",
+      "label": "Flat Size Width",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Variant.attribute.rug_size.length",
+      "label": "Flat Size Length",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size In Cm",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.shoe_outer_material.[0]",
+      "label": "Shoe Outer Material",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.boot_height",
+      "label": "Boot Height",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.toe_style",
+      "label": "Toe Style",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.closure_type",
+      "label": "Closure Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.safety_ear_muff_style.[0]",
+      "label": "Safety Ear Muff Style",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.safety_ear_muff_features.[0]",
+      "label": "Safety Ear Muff Features",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.eyewear_lens_features",
+      "label": "Eyewear Lens Features",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.shower_setting_type",
+      "label": "Shower Setting Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.sprayer_style.[0]",
+      "label": "Sprayer Style",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.bonding_adhesive_compatible_material",
+      "label": "Bonding Adhesive Compatible Material",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.cleaning_chemicals_application.[0]",
+      "label": "Cleaning Chemicals Application",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.detergent_form",
+      "label": "Detergent Form",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.power.value",
+      "label": "Power Output",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.is_rechargeable",
+      "label": "Is Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.power_type",
+      "label": "Power Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.power_generator_type.[0]",
+      "label": "Power Generator Type",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivities",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.operation_mode",
+      "label": "Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.wrench_operation_mode",
+      "label": "Wrench Operation Mode",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Attribute.control_method",
+      "label": "Control Method",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.classification",
+      "label": "Classification",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.classification_of_converter_types",
+      "label": "Classification Of Converter Types",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.security_type.[0]",
+      "label": "Security Type",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.room_type",
+      "label": "Room Type",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.tile_application",
+      "label": "Tile Application",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.rug_or_mat_features.[0]",
+      "label": "Rug or Mat Features",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.mailbox_security_features",
+      "label": "Mailbox Security Features",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.flooring_installation_type",
+      "label": "Flooring Installation Type",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.bathroom_accessory_installation_type.[0]",
+      "label": "Bathroom Accessory Installation Type",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.bathroom_accessory_type",
+      "label": "Bathroom Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.taps_mixers_type",
+      "label": "Taps & Mixers Type",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.paint_tools_type",
+      "label": "Paint Tool Type",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.paint_type.[0]",
+      "label": "Paint Type",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.paint_features",
+      "label": "Paint Features",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.paint_formulation.[0]",
+      "label": "Paint Formulation",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.paint_brush_handle_type.[0]",
+      "label": "Paint Brush Handle Type",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.paintbrush_surface.[0]",
+      "label": "Paintbrush Surface",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.hammer_type",
+      "label": "Hammer Type",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.hammer_grip_type.[0]",
+      "label": "Hammer Grip Type",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.tool_set_type.[0]",
+      "label": "Tool Set Type",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.chalk_line_type.[0]",
+      "label": "Chalk Line Type",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.retraction_type.[0]",
+      "label": "Retraction Type",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.line_locking_mechanism.[0]",
+      "label": "Line Locking Mechanism",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.soldering_iron_type.[0]",
+      "label": "Soldering Iron Type",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.soldering_iron_heating_element",
+      "label": "Soldering Iron Heating Element",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.soldering_iron_intended_usage.[0]",
+      "label": "Soldering Iron Intended Usage",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.solar_power_types.[0]",
+      "label": "Solar Power Type",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.welding_heating_element_material",
+      "label": "Welding Heating Element Material",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.batteries_included",
+      "label": "Batteries Included",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.is_wireless",
+      "label": "Is Wireless",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.number_of_heating_elements",
+      "label": "Number of Heating Elements",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.welding_machine_uses",
+      "label": "Welding Machine Uses",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.air_compressor_recommended_uses.[0]",
+      "label": "Air Compressor Recommended Uses",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.sanding_accessory_type.[0]",
+      "label": "Sanding Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.grinder_accessory_type.[0]",
+      "label": "Grinder Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.cutting_tool_shank_type.[0]",
+      "label": "Cutting Tool Shank Type",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.polishing_tool_type.[0]",
+      "label": "Polishing Tool Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.polishing_accessories_form.[0]",
+      "label": "Polishing Accessories Form",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.abrasive_type.[0]",
+      "label": "Abrasive Type",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.saw_surface_recommendation",
+      "label": "Saw Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.saw_features.[0]",
+      "label": "Saw Features",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.pliers_type",
+      "label": "Pliers Type",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.wrench_head_style.[0]",
+      "label": "Wrench Head Style",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.socket_head_style.[0]",
+      "label": "Socket Head Style",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.screwdriver_head_style.[0]",
+      "label": "Screwdriver Head Style",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.screw_intended_uses.[0]",
+      "label": "Screw Intended Uses",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.screw_and_bolt_drive.[0]",
+      "label": "Screw And Bolt Drive",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.screws_head_style.[0]",
+      "label": "Screws Head Style",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.fastener_exterior_finish.[0]",
+      "label": "Fastener Exterior Finish",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.fastener_features.[0]",
+      "label": "Fastener Features",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.drill_bit_package_type.[0]",
+      "label": "Drill Bit Package Type",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Attribute.angle.value",
+      "label": "Angle",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.lock_usage.[0]",
+      "label": "Lock Usage",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.lock_type.[0]",
+      "label": "Lock Type",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.hardware_lock_type",
+      "label": "Hardware Lock Type",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Attribute.doorknob_function",
+      "label": "Doorknob Function",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Attribute.number_of_handles",
+      "label": "Number Of Handles",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Attribute.hardware_handle_lock_type",
+      "label": "Hardware Handle Lock Type",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Attribute.light_fixture_form",
+      "label": "Light Fixture Form",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Attribute.light_source",
+      "label": "Light Source",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Attribute.number_of_lights",
+      "label": "Number Of Lights",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Attribute.types_of_light_switches",
+      "label": "Types Of Light Switches",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Attribute.light_bulb_base_type",
+      "label": "Light Bulb Base Type",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Attribute.light_bulb_features",
+      "label": "Light Bulb Features",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Attribute.light_fixture_special_features.[0]",
+      "label": "Light Fixture Special Features",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Attribute.brightness.value",
+      "label": "Brightness",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Attribute.wire_gauge",
+      "label": "Wire Gauge",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Attribute.mirror_features.[0]",
+      "label": "Mirror Features",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Attribute.orientation",
+      "label": "Orientation",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Attribute.plug_type",
+      "label": "Plug Type",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Attribute.type_of_garage_door",
+      "label": "Type Of Garage Door",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Attribute.type_of_sliding_door",
+      "label": "Type Of Sliding Door",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Attribute.door_type",
+      "label": "Door Type",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Attribute.is_removable",
+      "label": "Is Removable",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.is_weatherproof",
+      "label": "Is Weatherproof",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.uv_resistant",
+      "label": "UV Resistant",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.door_compatibility.[0]",
+      "label": "Door Compatibility",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.type_of_sink",
+      "label": "Type of Sink",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.faucet_style",
+      "label": "Faucet Style",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.number_of_holes",
+      "label": "Number Of Holes",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.finish_type",
+      "label": "Finish Type",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.product_style",
+      "label": "Product Style",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.fitting_connector_type",
+      "label": "Fitting Connector Type",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Attribute.number_of_compartments",
+      "label": "Number of Compartments",
+      "note": ""
+    },
+    {
+      "index": 135,
+      "key": "Attribute.number_of_shelves",
+      "label": "Number of Shelves",
+      "note": ""
+    },
+    {
+      "index": 136,
+      "key": "Attribute.shelf_type",
+      "label": "Shelf Type",
+      "note": ""
+    },
+    {
+      "index": 137,
+      "key": "Attribute.mounting_type",
+      "label": "Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 138,
+      "key": "Attribute.pattern_type",
+      "label": "Pattern Type",
+      "note": ""
+    },
+    {
+      "index": 139,
+      "key": "Attribute.product_shape",
+      "label": "Product Shape",
+      "note": ""
+    },
+    {
+      "index": 140,
+      "key": "Attribute.toilet_shape",
+      "label": "Toilet Shape",
+      "note": ""
+    },
+    {
+      "index": 141,
+      "key": "Attribute.number_of_pieces",
+      "label": "Number of Pieces",
+      "note": ""
+    },
+    {
+      "index": 142,
+      "key": "Attribute.number_of_toilet_rolls",
+      "label": "Number of Toilet Rolls",
+      "note": ""
+    },
+    {
+      "index": 143,
+      "key": "Attribute.number_of_holders",
+      "label": "Number of Holders",
+      "note": ""
+    },
+    {
+      "index": 144,
+      "key": "Attribute.number_installation_type",
+      "label": "Number Installation Type",
+      "note": ""
+    },
+    {
+      "index": 145,
+      "key": "Variant.attribute.door_sizes.[0]",
+      "label": "Door Sizes",
+      "note": ""
+    },
+    {
+      "index": 146,
+      "key": "Attribute.rated_frequency.value",
+      "label": "Rated Frequency",
+      "note": ""
+    },
+    {
+      "index": 147,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage",
+      "note": ""
+    },
+    {
+      "index": 148,
+      "key": "Attribute.engine_displacement.value",
+      "label": "Engine Displacement",
+      "note": ""
+    },
+    {
+      "index": 149,
+      "key": "Attribute.rated_power_output.value",
+      "label": "Rated Power Output",
+      "note": ""
+    },
+    {
+      "index": 150,
+      "key": "Attribute.max_power_output.value",
+      "label": "Maximum Power Output",
+      "note": ""
+    },
+    {
+      "index": 151,
+      "key": "Attribute.circuit_breakers_types",
+      "label": "Circuit Breakers Types",
+      "note": ""
+    },
+    {
+      "index": 152,
+      "key": "Attribute.capacity.value",
+      "label": "Capacity",
+      "note": ""
+    },
+    {
+      "index": 153,
+      "key": "Attribute.fuel_type.[0]",
+      "label": "Fuel Type",
+      "note": ""
+    },
+    {
+      "index": 154,
+      "key": "Attribute.gutter_accessory_type",
+      "label": "Gutter Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 155,
+      "key": "Attribute.indoor_outdoor_usage",
+      "label": "Indoor Outdoor Usage",
+      "note": ""
+    },
+    {
+      "index": 156,
+      "key": "Attribute.is_cordless",
+      "label": "Is Cordless",
+      "note": ""
+    },
+    {
+      "index": 157,
+      "key": "Attribute.cord_length.value",
+      "label": "Cord Length",
+      "note": ""
+    },
+    {
+      "index": 158,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 159,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 160,
+      "key": "Attribute.is_mildew_resistant",
+      "label": "Is Mildew Resistant",
+      "note": ""
+    },
+    {
+      "index": 161,
+      "key": "Attribute.is_heavy_duty",
+      "label": "Is Heavy Duty",
+      "note": ""
+    },
+    {
+      "index": 162,
+      "key": "Attribute.is_rust_resistant",
+      "label": "Is Rust Resistant",
+      "note": ""
+    },
+    {
+      "index": 163,
+      "key": "Attribute.is_compact",
+      "label": "Is Compact",
+      "note": ""
+    },
+    {
+      "index": 164,
+      "key": "Attribute.is_lightweight",
+      "label": "Is Lightweight",
+      "note": ""
+    },
+    {
+      "index": 165,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 166,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 167,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 168,
+      "key": "Attribute.is_smart",
+      "label": "Is Smart",
+      "note": ""
+    },
+    {
+      "index": 169,
+      "key": "Attribute.has_motion_sensor",
+      "label": "Has Motion Sensor",
+      "note": ""
+    },
+    {
+      "index": 170,
+      "key": "Attribute.has_360_rotation",
+      "label": "Has 360 Rotation",
+      "note": ""
+    },
+    {
+      "index": 171,
+      "key": "Attribute.has_wheels",
+      "label": "Has Wheels",
+      "note": ""
+    },
+    {
+      "index": 172,
+      "key": "Attribute.has_night_vision",
+      "label": "Has Night Vision",
+      "note": ""
+    },
+    {
+      "index": 173,
+      "key": "Attribute.has_handle",
+      "label": "Has Handle",
+      "note": ""
+    },
+    {
+      "index": 174,
+      "key": "Attribute.bidet_type",
+      "label": "Bidet Type",
+      "note": ""
+    },
+    {
+      "index": 175,
+      "key": "Attribute.magnification.[0]",
+      "label": "Magnification",
+      "note": ""
+    },
+    {
+      "index": 176,
+      "key": "Attribute.magnifying_glass_lens_type",
+      "label": "Magnifying Glass Lens Type",
+      "note": ""
+    },
+    {
+      "index": 177,
+      "key": "Attribute.max_focal_length.value",
+      "label": "Maximum Focal Length",
+      "note": ""
+    },
+    {
+      "index": 178,
+      "key": "Attribute.min_focal_length.value",
+      "label": "Minimum Focal Length",
+      "note": ""
+    },
+    {
+      "index": 179,
+      "key": "Attribute.lens_handle_material",
+      "label": "Lens Handle Material",
+      "note": ""
+    },
+    {
+      "index": 180,
+      "key": "Attribute.surface_recommendation.[0]",
+      "label": "Surface Recommendation",
+      "note": ""
+    },
+    {
+      "index": 181,
+      "key": "Attribute.solvent_type.[0]",
+      "label": "Solvent Type",
+      "note": ""
+    },
+    {
+      "index": 182,
+      "key": "Attribute.is_assembly_required",
+      "label": "Assembly Required",
+      "note": ""
+    },
+    {
+      "index": 183,
+      "key": "Attribute.application_area",
+      "label": "Application Area",
+      "note": ""
+    },
+    {
+      "index": 184,
+      "key": "Attribute.backing_rod_compressibility",
+      "label": "Backing Rod Compressibility",
+      "note": ""
+    },
+    {
+      "index": 185,
+      "key": "Attribute.backing_rod_density.[0]",
+      "label": "Backing Rod Density",
+      "note": ""
+    },
+    {
+      "index": 186,
+      "key": "Attribute.backing_rod_installation_method.[0]",
+      "label": "Backing Rod Installation Method",
+      "note": ""
+    },
+    {
+      "index": 187,
+      "key": "Attribute.concrete_curing_mats_surface_compatibility.[0]",
+      "label": "Concrete Curing Mats Surface Compatibility",
+      "note": ""
+    },
+    {
+      "index": 188,
+      "key": "Attribute.freeze_resistant",
+      "label": "Is Freeze Resistant",
+      "note": ""
+    },
+    {
+      "index": 189,
+      "key": "Attribute.intended_surface_usage.[0]",
+      "label": "Intended Surface Usage",
+      "note": ""
+    },
+    {
+      "index": 190,
+      "key": "Attribute.is_acid_resistant",
+      "label": "Is Acid Resistant",
+      "note": ""
+    },
+    {
+      "index": 191,
+      "key": "Attribute.is_alkaline_resistant",
+      "label": "Is Alkaline Resistant",
+      "note": ""
+    },
+    {
+      "index": 192,
+      "key": "Attribute.is_chemical_resistant",
+      "label": "Is Chemical Resistant",
+      "note": ""
+    },
+    {
+      "index": 193,
+      "key": "Attribute.is_flame_resistant",
+      "label": "Is Flame Resistant",
+      "note": ""
+    },
+    {
+      "index": 194,
+      "key": "Attribute.is_flame_retardant",
+      "label": "Is Flame Retardant",
+      "note": ""
+    },
+    {
+      "index": 195,
+      "key": "Attribute.is_heat_resistant",
+      "label": "Is Heat Resistant",
+      "note": ""
+    },
+    {
+      "index": 196,
+      "key": "Attribute.is_high_temperature_resistant",
+      "label": "Is High Temperature Resistant",
+      "note": ""
+    },
+    {
+      "index": 197,
+      "key": "Attribute.is_low_temperature_resistant",
+      "label": "Is Low Temperature Resistant",
+      "note": ""
+    },
+    {
+      "index": 198,
+      "key": "Attribute.is_moisture_resistant",
+      "label": "Is Moisture Resistant",
+      "note": ""
+    },
+    {
+      "index": 199,
+      "key": "Attribute.is_mold_resistant",
+      "label": "Is Mold Resistant",
+      "note": ""
+    },
+    {
+      "index": 200,
+      "key": "Attribute.is_oil_resistant",
+      "label": "Is Oil Resistant",
+      "note": ""
+    },
+    {
+      "index": 201,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 202,
+      "key": "Attribute.joint_filler_application_method.[0]",
+      "label": "Joint Filler Application Method",
+      "note": ""
+    },
+    {
+      "index": 203,
+      "key": "Attribute.joint_type",
+      "label": "Joint Type",
+      "note": ""
+    },
+    {
+      "index": 204,
+      "key": "Attribute.moisture_block_installation_method.[0]",
+      "label": "Moisture Block Installation Method",
+      "note": ""
+    },
+    {
+      "index": 205,
+      "key": "Attribute.r_value",
+      "label": "R Value",
+      "note": ""
+    },
+    {
+      "index": 206,
+      "key": "Attribute.roof_insulation_application_type.[0]",
+      "label": "Roof Insulation Application Type",
+      "note": ""
+    },
+    {
+      "index": 207,
+      "key": "Attribute.roof_insulation_installation_method.[0]",
+      "label": "Roof Insulation Installation Method",
+      "note": ""
+    },
+    {
+      "index": 208,
+      "key": "Attribute.soundproofing_level.[0]",
+      "label": "Soundproofing Level",
+      "note": ""
+    },
+    {
+      "index": 209,
+      "key": "Attribute.tear_resistance.[0]",
+      "label": "Tear Resistance",
+      "note": ""
+    },
+    {
+      "index": 210,
+      "key": "Attribute.water_retention_capacity.[0]",
+      "label": "Water Retention Capacity",
+      "note": ""
+    },
+    {
+      "index": 211,
+      "key": "Attribute.curing_time",
+      "label": "Curing Time",
+      "note": ""
+    },
+    {
+      "index": 212,
+      "key": "Variant.attribute.product_thickness.value",
+      "label": "Product Thickness",
+      "note": ""
+    },
+    {
+      "index": 213,
+      "key": "Attribute.hand_tool_accessory_type",
+      "label": "Hand Tool Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 214,
+      "key": "Attribute.waterproofing_type.[0]",
+      "label": "Waterproofing Type",
+      "note": ""
+    },
+    {
+      "index": 215,
+      "key": "Attribute.is_flammable",
+      "label": "Is Flammable",
+      "note": ""
+    },
+    {
+      "index": 216,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 217,
+      "key": "Attribute.waterproofing_base.[0]",
+      "label": "Waterproofing Base",
+      "note": ""
+    },
+    {
+      "index": 218,
+      "key": "Attribute.paint_preparation_consumables_type.[0]",
+      "label": "Paint Preparation Consumables Type",
+      "note": ""
+    },
+    {
+      "index": 219,
+      "key": "Attribute.solvent_base.[0]",
+      "label": "Solvent Base",
+      "note": ""
+    },
+    {
+      "index": 220,
+      "key": "Attribute.networking_standards.[0]",
+      "label": "Networking Standards",
+      "note": ""
+    },
+    {
+      "index": 221,
+      "key": "Attribute.door_catch_type",
+      "label": "Door Catch Type",
+      "note": ""
+    },
+    {
+      "index": 222,
+      "key": "Attribute.installation_type",
+      "label": "Installation Type",
+      "note": ""
+    },
+    {
+      "index": 223,
+      "key": "Attribute.door_catch_compatibility",
+      "label": "Door Catch Compatibility",
+      "note": ""
+    },
+    {
+      "index": 224,
+      "key": "Attribute.key_hole_cover_shape",
+      "label": "Key Hole Cover Shape",
+      "note": ""
+    },
+    {
+      "index": 225,
+      "key": "Attribute.safety_eyewear_strength",
+      "label": "Safety Eyewear Strength",
+      "note": ""
+    },
+    {
+      "index": 226,
+      "key": "Attribute.workshop_vacuums_and_dust_collectors_accessory_type",
+      "label": "Workshop Vacuums and Dust Collectors Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 227,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 228,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 229,
+      "key": "Variant.attribute.volume_variant.unit",
+      "label": "Product Volume Metric",
+      "note": ""
+    },
+    {
+      "index": 230,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 231,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 232,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Days",
+      "note": ""
+    },
+    {
+      "index": 233,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 234,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 235,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 236,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 237,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 238,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 239,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 240,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 241,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 242,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 243,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 244,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 245,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 246,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 247,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 248,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 249,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 250,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 251,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 252,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 253,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 254,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 255,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 256,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 257,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 258,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 259,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 260,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 261,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 262,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 263,
+      "key": "Attribute.is_hazardous",
+      "label": "Hazardous Product",
+      "note": ""
+    },
+    {
+      "index": 264,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 265,
+      "key": "Attribute.geyser_accessory_type",
+      "label": "Geyser Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 266,
+      "key": "Attribute.max_focal_length.unit",
+      "label": "Max Focal Length unit",
+      "note": ""
+    },
+    {
+      "index": 267,
+      "key": "Attribute.min_focal_length.unit",
+      "label": "Min Focal Length unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "113": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Building Consumables (16268)",
+      "Building Materials (16298)",
+      "Power & Electrical Supplies (16507)",
+      "Smart Energy Solutions (21508)",
+      "Smart Lighting (21523)",
+      "Intercoms (15508)",
+      "Smart Hubs & Controllers (30711)",
+      "Plumbing (16426)",
+      "Business & Home Security (17135)",
+      "Storage (16540)",
+      "Hand Tools (16778)",
+      "Ladders & Scaffolding (16649)",
+      "Measuring Tools & Sensors (16672)",
+      "Paint Tools (16719)",
+      "Power Tools (16715)",
+      "Tool Sets (16774)",
+      "Compressors (16616)",
+      "Cabinet Hardware (16350)",
+      "Castor Wheels (16356)",
+      "Hardware Fasteners (16374)",
+      "Tool Storage & Organization (16396)",
+      "Tool Accessories (16541)",
+      "Generators (21067)",
+      "Work Safety Protective Gear (15276)",
+      "Hand Drills (21109)",
+      "Shears & Scissors (21116)",
+      "Power Tool Parts & Accessories (16579)",
+      "Threading Tools (16769)",
+      "Line Lasers (21100)",
+      "Gutters (20780)",
+      "Taps & Mixers (20783)",
+      "Flood, Fire & Gas Safety (17296)",
+      "Intercom Systems (20918)",
+      "Paint & Supplies (20776)",
+      "Adhesives & Sealants (20772)",
+      "Headwear (21042)",
+      "Safety Shields (28534)",
+      "Industrial Cleaning (30405)",
+      "Bathroom Accessories (17113)",
+      "Bathroom Accessories (20784)",
+      "Bathroom Supplies (20967)",
+      "Kitchen Supplies (30790)",
+      "Safety & Security (20786)",
+      "Drill & Screwdriver Accessories (16549)",
+      "Trolleys & Trucks (16628)"
+    ],
+    "4.33189": [
+      "Hardware Glue & Adhesives->Tape (30410)",
+      "Hardware Glue & Adhesives->Equipment & Accessories (30412)",
+      "Hardware Glue & Adhesives->Caulkers (30411)",
+      "Hardware Glue & Adhesives->Sealers (30407)",
+      "Hardware Glue & Adhesives->Super Glue (30408)",
+      "Hardware Glue & Adhesives->Universal Adhesives (30406)",
+      "Hardware Glue & Adhesives->Wood Glue (30409)",
+      "Painting Consumables->Paint->Chalk Paints (22048)",
+      "Painting Consumables->Paint->Roof Paints (22051)",
+      "Painting Consumables->Paint->Interior Paints (22050)",
+      "Painting Consumables->Paint->Spray Paints (22052)",
+      "Painting Consumables->Paint->Exterior Paints (22049)",
+      "Painting Consumables->Primers (16290)",
+      "Painting Consumables->Varnishes & Finishes (16292)",
+      "Solvents, Strippers & Thinners (16296)"
+    ],
+    "7.0.4": [
+      "Cladding (31099)",
+      "Backing Rod (30892)",
+      "Joint Filler (30891)",
+      "Concrete Curing Mats (30893)",
+      "Moisture Block (30894)",
+      "Door Hardware->Magnetic Screen Doors (30889)",
+      "Door Hardware->Bathroom Inspection Hatch (30895)",
+      "Door Hardware->Plumbing Inspection Hatch (30896)",
+      "Door Hardware->Door Catches (30775)",
+      "Door Hardware->Key Hole Covers (30776)",
+      "Door Hardware->Door Stops (16308)",
+      "Door Hardware->Hinges & Brackets (30369)",
+      "Door Hardware->Door Locks (30360)",
+      "Door Hardware->Door Knobs & Handles (16305)",
+      "Roofing->Roof Insulation (30890)",
+      "Roofing->Roof Flashings (16325)",
+      "Roofing->Gutter Accessories (16323)",
+      "Roofing->Gutters (16324)",
+      "Roofing->Roofing Shingles & Tiles (16326)",
+      "Kitchen Tops (16299)",
+      "Sliding Doors (16312)",
+      "Walls & Floors->Cement (30456)",
+      "Walls & Floors->Bonding Agent (30457)",
+      "Walls & Floors->Mosaic Tiles (28593)",
+      "Walls & Floors->Laminates (30361)",
+      "Walls & Floors->Cornices (30366)",
+      "Walls & Floors->Vinyls (30362)",
+      "Walls & Floors->Skirtings (30365)",
+      "Walls & Floors->Carpets (30364)",
+      "Walls & Floors->Tiles (30363)",
+      "Walls & Floors->Ventilation Covers (30699)",
+      "House Numbers & Letters (30812)",
+      "Towel Rings & Rails (16316)",
+      "Windows (16337)",
+      "Curtain Hardware (30359)",
+      "Mailboxes (22047)",
+      "Weather Stripping & Weather Seal (16333)",
+      "Doors (16310)",
+      "Garage Doors (16311)",
+      "Shelving Hardware->Hinges & Brackets (30756)"
+    ],
+    "3": [
+      "Light Bulbs & Lighting (22292)",
+      "Track Rails (30764)",
+      "Electrical Switches->Light Switches (16519)",
+      "Solar Power->Solar Panels (20896)",
+      "Solar Power->Solar Power Parts (22067)",
+      "Solar Power->Solar Power Batteries (22065)",
+      "Solar Power->Solar Power Inverters (22066)",
+      "Solar Power->Solar Power UPS (22068)",
+      "Circuit Breaker Panels (16511)",
+      "Power Converters (16528)",
+      "Adapters & Plugs (22077)",
+      "Electrical Wires & Cable (16521)",
+      "Extension Cords (16523)",
+      "Power Inverters (16530)",
+      "Solar Energy Kits (16532)",
+      "Timers (22076)",
+      "Wire Terminals & Connectors (16538)"
+    ],
+    "71948847": [
+      "Inverters (21509)",
+      "Solar Products (21510)",
+      "Uninterrupted Power Supply (UPS) (22306)",
+      "Switches (30700)",
+      "Surge Protectors (22305)",
+      "Electrical Accessories (28577)",
+      "Smart Plugs (22304)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look Up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_battery_size_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Battery Size\", \"sheet_name\": \"Battery Size\"}, \"Variant_attribute_shoe_sizes\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Shoe Size\", \"sheet_name\": \"Shoe Size\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "LED Downlights (21525)",
+      "LED Lights (21526)",
+      "LED Spotlights (21527)",
+      "Sensors (21528)",
+      "Dimmers & Switches (21524)"
+    ],
+    "False": [
+      "Pegboards & Accessories (22073)",
+      "Bicycle Storage (22069)",
+      "Rolling & Portable Storage (22074)",
+      "Free Standing Shelves (22070)",
+      "Garage Cabinets (22071)",
+      "Storage Bins & Containers (22075)",
+      "Garage Ceiling Storage (22072)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.model_number",
+      "Attribute.materials.[0]",
+      "Attribute.shoe_outer_material.[0]",
+      "Attribute.boot_height",
+      "Attribute.toe_style",
+      "Attribute.closure_type",
+      "Attribute.safety_ear_muff_style.[0]",
+      "Attribute.safety_ear_muff_features.[0]",
+      "Attribute.eyewear_lens_features",
+      "Attribute.shower_setting_type",
+      "Attribute.sprayer_style.[0]",
+      "Attribute.bonding_adhesive_compatible_material",
+      "Attribute.cleaning_chemicals_application.[0]",
+      "Attribute.detergent_form",
+      "Attribute.power.value",
+      "Attribute.battery_type",
+      "Attribute.battery_size.[0]",
+      "Attribute.is_rechargeable",
+      "Attribute.power_type",
+      "Attribute.power_source",
+      "Attribute.power_generator_type.[0]",
+      "Attribute.connectivities.[0]",
+      "Attribute.operation_mode",
+      "Attribute.wrench_operation_mode",
+      "Attribute.control_method",
+      "Attribute.classification",
+      "Attribute.classification_of_converter_types",
+      "Attribute.compatible_devices",
+      "Attribute.security_type.[0]",
+      "Attribute.room_type",
+      "Attribute.tile_application",
+      "Attribute.rug_or_mat_features.[0]",
+      "Attribute.mailbox_security_features",
+      "Attribute.flooring_installation_type",
+      "Attribute.bathroom_accessory_installation_type.[0]",
+      "Attribute.bathroom_accessory_type",
+      "Attribute.taps_mixers_type",
+      "Attribute.paint_tools_type",
+      "Attribute.paint_type.[0]",
+      "Attribute.paint_features",
+      "Attribute.paint_formulation.[0]",
+      "Attribute.paint_brush_handle_type.[0]",
+      "Attribute.paintbrush_surface.[0]",
+      "Attribute.hammer_type",
+      "Attribute.hammer_grip_type.[0]",
+      "Attribute.tool_set_type.[0]",
+      "Attribute.chalk_line_type.[0]",
+      "Attribute.retraction_type.[0]",
+      "Attribute.line_locking_mechanism.[0]",
+      "Attribute.soldering_iron_type.[0]",
+      "Attribute.soldering_iron_heating_element",
+      "Attribute.soldering_iron_intended_usage.[0]",
+      "Attribute.solar_power_types.[0]",
+      "Attribute.welding_heating_element_material",
+      "Attribute.batteries_included",
+      "Attribute.input_voltage.value",
+      "Attribute.is_wireless",
+      "Attribute.number_of_heating_elements",
+      "Attribute.welding_machine_uses",
+      "Attribute.air_compressor_recommended_uses.[0]",
+      "Attribute.sanding_accessory_type.[0]",
+      "Attribute.grinder_accessory_type.[0]",
+      "Attribute.cutting_tool_shank_type.[0]",
+      "Attribute.polishing_tool_type.[0]",
+      "Attribute.polishing_accessories_form.[0]",
+      "Attribute.abrasive_type.[0]",
+      "Attribute.saw_surface_recommendation",
+      "Attribute.saw_features.[0]",
+      "Attribute.pliers_type",
+      "Attribute.wrench_head_style.[0]",
+      "Attribute.socket_head_style.[0]",
+      "Attribute.screwdriver_head_style.[0]",
+      "Attribute.screw_intended_uses.[0]",
+      "Attribute.screw_and_bolt_drive.[0]",
+      "Attribute.screws_head_style.[0]",
+      "Attribute.fastener_exterior_finish.[0]",
+      "Attribute.fastener_features.[0]",
+      "Attribute.drill_bit_package_type.[0]",
+      "Attribute.angle.value",
+      "Attribute.lock_usage.[0]",
+      "Attribute.lock_type.[0]",
+      "Attribute.hardware_lock_type",
+      "Attribute.doorknob_function",
+      "Attribute.number_of_handles",
+      "Attribute.hardware_handle_lock_type",
+      "Attribute.light_fixture_form",
+      "Attribute.light_source",
+      "Attribute.number_of_lights",
+      "Attribute.types_of_light_switches",
+      "Attribute.light_bulb_base_type",
+      "Attribute.light_bulb_features",
+      "Attribute.light_fixture_special_features.[0]",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.brightness.value",
+      "Attribute.wire_gauge",
+      "Attribute.mirror_features.[0]",
+      "Attribute.orientation",
+      "Attribute.plug_type",
+      "Attribute.type_of_garage_door",
+      "Attribute.type_of_sliding_door",
+      "Attribute.door_type",
+      "Attribute.is_removable",
+      "Attribute.is_weatherproof",
+      "Attribute.uv_resistant",
+      "Attribute.door_compatibility.[0]",
+      "Attribute.type_of_sink",
+      "Attribute.faucet_style",
+      "Attribute.number_of_holes",
+      "Attribute.finish_type",
+      "Attribute.product_style",
+      "Attribute.fitting_connector_type",
+      "Attribute.number_of_compartments",
+      "Attribute.number_of_shelves",
+      "Attribute.shelf_type",
+      "Attribute.mounting_type",
+      "Attribute.pattern_type",
+      "Attribute.product_shape",
+      "Attribute.toilet_shape",
+      "Attribute.number_of_pieces",
+      "Attribute.number_of_toilet_rolls",
+      "Attribute.number_of_holders",
+      "Attribute.number_installation_type",
+      "Attribute.rated_frequency.value",
+      "Attribute.rated_voltage.value",
+      "Attribute.engine_displacement.value",
+      "Attribute.rated_power_output.value",
+      "Attribute.max_power_output.value",
+      "Attribute.circuit_breakers_types",
+      "Attribute.capacity.value",
+      "Attribute.fuel_type.[0]",
+      "Attribute.gutter_accessory_type",
+      "Attribute.indoor_outdoor_usage",
+      "Attribute.is_cordless",
+      "Attribute.cord_length.value",
+      "Attribute.is_adjustable",
+      "Attribute.is_foldable",
+      "Attribute.is_mildew_resistant",
+      "Attribute.is_heavy_duty",
+      "Attribute.is_rust_resistant",
+      "Attribute.is_compact",
+      "Attribute.is_lightweight",
+      "Attribute.is_waterproof",
+      "Attribute.is_water_resistant",
+      "Attribute.is_portable",
+      "Attribute.is_smart",
+      "Attribute.has_motion_sensor",
+      "Attribute.has_360_rotation",
+      "Attribute.has_wheels",
+      "Attribute.has_night_vision",
+      "Attribute.has_handle",
+      "Attribute.bidet_type",
+      "Attribute.magnification.[0]",
+      "Attribute.magnifying_glass_lens_type",
+      "Attribute.max_focal_length.value",
+      "Attribute.min_focal_length.value",
+      "Attribute.lens_handle_material",
+      "Attribute.surface_recommendation.[0]",
+      "Attribute.solvent_type.[0]",
+      "Attribute.is_assembly_required",
+      "Attribute.application_area",
+      "Attribute.backing_rod_compressibility",
+      "Attribute.backing_rod_density.[0]",
+      "Attribute.backing_rod_installation_method.[0]",
+      "Attribute.concrete_curing_mats_surface_compatibility.[0]",
+      "Attribute.freeze_resistant",
+      "Attribute.intended_surface_usage.[0]",
+      "Attribute.is_acid_resistant",
+      "Attribute.is_alkaline_resistant",
+      "Attribute.is_chemical_resistant",
+      "Attribute.is_flame_resistant",
+      "Attribute.is_flame_retardant",
+      "Attribute.is_heat_resistant",
+      "Attribute.is_high_temperature_resistant",
+      "Attribute.is_low_temperature_resistant",
+      "Attribute.is_moisture_resistant",
+      "Attribute.is_mold_resistant",
+      "Attribute.is_oil_resistant",
+      "Attribute.is_reusable",
+      "Attribute.joint_filler_application_method.[0]",
+      "Attribute.joint_type",
+      "Attribute.moisture_block_installation_method.[0]",
+      "Attribute.r_value",
+      "Attribute.roof_insulation_application_type.[0]",
+      "Attribute.roof_insulation_installation_method.[0]",
+      "Attribute.soundproofing_level.[0]",
+      "Attribute.tear_resistance.[0]",
+      "Attribute.water_retention_capacity.[0]",
+      "Attribute.curing_time",
+      "Attribute.hand_tool_accessory_type",
+      "Attribute.waterproofing_type.[0]",
+      "Attribute.is_flammable",
+      "Attribute.is_hand_made",
+      "Attribute.waterproofing_base.[0]",
+      "Attribute.paint_preparation_consumables_type.[0]",
+      "Attribute.solvent_base.[0]",
+      "Attribute.networking_standards.[0]",
+      "Attribute.door_catch_type",
+      "Attribute.installation_type",
+      "Attribute.door_catch_compatibility",
+      "Attribute.key_hole_cover_shape",
+      "Attribute.safety_eyewear_strength",
+      "Attribute.workshop_vacuums_and_dust_collectors_accessory_type",
+      "Attribute.proudly_south_african",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.customer_registration_required",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height",
+      "Attribute.is_hazardous",
+      "Attribute.geyser_accessory_type",
+      "Attribute.max_focal_length.unit",
+      "Attribute.min_focal_length.unit"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.clothing_size_eu_uk",
+      "Variant.attribute.pants_size.waist",
+      "Variant.attribute.pants_size.length",
+      "Variant.attribute.shoe_sizes",
+      "Variant.attribute.rug_size.width",
+      "Variant.attribute.rug_size.length",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.door_sizes.[0]",
+      "Variant.attribute.product_thickness.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.volume_variant.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

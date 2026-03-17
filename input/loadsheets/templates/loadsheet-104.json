@@ -1,0 +1,1019 @@
+{
+  "source_file": "loadsheet-104.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 134,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.model_number",
+      "label": "Model Number",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Attribute.model_name",
+      "label": "Model Name",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.camera_types.[0]",
+      "label": "Camera type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.lens_types.[0]",
+      "label": "Lens type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.lens_mounting_type",
+      "label": "Lens Mounting Type",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.battery_type",
+      "label": "Battery Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Attribute.account_generation",
+      "label": "Account Generation",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.digital_camera_resolution.value",
+      "label": "Digital Camera Resolution",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.optical_zoom",
+      "label": "Optical Zoom",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.min_focal_length.value",
+      "label": "Minimum Focal Length",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.max_focal_length.value",
+      "label": "Maximum Focal Length",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Attribute.min_aperture_value",
+      "label": "Minimum Aperture",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.max_aperture_value",
+      "label": "Maximum Aperture",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.video_camera_type",
+      "label": "Video Camera Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.type_of_flash.[0]",
+      "label": "Type of Flash",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.has_image_stabilization",
+      "label": "Image Stabilization",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.memory_card_types.[0]",
+      "label": "Memory Card Type",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.storage_capacity.value",
+      "label": "Storage Capacity",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Variant.attribute.volume_variant.unit",
+      "label": "Product Volume Metric",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Product Volume",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.transmission_speed.value",
+      "label": "Transmission Speed",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Attribute.drone_type.[0]",
+      "label": "Drone Type",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.runtime",
+      "label": "Runtime",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.has_return_to_home_function",
+      "label": "Has Return To Home Function",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.by_user.[0]",
+      "label": "By User",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Attribute.audio_recording_type",
+      "label": "Audio Recording Type",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.device_storage_capacity.value",
+      "label": "Device Storage Capacity",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.flash_memory_features.[0]",
+      "label": "Flash Memory Features",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.screen_size.value",
+      "label": "Screen Size",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size In Cm",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Attribute.diameter.value",
+      "label": "Diameter",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Variant.attribute.cable_length.value",
+      "label": "Cable Length",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.binocular_type",
+      "label": "Binocular Type",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Attribute.charger_type.[0]",
+      "label": "Charger Type",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.is_waterproof",
+      "label": "Is Waterproof",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.is_bundle",
+      "label": "Bundle",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Attribute.is_adjustable",
+      "label": "Is Adjustable",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Attribute.maximum_weight_recommendation",
+      "label": "Maximum Weight Recommendation",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Attribute.battery_size.[0]",
+      "label": "Battery Size",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Attribute.number_of_batteries",
+      "label": "Number of Batteries",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Attribute.battery_cell_composition",
+      "label": "Battery Cell Composition",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Attribute.battery_life.value",
+      "label": "Battery Life",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Attribute.battery_reusability.[0]",
+      "label": "Battery Reusability",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Attribute.is_rechargeable",
+      "label": "Rechargeable",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Attribute.is_scratchproof",
+      "label": "Is Scratchproof",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Attribute.is_durable",
+      "label": "Is Durable",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Attribute.privacy_angle",
+      "label": "Privacy Angle",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Attribute.input_voltage.value",
+      "label": "Input Voltage",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Attribute.output_voltage.value",
+      "label": "Output Voltage",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Attribute.laptop_compatibility",
+      "label": "Laptop Compatibility",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Attribute.compatible_devices",
+      "label": "Compatible Devices",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Attribute.connectivities.[0]",
+      "label": "Connectivities",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Attribute.peripheral_connectivities.[0]",
+      "label": "Peripheral Connectivities",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Attribute.bluetooth_version",
+      "label": "Bluetooth Version",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.number_of_slots",
+      "label": "Number Of Slots",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.is_foldable",
+      "label": "Is Foldable",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.batteries_recommended_use",
+      "label": "Batteries Recommended Use",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.is_high_definition",
+      "label": "Is High Definition",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity for Variant",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.screen_protectors_special_features",
+      "label": "Screen Protectors Special Features",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.screen_protector_type",
+      "label": "Screen Protector Type",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Attribute.memory_cards_special_features",
+      "label": "Memory Cards Special Features",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Attribute.is_simultaneous_card_reader",
+      "label": "Is Simultaneous Card Reader",
+      "note": ""
+    },
+    {
+      "index": 81,
+      "key": "Attribute.reusability",
+      "label": "Reusability",
+      "note": ""
+    },
+    {
+      "index": 82,
+      "key": "Attribute.fast_charging",
+      "label": "Fast Charging",
+      "note": ""
+    },
+    {
+      "index": 83,
+      "key": "Attribute.optics_specific_uses.[0]",
+      "label": "Optics Specific Uses",
+      "note": ""
+    },
+    {
+      "index": 84,
+      "key": "Attribute.is_water_resistant",
+      "label": "Water Resistant",
+      "note": ""
+    },
+    {
+      "index": 85,
+      "key": "Attribute.magnification.[0]",
+      "label": "Magnification",
+      "note": ""
+    },
+    {
+      "index": 86,
+      "key": "Attribute.tripod_type",
+      "label": "Tripod Type",
+      "note": ""
+    },
+    {
+      "index": 87,
+      "key": "Attribute.tripod_compatibility",
+      "label": "Tripod Compatibility",
+      "note": ""
+    },
+    {
+      "index": 88,
+      "key": "Attribute.water_resistance_level.unit",
+      "label": "Water Resistance Level unit",
+      "note": ""
+    },
+    {
+      "index": 89,
+      "key": "Attribute.water_resistance_level.value",
+      "label": "Water Resistance Level",
+      "note": ""
+    },
+    {
+      "index": 90,
+      "key": "Attribute.focus_type",
+      "label": "Focus Type",
+      "note": ""
+    },
+    {
+      "index": 91,
+      "key": "Attribute.grid_composition",
+      "label": "Grid Composition",
+      "note": ""
+    },
+    {
+      "index": 92,
+      "key": "Attribute.lighting_versatility_type.[0]",
+      "label": "Lighting Versatility Type",
+      "note": ""
+    },
+    {
+      "index": 93,
+      "key": "Attribute.software_compatibility",
+      "label": "Software Compatibility",
+      "note": ""
+    },
+    {
+      "index": 94,
+      "key": "Attribute.classification",
+      "label": "Classification",
+      "note": ""
+    },
+    {
+      "index": 95,
+      "key": "Attribute.weather_resistant",
+      "label": "Weather Resistant",
+      "note": ""
+    },
+    {
+      "index": 96,
+      "key": "Attribute.is_refurbished",
+      "label": "Is Certified Pre-Owned",
+      "note": ""
+    },
+    {
+      "index": 97,
+      "key": "Attribute.speaker_accessory_type",
+      "label": "Speaker Accessory Type",
+      "note": ""
+    },
+    {
+      "index": 98,
+      "key": "Attribute.is_fade_resistant",
+      "label": "Is Fade Resistant",
+      "note": ""
+    },
+    {
+      "index": 99,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 100,
+      "key": "Attribute.battery_capacity.value",
+      "label": "Battery Capacity",
+      "note": ""
+    },
+    {
+      "index": 101,
+      "key": "Variant.attribute.bag_size.value",
+      "label": "Bag Size",
+      "note": ""
+    },
+    {
+      "index": 102,
+      "key": "Attribute.audio_replacement_part_type",
+      "label": "Audio Replacement Part Type",
+      "note": ""
+    },
+    {
+      "index": 103,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 104,
+      "key": "Attribute.customer_registration_required",
+      "label": "Customer Registration Required",
+      "note": ""
+    },
+    {
+      "index": 105,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 106,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 107,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 108,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 109,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 110,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 111,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 112,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 113,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 114,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 115,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 116,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 117,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 118,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 119,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 120,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 121,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 122,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 123,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 124,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 125,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 126,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 127,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 128,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 129,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 130,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 131,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 132,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 133,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 134,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "104": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Drones (19959)",
+      "Drone Accessories (21852)",
+      "Optics (15357)",
+      "Camera & Optic Replacement Cables (15295)",
+      "Drone Parts (19956)",
+      "Gimbals & Mounts (19955)",
+      "Skins & Decals (19957)",
+      "Camera Lens Accessories (15300)",
+      "Camera Parts & Accessories (15307)",
+      "Camera & Video Camera Lenses (15296)",
+      "Optic Accessories (15333)",
+      "Tripod & Monopod Accessories (15341)",
+      "Tripods & Monopods (15347)",
+      "Electronics Cleaners (15660)",
+      "Camera Memory (22330)",
+      "Screen Protectors (15665)",
+      "Microphone Stands (15416)",
+      "Darkroom (15366)",
+      "Lighting & Studio (15382)",
+      "Action Cameras (23007)",
+      "Trail Cameras (28459)",
+      "Cameras (23006)",
+      "Action Camera Accessories (23008)",
+      "Video Cameras (15355)",
+      "Batteries (15677)",
+      "Certified Pre-Owned Cameras (30902)"
+    ],
+    "4.33040": [
+      "Drones (19959)"
+    ],
+    "7.0.4": [
+      "Bags & Cases (21853)",
+      "Gimbals & Mounts (21856)",
+      "Skins & Decals (21858)",
+      "Batteries (21854)",
+      "Chargers (21855)",
+      "Parts (21857)"
+    ],
+    "3": [
+      "Scopes->Spotting Scopes (15362)",
+      "Scopes->Telescopes (15363)",
+      "Binoculars (15358)",
+      "Monoculars (15359)",
+      "Night Vision (19893)",
+      "Rangefinders (15360)"
+    ],
+    "74719770": [
+      "Camera & Optic Replacement Cables (15295)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_battery_size_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Battery Size\", \"sheet_name\": \"Battery Size\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Drone Parts (19956)"
+    ],
+    "False": [
+      "Video Camera Lenses (15299)",
+      "Camera Lenses->Certified Pre-Owned Lenses (30903)",
+      "Camera Lenses->Tilt & Shift (19965)",
+      "Camera Lenses->Mirrorless (19963)",
+      "Camera Lenses->Macro (19962)",
+      "Camera Lenses->Zoom (19967)",
+      "Camera Lenses->Fixed Focal (19961)",
+      "Camera Lenses->Mobile Phone (19968)",
+      "Camera Lenses->Wide Angle (19966)",
+      "Camera Lenses->Fisheye (19960)",
+      "Camera Lenses->Telephoto (19964)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.model_number",
+      "Attribute.model_name",
+      "Attribute.camera_types.[0]",
+      "Attribute.lens_types.[0]",
+      "Attribute.lens_mounting_type",
+      "Attribute.battery_type",
+      "Attribute.account_generation",
+      "Attribute.digital_camera_resolution.value",
+      "Attribute.optical_zoom",
+      "Attribute.min_focal_length.value",
+      "Attribute.max_focal_length.value",
+      "Attribute.min_aperture_value",
+      "Attribute.max_aperture_value",
+      "Attribute.video_camera_type",
+      "Attribute.type_of_flash.[0]",
+      "Attribute.has_image_stabilization",
+      "Attribute.memory_card_types.[0]",
+      "Attribute.storage_capacity.value",
+      "Attribute.transmission_speed.value",
+      "Attribute.drone_type.[0]",
+      "Attribute.runtime",
+      "Attribute.has_return_to_home_function",
+      "Attribute.by_user.[0]",
+      "Attribute.audio_recording_type",
+      "Attribute.device_storage_capacity.value",
+      "Attribute.flash_memory_features.[0]",
+      "Attribute.screen_size.value",
+      "Attribute.diameter.value",
+      "Attribute.binocular_type",
+      "Attribute.charger_type.[0]",
+      "Attribute.is_waterproof",
+      "Attribute.is_bundle",
+      "Attribute.is_portable",
+      "Attribute.is_adjustable",
+      "Attribute.maximum_weight_recommendation",
+      "Attribute.battery_size.[0]",
+      "Attribute.number_of_batteries",
+      "Attribute.battery_cell_composition",
+      "Attribute.battery_life.value",
+      "Attribute.battery_reusability.[0]",
+      "Attribute.is_rechargeable",
+      "Attribute.is_scratchproof",
+      "Attribute.is_durable",
+      "Attribute.privacy_angle",
+      "Attribute.rated_voltage.value",
+      "Attribute.input_voltage.value",
+      "Attribute.output_voltage.value",
+      "Attribute.laptop_compatibility",
+      "Attribute.compatible_devices",
+      "Attribute.connectivities.[0]",
+      "Attribute.peripheral_connectivities.[0]",
+      "Attribute.bluetooth_version",
+      "Attribute.number_of_slots",
+      "Attribute.is_foldable",
+      "Attribute.batteries_recommended_use",
+      "Attribute.is_high_definition",
+      "Attribute.screen_protectors_special_features",
+      "Attribute.screen_protector_type",
+      "Attribute.memory_cards_special_features",
+      "Attribute.is_simultaneous_card_reader",
+      "Attribute.reusability",
+      "Attribute.fast_charging",
+      "Attribute.optics_specific_uses.[0]",
+      "Attribute.is_water_resistant",
+      "Attribute.magnification.[0]",
+      "Attribute.tripod_type",
+      "Attribute.tripod_compatibility",
+      "Attribute.water_resistance_level.unit",
+      "Attribute.water_resistance_level.value",
+      "Attribute.focus_type",
+      "Attribute.grid_composition",
+      "Attribute.lighting_versatility_type.[0]",
+      "Attribute.software_compatibility",
+      "Attribute.classification",
+      "Attribute.weather_resistant",
+      "Attribute.is_refurbished",
+      "Attribute.speaker_accessory_type",
+      "Attribute.is_fade_resistant",
+      "Attribute.proudly_south_african",
+      "Attribute.battery_capacity.value",
+      "Attribute.audio_replacement_part_type",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.customer_registration_required",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.volume_variant.unit",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.cable_length.value",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.bag_size.value"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}

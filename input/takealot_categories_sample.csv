@@ -1,0 +1,80 @@
+Global Category Tree Look - Up,,,,,
+,,,,,
+Division,Loadsheet/Department,Main Category,Lowest Category,Minimum Required Images,Required Compliance Certificate
+Consumables,Health,Ear Care (16991),Ear Drops (16993),2,
+Consumables,Health,Ear Care (16991),Ear Syringes (16996),1,
+Consumables,Health,Ear Care (16991),Ear Wax Removal Kits (16997),1,
+Consumables,Health,Ear Care (16991),Earplugs (16999),1,
+Consumables,Health,Face Shields (30443),Face Shields (30443),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Adult Nappies (21659),1,
+Consumables,Health,Health Care (16782),Anti-Choking Devices (30881),3,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Anti-Snoring Devices (30882),3,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Biometric Monitors->Alcohol Breathalyzer (16802),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Biometric Monitors->Blood Ketone & Glucose Meter (16798),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Biometric Monitors->Blood Ketone & Glucose Meter Accessories (30731),1,
+Consumables,Health,Health Care (16782),Biometric Monitors->Blood Pressure Monitors (16799),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Biometric Monitors->Body Weight Scales (16801),1,
+Consumables,Health,Health Care (16782),Biometric Monitors->Medical Body Weight Scales (30930),3,
+Consumables,Health,Health Care (16782),Biometric Monitors->Medical Thermometers (16805),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Biometric Monitors->Pulse Oximeters (16807),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Catheters (31078),1,
+Consumables,Health,Health Care (16782),Compression Packs (30888),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Cotton Wool (31076),1,
+Consumables,Health,Health Care (16782),Dermatoscopes (31098),3,
+Consumables,Health,Health Care (16782),Diagnostic Testing (30848),1,
+Consumables,Health,Health Care (16782),DNA Ancestry Tests (30502),1,
+Consumables,Health,Health Care (16782),Ear Device Maintenance (30845),1,
+Consumables,Health,Health Care (16782),Ear Devices (16828),1,
+Consumables,Health,Health Care (16782),Empty Capsules (30772),1,
+Consumables,Health,Health Care (16782),Enema Kits & Accessories (30753),1,
+Consumables,Health,Health Care (16782),First Aid->Antiseptics & Cleaning Supplies (16812),2,
+Consumables,Health,Health Care (16782),First Aid->Burns & Blisters (21551),2,
+Consumables,Health,Health Care (16782),First Aid->Cotton Wool & Swabs (21552),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),First Aid->Equipment (21553),1,
+Consumables,Health,Health Care (16782),First Aid->First Aid Kits (16815),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),First Aid->Gloves & Masks->Gloves (30426),2,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),First Aid->Gloves & Masks->Masks->Cloth Masks (30429),1,
+Consumables,Health,Health Care (16782),First Aid->Gloves & Masks->Masks->Mask Accessories (30688),1,
+Consumables,Health,Health Care (16782),First Aid->Gloves & Masks->Masks->Medical Masks (30428),2,
+Consumables,Health,Health Care (16782),First Aid->Hot & Cold Therapies->Heat Rubs (16817),2,
+Consumables,Health,Health Care (16782),First Aid->Hot & Cold Therapies->Heating Pads (16818),2,
+Consumables,Health,Health Care (16782),First Aid->Hot & Cold Therapies->Ice Packs (16819),1,
+Consumables,Health,Health Care (16782),First Aid->Insect Repellent (21555),2,
+Consumables,Health,Health Care (16782),First Aid->Itch & Rash (21556),2,
+Consumables,Health,Health Care (16782),First Aid->Lice & Worms (21557),2,
+Consumables,Health,Health Care (16782),First Aid->Medical Tape & Bandages (16820),1,SAHPRA - Medical Device Certificate
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Amino Acids (22419),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Creatine (16826),2,R638  - Food Safety
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Endurance (20121),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Energy (22478),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Mass Builders (20138),2,R638  - Food Safety
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Pre-Workout (20119),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Recovery & Supplements (21672),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Slimming (20120),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Supplement Shakers & Accessories (19926),1,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Allergies & Sinus (21610),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Antioxidants (21611),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Bones & Joint Health (21612),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Children (21613),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Cleansing & Detox (21614),2,
+Consumables,Health,Health Care (16782),"Fitness & Nutrition->Vitamins & Supplements->Colds, Coughs & Flu (21615)",2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Diabetes (21619),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Digestion (21620),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Energy & Tonics (21622),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Eye & Ear Care (21631),2,
+Consumables,Health,Health Care (16782),"Fitness & Nutrition->Vitamins & Supplements->Hair, Skin & Nails (21632)",2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Heart Health (21633),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Immune Support (21634),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Mens Health (21635),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Mind & Memory (21636),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Mood & Anxiety Support (21637),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Multivitamins (21606),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Nutraceuticals (21641),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Omega & Essential Fatty Acids (20115),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Pregnancy Support (21607),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Probiotics (21608),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Protein Supplements (22423),2,R638  - Food Safety
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Sleep Aids (21638),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Vitamins & Minerals->Minerals (21605),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Vitamins A-E (21609),2,
+Consumables,Health,Health Care (16782),Fitness & Nutrition->Vitamins & Supplements->Weight Loss (21639),2,

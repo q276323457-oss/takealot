@@ -1,0 +1,631 @@
+{
+  "source_file": "loadsheet-103.xlsm",
+  "sheet_used": "Loadsheet",
+  "total_columns": 80,
+  "columns": [
+    {
+      "index": 1,
+      "key": "Variant.ProductVariant",
+      "label": "Product or Variant",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 2,
+      "key": "SKU",
+      "label": "Your own SKU",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "key": "Variant.ProductCode",
+      "label": "Product SKU for Variant",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "key": "TopCategory",
+      "label": "Main Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 5,
+      "key": "Category",
+      "label": "Lowest Category",
+      "note": "id_in_brackets"
+    },
+    {
+      "index": 6,
+      "key": "ProductID.Value",
+      "label": "Barcode",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "key": "title",
+      "label": "Product Title",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "key": "subtitle",
+      "label": "Product Subtitle",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "key": "description",
+      "label": "Key Selling Features",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "key": "Attribute.whats_in_the_box",
+      "label": "What's in the Box",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "key": "Brand",
+      "label": "Brand Name",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "key": "color.main",
+      "label": "Main Colour",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "key": "color.secondary",
+      "label": "Secondary Colour",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "key": "color.name",
+      "label": "Colour Name",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "key": "Attribute.materials.[0]",
+      "label": "Main Material/Fabric",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "key": "Attribute.animal_type.[0]",
+      "label": "Animal Type",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "key": "Variant.attribute.clothing_size_symbol",
+      "label": "Clothing Size Symbol",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "key": "Attribute.bird_type",
+      "label": "Bird Type",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "key": "Attribute.food_type.[0]",
+      "label": "Food Type",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "key": "Attribute.pet_food_flavour.[0]",
+      "label": "Food Flavour",
+      "note": ""
+    },
+    {
+      "index": 21,
+      "key": "Attribute.pet_bed_type",
+      "label": "Pet Bed Type",
+      "note": ""
+    },
+    {
+      "index": 22,
+      "key": "Variant.attribute.pet_bed_size.[0]",
+      "label": "Pet Bed Size",
+      "note": ""
+    },
+    {
+      "index": 23,
+      "key": "Attribute.pet_size",
+      "label": "Pet Size",
+      "note": ""
+    },
+    {
+      "index": 24,
+      "key": "Attribute.pet_collar_size.value",
+      "label": "Pet Collar Size",
+      "note": ""
+    },
+    {
+      "index": 25,
+      "key": "Attribute.collar_type.[0]",
+      "label": "Collar Type",
+      "note": ""
+    },
+    {
+      "index": 26,
+      "key": "Attribute.pet_life_stage.[0]",
+      "label": "Primary Life Stage",
+      "note": ""
+    },
+    {
+      "index": 27,
+      "key": "Variant.attribute.product_size.[0]",
+      "label": "Product Size",
+      "note": ""
+    },
+    {
+      "index": 28,
+      "key": "Attribute.harness_type.[0]",
+      "label": "Harness Type",
+      "note": ""
+    },
+    {
+      "index": 29,
+      "key": "Attribute.lead_type",
+      "label": "Lead Type",
+      "note": ""
+    },
+    {
+      "index": 30,
+      "key": "Attribute.is_machine_washable",
+      "label": "Machine Washable",
+      "note": ""
+    },
+    {
+      "index": 31,
+      "key": "Attribute.dog_breed_size.[0]",
+      "label": "Dog Breed Size",
+      "note": ""
+    },
+    {
+      "index": 32,
+      "key": "Attribute.litter_ingredients",
+      "label": "Litter Ingredients",
+      "note": ""
+    },
+    {
+      "index": 33,
+      "key": "Attribute.is_clumping",
+      "label": "Is Clumping",
+      "note": ""
+    },
+    {
+      "index": 34,
+      "key": "Attribute.power_source",
+      "label": "Power Source",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "key": "Attribute.has_temperature_control",
+      "label": "Has Temperature Control",
+      "note": ""
+    },
+    {
+      "index": 36,
+      "key": "Attribute.is_reusable",
+      "label": "Is Reusable",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "key": "Variant.attribute.packed_quantity",
+      "label": "Packed Quantity",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "key": "Attribute.is_ventilated",
+      "label": "Is Ventilated",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "key": "Attribute.is_portable",
+      "label": "Is Portable",
+      "note": ""
+    },
+    {
+      "index": 40,
+      "key": "Attribute.rated_voltage.value",
+      "label": "Rated Voltage",
+      "note": ""
+    },
+    {
+      "index": 41,
+      "key": "Variant.attribute.size_in_cm.value",
+      "label": "Size in Cm",
+      "note": ""
+    },
+    {
+      "index": 42,
+      "key": "Attribute.is_hand_made",
+      "label": "Is Hand Made",
+      "note": ""
+    },
+    {
+      "index": 43,
+      "key": "Attribute.zero_rated_vat",
+      "label": "Zero Rated Vat",
+      "note": ""
+    },
+    {
+      "index": 44,
+      "key": "Attribute.country_of_origin.[0]",
+      "label": "Country of Origin",
+      "note": ""
+    },
+    {
+      "index": 45,
+      "key": "Attribute.has_expiry_days",
+      "label": "Has Expiry Date?",
+      "note": ""
+    },
+    {
+      "index": 46,
+      "key": "Variant.attribute.weight.value",
+      "label": "Product Weight Value (Variant)",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "key": "Variant.attribute.weight.unit",
+      "label": "Product Weight Unit (Variant)",
+      "note": ""
+    },
+    {
+      "index": 48,
+      "key": "Attribute.proudly_south_african",
+      "label": "Proudly South African",
+      "note": ""
+    },
+    {
+      "index": 49,
+      "key": "Variant.attribute.volume_variant.value",
+      "label": "Volume",
+      "note": ""
+    },
+    {
+      "index": 50,
+      "key": "Attribute.warranty.type",
+      "label": "Warranty Type",
+      "note": ""
+    },
+    {
+      "index": 51,
+      "key": "Attribute.warranty.period.value",
+      "label": "Warranty Period (Months)",
+      "note": ""
+    },
+    {
+      "index": 52,
+      "key": "Images.image_url_1",
+      "label": "Primary Image URL",
+      "note": ""
+    },
+    {
+      "index": 53,
+      "key": "Images.image_url_2",
+      "label": "Image 2 URL",
+      "note": ""
+    },
+    {
+      "index": 54,
+      "key": "Images.image_url_3",
+      "label": "Image 3 URL",
+      "note": ""
+    },
+    {
+      "index": 55,
+      "key": "Images.image_url_4",
+      "label": "Image 4 URL",
+      "note": ""
+    },
+    {
+      "index": 56,
+      "key": "Images.image_url_5",
+      "label": "Image 5 URL",
+      "note": ""
+    },
+    {
+      "index": 57,
+      "key": "Images.image_url_6",
+      "label": "Image 6 URL",
+      "note": ""
+    },
+    {
+      "index": 58,
+      "key": "Images.image_url_7",
+      "label": "Image 7 URL",
+      "note": ""
+    },
+    {
+      "index": 59,
+      "key": "Images.image_url_8",
+      "label": "Image 8 URL",
+      "note": ""
+    },
+    {
+      "index": 60,
+      "key": "Images.image_url_9",
+      "label": "Image 9 URL",
+      "note": ""
+    },
+    {
+      "index": 61,
+      "key": "Images.image_url_10",
+      "label": "Image 10 URL",
+      "note": ""
+    },
+    {
+      "index": 62,
+      "key": "Images.image_url_11",
+      "label": "Image 11 URL",
+      "note": ""
+    },
+    {
+      "index": 63,
+      "key": "Images.image_url_12",
+      "label": "Image 12 URL",
+      "note": ""
+    },
+    {
+      "index": 64,
+      "key": "Images.image_url_13",
+      "label": "Image 13 URL",
+      "note": ""
+    },
+    {
+      "index": 65,
+      "key": "Images.image_url_14",
+      "label": "Image 14 URL",
+      "note": ""
+    },
+    {
+      "index": 66,
+      "key": "Images.image_url_15",
+      "label": "Image 15 URL",
+      "note": ""
+    },
+    {
+      "index": 67,
+      "key": "Images.image_url_16",
+      "label": "Image 16 URL",
+      "note": ""
+    },
+    {
+      "index": 68,
+      "key": "Images.image_url_17",
+      "label": "Image 17 URL",
+      "note": ""
+    },
+    {
+      "index": 69,
+      "key": "Images.image_url_18",
+      "label": "Image 18 URL",
+      "note": ""
+    },
+    {
+      "index": 70,
+      "key": "Images.image_url_19",
+      "label": "Image 19 URL",
+      "note": ""
+    },
+    {
+      "index": 71,
+      "key": "Images.image_url_20",
+      "label": "Image 20 URL",
+      "note": ""
+    },
+    {
+      "index": 72,
+      "key": "Attribute.merchant_packaged_dimensions.width",
+      "label": "Packaged Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 73,
+      "key": "Attribute.merchant_packaged_dimensions.length",
+      "label": "Packaged Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 74,
+      "key": "Attribute.merchant_packaged_dimensions.height",
+      "label": "Packaged Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 75,
+      "key": "Attribute.merchant_packaged_weight.value",
+      "label": "Packaged Weight (g)",
+      "note": ""
+    },
+    {
+      "index": 76,
+      "key": "Attribute.product_dimensions.width",
+      "label": "Assembled Product Width (cm)",
+      "note": ""
+    },
+    {
+      "index": 77,
+      "key": "Attribute.product_dimensions.length",
+      "label": "Assembled Product Length (cm)",
+      "note": ""
+    },
+    {
+      "index": 78,
+      "key": "Attribute.product_dimensions.height",
+      "label": "Assembled Product Height (cm)",
+      "note": ""
+    },
+    {
+      "index": 79,
+      "key": "Video_links.video_url_1",
+      "label": "Video Link URL",
+      "note": ""
+    },
+    {
+      "index": 80,
+      "key": "Variant.attribute.size_in_cm.unit",
+      "label": "Size (in/cm) size_in_cm  unit",
+      "note": ""
+    }
+  ],
+  "valid_values": {
+    "103": [
+      "Product with Variants",
+      "Variant",
+      "Product without Variants"
+    ],
+    "=Validations.IsBarcode(CELL(\"contents\"), COLUMN(), ROW())": [
+      "Accessories (20565)",
+      "Dog Supplies (14195)",
+      "Hairball Remedies (20518)",
+      "Newborn Care (20519)",
+      "Pet Apparel (20543)",
+      "Pet Beds & Blankets (14236)",
+      "Pet Bowls, Feeders & Waterers (14234)",
+      "Pet Cages, Carriers & Aquariums (14235)",
+      "Pet Incubators (30880)",
+      "Pet Cleaning & Odour Control (20539)",
+      "Pet Collars, Harnesses & Leads (14237)",
+      "Pet Containment Systems (14238)",
+      "Pet Digestive & Urinary Health (20517)",
+      "Pet Doors (14240)",
+      "Pet Ear Care (14241)",
+      "Pet Eye Care (22582)",
+      "Pet First Aid & Emergency Kits (14242)",
+      "Pet Food & Treats (20529)",
+      "Pet Grooming Supplies (14246)",
+      "Pet ID Tags (14257)",
+      "Pet Muzzles (14263)",
+      "Pet Oral Care Supplies (14264)",
+      "Pet Paw Care (20542)",
+      "Pet Toys & Scratchers (20546)",
+      "Pet Vitamins & Supplements (14274)",
+      "Pet Waste Disposal Systems & Tools (14277)",
+      "Vet Store (20492)",
+      "Pet Medicine (14262)",
+      "Behaviour & Training (23067)",
+      "Watercare (23090)",
+      "DIY Products & Accessories (28648)",
+      "Decorative Urns (30568)",
+      "Cat Supplies (14183)"
+    ],
+    "4.32983": [
+      "Accessories (20565)"
+    ],
+    "7.0.4": [
+      "Dog Kennels & Runs (14203)"
+    ],
+    "3": [
+      "Hairball Remedies (20518)"
+    ],
+    "79973335": [
+      "Milk Replacer (20520)",
+      "Nursing Kits (20521)"
+    ],
+    "{\"Brands\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Brand\", \"sheet_name\": \"Brand Look up\"}, \"Category\": {\"help\": \"Copy & Paste into the relevant cell in the loadsheet\", \"heading\": \"Category Tree Lookup\", \"sheet_name\": \"Category Tree Lookup\", \"column_headings\": [\"Main Category\", \"Lowest Category\"]}, \"Attribute_materials_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Materials\", \"sheet_name\": \"Materials\"}, \"Attribute_flavour_type\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Types of Flavours\", \"sheet_name\": \"Flavours\"}, \"Attribute_country_of_origin_0\": {\"help\": \"Copy & paste into the relevant cell in the Loadsheet\", \"heading\": \"Country of Origin\", \"sheet_name\": \"Country of Origin\"}}": [
+      "Pet Clothing (20544)",
+      "Pet Novelty Clothing (20545)"
+    ],
+    "False": [
+      "Pet Hair Removal (20540)",
+      "Stain & Odour Removers (20541)"
+    ]
+  },
+  "regions": {
+    "image_columns": [
+      "Images.image_url_1",
+      "Images.image_url_2",
+      "Images.image_url_3",
+      "Images.image_url_4",
+      "Images.image_url_5",
+      "Images.image_url_6",
+      "Images.image_url_7",
+      "Images.image_url_8",
+      "Images.image_url_9",
+      "Images.image_url_10",
+      "Images.image_url_11",
+      "Images.image_url_12",
+      "Images.image_url_13",
+      "Images.image_url_14",
+      "Images.image_url_15",
+      "Images.image_url_16",
+      "Images.image_url_17",
+      "Images.image_url_18",
+      "Images.image_url_19",
+      "Images.image_url_20"
+    ],
+    "attribute_columns": [
+      "Attribute.whats_in_the_box",
+      "Attribute.materials.[0]",
+      "Attribute.animal_type.[0]",
+      "Attribute.bird_type",
+      "Attribute.food_type.[0]",
+      "Attribute.pet_food_flavour.[0]",
+      "Attribute.pet_bed_type",
+      "Attribute.pet_size",
+      "Attribute.pet_collar_size.value",
+      "Attribute.collar_type.[0]",
+      "Attribute.pet_life_stage.[0]",
+      "Attribute.harness_type.[0]",
+      "Attribute.lead_type",
+      "Attribute.is_machine_washable",
+      "Attribute.dog_breed_size.[0]",
+      "Attribute.litter_ingredients",
+      "Attribute.is_clumping",
+      "Attribute.power_source",
+      "Attribute.has_temperature_control",
+      "Attribute.is_reusable",
+      "Attribute.is_ventilated",
+      "Attribute.is_portable",
+      "Attribute.rated_voltage.value",
+      "Attribute.is_hand_made",
+      "Attribute.zero_rated_vat",
+      "Attribute.country_of_origin.[0]",
+      "Attribute.has_expiry_days",
+      "Attribute.proudly_south_african",
+      "Attribute.warranty.type",
+      "Attribute.warranty.period.value",
+      "Attribute.merchant_packaged_dimensions.width",
+      "Attribute.merchant_packaged_dimensions.length",
+      "Attribute.merchant_packaged_dimensions.height",
+      "Attribute.merchant_packaged_weight.value",
+      "Attribute.product_dimensions.width",
+      "Attribute.product_dimensions.length",
+      "Attribute.product_dimensions.height"
+    ],
+    "variant_columns": [
+      "Variant.ProductVariant",
+      "Variant.ProductCode",
+      "Variant.attribute.clothing_size_symbol",
+      "Variant.attribute.pet_bed_size.[0]",
+      "Variant.attribute.product_size.[0]",
+      "Variant.attribute.packed_quantity",
+      "Variant.attribute.size_in_cm.value",
+      "Variant.attribute.weight.value",
+      "Variant.attribute.weight.unit",
+      "Variant.attribute.volume_variant.value",
+      "Variant.attribute.size_in_cm.unit"
+    ],
+    "category_id_columns": [
+      "Variant.ProductVariant",
+      "TopCategory",
+      "Category"
+    ]
+  }
+}
