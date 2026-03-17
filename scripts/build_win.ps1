@@ -52,12 +52,12 @@ if (Test-Path "build") { Remove-Item -Recurse -Force "build" }
     --add-data "$root\README.md;." `
     gui_qt.py
 
-Write-Host "✅ Windows 构建完成: $root\dist\$AppName"
+Write-Host "Windows build done: $root\\dist\\$AppName"
 
 $zipName = "TakealotAutoLister-win-$AppVersion.zip"
 $zipPath = Join-Path "$root\dist" $zipName
 if (Test-Path $zipPath) { Remove-Item -Force $zipPath }
 Compress-Archive -Path "$root\dist\$AppName\*" -DestinationPath $zipPath
 
-Write-Host "✅ 压缩包已生成: $zipPath"
-Write-Host "提示：可继续用 Inno Setup 打包安装程序。"
+Write-Host "Zip created: $zipPath"
+Write-Host "Tip: You can package an installer with Inno Setup."

@@ -42,7 +42,7 @@ jobs:
         continue-on-error: true
         run: |
           New-Item -ItemType Directory -Force -Path build_logs | Out-Null
-          powershell -ExecutionPolicy Bypass -File .\scripts\build_win.ps1 -AppName "TakealotAutoLister" -AppVersion "${env:APP_VERSION}" *>&1 | Tee-Object -FilePath build_logs/build_win.log
+          & .\scripts\build_win.ps1 -AppName "TakealotAutoLister" -AppVersion "${env:APP_VERSION}" *>&1 | Tee-Object -FilePath build_logs/build_win.log
           $exitCode = $LASTEXITCODE
           if ($null -eq $exitCode) { $exitCode = 0 }
           $zipPath = "dist/${env:ZIP_NAME}"
