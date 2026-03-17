@@ -88,7 +88,7 @@ upload_win_and_publish_interactive() {
     echo "版本号不能为空。"
     return 1
   fi
-  read -r -p "Windows 包下载链接（可留空，支持 GitHub Release 链接）: " pkg_url
+  read -r -p "Windows 包下载链接（可留空，支持 GitHub Release / Actions Artifact 链接）: " pkg_url
   read -r -p "Windows 包路径（留空自动找 dist/TakealotAutoLister-win-${ver}.zip）: " pkg_path
   read -r -p "更新说明（可留空）: " notes
   read -r -p "是否强制更新？(y/N): " yn

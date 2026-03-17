@@ -278,4 +278,4 @@ git push origin v1.0.1
 - 9 仅发布更新清单到 OSS
 - 10 退出
 
-说明：菜单 8 支持直接粘贴 GitHub Release 的下载链接（无需先手动下载到本地）。
+说明：菜单 8 支持直接粘贴 GitHub Release 或 Actions Artifact 的下载链接（无需先手动下载到本地）。

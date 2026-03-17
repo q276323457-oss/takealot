@@ -5,6 +5,8 @@ import argparse
 import hashlib
 import json
 import os
+import re
+import subprocess
 import warnings
 from urllib.parse import urlparse
 from pathlib import Path
@@ -77,6 +79,68 @@ def _download_package_from_url(root: Path, package_url: str, version: str) -> Pa
     url = package_url.strip()
     if not url:
         raise SystemExit("package-url 为空")
+
+    def _github_api_artifact_url(u: str) -> tuple[str, str, str] | None:
+        """
+        支持两种 GitHub 页面链接：
+        1) https://github.com/{owner}/{repo}/actions/runs/{run_id}/artifacts/{artifact_id}
+        2) https://github.com/{owner}/{repo}/actions/artifacts/{artifact_id}
+        返回: (api_url, owner, repo)
+        """
+        m1 = re.match(r"^https?://github\.com/([^/]+)/([^/]+)/actions/runs/\d+/artifacts/(\d+)(?:/.*)?$", u)
+        if m1:
+            owner, repo, aid = m1.group(1), m1.group(2), m1.group(3)
+            return (f"https://api.github.com/repos/{owner}/{repo}/actions/artifacts/{aid}/zip", owner, repo)
+        m2 = re.match(r"^https?://github\.com/([^/]+)/([^/]+)/actions/artifacts/(\d+)(?:/.*)?$", u)
+        if m2:
+            owner, repo, aid = m2.group(1), m2.group(2), m2.group(3)
+            return (f"https://api.github.com/repos/{owner}/{repo}/actions/artifacts/{aid}/zip", owner, repo)
+        return None
+
+    def _get_github_token(owner_hint: str = "") -> str:
+        for key in ("GITHUB_TOKEN", "GH_TOKEN"):
+            v = _env(key)
+            if v:
+                return v
+        # macOS: 尝试从 git 钥匙串读取
+        if os.sys.platform.startswith("darwin"):
+            user_candidates = [owner_hint, _env("GITHUB_USER", "")]
+            for user in user_candidates:
+                if not user:
+                    continue
+                try:
+                    proc = subprocess.run(
+                        ["git", "credential-osxkeychain", "get"],
+                        input=f"protocol=https\nhost=github.com\nusername={user}\n",
+                        text=True,
+                        capture_output=True,
+                        check=False,
+                    )
+                    if proc.returncode == 0:
+                        for line in proc.stdout.splitlines():
+                            if line.startswith("password="):
+                                token = line.split("=", 1)[1].strip()
+                                if token:
+                                    return token
+                except Exception:
+                    pass
+        return ""
+
+    headers = {"User-Agent": "takealot-autolister-uploader/1.0"}
+    github_art = _github_api_artifact_url(url)
+    if github_art:
+        api_url, owner, _repo = github_art
+        token = _get_github_token(owner_hint=owner)
+        if not token:
+            raise SystemExit(
+                "这是 GitHub Actions Artifact 页面链接，需要 Token 才能下载。\n"
+                "请先设置环境变量 GITHUB_TOKEN，或在工具箱前执行：\n"
+                "export GITHUB_TOKEN=你的GitHubToken"
+            )
+        url = api_url
+        headers["Authorization"] = f"token {token}"
+        headers["Accept"] = "application/vnd.github+json"
+
     tmp_dir = root / ".runtime" / "downloads"
     tmp_dir.mkdir(parents=True, exist_ok=True)
     parsed = urlparse(url)
@@ -87,7 +151,7 @@ def _download_package_from_url(root: Path, package_url: str, version: str) -> Pa
     part_path = final_path.with_suffix(final_path.suffix + ".part")
 
     print(f"⬇️ 从 URL 下载 Windows 包：{url}")
-    with requests.get(url, stream=True, timeout=120, headers={"User-Agent": "takealot-autolister-uploader/1.0"}) as r:
+    with requests.get(url, stream=True, timeout=120, headers=headers) as r:
         r.raise_for_status()
         with part_path.open("wb") as f:
             for chunk in r.iter_content(chunk_size=1024 * 512):
