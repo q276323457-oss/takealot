@@ -1,9 +1,10 @@
 Param(
-    [string]$AppName = "西安众创南非Takealot自建链接AI工具",
+    [string]$AppName = "TakealotAutoLister",
     [string]$AppVersion = ""
 )
 
 $ErrorActionPreference = "Stop"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $root
 
@@ -26,8 +27,10 @@ if (!(Test-Path ".venv")) {
     & $PyCmd @PyArgs -m venv .venv
 }
 
+Write-Host "Python path: .\\.venv\\Scripts\\python.exe"
 & ".\.venv\Scripts\python.exe" -m pip install -U pip
 & ".\.venv\Scripts\python.exe" -m pip install -r requirements.txt pyinstaller
+& ".\.venv\Scripts\python.exe" -m pip --version
 
 if (Test-Path "dist") { Remove-Item -Recurse -Force "dist" }
 if (Test-Path "build") { Remove-Item -Recurse -Force "build" }
