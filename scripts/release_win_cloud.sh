@@ -17,6 +17,24 @@ if ! git remote get-url origin >/dev/null 2>&1; then
   exit 1
 fi
 
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+git config --global http.version HTTP/1.1
+
+push_with_retry() {
+  local cmd="$1"
+  local max_try=3
+  local i
+  for i in $(seq 1 $max_try); do
+    if eval "$cmd"; then
+      return 0
+    fi
+    echo "第 $i/$max_try 次推送失败，10 秒后重试..."
+    sleep 10
+  done
+  return 1
+}
+
 read -r -p "请输入发版号（例如 1.0.1）: " VER
 if [ -z "${VER:-}" ]; then
   echo "版本号不能为空。"
@@ -42,8 +60,14 @@ fi
 
 echo
 echo "正在推送 main + $TAG ..."
-git push origin main
-git push origin "$TAG"
+if ! push_with_retry "git push origin main"; then
+  echo "推送 main 失败：请换网络后再重试。"
+  exit 1
+fi
+if ! push_with_retry "git push origin $TAG"; then
+  echo "推送 tag 失败：请换网络后再重试。"
+  exit 1
+fi
 
 echo
 echo "✅ 发布完成：GitHub Actions 会自动构建 Windows 包。"

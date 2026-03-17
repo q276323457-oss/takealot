@@ -27,9 +27,21 @@ if ! git config user.email >/dev/null; then
 fi
 
 git config --global credential.helper osxkeychain
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+git config --global http.version HTTP/1.1
 
 push_main() {
-  git push -u origin main
+  local max_try=3
+  local i
+  for i in $(seq 1 $max_try); do
+    if git push -u origin main; then
+      return 0
+    fi
+    echo "第 $i/$max_try 次推送失败，10 秒后重试..."
+    sleep 10
+  done
+  return 1
 }
 
 store_github_cred() {
@@ -74,12 +86,16 @@ echo
 echo "正在推送到 GitHub main 分支..."
 if ! push_main; then
   echo
-  echo "检测到 GitHub 认证失败，需要一次性配置账号令牌。"
+  echo "推送失败，可能是认证或网络问题。"
+  echo "如果之前没配过 Token，请继续输入。"
   echo "Token 创建入口: https://github.com/settings/tokens/new"
   echo "权限建议: repo（私有仓库也可推送）"
   if store_github_cred; then
-    echo "已写入 macOS 钥匙串，正在重试推送..."
-    push_main
+    echo "已写入 macOS 钥匙串，正在重试推送（最多 3 次）..."
+    if ! push_main; then
+      echo "仍然失败：请换个网络（手机热点）后再双击重试。"
+      exit 1
+    fi
   else
     exit 1
   fi
