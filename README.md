@@ -241,6 +241,7 @@ git push origin v1.0.1
 
 - `start_setup_github_cloud_build.command`
 - `start_release_win_cloud.command`
+- `start_toolbox.command`（推荐，总入口工具箱）
 
 ### 第一次（只做一次）
 
@@ -262,3 +263,7 @@ git push origin v1.0.1
 - 打 `v1.0.1` 标签
 - 推送到 GitHub
 - 自动触发 Windows 云打包
+
+### 推荐：直接用工具箱
+
+双击 `start_toolbox.command`，会显示 1-4 菜单，按数字选择即可。
