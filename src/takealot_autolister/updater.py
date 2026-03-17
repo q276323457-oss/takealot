@@ -97,6 +97,7 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
 
     data: dict[str, Any] | None = None
     chosen_url = ""
+    best_ver: tuple[int, ...] | None = None
     last_err: Exception | None = None
     for url in urls:
         try:
@@ -105,9 +106,14 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
             j = r.json()
             if not isinstance(j, dict):
                 raise RuntimeError("update manifest 格式无效：根节点不是对象")
-            data = j
-            chosen_url = url
-            break
+            latest = str(j.get("latest_version") or j.get("version") or "").strip()
+            if not latest:
+                raise RuntimeError("update manifest 缺少 latest_version")
+            ver = _norm_version(latest)
+            if (best_ver is None) or (ver > best_ver):
+                best_ver = ver
+                data = j
+                chosen_url = url
         except Exception as e:
             last_err = e
             continue

@@ -439,6 +439,9 @@ class MainWindow(QMainWindow):
         latest = str(getattr(info, "latest_version", "") or "")
         notes = str(getattr(info, "notes", "") or "")
         download_url = str(getattr(info, "download_url", "") or "")
+        manifest_url = str(getattr(info, "manifest_url", "") or "")
+        if manifest_url:
+            self._bridge.log_line.emit(f"[updater] 使用清单：{manifest_url}", "info")
         msg = f"发现新版本：v{latest}\n当前版本：v{APP_VERSION}\n"
         if notes:
             msg += f"\n更新说明：\n{notes[:800]}"
