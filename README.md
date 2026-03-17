@@ -250,6 +250,10 @@ git push origin v1.0.1
 - 提交代码
 - 推送到 `main`
 
+如果第一次推送提示认证失败，脚本会继续让你输入一次：
+- GitHub 用户名
+- GitHub Token（会保存到 macOS 钥匙串，后续无需再输）
+
 ### 以后每次发版
 
 双击 `start_release_win_cloud.command`，输入版本号（如 `1.0.1`）。  
