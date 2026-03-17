@@ -14,6 +14,7 @@ import sys
 import threading
 import time
 import copy
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -124,6 +125,7 @@ class _Bridge(QObject):
     refresh_runs = Signal()         # 请求主线程刷新历史记录
     update_result = Signal(object)  # updater.UpdateInfo
     update_error = Signal(str)      # 更新检查错误
+    update_download_done = Signal(object)  # (path, version)
     # 请求主线程打开预览/编辑对话框（传递 PreviewData + ImageGeneratorSession）
     preview_request = Signal(object, object)
 
@@ -143,6 +145,7 @@ class MainWindow(QMainWindow):
         self._bridge.refresh_runs.connect(self._refresh_runs)
         self._bridge.update_result.connect(self._on_update_result)
         self._bridge.update_error.connect(self._on_update_error)
+        self._bridge.update_download_done.connect(self._on_update_download_done)
         self._bridge.preview_request.connect(self._on_preview_request)
         # threading.Event + result holder for preview_callback synchronisation
         self._preview_event: threading.Event | None = None
@@ -443,13 +446,67 @@ class MainWindow(QMainWindow):
             msg += "\n\n未提供当前系统下载链接，请联系管理员。"
             QMessageBox.information(self, "发现新版本", msg)
             return
-        msg += f"\n\n是否现在打开下载链接？\n{download_url}"
+        msg += f"\n\n是否现在自动下载更新包？\n{download_url}"
         btn = QMessageBox.question(self, "发现新版本", msg)
         if btn == QMessageBox.StandardButton.Yes:
-            self._open_external_url(download_url)
+            self._download_update(info)
 
     def _on_update_error(self, msg: str) -> None:
         QMessageBox.warning(self, "检查更新失败", msg[:500])
+
+    def _download_update(self, info: object) -> None:
+        threading.Thread(target=self._do_download_update, args=(info,), daemon=True).start()
+
+    def _do_download_update(self, info: object) -> None:
+        try:
+            sys.path.insert(0, str(ROOT / "src"))
+            from takealot_autolister.updater import download_file, sha256_file
+
+            download_url = str(getattr(info, "download_url", "") or "").strip()
+            latest = str(getattr(info, "latest_version", "") or "").strip() or "latest"
+            expect_sha = str(getattr(info, "sha256", "") or "").strip().lower()
+            if not download_url:
+                raise RuntimeError("更新下载地址为空。")
+
+            parsed = urllib.parse.urlparse(download_url)
+            base = Path(parsed.path).name or ""
+            ext = "".join(Path(base).suffixes) if base else ""
+            if not ext:
+                ext = ".zip"
+            save_dir = WORK_ROOT / "downloads"
+            save_dir.mkdir(parents=True, exist_ok=True)
+            final_path = save_dir / f"TakealotAutoLister-{latest}{ext}"
+            tmp_path = final_path.with_suffix(final_path.suffix + ".part")
+
+            self._bridge.log_line.emit(f"⬇️ 开始下载更新包：{download_url}", "info")
+            download_file(download_url, str(tmp_path), timeout=90)
+
+            if expect_sha:
+                got = sha256_file(str(tmp_path)).lower()
+                if got != expect_sha:
+                    try:
+                        tmp_path.unlink(missing_ok=True)
+                    except Exception:
+                        pass
+                    raise RuntimeError("更新包校验失败（sha256 不匹配）。")
+
+            if final_path.exists():
+                final_path.unlink()
+            tmp_path.rename(final_path)
+            self._bridge.log_line.emit(f"✅ 更新包已下载：{final_path}", "ok")
+            self._bridge.update_download_done.emit((str(final_path), latest))
+        except Exception as exc:
+            self._bridge.update_error.emit(f"下载更新失败：{exc}")
+
+    def _on_update_download_done(self, payload: object) -> None:
+        try:
+            path, latest = payload  # type: ignore[misc]
+        except Exception:
+            return
+        msg = f"更新包下载完成：\n{path}\n\n版本：v{latest}\n是否现在打开安装包？"
+        btn = QMessageBox.question(self, "下载完成", msg)
+        if btn == QMessageBox.StandardButton.Yes:
+            self._open_external_url(str(path))
 
     # ── 授权 ────────────────────────────────────────────────────────────────
 
