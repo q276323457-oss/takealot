@@ -46,6 +46,20 @@ else:
     ROOT = Path(__file__).resolve().parent
 
 
+def _resolve_config_root() -> Path:
+    # PyInstaller onedir may place bundled data under `_internal/config`.
+    candidates: list[Path] = []
+    meipass = getattr(sys, "_MEIPASS", "")
+    if meipass:
+        candidates.append(Path(meipass) / "config")
+    candidates.append(ROOT / "config")
+    candidates.append(ROOT / "_internal" / "config")
+    for p in candidates:
+        if p.exists():
+            return p
+    return ROOT / "config"
+
+
 def _default_work_root() -> Path:
     if not getattr(sys, "frozen", False):
         return ROOT
@@ -70,10 +84,11 @@ else:
 RUNS_DIR   = WORK_ROOT / "output" / "runs"
 LOG_DIR    = WORK_ROOT / "logs"
 CONFIG_FILE = WORK_ROOT / ".runtime" / "ui_config.json"
+CONFIG_ROOT = _resolve_config_root()
 APP_VERSION = os.getenv("APP_VERSION", "1.0.0").strip() or "1.0.0"
 APP_PRODUCT = os.getenv("LICENSE_PRODUCT", "takealot-autolister").strip() or "takealot-autolister"
 LICENSE_FILE = WORK_ROOT / ".runtime" / "license.json"
-LICENSE_PUBKEY = ROOT / "config" / "license_public.pem"
+LICENSE_PUBKEY = CONFIG_ROOT / "license_public.pem"
 
 
 # ── 信号桥（子线程 → 主线程）────────────────────────────────────────────────
@@ -862,7 +877,7 @@ class MainWindow(QMainWindow):
 
             self._bridge.log_line.emit(f"🚀 开始处理：{link}", "info")
 
-            rules = load_rules(str(ROOT / "config" / "rules.yaml"))
+            rules = load_rules(str(CONFIG_ROOT / "rules.yaml"))
             result = process_one_link(
                 link=link,
                 output_dir=RUNS_DIR,
@@ -875,7 +890,7 @@ class MainWindow(QMainWindow):
                 storage_state_takealot=str(self._STATE_TAKEALOT) if self._STATE_TAKEALOT.exists() else None,
                 remove_bg=False,
                 automate_portal_enabled=False,
-                selectors_path=str(ROOT / "config" / "selectors.yaml"),
+                selectors_path=str(CONFIG_ROOT / "selectors.yaml"),
                 portal_mode="draft",
                 login_wait_seconds=300,
                 browser_profile_directory=os.getenv("BROWSER_PROFILE_DIRECTORY", "Default"),
