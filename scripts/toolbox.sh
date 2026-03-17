@@ -82,12 +82,13 @@ publish_manifest_interactive() {
 }
 
 upload_win_and_publish_interactive() {
-  local ver pkg_path notes yn force mac_url
+  local ver pkg_path pkg_url notes yn force mac_url
   read -r -p "版本号（如 1.1.1）: " ver
   if [ -z "${ver:-}" ]; then
     echo "版本号不能为空。"
     return 1
   fi
+  read -r -p "Windows 包下载链接（可留空，支持 GitHub Release 链接）: " pkg_url
   read -r -p "Windows 包路径（留空自动找 dist/TakealotAutoLister-win-${ver}.zip）: " pkg_path
   read -r -p "更新说明（可留空）: " notes
   read -r -p "是否强制更新？(y/N): " yn
@@ -99,6 +100,7 @@ upload_win_and_publish_interactive() {
 
   ensure_venv
   cmd=("$ROOT/.venv/bin/python" "$ROOT/scripts/upload_win_and_publish_manifest.py" --version "$ver")
+  if [ -n "${pkg_url:-}" ]; then cmd+=(--package-url "$pkg_url"); fi
   if [ -n "${pkg_path:-}" ]; then cmd+=(--package-path "$pkg_path"); fi
   if [ -n "${notes:-}" ]; then cmd+=(--notes "$notes"); fi
   if [ -n "${mac_url:-}" ]; then cmd+=(--mac-url "$mac_url"); fi

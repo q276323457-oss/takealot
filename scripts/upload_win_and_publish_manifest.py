@@ -5,6 +5,8 @@ import argparse
 import hashlib
 import json
 import os
+import warnings
+from urllib.parse import urlparse
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +16,17 @@ try:
     import oss2
 except Exception as e:
     raise SystemExit(f"缺少依赖 oss2：{e}\n请先执行: pip install oss2")
+
+try:
+    import requests
+except Exception as e:
+    raise SystemExit(f"缺少依赖 requests：{e}\n请先执行: pip install requests")
+
+try:
+    from urllib3.exceptions import NotOpenSSLWarning
+    warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+except Exception:
+    pass
 
 
 def _env(name: str, default: str = "") -> str:
@@ -60,6 +73,34 @@ def _find_win_package(root: Path, version: str, custom_path: str) -> Path:
     raise SystemExit("未找到 Windows 包。请先构建，或手动传 --package-path。")
 
 
+def _download_package_from_url(root: Path, package_url: str, version: str) -> Path:
+    url = package_url.strip()
+    if not url:
+        raise SystemExit("package-url 为空")
+    tmp_dir = root / ".runtime" / "downloads"
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    parsed = urlparse(url)
+    base = Path(parsed.path).name or f"TakealotAutoLister-win-{version}.zip"
+    if not base.lower().endswith(".zip"):
+        base = f"TakealotAutoLister-win-{version}.zip"
+    final_path = tmp_dir / base
+    part_path = final_path.with_suffix(final_path.suffix + ".part")
+
+    print(f"⬇️ 从 URL 下载 Windows 包：{url}")
+    with requests.get(url, stream=True, timeout=120, headers={"User-Agent": "takealot-autolister-uploader/1.0"}) as r:
+        r.raise_for_status()
+        with part_path.open("wb") as f:
+            for chunk in r.iter_content(chunk_size=1024 * 512):
+                if chunk:
+                    f.write(chunk)
+
+    if final_path.exists():
+        final_path.unlink()
+    part_path.rename(final_path)
+    print(f"✅ 下载完成：{final_path}")
+    return final_path.resolve()
+
+
 def _load_existing_manifest(bucket: "oss2.Bucket", key: str) -> dict[str, Any]:
     try:
         obj = bucket.get_object(key.lstrip("/"))
@@ -79,6 +120,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="上传 Windows 包到 OSS，并更新 update manifest")
     parser.add_argument("--version", required=True, help="版本号，例如 1.1.1")
     parser.add_argument("--package-path", default="", help="本地 Windows zip 路径，留空则自动查找 dist/")
+    parser.add_argument("--package-url", default="", help="Windows zip 下载链接（例如 GitHub Release 链接）")
     parser.add_argument("--win-key", default="takealot/updates/TakealotAutoLister-win-{version}.zip", help="OSS 存储 key，支持 {version}")
     parser.add_argument("--manifest-key", default=_env("AUTO_UPDATE_MANIFEST_KEY", "takealot/updates/update_manifest.json"))
     parser.add_argument("--mac-url", default="", help="可选：mac 下载链接；留空会保留原 manifest 的 mac 链接")
@@ -96,7 +138,11 @@ def main() -> None:
     endpoint = _must("OSS_ENDPOINT")
     base_url = _env("OSS_BASE_URL")
 
-    package_path = _find_win_package(root, version, args.package_path)
+    package_url = args.package_url.strip()
+    if package_url:
+        package_path = _download_package_from_url(root, package_url, version)
+    else:
+        package_path = _find_win_package(root, version, args.package_path)
     win_key = args.win_key.format(version=version).strip().lstrip("/")
     manifest_key = args.manifest_key.strip().lstrip("/")
     if not win_key:
