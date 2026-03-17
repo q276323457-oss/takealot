@@ -52,6 +52,20 @@ def manifest_url_from_env() -> str:
     return ""
 
 
+def manifest_urls_from_env() -> list[str]:
+    urls: list[str] = []
+    direct = os.getenv("AUTO_UPDATE_MANIFEST_URL", "").strip()
+    if direct:
+        urls.append(direct)
+    base = os.getenv("OSS_BASE_URL", "").rstrip("/")
+    key = os.getenv("AUTO_UPDATE_MANIFEST_KEY", "takealot/updates/update_manifest.json").strip().lstrip("/")
+    if base:
+        fallback = f"{base}/{key}"
+        if fallback not in urls:
+            urls.append(fallback)
+    return [u for u in urls if u]
+
+
 def _pick_platform_value(data: dict[str, Any], key: str) -> str:
     # 支持以下结构：
     # files: {"macos": "...", "windows": "..."}
@@ -72,8 +86,8 @@ def _pick_platform_value(data: dict[str, Any], key: str) -> str:
 
 
 def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
-    url = manifest_url_from_env()
-    if not url:
+    urls = manifest_urls_from_env()
+    if not urls:
         return UpdateInfo(
             has_update=False,
             current_version=current_version,
@@ -81,9 +95,25 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
             manifest_url="",
         )
 
-    r = requests.get(url, timeout=timeout, headers={"User-Agent": "takealot-autolister-updater/1.0"})
-    r.raise_for_status()
-    data = r.json()
+    data: dict[str, Any] | None = None
+    chosen_url = ""
+    last_err: Exception | None = None
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=timeout, headers={"User-Agent": "takealot-autolister-updater/1.0"})
+            r.raise_for_status()
+            j = r.json()
+            if not isinstance(j, dict):
+                raise RuntimeError("update manifest 格式无效：根节点不是对象")
+            data = j
+            chosen_url = url
+            break
+        except Exception as e:
+            last_err = e
+            continue
+    if data is None:
+        raise RuntimeError(f"无法获取更新清单：{last_err}")
+
     if not isinstance(data, dict):
         raise RuntimeError("update manifest 格式无效：根节点不是对象")
 
@@ -106,7 +136,7 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
         notes=str(data.get("notes") or data.get("release_notes") or "").strip(),
         force=bool(data.get("force", False)),
         sha256=checksum,
-        manifest_url=url,
+        manifest_url=chosen_url,
     )
 
 
@@ -126,4 +156,3 @@ def sha256_file(path: str) -> str:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
-
