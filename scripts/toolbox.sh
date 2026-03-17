@@ -4,6 +4,20 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
+ensure_venv() {
+  if [ ! -x "$ROOT/.venv/bin/python" ]; then
+    echo "未检测到 .venv，正在创建并安装依赖（首次会稍慢）..."
+    python3 -m venv "$ROOT/.venv"
+    "$ROOT/.venv/bin/python" -m pip install -U pip
+    "$ROOT/.venv/bin/python" -m pip install -r "$ROOT/requirements.txt"
+  fi
+}
+
+run_py() {
+  ensure_venv
+  "$ROOT/.venv/bin/python" "$@"
+}
+
 open_actions_page() {
   local remote url
   remote="$(git remote get-url origin 2>/dev/null || true)"
@@ -19,6 +33,54 @@ open_actions_page() {
   open "$url/actions"
 }
 
+init_license_keys() {
+  run_py "$ROOT/scripts/init_license_keys.py"
+}
+
+gen_license_token_interactive() {
+  local machine card_id days product
+  read -r -p "请输入用户机器码: " machine
+  if [ -z "${machine:-}" ]; then
+    echo "机器码不能为空。"
+    return 1
+  fi
+  read -r -p "请输入卡号标识（如 CARD-001）: " card_id
+  if [ -z "${card_id:-}" ]; then
+    echo "卡号不能为空。"
+    return 1
+  fi
+  read -r -p "有效天数（默认 365）: " days
+  days="${days:-365}"
+  read -r -p "产品标识（默认 takealot-autolister）: " product
+  product="${product:-takealot-autolister}"
+  run_py "$ROOT/scripts/gen_license_token.py" --machine "$machine" --card-id "$card_id" --days "$days" --product "$product"
+}
+
+publish_manifest_interactive() {
+  local ver mac_url win_url notes force yn
+  read -r -p "版本号（如 1.0.8）: " ver
+  if [ -z "${ver:-}" ]; then
+    echo "版本号不能为空。"
+    return 1
+  fi
+  read -r -p "mac 下载链接（可留空）: " mac_url
+  read -r -p "win 下载链接（可留空）: " win_url
+  read -r -p "更新说明（可留空）: " notes
+  read -r -p "是否强制更新？(y/N): " yn
+  force="false"
+  if [ "${yn:-N}" = "y" ] || [ "${yn:-N}" = "Y" ]; then
+    force="true"
+  fi
+
+  ensure_venv
+  cmd=("$ROOT/.venv/bin/python" "$ROOT/scripts/publish_update_manifest.py" --version "$ver")
+  if [ -n "${mac_url:-}" ]; then cmd+=(--mac-url "$mac_url"); fi
+  if [ -n "${win_url:-}" ]; then cmd+=(--win-url "$win_url"); fi
+  if [ -n "${notes:-}" ]; then cmd+=(--notes "$notes"); fi
+  if [ "$force" = "true" ]; then cmd+=(--force); fi
+  "${cmd[@]}"
+}
+
 while true; do
   clear
   echo "==========================================="
@@ -27,9 +89,13 @@ while true; do
   echo "1) 初始化 GitHub 云打包（首次用）"
   echo "2) 发布新版本并触发 Win 云打包"
   echo "3) 打开 GitHub Actions 页面"
-  echo "4) 退出"
+  echo "4) 初始化授权密钥（只做一次）"
+  echo "5) 生成卡密（输入机器码）"
+  echo "6) Mac 本地打包"
+  echo "7) 发布更新清单到 OSS"
+  echo "8) 退出"
   echo
-  read -r -p "请输入选项(1-4): " CHOICE
+  read -r -p "请输入选项(1-8): " CHOICE
 
   case "$CHOICE" in
     1)
@@ -42,10 +108,22 @@ while true; do
       open_actions_page
       ;;
     4)
+      init_license_keys
+      ;;
+    5)
+      gen_license_token_interactive
+      ;;
+    6)
+      bash "$ROOT/scripts/build_mac.sh"
+      ;;
+    7)
+      publish_manifest_interactive
+      ;;
+    8)
       exit 0
       ;;
     *)
-      echo "输入无效，请输入 1-4。"
+      echo "输入无效，请输入 1-8。"
       ;;
   esac
 
