@@ -15,12 +15,16 @@ if ([string]::IsNullOrWhiteSpace($AppVersion)) {
     $AppVersion = "0.0.0-dev"
 }
 
-if (Get-Command py -ErrorAction SilentlyContinue) {
-    $PyCmd = "py"
-    $PyArgs = @("-3")
-} else {
+if (Get-Command python -ErrorAction SilentlyContinue) {
     $PyCmd = "python"
     $PyArgs = @()
+} elseif (Get-Command py -ErrorAction SilentlyContinue) {
+    # GitHub Actions setup-python puts the expected Python in PATH as `python`.
+    # Fallback to `py -3.11` to avoid accidentally using 3.14+ and breaking pinned wheels.
+    $PyCmd = "py"
+    $PyArgs = @("-3.11")
+} else {
+    throw "No Python interpreter found (python/py)."
 }
 
 if (!(Test-Path ".venv")) {
@@ -28,6 +32,7 @@ if (!(Test-Path ".venv")) {
 }
 
 Write-Host "Python path: .\\.venv\\Scripts\\python.exe"
+& ".\.venv\Scripts\python.exe" --version
 & ".\.venv\Scripts\python.exe" -m pip install -U pip
 & ".\.venv\Scripts\python.exe" -m pip install -r requirements.txt pyinstaller
 & ".\.venv\Scripts\python.exe" -m pip --version
