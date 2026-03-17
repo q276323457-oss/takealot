@@ -43,7 +43,15 @@ jobs:
         run: |
           New-Item -ItemType Directory -Force -Path build_logs | Out-Null
           powershell -ExecutionPolicy Bypass -File .\scripts\build_win.ps1 -AppName "TakealotAutoLister" -AppVersion "${env:APP_VERSION}" *>&1 | Tee-Object -FilePath build_logs/build_win.log
-          if ($LASTEXITCODE -ne 0) {
+          $exitCode = $LASTEXITCODE
+          if ($null -eq $exitCode) { $exitCode = 0 }
+          $zipPath = "dist/${env:ZIP_NAME}"
+          if (!(Test-Path $zipPath)) {
+            "zip not found: $zipPath" | Tee-Object -FilePath build_logs/build_win.log -Append
+            $exitCode = 1
+          }
+          Write-Host "Build exit code: $exitCode"
+          if ($exitCode -ne 0) {
             "BUILD_FAILED=1" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           } else {
             "BUILD_FAILED=0" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
