@@ -755,8 +755,8 @@ class MainWindow(QMainWindow):
                 mode="1688",
                 browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
                 wait_seconds=300,
-                stable_hits=6,
-                verify_url="https://detail.1688.com",
+                stable_hits=2,
+                verify_url="https://work.1688.com/home/page/index.htm",
             )
             self._log("ok", "✅  1688 登录成功，状态已保存。")
             QTimer.singleShot(0, self._refresh_login_status)
@@ -787,8 +787,8 @@ class MainWindow(QMainWindow):
                 state_path=str(self._STATE_TAKEALOT),
                 mode="takealot",
                 browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
-                wait_seconds=180,
-                stable_hits=4,
+                wait_seconds=120,
+                stable_hits=2,
                 verify_url="https://sellers.takealot.com",
             )
             self._log("ok", "✅  Takealot 登录成功，状态已保存。")
@@ -825,7 +825,7 @@ class MainWindow(QMainWindow):
                 mode="1688",
                 browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
                 wait_seconds=300,
-                stable_hits=12,
+                stable_hits=3,
                 verify_url=url,
             )
             self._log("ok", "✅  验证完成，session 已保存。现在可以点【开始生成】。")
@@ -1310,7 +1310,7 @@ class MainWindow(QMainWindow):
             takealot_path = options[idx][1]
 
         # 读写 overrides 文件
-        overrides_path = ROOT / "input" / "category_overrides.yaml"
+        overrides_path = WORK_ROOT / "input" / "category_overrides.yaml"
         overrides_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             if overrides_path.exists():

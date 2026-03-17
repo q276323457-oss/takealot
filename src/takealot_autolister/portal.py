@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -47,7 +48,26 @@ def _to_bool(v: Any, default: bool = False) -> bool:
 
 def _category_overrides_path(selectors_cfg_path: str | Path) -> Path:
     base = Path(selectors_cfg_path).resolve().parent.parent
-    return (base / "input" / "category_overrides.yaml").resolve()
+    override = os.getenv("TAKEALOT_APP_HOME", "").strip()
+    if override:
+        work_root = Path(override).expanduser()
+    elif getattr(sys, "frozen", False):
+        if sys.platform.startswith("darwin"):
+            work_root = Path.home() / "Library" / "Application Support" / "TakealotAutoLister"
+        elif sys.platform.startswith("win"):
+            work_root = Path(os.getenv("APPDATA", str(Path.home()))) / "TakealotAutoLister"
+        else:
+            work_root = Path.home() / ".takealot-autolister"
+    else:
+        work_root = base
+
+    primary = (work_root / "input" / "category_overrides.yaml").resolve()
+    fallback = (base / "input" / "category_overrides.yaml").resolve()
+    if primary.exists():
+        return primary
+    if fallback.exists():
+        return fallback
+    return primary
 
 
 def _load_category_overrides(selectors_cfg_path: str | Path) -> list[dict[str, Any]]:

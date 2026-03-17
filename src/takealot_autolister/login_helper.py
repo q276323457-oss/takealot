@@ -16,6 +16,38 @@ class LoginNotCompletedError(RuntimeError):
     pass
 
 
+_A1688_AUTH_COOKIE_HINTS = {
+    "_nk_",
+    "cookie2",
+    "_tb_token_",
+    "havana_lgc2_0",
+    "cookie1",
+    "cookie17",
+}
+
+_TAKEALOT_AUTH_LS_KEYS = {"usr_st_auth", "usr_st_usr", "usr_st_slr"}
+
+
+def _has_1688_auth_cookie(page: Page) -> bool:
+    try:
+        cookies = page.context.cookies(
+            ["https://www.1688.com", "https://detail.1688.com", "https://work.1688.com"]
+        )
+    except Exception:
+        return False
+    names = {str(c.get("name", "")).strip().lower() for c in cookies if isinstance(c, dict)}
+    return any(n in names for n in _A1688_AUTH_COOKIE_HINTS)
+
+
+def _has_takealot_auth_localstorage(page: Page) -> bool:
+    try:
+        keys = page.evaluate("Object.keys(localStorage || {})") or []
+    except Exception:
+        return False
+    key_set = {str(k).strip() for k in keys if str(k).strip()}
+    return any(k in key_set for k in _TAKEALOT_AUTH_LS_KEYS)
+
+
 def _looks_like_1688_login(page: Page) -> bool:
     try:
         title_now = str(page.title() or "").lower()
@@ -67,8 +99,28 @@ def _looks_like_1688_authenticated(page: Page) -> bool:
     if _looks_like_1688_login(page):
         return False
 
-    # If we are in 1688 domain and not on login page, consider authenticated.
-    return True
+    # 必须看到认证 cookie，避免在未登录详情页被误判为已登录。
+    if not _has_1688_auth_cookie(page):
+        return False
+
+    # 登录后常见入口域名优先通过。
+    if any(x in current_url for x in ("work.1688.com", "my.1688.com", "member.1688.com")):
+        return True
+
+    # 兜底：页面上存在明确“已登录态”标识。
+    try:
+        markers = [
+            "text=我的阿里",
+            "text=我的订单",
+            "text=采购车",
+            "a[href*='work.1688.com']",
+        ]
+        if any(page.locator(m).count() > 0 for m in markers):
+            return True
+    except Exception:
+        pass
+
+    return False
 
 
 def _looks_like_takealot_login(page: Page) -> bool:
@@ -95,6 +147,10 @@ def _looks_like_takealot_authenticated(page: Page) -> bool:
         return False
     if _looks_like_takealot_login(page):
         return False
+    # 优先：localStorage 中出现 seller token，说明登录已完成。
+    if _has_takealot_auth_localstorage(page):
+        return True
+
     # 1) URL 路径匹配：登录后会跳到 /dashboard、/offers、/shipments 等明确路径
     _LOGGED_IN_PATHS = ("/dashboard", "/offers", "/shipments", "/accounting", "/sales", "/advertising")
     if any(p in url for p in _LOGGED_IN_PATHS):
@@ -190,7 +246,9 @@ def _validate_state(state_path: Path, mode: str, browser_channel: str, verify_ur
         return False
 
     if mode == "1688":
-        if not any("1688.com" in str(c.get("domain", "")) for c in cookies):
+        names = {str(c.get("name", "")).strip().lower() for c in cookies if isinstance(c, dict)}
+        has_auth_cookie = any(n in names for n in _A1688_AUTH_COOKIE_HINTS)
+        if not has_auth_cookie:
             return False
     elif mode == "takealot":
         # Takealot 对无头浏览器有反爬检测，无头验证会失败。

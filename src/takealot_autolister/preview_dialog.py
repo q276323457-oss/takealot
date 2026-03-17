@@ -17,6 +17,8 @@
 from __future__ import annotations
 
 import csv
+import os
+import sys
 import threading
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -46,6 +48,43 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
+
+
+def _app_root() -> Path:
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parents[2]
+
+
+def _default_work_root() -> Path:
+    if not getattr(sys, "frozen", False):
+        return _app_root()
+    if sys.platform.startswith("darwin"):
+        return Path.home() / "Library" / "Application Support" / "TakealotAutoLister"
+    if sys.platform.startswith("win"):
+        return Path(os.getenv("APPDATA", str(Path.home()))) / "TakealotAutoLister"
+    return Path.home() / ".takealot-autolister"
+
+
+def _resolve_work_root() -> Path:
+    override = os.getenv("TAKEALOT_APP_HOME", "").strip()
+    root = Path(override).expanduser() if override else _default_work_root()
+    root.mkdir(parents=True, exist_ok=True)
+    return root
+
+
+def _resolve_data_dir(name: str) -> Path:
+    root = _app_root()
+    candidates: list[Path] = []
+    meipass = getattr(sys, "_MEIPASS", "")
+    if meipass:
+        candidates.append(Path(meipass) / name)
+    candidates.append(root / name)
+    candidates.append(root / "_internal" / name)
+    for p in candidates:
+        if p.exists():
+            return p
+    return root / name
 
 
 # ── 数据结构 ──────────────────────────────────────────────────────────────────
@@ -772,8 +811,11 @@ class PreviewDialog(QDialog):
         self._translate_thread: QThread | None = None
         self._probe_thread: QThread | None = None
         self._result = PreviewResult()
-        self._project_root = Path(__file__).resolve().parents[2]
-        self._selectors_cfg_path = self._project_root / "config" / "selectors.yaml"
+        self._app_root = _app_root()
+        self._work_root = _resolve_work_root()
+        self._config_root = _resolve_data_dir("config")
+        self._input_root = _resolve_data_dir("input")
+        self._selectors_cfg_path = self._config_root / "selectors.yaml"
         src_path = (self._data.product_info or {}).get("category_path") or []
         self._source_category_path = [str(x).strip() for x in src_path if str(x).strip()]
         self._pending_reprobe_form: dict[str, Any] = {}
@@ -908,9 +950,10 @@ class PreviewDialog(QDialog):
         # 兼容两种项目结构（根目录下有 src/ 或直接是包目录）：
         # 自底向上查找最近的 input/takealot_categories.csv。
         csv_path = None
-        search_roots = [self._project_root, *Path(__file__).resolve().parents]
+        search_roots = [self._input_root, self._work_root / "input", self._app_root / "input", *Path(__file__).resolve().parents]
         for root in search_roots:
-            candidate = Path(root) / "input" / "takealot_categories.csv"
+            root = Path(root)
+            candidate = root / "takealot_categories.csv" if root.name == "input" else root / "input" / "takealot_categories.csv"
             if candidate.exists():
                 csv_path = candidate
                 break
@@ -1093,7 +1136,7 @@ class PreviewDialog(QDialog):
             return False, "source_category_path 或 takealot_path 为空。"
         try:
             import yaml
-            overrides_path = self._project_root / "input" / "category_overrides.yaml"
+            overrides_path = self._work_root / "input" / "category_overrides.yaml"
             overrides_path.parent.mkdir(parents=True, exist_ok=True)
             if overrides_path.exists():
                 data = yaml.safe_load(overrides_path.read_text(encoding="utf-8"))
