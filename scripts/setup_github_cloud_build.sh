@@ -31,6 +31,18 @@ git config --global http.lowSpeedLimit 0
 git config --global http.lowSpeedTime 999999
 git config --global http.version HTTP/1.1
 
+auto_setup_proxy() {
+  if git config --global --get https.proxy >/dev/null 2>&1; then
+    return 0
+  fi
+  if command -v lsof >/dev/null 2>&1 && lsof -nP -iTCP:7890 -sTCP:LISTEN 2>/dev/null | grep -q LISTEN; then
+    echo "检测到 Clash 代理端口 127.0.0.1:7890，自动配置 git 代理..."
+    git config --global http.proxy http://127.0.0.1:7890
+    git config --global https.proxy http://127.0.0.1:7890
+    git config --global http.https://github.com.proxy http://127.0.0.1:7890
+  fi
+}
+
 push_main() {
   local max_try=3
   local i
@@ -60,6 +72,9 @@ username=$gh_user
 password=$gh_token
 EOF
 }
+
+echo
+auto_setup_proxy
 
 echo
 if git remote get-url origin >/dev/null 2>&1; then
