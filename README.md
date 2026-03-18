@@ -279,3 +279,33 @@ git push origin v1.0.1
 - 10 退出
 
 说明：菜单 8 支持直接粘贴 GitHub Release 或 Actions Artifact 的下载链接（无需先手动下载到本地）。
+
+---
+
+## 13）修复 & 优化记录
+
+> 按版本倒序排列，方便查阅。
+
+### v1.2.6
+- **`gui_qt` `_apply_env`**：保存配置时同步把 `GEMINI_IMAGE_BASE_URL` 和 `GEMINI_IMAGE_MODEL` 写入 `.env`，防止旧版 `.env` 里的过时代理地址（如 `yansd666.com`）覆盖新默认值导致生图失败
+- **`gui_qt` `_load_config`**：从 JSON 配置回退路径读取 Gemini key 时，同步写入 `os.environ["GEMINI_IMAGE_API_KEY"]`，解决重装/迁移后不点保存就生图失败的问题
+- **`image_generator` `_call_generate`**：捕获的真实异常保存到 `_last_err`，最终 raise 携带具体错误原因（如 API 404、timeout），不再只显示"请检查 API KEY"
+
+### v1.2.5
+- **`image_generator` `_bytes_to_thumbnail`**：修复 Windows 上 WebP 图片解码失败，统一先 `Image.open()` 再 `convert("RGB")` 再压缩
+- **`scripts/build_win.ps1`**：添加 `--hidden-import PIL.WebPImagePlugin/JpegImagePlugin/PngImagePlugin` 和 `--collect-data PIL`，确保打包后 Pillow 能解码 WebP
+- **`preview_dialog` `_load_source_async`**：改为 `ThreadPoolExecutor(max_workers=4)` 并行下载原图，有 `finally` 兜底保证 Signal 一定发出，解决"加载中..."卡死
+- **`updater` `download_file`**：支持多线程分片下载（4线程），大文件下载速度显著提升；支持 `progress_cb` 进度回调
+
+### v1.2.4 及以前（关键修复汇总）
+- **`siliconflow_llm` `_chat_endpoint`**：`doubao-*` 模型路由到 Volcano Engine（`ark.cn-beijing.volces.com/api/v3`），其他模型走 SiliconFlow，解决 401 / 404 错误
+- **`gui_qt` `_apply_env` / `_load_config`**：保存 `DOUBAO_API_KEY` 时同步写 `SILICONFLOW_API_KEY`，解决界面填了豆包 key 但 LLM 报"未配置"的问题
+- **`gemini_image`**：默认代理地址改为 `https://api.viviai.cc`，默认模型改为 `gemini-2.5-flash-image-preview`
+- **`csv_exporter` `_ROOT`**：打包环境下改用 `sys._MEIPASS` 定位资源目录，解决 Windows 下 xlsm 生成失败
+- **`portal` `_PROBE_CACHE_DIR`**：改用 `WORK_ROOT` 环境变量定位缓存目录，解决打包后路径错误
+- **`gui_qt` `_open_run`**：改用 `_open_external_url()`（跨平台），移除 macOS 专用 `subprocess.Popen(["open", ...])`
+- **`gui_qt` `storage_state_1688`**：优先使用 `_STATE_1688` 文件路径而非仅读 env var，解决 Windows 上 1688 登录状态不传递给 scraper
+- **`gui_qt` 目录初始化**：启动时确保 `RUNS_DIR`、`LOG_DIR`、`CONFIG_FILE.parent` 存在，解决 Windows 首次运行报目录不存在
+- **`updater` `_DEFAULT_MANIFEST_URL`**：硬编码 OSS 清单地址兜底，解决未配置 `.env` 时"检查更新"无法工作
+- **`gui_qt` 下载文件名**：`Path(base).suffixes` → `Path(base).suffix`，修复文件名变成 `1.1.6.1.6.zip` 的 bug
+- **`image_generator`**：修复裸 `raise`（在 except 块外）导致 `No active exception to reraise` 崩溃
