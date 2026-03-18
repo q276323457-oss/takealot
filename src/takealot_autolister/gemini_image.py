@@ -1,14 +1,14 @@
 """
-Gemini 图片生成适配器（通过 yansd666.com 代理）
+Gemini 图片生成适配器（通过 viviai.cc 代理）
 
-接口：POST https://yansd666.com/v1beta/models/{model}:generateContent
+接口：POST https://api.viviai.cc/v1beta/models/{model}:generateContent
 认证：Authorization: Bearer <key>
 官方格式：https://ai.google.dev/gemini-api/docs/image-generation
 
 环境变量：
     GEMINI_IMAGE_API_KEY    API Key（单独配置，与 LLM_API_KEY 分开）
-    GEMINI_IMAGE_BASE_URL   代理 base URL，默认 https://yansd666.com
-    GEMINI_IMAGE_MODEL      模型，默认 gemini-3.1-flash-image-preview
+    GEMINI_IMAGE_BASE_URL   代理 base URL，默认 https://api.viviai.cc
+    GEMINI_IMAGE_MODEL      模型，默认 gemini-2.5-flash-image-preview
 """
 from __future__ import annotations
 
@@ -17,10 +17,28 @@ import io
 import os
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from PIL import Image
 
 _DEFAULT_BASE_URL = "https://api.viviai.cc"
 _DEFAULT_MODEL = "gemini-2.5-flash-image-preview"
+
+
+def _make_session() -> requests.Session:
+    """创建带重试的 requests Session，解决 Windows SSL EOF 问题。"""
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=1,          # 重试间隔：1s, 2s, 4s
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=["POST"],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://",  adapter)
+    return session
 
 
 def _api_key() -> str:
@@ -105,7 +123,18 @@ def generate_image(
     mode = "图生图" if reference_images_bytes else "文生图"
     print(f"[gemini_img] {mode}，model={model}，aspect={aspect_ratio}，数量={n}")
 
-    resp = requests.post(endpoint, headers=headers, json=payload, timeout=180)
+    session = _make_session()
+    last_err: Exception | None = None
+    for attempt in range(1, 4):   # 最多尝试 3 次（SSL EOF 通常重试即可）
+        try:
+            resp = session.post(endpoint, headers=headers, json=payload, timeout=180)
+            break
+        except Exception as e:
+            last_err = e
+            print(f"[gemini_img] 第{attempt}次请求失败：{e}，{'重试...' if attempt < 3 else '放弃'}")
+    else:
+        raise RuntimeError(f"Gemini 请求失败（已重试3次）：{last_err}")
+
     if not resp.ok:
         try:
             err = resp.json()

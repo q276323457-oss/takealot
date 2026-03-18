@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.7
+- **`gemini_image` `generate_image`**：添加带重试的 `requests.Session`（`urllib3.Retry`，最多3次，退避1/2/4s），解决 Windows 上 `SSL: UNEXPECTED_EOF_WHILE_READING` 导致生图必败的问题；每次 SSL 失败会自动重试，3次全部失败时报错信息包含真实原因
+
 ### v1.2.6
 - **`gui_qt` `_apply_env`**：保存配置时同步把 `GEMINI_IMAGE_BASE_URL` 和 `GEMINI_IMAGE_MODEL` 写入 `.env`，防止旧版 `.env` 里的过时代理地址（如 `yansd666.com`）覆盖新默认值导致生图失败
 - **`gui_qt` `_load_config`**：从 JSON 配置回退路径读取 Gemini key 时，同步写入 `os.environ["GEMINI_IMAGE_API_KEY"]`，解决重装/迁移后不点保存就生图失败的问题
