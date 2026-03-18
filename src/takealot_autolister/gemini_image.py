@@ -17,8 +17,6 @@ import io
 import os
 
 import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 from PIL import Image
 
 _DEFAULT_BASE_URL = "https://api.viviai.cc"
@@ -26,22 +24,13 @@ _DEFAULT_MODEL = "gemini-2.5-flash-image-preview"
 
 
 def _make_session() -> requests.Session:
-    """创建带重试的 requests Session，解决 Windows SSL EOF 问题。"""
+    """创建 requests Session，解决 Windows SSL/代理问题。
+    重试逻辑由调用方 Python 层控制，不在 urllib3 层做，避免无日志的静默重试。
+    """
     session = requests.Session()
-    retry = Retry(
-        total=3,
-        backoff_factor=1,
-        status_forcelist=[500, 502, 503, 504],
-        allowed_methods=["POST"],
-        raise_on_status=False,
-    )
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount("https://", adapter)
-    session.mount("http://",  adapter)
-    # Windows 会自动读取系统代理（注册表/IE设置），代理做 SSL 深度检测时
-    # 会导致 UNEXPECTED_EOF_WHILE_READING。trust_env=False 完全绕过系统代理。
+    # trust_env=False：绕过 Windows 系统代理（注册表/IE 代理设置）
     session.trust_env = False
-    # 同时禁用证书校验，防止企业内网/杀毒软件自签证书导致握手失败
+    # verify=False：绕过企业内网/杀毒软件自签证书导致的握手失败
     session.verify = False
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

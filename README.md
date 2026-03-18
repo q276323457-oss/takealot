@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.13
+- **`gemini_image` `_make_session`**：移除 `urllib3.Retry(total=3, backoff_factor=1)`，这是 Windows 上生图"等待 3-5 分钟后 IncompleteRead 报错"的根本原因。`Retry` 会在 urllib3 层做 3 次静默内部重试（每次重试完整 API 调用 ~1min），Python 层的 except 完全看不到重试过程，表现为程序"卡死"。修复：session 只保留 `trust_env=False` + `verify=False`，重试逻辑完全由 Python 层 for 循环控制（已有 3 次重试 + 打印日志）
+
 ### v1.2.12
 - **`preview_dialog` 参考图 URL 错位 bug**：`_load_source_async` 用 `as_completed` 导致图片按下载完成顺序显示，与 `session_urls` 原始顺序不一致；用户选了第 N 张卡，实际传给 Gemini 的却是第 M 张的 URL，造成生成颜色/款式完全不对。修复：改为按原始顺序等待 future，并把 URL 直接存进卡片的 `source_url` 属性，`_start_image_generate` 直接从卡片读 URL 而不再依赖索引
 
