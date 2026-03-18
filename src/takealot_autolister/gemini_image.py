@@ -132,13 +132,19 @@ def generate_image(
 
     session = _make_session()
     last_err: Exception | None = None
-    for attempt in range(1, 4):   # 最多尝试 3 次（SSL EOF 通常重试即可）
+    for attempt in range(1, 4):   # 最多尝试 3 次
         try:
-            resp = session.post(endpoint, headers=headers, json=payload, timeout=180)
+            resp = session.post(endpoint, headers=headers, json=payload, timeout=90)
             break
         except Exception as e:
             last_err = e
-            print(f"[gemini_img] 第{attempt}次请求失败：{e}，{'重试...' if attempt < 3 else '放弃'}")
+            if attempt < 3:
+                import time as _time
+                wait = attempt * 3   # 3s, 6s
+                print(f"[gemini_img] 第{attempt}次请求失败：{e}，{wait}s 后重试...")
+                _time.sleep(wait)
+            else:
+                print(f"[gemini_img] 第{attempt}次请求失败：{e}，放弃")
     else:
         raise RuntimeError(f"Gemini 请求失败（已重试3次）：{last_err}")
 
