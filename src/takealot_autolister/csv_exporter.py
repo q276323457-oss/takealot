@@ -22,6 +22,9 @@ from .types import ListingDraft, ProductSource
 
 # ─── 路径 ──────────────────────────────────────────────────────────────────────
 _HERE = Path(__file__).resolve().parent
+import sys as _sys
+_ROOT = Path(getattr(_sys, "_MEIPASS", None) or _HERE.parent.parent)
+_RAW_DIR = _ROOT / "input" / "loadsheets" / "raw"
 
 # 一些字段（尤其是颜色）里会填类似 "Not specified" 这种占位符，生成 loadsheet 时应视为未填
 _PLACEHOLDER_STRS = {
@@ -38,8 +41,6 @@ def _non_placeholder(v: Any) -> str:
     """把占位符值（To be confirmed 等）转为空字符串，让 AI 补填步骤处理。"""
     s = str(v or "").strip()
     return "" if s.lower() in _PLACEHOLDER_STRS else s
-_ROOT = _HERE.parent.parent
-_RAW_DIR = _ROOT / "input" / "loadsheets" / "raw"
 
 # ─── 中文类目 → 英文关键词映射（1688 中文类目 → Takealot 英文类目搜索词）──────
 _ZH_TO_EN: dict[str, str] = {

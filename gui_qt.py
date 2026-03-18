@@ -109,6 +109,9 @@ else:
 RUNS_DIR   = WORK_ROOT / "output" / "runs"
 LOG_DIR    = WORK_ROOT / "logs"
 CONFIG_FILE = WORK_ROOT / ".runtime" / "ui_config.json"
+RUNS_DIR.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+CONFIG_FILE.parent.mkdir(parents=True, exist_ok=True)
 CONFIG_ROOT = _resolve_config_root()
 APP_VERSION = _resolve_app_version()
 APP_PRODUCT = os.getenv("LICENSE_PRODUCT", "takealot-autolister").strip() or "takealot-autolister"

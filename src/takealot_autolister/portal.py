@@ -2969,7 +2969,9 @@ def _finalize_action(page, mode: str) -> tuple[bool, str]:
 
 # ─── Portal 类目字段探测（缓存到本地 JSON）────────────────────────────────────
 
-_PROBE_CACHE_DIR = Path(__file__).parent.parent.parent / "input" / "portal_fields"
+_PROBE_CACHE_DIR = Path(
+    os.getenv("WORK_ROOT") or Path(__file__).parent.parent.parent
+) / "input" / "portal_fields"
 
 
 def _probe_cache_path(category_key: str) -> Path:

@@ -1698,14 +1698,25 @@ class PreviewDialog(QDialog):
 
     def _load_source_async(self):
         try:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
             from .image_generator import _download_bytes, _bytes_to_thumbnail
-            pairs: list[tuple[bytes, bytes]] = []   # (thumb_bytes, full_bytes)
-            for url in (self._session.source_urls if self._session else [])[:8]:
+
+            urls = (self._session.source_urls if self._session else [])[:8]
+
+            def _fetch_one(url: str):
                 full = _download_bytes(url)
                 if full:
-                    thumb = _bytes_to_thumbnail(full, 100)
-                    pairs.append((thumb, full))
-            self._src_thumbs_ready.emit(pairs)   # Signal 自动切到主线程
+                    return (_bytes_to_thumbnail(full, 100), full)
+                return None
+
+            pairs: list[tuple[bytes, bytes]] = []
+            with ThreadPoolExecutor(max_workers=4) as pool:
+                futs = {pool.submit(_fetch_one, u): u for u in urls}
+                for fut in as_completed(futs):
+                    result = fut.result()
+                    if result:
+                        pairs.append(result)
+            self._src_thumbs_ready.emit(pairs)
         except Exception:
             pass
 
