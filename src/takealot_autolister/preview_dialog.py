@@ -437,7 +437,7 @@ class _ImageCard(QFrame):
     _MIME_TYPE = "application/x-imgcard-id"
 
     def __init__(self, img_bytes: bytes, index: int, parent=None, full_bytes: bytes | None = None,
-                 reorder_callback=None):
+                 reorder_callback=None, source_url: str = ""):
         super().__init__(parent)
         self._bytes = img_bytes
         self._full_bytes = full_bytes if full_bytes is not None else img_bytes
@@ -446,6 +446,7 @@ class _ImageCard(QFrame):
         self._reorder_callback = reorder_callback   # callable(src_id, tgt_id) or None
         self._drag_start_pos: QPoint | None = None
         self._did_drag = False
+        self.source_url = source_url   # 原始 URL，用于生图参考，避免索引错位
 
         self.setFixedSize(160, 185)
         self.setFrameShape(QFrame.Shape.Box)
@@ -1606,12 +1607,16 @@ class PreviewDialog(QDialog):
             return
 
         for i, item in enumerate(pairs):
-            if isinstance(item, (tuple, list)) and len(item) == 2:
+            if isinstance(item, (tuple, list)) and len(item) == 3:
+                thumb_bytes, full_bytes, url = item
+            elif isinstance(item, (tuple, list)) and len(item) == 2:
                 thumb_bytes, full_bytes = item
+                url = ""
             else:
-                thumb_bytes = full_bytes = item  # 旧格式兼容
+                thumb_bytes = full_bytes = item
+                url = ""
 
-            card = _ImageCard(thumb_bytes, i, full_bytes=full_bytes)
+            card = _ImageCard(thumb_bytes, i, full_bytes=full_bytes, source_url=url)
             self._src_layout.addWidget(card)
             self._src_image_cards.append(card)
         self._src_layout.addStretch()
@@ -1670,11 +1675,12 @@ class PreviewDialog(QDialog):
             return
 
         # 收集用户选中的原图 URL（用于图生图参考）
+        # 直接从卡片的 source_url 取，避免异步加载顺序打乱导致索引错位
         selected_src_urls: list[str] = []
         session_urls: list[str] = self._session.source_urls if self._session else []
-        for i, card in enumerate(self._src_image_cards):
-            if card.is_selected() and i < len(session_urls):
-                selected_src_urls.append(session_urls[i])
+        for card in self._src_image_cards:
+            if card.is_selected() and card.source_url:
+                selected_src_urls.append(card.source_url)
         # 未选任何原图时，使用全部原图中的第一张
         ref_urls = selected_src_urls if selected_src_urls else (session_urls[:1] if session_urls else [])
 
@@ -1698,7 +1704,7 @@ class PreviewDialog(QDialog):
 
     def _load_source_async(self):
         try:
-            from concurrent.futures import ThreadPoolExecutor, as_completed
+            from concurrent.futures import ThreadPoolExecutor
             from .image_generator import _download_bytes, _bytes_to_thumbnail
 
             urls = (self._session.source_urls if self._session else [])[:8]
@@ -1707,17 +1713,18 @@ class PreviewDialog(QDialog):
                 try:
                     full = _download_bytes(url, timeout=15)
                     if full:
-                        return (_bytes_to_thumbnail(full, 100), full)
+                        return (_bytes_to_thumbnail(full, 100), full, url)
                 except Exception:
                     pass
                 return None
 
-            pairs: list[tuple[bytes, bytes]] = []
+            pairs: list[tuple[bytes, bytes, str]] = []
             with ThreadPoolExecutor(max_workers=4) as pool:
-                futs = {pool.submit(_fetch_one, u): u for u in urls}
-                for fut in as_completed(futs, timeout=30):
+                # 按原始 URL 顺序提交，按原始顺序收集结果，保证卡片顺序与 source_urls 一致
+                futs = [pool.submit(_fetch_one, u) for u in urls]
+                for fut in futs:
                     try:
-                        result = fut.result()
+                        result = fut.result(timeout=20)
                         if result:
                             pairs.append(result)
                     except Exception:
