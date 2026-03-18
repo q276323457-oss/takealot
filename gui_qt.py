@@ -657,6 +657,9 @@ class MainWindow(QMainWindow):
 
         if env_doubao_key:
             self.key_input.setText(env_doubao_key)
+            # 同步到 siliconflow_llm.py 读取的变量名
+            if not os.getenv("SILICONFLOW_API_KEY", "").strip():
+                os.environ["SILICONFLOW_API_KEY"] = env_doubao_key
         if env_doubao_model:
             idx = self.model_combo.findText(env_doubao_model)
             if idx >= 0:
@@ -669,7 +672,12 @@ class MainWindow(QMainWindow):
             try:
                 cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
                 if not self.key_input.text().strip():
-                    self.key_input.setText(cfg.get("doubao_api_key", ""))
+                    k = cfg.get("doubao_api_key", "")
+                    self.key_input.setText(k)
+                    if k and not os.getenv("SILICONFLOW_API_KEY", "").strip():
+                        os.environ["SILICONFLOW_API_KEY"] = k
+                    if k and not os.getenv("DOUBAO_API_KEY", "").strip():
+                        os.environ["DOUBAO_API_KEY"] = k
                 if self.model_combo.currentIndex() < 0:
                     idx = self.model_combo.findText(cfg.get("doubao_model", ""))
                     if idx >= 0:
@@ -710,16 +718,18 @@ class MainWindow(QMainWindow):
                     return
             lines.append(f"{k}={v}")
 
-        _set("DOUBAO_API_KEY",  key)
-        _set("DOUBAO_MODEL",    model)
-        _set("DOUBAO_VL_MODEL", model)
+        _set("DOUBAO_API_KEY",      key)
+        _set("SILICONFLOW_API_KEY", key)
+        _set("DOUBAO_MODEL",        model)
+        _set("DOUBAO_VL_MODEL",     model)
         if gemini_key:
             _set("GEMINI_IMAGE_API_KEY", gemini_key)
             os.environ["GEMINI_IMAGE_API_KEY"] = gemini_key
         env_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-        os.environ["DOUBAO_API_KEY"]  = key
-        os.environ["DOUBAO_MODEL"]    = model
-        os.environ["DOUBAO_VL_MODEL"] = model
+        os.environ["DOUBAO_API_KEY"]      = key
+        os.environ["SILICONFLOW_API_KEY"] = key
+        os.environ["DOUBAO_MODEL"]        = model
+        os.environ["DOUBAO_VL_MODEL"]     = model
 
     # ── 1688 登录 ────────────────────────────────────────────────────────────
 

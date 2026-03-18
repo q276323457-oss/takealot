@@ -382,7 +382,7 @@ class ImageGeneratorSession:
                 print(f"[image_gen] Gemini 部分成功，返回已生成的 {len(compressed)} 张，跳过后续生成")
                 return compressed
         # 走到这里说明 Gemini 也完全失败，只能抛错给上层，让 UI 提示「生成失败」
-        raise
+        raise RuntimeError("图片生成失败：Gemini 通道不可用，请检查 GEMINI_IMAGE_API_KEY")
 
     # ── 公开方法 ──────────────────────────────────────────────────────────────
 
