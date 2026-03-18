@@ -1168,7 +1168,7 @@ class MainWindow(QMainWindow):
         name = item.text().split("  ")[0]
         target = RUNS_DIR / name
         if target.exists():
-            subprocess.Popen(["open", str(target)])
+            self._open_external_url(str(target))
 
     def _preview_run(self) -> None:
         item = self.runs_list.currentItem()

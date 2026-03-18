@@ -50,6 +50,10 @@ if (Test-Path "build") { Remove-Item -Recurse -Force "build" }
     --name "$AppName" `
     --paths "$root\src" `
     --collect-submodules takealot_autolister `
+    --collect-data PIL `
+    --hidden-import PIL.WebPImagePlugin `
+    --hidden-import PIL.JpegImagePlugin `
+    --hidden-import PIL.PngImagePlugin `
     --add-data "$root\config;config" `
     --add-data "$root\input;input" `
     --add-data "$root\.env.example;." `

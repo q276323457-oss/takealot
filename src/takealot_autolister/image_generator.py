@@ -232,9 +232,16 @@ def _download_bytes(url: str, timeout: int = 30) -> bytes | None:
 
 def _bytes_to_thumbnail(data: bytes, size: int = 200) -> bytes:
     """把图片 bytes 缩到缩略图尺寸，返回 JPEG bytes。"""
-    img = Image.open(io.BytesIO(data)).convert("RGB")
+    import io as _io
+    buf_in = _io.BytesIO(data)
+    img = Image.open(buf_in)
+    # webp/png 等转 RGB，避免 Win 上 webp 解码问题
+    if img.mode not in ("RGB", "L"):
+        img = img.convert("RGB")
+    else:
+        img = img.convert("RGB")
     img.thumbnail((size, size), Image.LANCZOS)
-    buf = io.BytesIO()
+    buf = _io.BytesIO()
     img.save(buf, format="JPEG", quality=80)
     return buf.getvalue()
 

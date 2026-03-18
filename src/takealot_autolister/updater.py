@@ -157,19 +157,65 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
 
 
 def download_file(url: str, out_path: str, timeout: int = 30,
-                  progress_cb=None) -> str:
-    """下载文件，progress_cb(downloaded_bytes, total_bytes) 可选进度回调。"""
-    resp = requests.get(url, timeout=timeout, stream=True, headers={"User-Agent": "takealot-autolister-updater/1.0"})
-    resp.raise_for_status()
-    total = int(resp.headers.get("Content-Length", 0))
-    downloaded = 0
+                  progress_cb=None, threads: int = 4) -> str:
+    """下载文件，支持多线程分片加速。progress_cb(downloaded_bytes, total_bytes) 可选。"""
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+
+    headers = {"User-Agent": "takealot-autolister-updater/1.0"}
+
+    # 先 HEAD 获取文件大小
+    head = requests.head(url, timeout=timeout, headers=headers, allow_redirects=True)
+    total = int(head.headers.get("Content-Length", 0))
+    accept_ranges = head.headers.get("Accept-Ranges", "")
+
+    # 不支持 Range 或文件太小，直接单线程下载
+    if not total or "bytes" not in accept_ranges or total < 4 * 1024 * 1024:
+        resp = requests.get(url, timeout=timeout, stream=True, headers=headers)
+        resp.raise_for_status()
+        downloaded = 0
+        with open(out_path, "wb") as f:
+            for chunk in resp.iter_content(chunk_size=1024 * 256):
+                if chunk:
+                    f.write(chunk)
+                    downloaded += len(chunk)
+                    if progress_cb:
+                        progress_cb(downloaded, total or downloaded)
+        return out_path
+
+    # 多线程分片下载
+    chunk_size = max(4 * 1024 * 1024, total // threads)  # 每片至少 4MB
+    ranges = []
+    start = 0
+    while start < total:
+        end = min(start + chunk_size - 1, total - 1)
+        ranges.append((start, end))
+        start = end + 1
+
+    buffers = [None] * len(ranges)
+    lock = threading.Lock()
+    downloaded_total = [0]
+
+    def fetch_chunk(idx: int, s: int, e: int):
+        h = {**headers, "Range": f"bytes={s}-{e}"}
+        r = requests.get(url, timeout=timeout, headers=h)
+        r.raise_for_status()
+        data = r.content
+        buffers[idx] = data
+        with lock:
+            downloaded_total[0] += len(data)
+            if progress_cb:
+                progress_cb(downloaded_total[0], total)
+
+    with ThreadPoolExecutor(max_workers=threads) as pool:
+        futs = [pool.submit(fetch_chunk, i, s, e) for i, (s, e) in enumerate(ranges)]
+        for f in futs:
+            f.result()  # 传播异常
+
     with open(out_path, "wb") as f:
-        for chunk in resp.iter_content(chunk_size=1024 * 256):
-            if chunk:
-                f.write(chunk)
-                downloaded += len(chunk)
-                if progress_cb:
-                    progress_cb(downloaded, total)
+        for buf in buffers:
+            f.write(buf)
+
     return out_path
 
 

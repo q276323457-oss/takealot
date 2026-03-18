@@ -1704,21 +1704,28 @@ class PreviewDialog(QDialog):
             urls = (self._session.source_urls if self._session else [])[:8]
 
             def _fetch_one(url: str):
-                full = _download_bytes(url)
-                if full:
-                    return (_bytes_to_thumbnail(full, 100), full)
+                try:
+                    full = _download_bytes(url, timeout=15)
+                    if full:
+                        return (_bytes_to_thumbnail(full, 100), full)
+                except Exception:
+                    pass
                 return None
 
             pairs: list[tuple[bytes, bytes]] = []
             with ThreadPoolExecutor(max_workers=4) as pool:
                 futs = {pool.submit(_fetch_one, u): u for u in urls}
-                for fut in as_completed(futs):
-                    result = fut.result()
-                    if result:
-                        pairs.append(result)
-            self._src_thumbs_ready.emit(pairs)
+                for fut in as_completed(futs, timeout=30):
+                    try:
+                        result = fut.result()
+                        if result:
+                            pairs.append(result)
+                    except Exception:
+                        pass
         except Exception:
-            pass
+            pairs = []
+        finally:
+            self._src_thumbs_ready.emit(pairs)
 
     def _on_img_done(self, images: list[bytes]):
         self._img_progress.setVisible(False)
