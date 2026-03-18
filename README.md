@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.10
+- **`gui_qt` 启动时**：Windows 打包版本自动把 `print()` / `sys.stderr` 重定向到日志文件，位置：`%APPDATA%\TakealotAutoLister\logs\app_YYYYMMDD.log`，方便排查 Windows 上看不到命令行输出的问题
+
 ### v1.2.9
 - **`gemini_image` / `siliconflow_llm`**：所有 API 请求 Session 加 `trust_env=False`，彻底绕过 Windows 系统代理（注册表 / IE 代理设置）。这是 `UNEXPECTED_EOF_WHILE_READING` SSL EOF 的根本原因——Windows 的系统代理自动拦截 HTTPS 流量，破坏 SSL 握手；`verify=False` 不能解决此问题，`trust_env=False` 才是正确修法
 
