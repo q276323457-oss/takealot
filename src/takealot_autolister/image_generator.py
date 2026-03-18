@@ -25,6 +25,10 @@ from PIL import Image
 from .siliconflow_llm import call_doubao_vision_url, generate_image as _sf_generate_image
 from .wuyin_image import is_available as wuyin_ok, generate_image as wuyin_generate
 
+# 全局 Session：trust_env=False 绕过 Windows 系统代理，避免下载参考图时卡住
+_SESSION = requests.Session()
+_SESSION.trust_env = False
+
 # 图生图编辑指令（Gemini / Qwen-Image-Edit 通用）
 _EDIT_INSTRUCTION = (
     "Generate ONE single standalone product image. "
@@ -220,10 +224,10 @@ _VISION_QUESTION = (
 )
 
 
-def _download_bytes(url: str, timeout: int = 30) -> bytes | None:
-    """下载 URL 图片，返回 bytes，失败返回 None。"""
+def _download_bytes(url: str, timeout: int = 15) -> bytes | None:
+    """下载 URL 图片，返回 bytes，失败返回 None。trust_env=False 绕过 Windows 系统代理。"""
     try:
-        resp = requests.get(url, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"})
+        resp = _SESSION.get(url, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"})
         resp.raise_for_status()
         return resp.content
     except Exception:
