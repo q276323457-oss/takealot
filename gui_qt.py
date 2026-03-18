@@ -473,7 +473,7 @@ class MainWindow(QMainWindow):
 
             parsed = urllib.parse.urlparse(download_url)
             base = Path(parsed.path).name or ""
-            ext = "".join(Path(base).suffixes) if base else ""
+            ext = Path(base).suffix if base else ""
             if not ext:
                 ext = ".zip"
             save_dir = WORK_ROOT / "downloads"
@@ -506,10 +506,52 @@ class MainWindow(QMainWindow):
             path, latest = payload  # type: ignore[misc]
         except Exception:
             return
-        msg = f"更新包下载完成：\n{path}\n\n版本：v{latest}\n是否现在打开安装包？"
-        btn = QMessageBox.question(self, "下载完成", msg)
+        msg = f"v{latest} 下载完成，点击「是」自动安装并重启。"
+        btn = QMessageBox.question(self, "安装更新", msg)
         if btn == QMessageBox.StandardButton.Yes:
-            self._open_external_url(str(path))
+            self._launch_installer_and_quit(path)
+
+    def _launch_installer_and_quit(self, zip_path: str) -> None:
+        """生成 bat 脚本：等主进程退出 → 解压覆盖 → 重启。"""
+        import tempfile, textwrap
+        exe_path = sys.executable  # 打包后是 TakealotAutoLister.exe
+        install_dir = str(Path(exe_path).parent)
+        pid = os.getpid()
+
+        bat = textwrap.dedent(f"""\
+            @echo off
+            chcp 65001 >nul
+            echo 等待主程序退出...
+            :wait
+            tasklist /FI "PID eq {pid}" 2>nul | find "{pid}" >nul
+            if not errorlevel 1 (
+                timeout /t 1 /nobreak >nul
+                goto wait
+            )
+            echo 正在解压更新包...
+            powershell -NoProfile -Command "Expand-Archive -Force -Path '{zip_path}' -DestinationPath '{install_dir}'"
+            if errorlevel 1 (
+                echo 解压失败！
+                pause
+                exit /b 1
+            )
+            echo 重启程序...
+            start "" "{exe_path}"
+            del "%~f0"
+        """)
+
+        tmp = tempfile.NamedTemporaryFile(suffix=".bat", delete=False, mode="w", encoding="utf-8")
+        tmp.write(bat)
+        tmp.close()
+
+        if sys.platform.startswith("win"):
+            import subprocess
+            subprocess.Popen(
+                ["cmd", "/c", tmp.name],
+                creationflags=subprocess.CREATE_NEW_CONSOLE,  # type: ignore[attr-defined]
+            )
+        self._bridge.log_line.emit("🔄 安装程序已启动，正在退出...", "ok")
+        QApplication.quit()
 
     # ── 授权 ────────────────────────────────────────────────────────────────
 
