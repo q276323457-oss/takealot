@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.12
+- **`preview_dialog` 参考图 URL 错位 bug**：`_load_source_async` 用 `as_completed` 导致图片按下载完成顺序显示，与 `session_urls` 原始顺序不一致；用户选了第 N 张卡，实际传给 Gemini 的却是第 M 张的 URL，造成生成颜色/款式完全不对。修复：改为按原始顺序等待 future，并把 URL 直接存进卡片的 `source_url` 属性，`_start_image_generate` 直接从卡片读 URL 而不再依赖索引
+
 ### v1.2.11
 - **`image_generator` `_download_bytes`**：改用 `trust_env=False` Session 下载 1688 参考图，绕过 Windows 系统代理；超时从 30s 缩短为 15s，单张失败直接跳过不阻塞。这是 Windows 上生图"等待 5 分钟"的根本原因（系统代理卡住每次下载）
 
