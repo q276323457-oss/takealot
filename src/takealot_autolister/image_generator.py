@@ -334,6 +334,7 @@ class ImageGeneratorSession:
 
         # ── 统一：Gemini（通过 Viviai）───────────────────────────────────────
         compressed: list[bytes] = []
+        _last_err: Exception | None = None
         try:
             from .gemini_image import is_available as gemini_ok, generate_image as gemini_generate
             if gemini_ok():
@@ -383,13 +384,14 @@ class ImageGeneratorSession:
             # 没有配置 Gemini，直接抛错提示用户检查环境变量
             raise RuntimeError("Gemini 图片通道不可用，请检查 GEMINI_IMAGE_API_KEY / GEMINI_IMAGE_BASE_URL")
         except Exception as e:
+            _last_err = e
             print(f"[image_gen] Gemini 生成失败：{e}")
             # 如果已经成功生成了部分图片，直接返回这些，避免全部丢失
             if compressed:
                 print(f"[image_gen] Gemini 部分成功，返回已生成的 {len(compressed)} 张，跳过后续生成")
                 return compressed
         # 走到这里说明 Gemini 也完全失败，只能抛错给上层，让 UI 提示「生成失败」
-        raise RuntimeError("图片生成失败：Gemini 通道不可用，请检查 GEMINI_IMAGE_API_KEY")
+        raise RuntimeError(f"图片生成失败：{_last_err or 'Gemini 通道不可用，请检查 GEMINI_IMAGE_API_KEY'}")
 
     # ── 公开方法 ──────────────────────────────────────────────────────────────
 

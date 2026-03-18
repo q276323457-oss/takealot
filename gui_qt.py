@@ -700,7 +700,10 @@ class MainWindow(QMainWindow):
                     if idx >= 0:
                         self.model_combo.setCurrentIndex(idx)
                 if not self.gemini_key_input.text().strip():
-                    self.gemini_key_input.setText(cfg.get("gemini_image_api_key", ""))
+                    gk = cfg.get("gemini_image_api_key", "")
+                    self.gemini_key_input.setText(gk)
+                    if gk and not os.getenv("GEMINI_IMAGE_API_KEY", "").strip():
+                        os.environ["GEMINI_IMAGE_API_KEY"] = gk
             except Exception:
                 pass
 
@@ -742,6 +745,9 @@ class MainWindow(QMainWindow):
         if gemini_key:
             _set("GEMINI_IMAGE_API_KEY", gemini_key)
             os.environ["GEMINI_IMAGE_API_KEY"] = gemini_key
+        # 始终写入 base URL 和 model，确保旧版 .env 里的过时值被覆盖
+        _set("GEMINI_IMAGE_BASE_URL", os.getenv("GEMINI_IMAGE_BASE_URL", "") or "https://api.viviai.cc")
+        _set("GEMINI_IMAGE_MODEL",    os.getenv("GEMINI_IMAGE_MODEL",    "") or "gemini-2.5-flash-image-preview")
         env_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
         os.environ["DOUBAO_API_KEY"]      = key
         os.environ["SILICONFLOW_API_KEY"] = key
