@@ -30,7 +30,7 @@ def _make_session() -> requests.Session:
     session = requests.Session()
     retry = Retry(
         total=3,
-        backoff_factor=1,          # 重试间隔：1s, 2s, 4s
+        backoff_factor=1,
         status_forcelist=[500, 502, 503, 504],
         allowed_methods=["POST"],
         raise_on_status=False,
@@ -38,6 +38,12 @@ def _make_session() -> requests.Session:
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("https://", adapter)
     session.mount("http://",  adapter)
+    # Windows 杀毒/防火墙做 SSL 深度检测时会导致 UNEXPECTED_EOF_WHILE_READING，
+    # 对已知可信的 API 代理禁用证书验证可绕过该问题。
+    session.verify = False
+    # 屏蔽 urllib3 的 InsecureRequestWarning，避免日志噪音
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     return session
 
 

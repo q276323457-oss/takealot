@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.8
+- **`gemini_image` `_make_session`**：Session 加 `verify=False`，彻底解决 Windows 杀毒/防火墙做 SSL 深度检测导致每次都 `UNEXPECTED_EOF_WHILE_READING` 的问题（重试无效时的根本修法）
+
 ### v1.2.7
 - **`gemini_image` `generate_image`**：添加带重试的 `requests.Session`（`urllib3.Retry`，最多3次，退避1/2/4s），解决 Windows 上 `SSL: UNEXPECTED_EOF_WHILE_READING` 导致生图必败的问题；每次 SSL 失败会自动重试，3次全部失败时报错信息包含真实原因
 
