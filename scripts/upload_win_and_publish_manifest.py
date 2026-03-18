@@ -30,6 +30,12 @@ try:
 except Exception:
     pass
 
+try:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+except Exception:
+    pass
+
 
 def _env(name: str, default: str = "") -> str:
     return os.getenv(name, default).strip()
@@ -151,7 +157,7 @@ def _download_package_from_url(root: Path, package_url: str, version: str) -> Pa
     part_path = final_path.with_suffix(final_path.suffix + ".part")
 
     print(f"⬇️ 从 URL 下载 Windows 包：{url}")
-    with requests.get(url, stream=True, timeout=120, headers=headers) as r:
+    with requests.get(url, stream=True, timeout=120, headers=headers, verify=False) as r:
         r.raise_for_status()
         with part_path.open("wb") as f:
             for chunk in r.iter_content(chunk_size=1024 * 512):
