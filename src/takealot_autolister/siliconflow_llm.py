@@ -38,15 +38,26 @@ _DEFAULT_IMAGE_MODEL = "Qwen/Qwen-Image-Edit-2509"
 
 
 def _api_key() -> str:
-    return os.getenv("SILICONFLOW_API_KEY", "").strip()
+    return (
+        os.getenv("SILICONFLOW_API_KEY", "").strip()
+        or os.getenv("DOUBAO_API_KEY", "").strip()
+    )
 
 
 def _model() -> str:
-    return os.getenv("SILICONFLOW_MODEL", _DEFAULT_MODEL).strip() or _DEFAULT_MODEL
+    return (
+        os.getenv("SILICONFLOW_MODEL", "").strip()
+        or os.getenv("DOUBAO_MODEL", "").strip()
+        or _DEFAULT_MODEL
+    )
 
 
 def _vl_model() -> str:
-    return os.getenv("SILICONFLOW_VL_MODEL", _DEFAULT_VL_MODEL).strip() or _DEFAULT_VL_MODEL
+    return (
+        os.getenv("SILICONFLOW_VL_MODEL", "").strip()
+        or os.getenv("DOUBAO_VL_MODEL", "").strip()
+        or _DEFAULT_VL_MODEL
+    )
 
 
 def _image_model() -> str:

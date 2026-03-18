@@ -20,7 +20,7 @@ import requests
 from PIL import Image
 
 _DEFAULT_BASE_URL = "https://api.viviai.cc"
-_DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
+_DEFAULT_MODEL = "gemini-2.5-flash-image-preview"
 
 
 def _api_key() -> str:

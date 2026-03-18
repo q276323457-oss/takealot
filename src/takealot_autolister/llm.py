@@ -72,15 +72,16 @@ def _llm_config() -> tuple[str, str, str]:
 
 def _use_doubao() -> bool:
     """
-    是否优先使用硅基流动。
-
-    现在增加一个显式开关：
-        DISABLE_SILICONFLOW=1 时完全禁用硅基流动，统一走 LLM_BASE_URL。
+    是否优先使用硅基流动/豆包。
+    DISABLE_SILICONFLOW=1 时完全禁用，统一走 LLM_BASE_URL。
     """
     load_dotenv()
     if os.getenv("DISABLE_SILICONFLOW", "").strip() not in {"", "0"}:
         return False
-    return bool(os.getenv("SILICONFLOW_API_KEY", "").strip())
+    return bool(
+        os.getenv("SILICONFLOW_API_KEY", "").strip()
+        or os.getenv("DOUBAO_API_KEY", "").strip()
+    )
 
 
 def is_llm_available() -> bool:
