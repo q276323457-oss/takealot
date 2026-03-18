@@ -1021,7 +1021,10 @@ class MainWindow(QMainWindow):
                 headless=False,
                 browser_channel=os.getenv("BROWSER_CHANNEL", "msedge"),
                 user_data_dir=os.getenv("BROWSER_USER_DATA_DIR", "").strip() or None,
-                storage_state_1688=os.getenv("STORAGE_STATE_1688", "").strip() or None,
+                storage_state_1688=(
+                    str(self._STATE_1688) if self._STATE_1688.exists()
+                    else os.getenv("STORAGE_STATE_1688", "").strip() or None
+                ),
                 storage_state_takealot=str(self._STATE_TAKEALOT) if self._STATE_TAKEALOT.exists() else None,
                 remove_bg=False,
                 automate_portal_enabled=False,
