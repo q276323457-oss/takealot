@@ -482,7 +482,21 @@ class MainWindow(QMainWindow):
             tmp_path = final_path.with_suffix(final_path.suffix + ".part")
 
             self._bridge.log_line.emit(f"⬇️ 开始下载更新包：{download_url}", "info")
-            download_file(download_url, str(tmp_path), timeout=90)
+            last_pct = [-1]
+
+            def _on_progress(downloaded: int, total: int) -> None:
+                if total <= 0:
+                    return
+                pct = int(downloaded * 100 / total)
+                if pct >= last_pct[0] + 5:
+                    last_pct[0] = pct
+                    mb_done = downloaded / 1024 / 1024
+                    mb_total = total / 1024 / 1024
+                    self._bridge.log_line.emit(
+                        f"⬇️ 下载中 {pct}%  {mb_done:.1f}/{mb_total:.1f} MB", "info"
+                    )
+
+            download_file(download_url, str(tmp_path), timeout=300, progress_cb=_on_progress)
 
             if expect_sha:
                 got = sha256_file(str(tmp_path)).lower()

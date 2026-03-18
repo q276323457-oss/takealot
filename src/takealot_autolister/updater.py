@@ -156,13 +156,20 @@ def check_for_update(current_version: str, timeout: int = 12) -> UpdateInfo:
     )
 
 
-def download_file(url: str, out_path: str, timeout: int = 30) -> str:
+def download_file(url: str, out_path: str, timeout: int = 30,
+                  progress_cb=None) -> str:
+    """下载文件，progress_cb(downloaded_bytes, total_bytes) 可选进度回调。"""
     resp = requests.get(url, timeout=timeout, stream=True, headers={"User-Agent": "takealot-autolister-updater/1.0"})
     resp.raise_for_status()
+    total = int(resp.headers.get("Content-Length", 0))
+    downloaded = 0
     with open(out_path, "wb") as f:
         for chunk in resp.iter_content(chunk_size=1024 * 256):
             if chunk:
                 f.write(chunk)
+                downloaded += len(chunk)
+                if progress_cb:
+                    progress_cb(downloaded, total)
     return out_path
 
 

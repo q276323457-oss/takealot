@@ -32,6 +32,13 @@ def _chat_base_url(model: str) -> str:
     if str(model).startswith("doubao"):
         return _DOUBAO_BASE_URL
     return _BASE_URL
+
+
+def _chat_endpoint(model: str) -> str:
+    """返回完整的 chat completions endpoint。"""
+    if str(model).startswith("doubao"):
+        return f"{_DOUBAO_BASE_URL}/chat/completions"
+    return f"{_BASE_URL}/v1/chat/completions"
 _DEFAULT_MODEL = "deepseek-ai/DeepSeek-V3"
 _DEFAULT_VL_MODEL = "Qwen/Qwen2.5-VL-72B-Instruct"
 _DEFAULT_IMAGE_MODEL = "Qwen/Qwen-Image-Edit-2509"
@@ -102,7 +109,7 @@ def call_doubao_json(prompt: str, *, temperature: float = 0.2) -> dict[str, Any]
 def call_doubao_raw(prompt: str, *, temperature: float = 0.2) -> str:
     """调用文本模型，返回原始文本（保持旧接口名）。"""
     m = _model()
-    endpoint = f"{_chat_base_url(m)}/v1/chat/completions"
+    endpoint = _chat_endpoint(m)
     payload = {
         "model": m,
         "temperature": float(temperature),
@@ -122,7 +129,7 @@ def call_doubao_raw(prompt: str, *, temperature: float = 0.2) -> str:
 def call_doubao_text(prompt: str, *, temperature: float = 0.3) -> str:
     """调用文本模型，返回纯文本（保持旧接口名）。"""
     m = _model()
-    endpoint = f"{_chat_base_url(m)}/v1/chat/completions"
+    endpoint = _chat_endpoint(m)
     payload = {
         "model": m,
         "temperature": float(temperature),
@@ -156,7 +163,7 @@ def call_doubao_vision(image_path: Path, question: str) -> str:
 def call_doubao_vision_url(image_url: str, question: str) -> str:
     """调用视觉模型分析图片 URL（保持旧接口名）。"""
     m = _vl_model()
-    endpoint = f"{_chat_base_url(m)}/v1/chat/completions"
+    endpoint = _chat_endpoint(m)
     payload = {
         "model": _vl_model(),
         "messages": [
