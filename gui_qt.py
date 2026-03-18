@@ -112,6 +112,17 @@ CONFIG_FILE = WORK_ROOT / ".runtime" / "ui_config.json"
 RUNS_DIR.mkdir(parents=True, exist_ok=True)
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 CONFIG_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+# Windows 打包后 --windowed 模式没有终端，把 print 输出写到日志文件，方便排查问题
+if getattr(sys, "frozen", False) and sys.platform.startswith("win"):
+    import datetime as _dt
+    _log_path = LOG_DIR / f"app_{_dt.date.today().strftime('%Y%m%d')}.log"
+    try:
+        _log_fh = open(_log_path, "a", encoding="utf-8", buffering=1)
+        sys.stdout = _log_fh
+        sys.stderr = _log_fh
+    except Exception:
+        pass
 CONFIG_ROOT = _resolve_config_root()
 APP_VERSION = _resolve_app_version()
 APP_PRODUCT = os.getenv("LICENSE_PRODUCT", "takealot-autolister").strip() or "takealot-autolister"
