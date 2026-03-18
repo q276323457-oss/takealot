@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.11
+- **`image_generator` `_download_bytes`**：改用 `trust_env=False` Session 下载 1688 参考图，绕过 Windows 系统代理；超时从 30s 缩短为 15s，单张失败直接跳过不阻塞。这是 Windows 上生图"等待 5 分钟"的根本原因（系统代理卡住每次下载）
+
 ### v1.2.10
 - **`gui_qt` 启动时**：Windows 打包版本自动把 `print()` / `sys.stderr` 重定向到日志文件，位置：`%APPDATA%\TakealotAutoLister\logs\app_YYYYMMDD.log`，方便排查 Windows 上看不到命令行输出的问题
 
