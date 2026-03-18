@@ -26,6 +26,10 @@ import requests
 _BASE_URL = "https://api.siliconflow.cn"
 _DOUBAO_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
 
+# 全局 Session：trust_env=False 绕过 Windows 系统代理，避免 SSL EOF 问题
+_SESSION = requests.Session()
+_SESSION.trust_env = False
+
 
 def _chat_base_url(model: str) -> str:
     """豆包模型走火山引擎，其余走硅基流动。"""
@@ -118,7 +122,7 @@ def call_doubao_raw(prompt: str, *, temperature: float = 0.2) -> str:
             {"role": "user", "content": prompt},
         ],
     }
-    resp = requests.post(endpoint, headers=_headers(), json=payload, timeout=120)
+    resp = _SESSION.post(endpoint, headers=_headers(), json=payload, timeout=120)
     resp.raise_for_status()
     data = resp.json()
     return str(
@@ -135,7 +139,7 @@ def call_doubao_text(prompt: str, *, temperature: float = 0.3) -> str:
         "temperature": float(temperature),
         "messages": [{"role": "user", "content": prompt}],
     }
-    resp = requests.post(endpoint, headers=_headers(), json=payload, timeout=120)
+    resp = _SESSION.post(endpoint, headers=_headers(), json=payload, timeout=120)
     resp.raise_for_status()
     data = resp.json()
     return str(
@@ -177,7 +181,7 @@ def call_doubao_vision_url(image_url: str, question: str) -> str:
         ],
     }
     try:
-        resp = requests.post(endpoint, headers=_headers(), json=payload, timeout=60)
+        resp = _SESSION.post(endpoint, headers=_headers(), json=payload, timeout=60)
         resp.raise_for_status()
         data = resp.json()
         return str(
@@ -262,7 +266,7 @@ def generate_image(
         payload["negative_prompt"] = "low quality, blurry, watermark, text, logo, people, shadow"
         print(f"[image_gen] 文生图模式，{img_model}，batch_size={count}…")
 
-    resp = requests.post(endpoint, headers=_headers(), json=payload, timeout=300)
+    resp = _SESSION.post(endpoint, headers=_headers(), json=payload, timeout=300)
     if not resp.ok:
         try:
             err_body = resp.json()
@@ -279,7 +283,7 @@ def generate_image(
         url = item.get("url", "")
         b64 = item.get("b64_json", "")
         if url:
-            img_resp = requests.get(url, timeout=60)
+            img_resp = _SESSION.get(url, timeout=60)
             img_resp.raise_for_status()
             result.append(img_resp.content)
         elif b64:

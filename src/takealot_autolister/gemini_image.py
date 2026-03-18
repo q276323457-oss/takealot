@@ -38,10 +38,11 @@ def _make_session() -> requests.Session:
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("https://", adapter)
     session.mount("http://",  adapter)
-    # Windows 杀毒/防火墙做 SSL 深度检测时会导致 UNEXPECTED_EOF_WHILE_READING，
-    # 对已知可信的 API 代理禁用证书验证可绕过该问题。
+    # Windows 会自动读取系统代理（注册表/IE设置），代理做 SSL 深度检测时
+    # 会导致 UNEXPECTED_EOF_WHILE_READING。trust_env=False 完全绕过系统代理。
+    session.trust_env = False
+    # 同时禁用证书校验，防止企业内网/杀毒软件自签证书导致握手失败
     session.verify = False
-    # 屏蔽 urllib3 的 InsecureRequestWarning，避免日志噪音
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     return session
