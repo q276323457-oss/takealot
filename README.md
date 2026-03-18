@@ -286,6 +286,9 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.9
+- **`gemini_image` / `siliconflow_llm`**：所有 API 请求 Session 加 `trust_env=False`，彻底绕过 Windows 系统代理（注册表 / IE 代理设置）。这是 `UNEXPECTED_EOF_WHILE_READING` SSL EOF 的根本原因——Windows 的系统代理自动拦截 HTTPS 流量，破坏 SSL 握手；`verify=False` 不能解决此问题，`trust_env=False` 才是正确修法
+
 ### v1.2.8
 - **`gemini_image` `_make_session`**：Session 加 `verify=False`，彻底解决 Windows 杀毒/防火墙做 SSL 深度检测导致每次都 `UNEXPECTED_EOF_WHILE_READING` 的问题（重试无效时的根本修法）
 
