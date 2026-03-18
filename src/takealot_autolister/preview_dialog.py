@@ -1704,31 +1704,37 @@ class PreviewDialog(QDialog):
 
     def _load_source_async(self):
         try:
-            from concurrent.futures import ThreadPoolExecutor
+            from concurrent.futures import ThreadPoolExecutor, as_completed
             from .image_generator import _download_bytes, _bytes_to_thumbnail
 
             urls = (self._session.source_urls if self._session else [])[:8]
 
             def _fetch_one(url: str):
                 try:
-                    full = _download_bytes(url, timeout=15)
+                    full = _download_bytes(url, timeout=10)
                     if full:
                         return (_bytes_to_thumbnail(full, 100), full, url)
                 except Exception:
                     pass
                 return None
 
-            pairs: list[tuple[bytes, bytes, str]] = []
+            # 提交时记录 url→future 映射，as_completed 取到结果后按原始 URL 顺序排列
+            ordered: dict[str, tuple | None] = {u: None for u in urls}
             with ThreadPoolExecutor(max_workers=4) as pool:
-                # 按原始 URL 顺序提交，按原始顺序收集结果，保证卡片顺序与 source_urls 一致
-                futs = [pool.submit(_fetch_one, u) for u in urls]
-                for fut in futs:
-                    try:
-                        result = fut.result(timeout=20)
-                        if result:
-                            pairs.append(result)
-                    except Exception:
-                        pass
+                fut_to_url = {pool.submit(_fetch_one, u): u for u in urls}
+                try:
+                    for fut in as_completed(fut_to_url, timeout=25):
+                        url = fut_to_url[fut]
+                        try:
+                            ordered[url] = fut.result()
+                        except Exception:
+                            pass
+                except Exception:
+                    pass  # timeout — 用已经拿到的结果
+
+            pairs: list[tuple[bytes, bytes, str]] = [
+                v for v in (ordered[u] for u in urls) if v is not None
+            ]
         except Exception:
             pairs = []
         finally:

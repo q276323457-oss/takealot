@@ -330,13 +330,16 @@ class ImageGeneratorSession:
         - 无参考图：走文生图，使用视觉分析得到的产品描述。
         - count 控制总张数，内部为每一张构造不同变体指令，避免 4 张完全一样。
         """
+        import time as _time
         urls = reference_urls if reference_urls else self.source_urls[:1]
 
         # 下载所有参考图（最多3张）
         ref_images: list[bytes] = []
         for url in (urls or [])[:3]:
             print(f"[image_gen] 下载参考图：{url[:60]}...")
+            _t0 = _time.time()
             data = _download_bytes(url)
+            print(f"[image_gen] 下载耗时 {_time.time()-_t0:.1f}s，{'成功' if data else '失败'} {len(data)//1024 if data else 0}KB")
             if data:
                 ref_images.append(data)
 
@@ -353,8 +356,6 @@ class ImageGeneratorSession:
                     and not prompt.startswith("Generate ONE single standalone product image only.")
                 )
 
-                # 统一用「一次请求生成 N 张图」的方式，减少收费次数
-                # 自动模式下，把 5 种视角/场景写进一个综合 prompt，让模型输出多视角：
                 if is_custom:
                     final_prompt = (
                         "Generate multiple DIFFERENT standalone product images. "
@@ -370,24 +371,26 @@ class ImageGeneratorSession:
                         + f"{base_desc}"
                     )
 
-                # 不再通过 numberOfImages 强制张数，由提示词引导模型尽量给多张。
                 print(f"[image_gen] Gemini 一次生成（提示希望 ~{total} 张）：{final_prompt[:140]}...")
+                _t1 = _time.time()
                 imgs = gemini_generate(
                     final_prompt,
                     reference_images_bytes=ref_images or None,
                     aspect_ratio="1:1",
                     n=1,
                 )
+                print(f"[image_gen] Gemini API 耗时 {_time.time()-_t1:.1f}s，返回 {len(imgs)} 张原始图")
 
                 compressed: list[bytes] = []
-                for img_bytes in imgs:
+                for idx, img_bytes in enumerate(imgs):
+                    _t2 = _time.time()
                     try:
                         compressed.append(_bytes_to_thumbnail(img_bytes, size=768))
                     except Exception:
                         compressed.append(img_bytes)
+                    print(f"[image_gen] 缩略图处理[{idx}] 耗时 {_time.time()-_t2:.1f}s，{len(img_bytes)//1024}KB→{len(compressed[-1])//1024}KB")
 
                 print(f"[image_gen] Gemini 生成完成，共 {len(compressed)} 张")
-                # 如果模型返回的张数比请求少，就按实际数量返回
                 return compressed[: max(1, min(len(compressed), total))]
             # 没有配置 Gemini，直接抛错提示用户检查环境变量
             raise RuntimeError("Gemini 图片通道不可用，请检查 GEMINI_IMAGE_API_KEY / GEMINI_IMAGE_BASE_URL")
