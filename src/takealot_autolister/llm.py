@@ -98,16 +98,12 @@ def _call_llm_raw(prompt: str, *, temperature: float = 0.2) -> str:
     """调用 LLM，返回原始文本响应（未解析）。"""
     # 优先硅基流动；如果调用失败，则自动回退到通用 LLM_BASE_URL
     if _use_doubao():
-        try:
-            from .siliconflow_llm import call_doubao_raw
-            return call_doubao_raw(prompt, temperature=temperature)
-        except Exception as e:
-            # 打印错误但不中断，让后续 LLM_BASE_URL 方案兜底。
-            print(f"[llm] SiliconFlow 调用失败，回退到 LLM_BASE_URL: {e}")
+        from .siliconflow_llm import call_doubao_raw
+        return call_doubao_raw(prompt, temperature=temperature)
 
     base_url, api_key, model = _llm_config()
     if not base_url or not api_key:
-        raise RuntimeError("LLM_BASE_URL or LLM_API_KEY not configured")
+        raise RuntimeError("请在主界面填写文本 Key 并点击「保存配置」")
 
     endpoint = base_url.rstrip("/") + "/chat/completions"
     payload = {
