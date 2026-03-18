@@ -19,7 +19,7 @@ import os
 import requests
 from PIL import Image
 
-_DEFAULT_BASE_URL = "https://yansd666.com"
+_DEFAULT_BASE_URL = "https://api.viviai.cc"
 _DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
 
 
