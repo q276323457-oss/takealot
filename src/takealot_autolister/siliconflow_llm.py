@@ -26,9 +26,10 @@ import requests
 _BASE_URL = "https://api.siliconflow.cn"
 _DOUBAO_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
 
-# 全局 Session：trust_env=False 绕过 Windows 系统代理，避免 SSL EOF 问题
+# 全局 Session：Windows 上 trust_env=False 绕过系统代理，Mac 保持默认允许代理加速
 _SESSION = requests.Session()
-_SESSION.trust_env = False
+if __import__("sys").platform.startswith("win"):
+    _SESSION.trust_env = False
 
 
 def _chat_base_url(model: str) -> str:

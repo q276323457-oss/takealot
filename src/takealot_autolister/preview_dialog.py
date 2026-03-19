@@ -1549,8 +1549,8 @@ class PreviewDialog(QDialog):
         img_row.addWidget(QLabel("张数:"))
         self._img_count_spin = QSpinBox()
         self._img_count_spin.setRange(1, 8)
-        # 默认生成 4 张（1 张主图 + 3 张副图），减少等待时间和费用
-        self._img_count_spin.setValue(4)
+        # 默认生成 5 张（1 张主图 + 4 张副图）
+        self._img_count_spin.setValue(5)
         self._img_count_spin.setFixedWidth(52)
         self._img_count_spin.setToolTip("生成图片数量（1张主图 + 4张场景/卖点副图）")
         img_row.addWidget(self._img_count_spin)

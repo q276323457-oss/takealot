@@ -286,6 +286,11 @@ git push origin v1.0.1
 
 > 按版本倒序排列，方便查阅。
 
+### v1.2.15
+- **`gemini_image` `_make_session`**：`trust_env=False` 改为仅 Windows 生效；Mac 保持默认 `trust_env=True`，让系统代理生效，解决 Mac 访问 viviai.cc 速度极慢（1.8KB/s → 正常）的问题；`image_generator` / `siliconflow_llm` 的全局 `_SESSION` 同步调整
+- **`image_generator` 生图提示词**：用简短中文提示词替换冗长的 `_TAKEALOT_MULTI_PROMPT`（一句话："主图+4张副图"），解决长提示词（大量 emoji / markdown 段落）导致模型把任务判断为"文字回答"、返回纯文本（1028B）而非图片的根本问题
+- **`gemini_image` `timeout`**：改为 `timeout=900`，给服务端足够时间生成多张图；`stream=True` 实验性方案已还原（非流式更简单可靠）
+
 ### v1.2.13
 - **`gemini_image` `_make_session`**：移除 `urllib3.Retry(total=3, backoff_factor=1)`，这是 Windows 上生图"等待 3-5 分钟后 IncompleteRead 报错"的根本原因。`Retry` 会在 urllib3 层做 3 次静默内部重试（每次重试完整 API 调用 ~1min），Python 层的 except 完全看不到重试过程，表现为程序"卡死"。修复：session 只保留 `trust_env=False` + `verify=False`，重试逻辑完全由 Python 层 for 循环控制（已有 3 次重试 + 打印日志）
 
