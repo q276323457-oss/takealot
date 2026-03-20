@@ -18,6 +18,7 @@ import json
 import os
 import subprocess
 import tempfile
+from pathlib import Path
 
 import requests
 from PIL import Image
@@ -111,13 +112,37 @@ def _post_with_browser(endpoint: str, headers: dict[str, str], payload: dict, ti
     from playwright.sync_api import sync_playwright
 
     channel = os.getenv("BROWSER_CHANNEL", "msedge").strip() or "msedge"
+    user_data_dir = os.getenv("BROWSER_USER_DATA_DIR", "").strip()
+    profile_directory = os.getenv("BROWSER_PROFILE_DIRECTORY", "Default").strip() or "Default"
+    if os.name == "nt" and not user_data_dir:
+        default_edge_dir = Path(os.getenv("LOCALAPPDATA", "")) / "Microsoft" / "Edge" / "User Data"
+        if default_edge_dir.exists():
+            user_data_dir = str(default_edge_dir)
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(
-            channel=channel if channel else None,
-            headless=True,
-        )
+        browser = None
+        context = None
         try:
-            page = browser.new_page()
+            if user_data_dir:
+                print(f"[gemini_img] 浏览器通道复用用户目录：{user_data_dir} / {profile_directory}")
+                context = pw.chromium.launch_persistent_context(
+                    user_data_dir=user_data_dir,
+                    channel=channel if channel else None,
+                    headless=True,
+                    ignore_default_args=["--enable-automation"],
+                    args=[
+                        "--disable-blink-features=AutomationControlled",
+                        "--disable-infobars",
+                        f"--profile-directory={profile_directory}",
+                    ],
+                    viewport={"width": 1280, "height": 900},
+                )
+            else:
+                browser = pw.chromium.launch(
+                    channel=channel if channel else None,
+                    headless=True,
+                )
+                context = browser.new_context(viewport={"width": 1280, "height": 900})
+            page = context.new_page()
             page.set_content("<html><body>ok</body></html>")
             result = page.evaluate(
                 """
@@ -146,7 +171,12 @@ def _post_with_browser(endpoint: str, headers: dict[str, str], payload: dict, ti
                 },
             )
         finally:
-            browser.close()
+            try:
+                if context is not None:
+                    context.close()
+            finally:
+                if browser is not None:
+                    browser.close()
 
     status = int(result.get("status", 0) or 0)
     text = result.get("text", "")
