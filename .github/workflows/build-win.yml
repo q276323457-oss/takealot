@@ -37,6 +37,31 @@ jobs:
           "ZIP_NAME=TakealotAutoLister-win-$v.zip" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           Write-Host "APP_VERSION=$v"
 
+      - name: Prepare bundled OSS env
+        shell: pwsh
+        env:
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
+          OSS_ENDPOINT: ${{ secrets.OSS_ENDPOINT }}
+          OSS_BASE_URL: ${{ secrets.OSS_BASE_URL }}
+          OSS_PREFIX: ${{ secrets.OSS_PREFIX }}
+        run: |
+          $lines = New-Object System.Collections.Generic.List[string]
+          if ($env:OSS_ACCESS_KEY_ID) { [void]$lines.Add("OSS_ACCESS_KEY_ID=$($env:OSS_ACCESS_KEY_ID)") }
+          if ($env:OSS_ACCESS_KEY_SECRET) { [void]$lines.Add("OSS_ACCESS_KEY_SECRET=$($env:OSS_ACCESS_KEY_SECRET)") }
+          if ($env:OSS_BUCKET) { [void]$lines.Add("OSS_BUCKET=$($env:OSS_BUCKET)") }
+          if ($env:OSS_ENDPOINT) { [void]$lines.Add("OSS_ENDPOINT=$($env:OSS_ENDPOINT)") }
+          if ($env:OSS_BASE_URL) { [void]$lines.Add("OSS_BASE_URL=$($env:OSS_BASE_URL)") }
+          if ($env:OSS_PREFIX) { [void]$lines.Add("OSS_PREFIX=$($env:OSS_PREFIX)") }
+
+          if ($lines.Count -gt 0) {
+            Set-Content -Path ".env" -Value $lines -Encoding UTF8
+            Write-Host "Prepared OSS-only .env for packaging."
+          } else {
+            Write-Warning "No OSS_* GitHub Secrets found. Windows package will not contain OSS config."
+          }
+
       - name: Build Windows package
         shell: pwsh
         continue-on-error: true

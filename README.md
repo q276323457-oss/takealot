@@ -235,6 +235,19 @@ git push origin v1.0.1
 工作流文件位置：
 - `.github/workflows/build-win.yml`
 
+### GitHub 云打包携带 OSS 配置
+
+如果你希望 GitHub Actions 构建出来的 Windows 包内置 OSS 上传能力，需要在仓库 `Settings -> Secrets and variables -> Actions` 中配置这些 Secrets：
+
+- `OSS_ACCESS_KEY_ID`
+- `OSS_ACCESS_KEY_SECRET`
+- `OSS_BUCKET`
+- `OSS_ENDPOINT`
+- `OSS_BASE_URL`
+- `OSS_PREFIX`（可选）
+
+工作流会在构建前自动生成一个**只包含 `OSS_*`** 的临时 `.env` 并打进 Win 包，不会把豆包 / Gemini 等其他 API key 打进去。
+
 ## 12）小白一键用法（不用记命令）
 
 项目根目录里有两个可双击文件：

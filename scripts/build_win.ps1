@@ -18,6 +18,29 @@ $versionMetaDir = Join-Path "$root\\.runtime" "build"
 New-Item -ItemType Directory -Force -Path $versionMetaDir | Out-Null
 $versionMetaFile = Join-Path $versionMetaDir "APP_VERSION.txt"
 Set-Content -Path $versionMetaFile -Value $AppVersion -Encoding UTF8
+$bundledEnvFile = Join-Path $versionMetaDir ".env"
+
+if (Test-Path "$root\.env") {
+    $allowedPrefixes = @("OSS_")
+    $bundledLines = New-Object System.Collections.Generic.List[string]
+    foreach ($line in Get-Content "$root\.env" -Encoding UTF8) {
+        $trimmed = $line.Trim()
+        if ([string]::IsNullOrWhiteSpace($trimmed)) { continue }
+        if ($trimmed.StartsWith("#")) { continue }
+        foreach ($prefix in $allowedPrefixes) {
+            if ($trimmed.StartsWith($prefix)) {
+                [void]$bundledLines.Add($trimmed)
+                break
+            }
+        }
+    }
+    if ($bundledLines.Count -gt 0) {
+        Set-Content -Path $bundledEnvFile -Value $bundledLines -Encoding UTF8
+        Write-Host "Bundled OSS-only .env: $bundledEnvFile"
+    } elseif (Test-Path $bundledEnvFile) {
+        Remove-Item -Force $bundledEnvFile
+    }
+}
 
 if (Get-Command python -ErrorAction SilentlyContinue) {
     $PyCmd = "python"
@@ -44,22 +67,28 @@ Write-Host "Python path: .\\.venv\\Scripts\\python.exe"
 if (Test-Path "dist") { Remove-Item -Recurse -Force "dist" }
 if (Test-Path "build") { Remove-Item -Recurse -Force "build" }
 
-& ".\.venv\Scripts\pyinstaller.exe" `
-    --noconfirm `
-    --windowed `
-    --name "$AppName" `
-    --paths "$root\src" `
-    --collect-submodules takealot_autolister `
-    --collect-data PIL `
-    --hidden-import PIL.WebPImagePlugin `
-    --hidden-import PIL.JpegImagePlugin `
-    --hidden-import PIL.PngImagePlugin `
-    --add-data "$root\config;config" `
-    --add-data "$root\input;input" `
-    --add-data "$root\.env.example;." `
-    --add-data "$versionMetaFile;." `
-    --add-data "$root\README.md;." `
-    gui_qt.py
+$pyiArgs = @(
+    "--noconfirm",
+    "--windowed",
+    "--name", "$AppName",
+    "--paths", "$root\src",
+    "--collect-submodules", "takealot_autolister",
+    "--collect-data", "PIL",
+    "--hidden-import", "PIL.WebPImagePlugin",
+    "--hidden-import", "PIL.JpegImagePlugin",
+    "--hidden-import", "PIL.PngImagePlugin",
+    "--add-data", "$root\config;config",
+    "--add-data", "$root\input;input",
+    "--add-data", "$root\.env.example;.",
+    "--add-data", "$versionMetaFile;.",
+    "--add-data", "$root\README.md;."
+)
+if (Test-Path $bundledEnvFile) {
+    $pyiArgs += @("--add-data", "$bundledEnvFile;.")
+}
+$pyiArgs += "gui_qt.py"
+
+& ".\.venv\Scripts\pyinstaller.exe" @pyiArgs
 
 Write-Host "Windows build done: $root\\dist\\$AppName"
 

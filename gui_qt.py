@@ -100,6 +100,16 @@ WORK_ROOT = Path(_work_override).expanduser() if _work_override else _default_wo
 WORK_ROOT.mkdir(parents=True, exist_ok=True)
 
 ENV_FILE = WORK_ROOT / ".env"
+# 打包版本优先使用 WORK_ROOT/.env（Windows: %APPDATA%\\TakealotAutoLister\\.env）。
+# 若用户把 .env 放在可执行文件旁（ROOT/.env），首次启动时自动迁移到 WORK_ROOT，避免保存配置后丢失 OSS 等其他键。
+if getattr(sys, "frozen", False) and not ENV_FILE.exists():
+    try:
+        src_env = ROOT / ".env"
+        if src_env.exists():
+            ENV_FILE.write_text(src_env.read_text(encoding="utf-8"), encoding="utf-8")
+    except Exception:
+        pass
+
 if ENV_FILE.exists():
     load_dotenv(ENV_FILE, override=True)
 else:
