@@ -1623,7 +1623,16 @@ class PreviewDialog(QDialog):
 
     def _show_generated_images(self, images: list[bytes], append: bool = False):
         """显示 AI 生成图片。append=True 时追加到现有图片后面，不清空。"""
-        # 追加前先移除尾部 stretch 和初始占位，避免新图片被挤到可视区外。
+        # 初次生成时布局里会有占位文本；如果不清掉，图片会被挤到右侧，用户需要横向滚动才能看到。
+        if getattr(self, "_gen_placeholder", None) is not None:
+            try:
+                self._gen_layout.removeWidget(self._gen_placeholder)
+                self._gen_placeholder.deleteLater()
+            except Exception:
+                pass
+            self._gen_placeholder = None
+
+        # 追加前先移除尾部 stretch（如有），避免不断追加时空白越来越大。
         while self._gen_layout.count():
             last_index = self._gen_layout.count() - 1
             item = self._gen_layout.itemAt(last_index)
@@ -1631,11 +1640,6 @@ class PreviewDialog(QDialog):
                 break
             if item.spacerItem() is not None:
                 self._gen_layout.takeAt(last_index)
-                continue
-            widget = item.widget()
-            if widget is self._gen_placeholder:
-                self._gen_layout.takeAt(last_index)
-                widget.deleteLater()
                 continue
             break
 
@@ -1759,7 +1763,8 @@ class PreviewDialog(QDialog):
     def _on_img_done(self, images: list[bytes]):
         self._img_progress.setVisible(False)
         self._refine_btn.setEnabled(True)
-        self._show_generated_images(images, append=True)
+        # 第一次生成不要 append（要清掉占位、避免把图片挤到滚动区右侧）
+        self._show_generated_images(images, append=bool(self._generated_cards))
 
     def _on_img_error(self, msg: str):
         self._img_progress.setVisible(False)
