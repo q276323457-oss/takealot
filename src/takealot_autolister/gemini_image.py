@@ -114,29 +114,38 @@ def _post_with_browser(endpoint: str, headers: dict[str, str], payload: dict, ti
     channel = os.getenv("BROWSER_CHANNEL", "msedge").strip() or "msedge"
     user_data_dir = os.getenv("BROWSER_USER_DATA_DIR", "").strip()
     profile_directory = os.getenv("BROWSER_PROFILE_DIRECTORY", "Default").strip() or "Default"
-    if os.name == "nt" and not user_data_dir:
-        default_edge_dir = Path(os.getenv("LOCALAPPDATA", "")) / "Microsoft" / "Edge" / "User Data"
-        if default_edge_dir.exists():
-            user_data_dir = str(default_edge_dir)
+    # 不自动绑定系统默认 Edge 目录。该目录常被正在运行的 Edge 占用，会导致 launch_persistent_context 直接失败。
+    if user_data_dir:
+        p = Path(user_data_dir)
+        if not p.exists():
+            user_data_dir = ""
+
     with sync_playwright() as pw:
         browser = None
         context = None
         try:
             if user_data_dir:
-                print(f"[gemini_img] 浏览器通道复用用户目录：{user_data_dir} / {profile_directory}")
-                context = pw.chromium.launch_persistent_context(
-                    user_data_dir=user_data_dir,
-                    channel=channel if channel else None,
-                    headless=True,
-                    ignore_default_args=["--enable-automation"],
-                    args=[
-                        "--disable-blink-features=AutomationControlled",
-                        "--disable-infobars",
-                        f"--profile-directory={profile_directory}",
-                    ],
-                    viewport={"width": 1280, "height": 900},
-                )
+                try:
+                    print(f"[gemini_img] 浏览器通道复用用户目录：{user_data_dir} / {profile_directory}")
+                    context = pw.chromium.launch_persistent_context(
+                        user_data_dir=user_data_dir,
+                        channel=channel if channel else None,
+                        headless=True,
+                        ignore_default_args=["--enable-automation"],
+                        args=[
+                            "--disable-blink-features=AutomationControlled",
+                            "--disable-infobars",
+                            f"--profile-directory={profile_directory}",
+                        ],
+                        viewport={"width": 1280, "height": 900},
+                    )
+                except Exception as e:
+                    print(f"[gemini_img] 复用用户目录失败，改用临时浏览器上下文：{e}")
+                    context = None
             else:
+                print("[gemini_img] 浏览器通道使用临时上下文")
+
+            if context is None:
                 browser = pw.chromium.launch(
                     channel=channel if channel else None,
                     headless=True,
@@ -187,16 +196,10 @@ def _post_json(endpoint: str, headers: dict[str, str], payload: dict, timeout: i
     import sys
 
     if sys.platform.startswith("win"):
-        try:
-            print("[gemini_img] Windows 默认走浏览器通道（Playwright fetch）")
-            return _post_with_browser(endpoint, headers, payload, timeout)
-        except Exception as e:
-            print(f"[gemini_img] 浏览器通道失败，回退 curl：{e}")
-        try:
-            print("[gemini_img] Windows 回退 curl 通道（隐藏命令窗口）")
-            return _post_with_curl(endpoint, headers, payload, timeout)
-        except Exception as e:
-            print(f"[gemini_img] curl 通道失败，回退 requests：{e}")
+        # Windows 上只使用浏览器通道。你已经在浏览器里验证该链路很快，
+        # 而 curl/requests 在部分网络环境下会极慢，因此不再回退。
+        print("[gemini_img] Windows 只走浏览器通道（Playwright fetch）")
+        return _post_with_browser(endpoint, headers, payload, timeout)
 
     session = _make_session()
     resp = session.post(endpoint, headers=headers, json=payload, timeout=timeout)
