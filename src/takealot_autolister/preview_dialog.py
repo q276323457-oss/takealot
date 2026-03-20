@@ -1623,6 +1623,22 @@ class PreviewDialog(QDialog):
 
     def _show_generated_images(self, images: list[bytes], append: bool = False):
         """显示 AI 生成图片。append=True 时追加到现有图片后面，不清空。"""
+        # 追加前先移除尾部 stretch 和初始占位，避免新图片被挤到可视区外。
+        while self._gen_layout.count():
+            last_index = self._gen_layout.count() - 1
+            item = self._gen_layout.itemAt(last_index)
+            if item is None:
+                break
+            if item.spacerItem() is not None:
+                self._gen_layout.takeAt(last_index)
+                continue
+            widget = item.widget()
+            if widget is self._gen_placeholder:
+                self._gen_layout.takeAt(last_index)
+                widget.deleteLater()
+                continue
+            break
+
         if not append:
             # 移除 stretch（如有）以及空占位
             while self._gen_layout.count():
