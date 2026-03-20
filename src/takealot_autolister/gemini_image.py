@@ -79,7 +79,16 @@ def _post_with_curl(endpoint: str, headers: dict[str, str], payload: dict, timeo
         for key, value in headers.items():
             cmd.extend(["-H", f"{key}: {value}"])
         cmd.extend(["--data-binary", f"@{payload_file}"])
-        completed = subprocess.run(cmd, capture_output=True, check=False)
+        run_kwargs: dict[str, object] = {
+            "capture_output": True,
+            "check": False,
+        }
+        if os.name == "nt":
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            run_kwargs["startupinfo"] = startupinfo
+            run_kwargs["creationflags"] = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+        completed = subprocess.run(cmd, **run_kwargs)
         if completed.returncode != 0:
             err = (completed.stderr or b"").decode("utf-8", errors="ignore").strip()
             raise RuntimeError(err or f"curl exit code {completed.returncode}")
@@ -98,12 +107,63 @@ def _post_with_curl(endpoint: str, headers: dict[str, str], payload: dict, timeo
             pass
 
 
+def _post_with_browser(endpoint: str, headers: dict[str, str], payload: dict, timeout: int) -> tuple[int, bytes]:
+    from playwright.sync_api import sync_playwright
+
+    channel = os.getenv("BROWSER_CHANNEL", "msedge").strip() or "msedge"
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(
+            channel=channel if channel else None,
+            headless=True,
+        )
+        try:
+            page = browser.new_page()
+            page.set_content("<html><body>ok</body></html>")
+            result = page.evaluate(
+                """
+                async ({ endpoint, headers, payload, timeoutMs }) => {
+                  const controller = new AbortController();
+                  const timer = setTimeout(() => controller.abort("timeout"), timeoutMs);
+                  try {
+                    const resp = await fetch(endpoint, {
+                      method: "POST",
+                      headers,
+                      body: JSON.stringify(payload),
+                      signal: controller.signal,
+                    });
+                    const text = await resp.text();
+                    return { status: resp.status, text };
+                  } finally {
+                    clearTimeout(timer);
+                  }
+                }
+                """,
+                {
+                    "endpoint": endpoint,
+                    "headers": headers,
+                    "payload": payload,
+                    "timeoutMs": timeout * 1000,
+                },
+            )
+        finally:
+            browser.close()
+
+    status = int(result.get("status", 0) or 0)
+    text = result.get("text", "")
+    return status, text.encode("utf-8")
+
+
 def _post_json(endpoint: str, headers: dict[str, str], payload: dict, timeout: int) -> tuple[int, bytes]:
     import sys
 
     if sys.platform.startswith("win"):
         try:
-            print("[gemini_img] Windows 默认走 curl 通道")
+            print("[gemini_img] Windows 默认走浏览器通道（Playwright fetch）")
+            return _post_with_browser(endpoint, headers, payload, timeout)
+        except Exception as e:
+            print(f"[gemini_img] 浏览器通道失败，回退 curl：{e}")
+        try:
+            print("[gemini_img] Windows 回退 curl 通道（隐藏命令窗口）")
             return _post_with_curl(endpoint, headers, payload, timeout)
         except Exception as e:
             print(f"[gemini_img] curl 通道失败，回退 requests：{e}")
