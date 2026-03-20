@@ -14,7 +14,10 @@ from __future__ import annotations
 
 import base64
 import io
+import json
 import os
+import subprocess
+import tempfile
 
 import requests
 from PIL import Image
@@ -48,6 +51,66 @@ def _make_session() -> requests.Session:
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     return session
+
+
+def _post_with_curl(endpoint: str, headers: dict[str, str], payload: dict, timeout: int) -> tuple[int, bytes]:
+    body_text = json.dumps(payload, ensure_ascii=False)
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".json", delete=False) as fp:
+        fp.write(body_text)
+        payload_file = fp.name
+
+    try:
+        cmd = [
+            "curl",
+            "--silent",
+            "--show-error",
+            "--location",
+            "--insecure",
+            "--max-time",
+            str(timeout),
+            "--output",
+            "-",
+            "--write-out",
+            "\n%{http_code}",
+            "-X",
+            "POST",
+            endpoint,
+        ]
+        for key, value in headers.items():
+            cmd.extend(["-H", f"{key}: {value}"])
+        cmd.extend(["--data-binary", f"@{payload_file}"])
+        completed = subprocess.run(cmd, capture_output=True, check=False)
+        if completed.returncode != 0:
+            err = (completed.stderr or b"").decode("utf-8", errors="ignore").strip()
+            raise RuntimeError(err or f"curl exit code {completed.returncode}")
+        stdout = completed.stdout or b""
+        split_at = stdout.rfind(b"\n")
+        if split_at < 0:
+            raise RuntimeError("curl 未返回 HTTP 状态码")
+        body = stdout[:split_at]
+        code_raw = stdout[split_at + 1 :].strip().decode("utf-8", errors="ignore")
+        status = int(code_raw)
+        return status, body
+    finally:
+        try:
+            os.unlink(payload_file)
+        except Exception:
+            pass
+
+
+def _post_json(endpoint: str, headers: dict[str, str], payload: dict, timeout: int) -> tuple[int, bytes]:
+    import sys
+
+    if sys.platform.startswith("win"):
+        try:
+            print("[gemini_img] Windows 默认走 curl 通道")
+            return _post_with_curl(endpoint, headers, payload, timeout)
+        except Exception as e:
+            print(f"[gemini_img] curl 通道失败，回退 requests：{e}")
+
+    session = _make_session()
+    resp = session.post(endpoint, headers=headers, json=payload, timeout=timeout)
+    return resp.status_code, resp.content
 
 
 def _api_key() -> str:
@@ -132,18 +195,21 @@ def generate_image(
     mode = "图生图" if reference_images_bytes else "文生图"
     print(f"[gemini_img] {mode}，model={model}，aspect={aspect_ratio}，数量={n}")
 
-    session = _make_session()
     last_err: Exception | None = None
+    status_code = 0
+    resp_body = b""
     for attempt in range(1, 4):   # 最多尝试 3 次
         try:
             import time as _time
             _t0 = _time.time()
             print(f"[gemini_img] 第{attempt}次发送请求...")
-            resp = session.post(
-                endpoint, headers=headers, json=payload,
+            status_code, resp_body = _post_json(
+                endpoint,
+                headers,
+                payload,
                 timeout=900,
             )
-            print(f"[gemini_img] 收到响应 status={resp.status_code}，body={len(resp.content)}B，耗时{_time.time()-_t0:.1f}s")
+            print(f"[gemini_img] 收到响应 status={status_code}，body={len(resp_body)}B，耗时{_time.time()-_t0:.1f}s")
             break
         except Exception as e:
             last_err = e
@@ -157,14 +223,17 @@ def generate_image(
     else:
         raise RuntimeError(f"Gemini 请求失败（已重试3次）：{last_err}")
 
-    if not resp.ok:
+    if not (200 <= status_code < 300):
         try:
-            err = resp.json()
+            err = json.loads(resp_body.decode("utf-8", errors="ignore"))
         except Exception:
-            err = resp.text[:300]
-        raise RuntimeError(f"Gemini API {resp.status_code}: {err}")
+            err = resp_body.decode("utf-8", errors="ignore")[:300]
+        raise RuntimeError(f"Gemini API {status_code}: {err}")
 
-    data = resp.json()
+    try:
+        data = json.loads(resp_body.decode("utf-8"))
+    except Exception as e:
+        raise RuntimeError(f"Gemini 返回 JSON 解析失败：{e}") from e
     # 从 candidates[].content.parts 取图片
     results: list[bytes] = []
     candidates = data.get("candidates") or []

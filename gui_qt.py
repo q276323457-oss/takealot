@@ -24,7 +24,6 @@ from PySide6.QtCore import Qt, QTimer, Signal, QObject
 from PySide6.QtGui import QColor, QFont, QTextCharFormat, QTextCursor
 from PySide6.QtWidgets import (
     QApplication,
-    QCheckBox,
     QComboBox,
     QFrame,
     QGridLayout,
@@ -278,14 +277,6 @@ class MainWindow(QMainWindow):
         btn_gemini_eye.setFixedWidth(72)
         btn_gemini_eye.clicked.connect(self._toggle_gemini_key)
         ai_grid.addWidget(btn_gemini_eye, 2, 5)
-
-        self.gemini_proxy_checkbox = QCheckBox("Windows 生图走系统代理")
-        self.gemini_proxy_checkbox.setToolTip("Windows 生图很慢时可打开；会让 Gemini 请求读取系统代理配置")
-        ai_grid.addWidget(self.gemini_proxy_checkbox, 3, 1, 1, 3)
-
-        proxy_hint = QLabel("Win 很慢可勾选后保存，再重试生图")
-        proxy_hint.setStyleSheet("color:#666; font-size:12px;")
-        ai_grid.addWidget(proxy_hint, 3, 4, 1, 2)
 
         lay.addWidget(ai_frame)
 
@@ -691,8 +682,6 @@ class MainWindow(QMainWindow):
         env_doubao_key = os.getenv("DOUBAO_API_KEY", "").strip()
         env_doubao_model = os.getenv("DOUBAO_MODEL", "").strip()
         env_gemini_key = os.getenv("GEMINI_IMAGE_API_KEY", "").strip()
-        env_gemini_proxy = os.getenv("GEMINI_IMAGE_USE_SYSTEM_PROXY", "").strip().lower()
-
         if env_doubao_key:
             self.key_input.setText(env_doubao_key)
             # 同步到 siliconflow_llm.py 读取的变量名
@@ -704,8 +693,6 @@ class MainWindow(QMainWindow):
                 self.model_combo.setCurrentIndex(idx)
         if env_gemini_key:
             self.gemini_key_input.setText(env_gemini_key)
-        if env_gemini_proxy in ("1", "true", "yes", "on"):
-            self.gemini_proxy_checkbox.setChecked(True)
 
         # 如果 .env 没有，再回退到 UI 配置文件
         if CONFIG_FILE.exists():
@@ -727,8 +714,6 @@ class MainWindow(QMainWindow):
                     self.gemini_key_input.setText(gk)
                     if gk and not os.getenv("GEMINI_IMAGE_API_KEY", "").strip():
                         os.environ["GEMINI_IMAGE_API_KEY"] = gk
-                if not env_gemini_proxy:
-                    self.gemini_proxy_checkbox.setChecked(bool(cfg.get("gemini_use_system_proxy", False)))
             except Exception:
                 pass
 
@@ -739,18 +724,16 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "缺少 Key", "请填写文本模型（豆包）Key！")
             return
         gemini_key = self.gemini_key_input.text().strip()
-        gemini_use_system_proxy = self.gemini_proxy_checkbox.isChecked()
         CONFIG_FILE.parent.mkdir(parents=True, exist_ok=True)
         CONFIG_FILE.write_text(
             json.dumps({"doubao_api_key": key, "doubao_model": model,
-                        "gemini_image_api_key": gemini_key,
-                        "gemini_use_system_proxy": gemini_use_system_proxy}, indent=2),
+                        "gemini_image_api_key": gemini_key}, indent=2),
             encoding="utf-8",
         )
-        self._apply_env(key, model, gemini_key, gemini_use_system_proxy)
+        self._apply_env(key, model, gemini_key)
         QMessageBox.information(self, "保存成功", "✅  配置已保存，下次启动自动加载。")
 
-    def _apply_env(self, key: str, model: str, gemini_key: str = "", gemini_use_system_proxy: bool = False) -> None:
+    def _apply_env(self, key: str, model: str, gemini_key: str = "") -> None:
         """写入 .env 并注入当前进程环境变量。"""
         env_path = ENV_FILE
         env_path.parent.mkdir(parents=True, exist_ok=True)
@@ -772,7 +755,6 @@ class MainWindow(QMainWindow):
         if gemini_key:
             _set("GEMINI_IMAGE_API_KEY", gemini_key)
             os.environ["GEMINI_IMAGE_API_KEY"] = gemini_key
-        _set("GEMINI_IMAGE_USE_SYSTEM_PROXY", "1" if gemini_use_system_proxy else "0")
         # 始终写入 base URL 和 model，确保旧版 .env 里的过时值被覆盖
         _set("GEMINI_IMAGE_BASE_URL", os.getenv("GEMINI_IMAGE_BASE_URL", "") or "https://api.viviai.cc")
         _set("GEMINI_IMAGE_MODEL",    os.getenv("GEMINI_IMAGE_MODEL",    "") or "gemini-2.5-flash-image-preview")
@@ -781,7 +763,6 @@ class MainWindow(QMainWindow):
         os.environ["SILICONFLOW_API_KEY"] = key
         os.environ["DOUBAO_MODEL"]        = model
         os.environ["DOUBAO_VL_MODEL"]     = model
-        os.environ["GEMINI_IMAGE_USE_SYSTEM_PROXY"] = "1" if gemini_use_system_proxy else "0"
 
     # ── 1688 登录 ────────────────────────────────────────────────────────────
 
@@ -995,12 +976,7 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "链接无效", "请输入有效的 1688 商品链接！")
             return
 
-        self._apply_env(
-            key,
-            self.model_combo.currentText().strip(),
-            self.gemini_key_input.text().strip(),
-            self.gemini_proxy_checkbox.isChecked(),
-        )
+        self._apply_env(key, self.model_combo.currentText().strip(), self.gemini_key_input.text().strip())
 
         self.log_box.clear()
         self._running = True

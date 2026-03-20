@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gemini Browser Test</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #d1d5db;
+      --accent: #0f766e;
+      --danger: #b91c1c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(180deg, #eef6f5 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 0 16px 32px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 10px 14px;
+      align-items: center;
+    }
+    label {
+      font-weight: 600;
+    }
+    input, textarea, button {
+      font: inherit;
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      background: #fff;
+    }
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+    button {
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 16px;
+      color: #fff;
+      background: var(--accent);
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button.secondary {
+      background: #475569;
+    }
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.65;
+    }
+    .status {
+      margin-top: 14px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+    .status.error {
+      color: var(--danger);
+      background: #fef2f2;
+      border-color: #fecaca;
+    }
+    .images {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    .meta {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .hint {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <h1>Gemini 浏览器链路测试</h1>
+      <p>这个页面直接在浏览器里请求你现在用的生图接口，用来验证 Win 浏览器到 <code>api.viviai.cc</code> 的实际链路速度。</p>
+
+      <div class="grid">
+        <label for="baseUrl">Base URL</label>
+        <input id="baseUrl" type="text" value="https://api.viviai.cc">
+
+        <label for="model">Model</label>
+        <input id="model" type="text" value="gemini-2.5-flash-image-preview">
+
+        <label for="apiKey">API Key</label>
+        <input id="apiKey" type="password" placeholder="sk-...">
+
+        <label for="aspectRatio">Aspect Ratio</label>
+        <input id="aspectRatio" type="text" value="1:1">
+
+        <label for="imageCount">numberOfImages</label>
+        <input id="imageCount" type="text" value="1">
+
+        <label for="refImage">参考图</label>
+        <input id="refImage" type="file" accept="image/*">
+
+        <label for="prompt">Prompt</label>
+        <textarea id="prompt">第1张：主图，纯白色背景（RGB 255,255,255），产品正前方完整展示，产品居中占画面85-95%，柔和均匀光影，无阴影，无文字水印。</textarea>
+      </div>
+
+      <div class="actions">
+        <button id="runBtn">开始测试</button>
+        <button id="clearBtn" class="secondary" type="button">清空结果</button>
+      </div>
+
+      <div id="status" class="status">待运行</div>
+      <div class="hint">如果浏览器报 CORS 错误，说明这个接口不允许浏览器直连，需要改成服务端中转测试。</div>
+      <div id="images" class="images"></div>
+    </div>
+  </div>
+
+  <script>
+    const el = (id) => document.getElementById(id);
+
+    function setStatus(text, isError = false) {
+      const box = el("status");
+      box.textContent = text;
+      box.className = isError ? "status error" : "status";
+    }
+
+    function clearImages() {
+      el("images").innerHTML = "";
+    }
+
+    function bytesLabel(n) {
+      if (n < 1024) return `${n} B`;
+      if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
+      return `${(n / 1024 / 1024).toFixed(2)} MB`;
+    }
+
+    async function fileToBase64(file) {
+      const buf = await file.arrayBuffer();
+      let binary = "";
+      const bytes = new Uint8Array(buf);
+      const chunk = 0x8000;
+      for (let i = 0; i < bytes.length; i += chunk) {
+        binary += String.fromCharCode(...bytes.subarray(i, i + chunk));
+      }
+      return btoa(binary);
+    }
+
+    function renderImages(images) {
+      clearImages();
+      const root = el("images");
+      images.forEach((img, idx) => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const image = document.createElement("img");
+        image.src = `data:image/png;base64,${img}`;
+        image.alt = `result-${idx + 1}`;
+        card.appendChild(image);
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        meta.textContent = `第 ${idx + 1} 张`;
+        card.appendChild(meta);
+
+        root.appendChild(card);
+      });
+    }
+
+    async function run() {
+      const runBtn = el("runBtn");
+      runBtn.disabled = true;
+      clearImages();
+
+      try {
+        const baseUrl = el("baseUrl").value.trim().replace(/\/+$/, "");
+        const model = el("model").value.trim();
+        const apiKey = el("apiKey").value.trim();
+        const aspectRatio = el("aspectRatio").value.trim() || "1:1";
+        const imageCount = Math.max(1, Number.parseInt(el("imageCount").value.trim(), 10) || 1);
+        const prompt = el("prompt").value.trim();
+        const refFile = el("refImage").files[0];
+
+        if (!baseUrl || !model || !apiKey || !prompt) {
+          throw new Error("Base URL、Model、API Key、Prompt 都不能为空");
+        }
+
+        const parts = [];
+        if (refFile) {
+          const b64 = await fileToBase64(refFile);
+          parts.push({
+            inline_data: {
+              mime_type: refFile.type || "image/jpeg",
+              data: b64,
+            }
+          });
+        }
+        parts.push({ text: prompt });
+
+        const payload = {
+          contents: [{ parts }],
+          generationConfig: {
+            responseModalities: ["TEXT", "IMAGE"],
+            numberOfImages: imageCount,
+            imageConfig: {
+              aspectRatio,
+            },
+          },
+        };
+
+        const endpoint = `${baseUrl}/v1beta/models/${encodeURIComponent(model)}:generateContent`;
+        setStatus(`请求中...\n${endpoint}`);
+
+        const startedAt = performance.now();
+        const resp = await fetch(endpoint, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${apiKey}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        });
+        const text = await resp.text();
+        const elapsed = (performance.now() - startedAt) / 1000;
+        const bodyBytes = new TextEncoder().encode(text).length;
+
+        if (!resp.ok) {
+          throw new Error(`HTTP ${resp.status}\n耗时: ${elapsed.toFixed(1)}s\n响应体: ${bytesLabel(bodyBytes)}\n\n${text.slice(0, 1200)}`);
+        }
+
+        let data;
+        try {
+          data = JSON.parse(text);
+        } catch (err) {
+          throw new Error(`JSON 解析失败\n耗时: ${elapsed.toFixed(1)}s\n响应体: ${bytesLabel(bodyBytes)}\n\n${text.slice(0, 1200)}`);
+        }
+
+        const images = [];
+        const candidates = data.candidates || [];
+        for (const candidate of candidates) {
+          const content = candidate.content || {};
+          const parts = content.parts || [];
+          for (const part of parts) {
+            const inline = part.inlineData || part.inline_data || {};
+            if (inline.data) {
+              images.push(inline.data);
+            }
+          }
+        }
+
+        setStatus(
+          [
+            `请求成功`,
+            `HTTP: ${resp.status}`,
+            `总耗时: ${elapsed.toFixed(1)}s`,
+            `响应体大小: ${bytesLabel(bodyBytes)}`,
+            `返回图片数: ${images.length}`,
+          ].join("\n")
+        );
+        renderImages(images);
+      } catch (err) {
+        setStatus(String(err && err.message ? err.message : err), true);
+      } finally {
+        runBtn.disabled = false;
+      }
+    }
+
+    el("runBtn").addEventListener("click", run);
+    el("clearBtn").addEventListener("click", () => {
+      clearImages();
+      setStatus("已清空");
+    });
+  </script>
+</body>
+</html>
