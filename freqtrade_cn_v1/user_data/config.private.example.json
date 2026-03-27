@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.freqtrade.io/schema.json",
+    "exchange": {
+        "key": "请替换成你的交易所_API_KEY",
+        "secret": "请替换成你的交易所_API_SECRET",
+        "password": ""
+    },
+    "api_server": {
+        "enabled": true,
+        "listen_ip_address": "0.0.0.0",
+        "listen_port": 8080,
+        "verbosity": "error",
+        "username": "admin",
+        "password": "请改成一个强密码",
+        "jwt_secret_key": "请改成至少32位随机字符串_jwt",
+        "ws_token": "请改成至少32位随机字符串_ws"
+    },
+    "telegram": {
+        "enabled": false,
+        "token": "",
+        "chat_id": ""
+    }
+}

@@ -47,6 +47,36 @@ else:
     ROOT = Path(__file__).resolve().parent
 
 
+def _load_env_lines(path: Path) -> list[str]:
+    try:
+        if path.exists():
+            return path.read_text(encoding="utf-8").splitlines()
+    except Exception:
+        pass
+    return []
+
+
+def _upsert_env_lines(base_lines: list[str], incoming_lines: list[str], *, prefixes: tuple[str, ...]) -> list[str]:
+    lines = list(base_lines)
+
+    def _set(k: str, v: str) -> None:
+        for i, line in enumerate(lines):
+            if line.startswith(f"{k}="):
+                lines[i] = f"{k}={v}"
+                return
+        lines.append(f"{k}={v}")
+
+    for raw in incoming_lines:
+        s = str(raw or "").strip()
+        if not s or s.startswith("#") or "=" not in s:
+            continue
+        key, value = s.split("=", 1)
+        key = key.strip()
+        if any(key.startswith(prefix) for prefix in prefixes):
+            _set(key, value)
+    return lines
+
+
 def _resolve_config_root() -> Path:
     # PyInstaller onedir may place bundled data under `_internal/config`.
     candidates: list[Path] = []
@@ -101,20 +131,34 @@ WORK_ROOT.mkdir(parents=True, exist_ok=True)
 
 ENV_FILE = WORK_ROOT / ".env"
 # 打包版本优先使用 WORK_ROOT/.env（Windows: %APPDATA%\\TakealotAutoLister\\.env）。
-# 若用户把 .env 放在可执行文件旁（ROOT/.env），首次启动时自动迁移到 WORK_ROOT，避免保存配置后丢失 OSS 等其他键。
-if getattr(sys, "frozen", False) and not ENV_FILE.exists():
+# 若包内自带 .env（例如云打包注入的 OSS_*），启动时把这些键合并到 WORK_ROOT/.env。
+if getattr(sys, "frozen", False):
     try:
-        src_env = ROOT / ".env"
-        if src_env.exists():
-            ENV_FILE.write_text(src_env.read_text(encoding="utf-8"), encoding="utf-8")
+        bundled_envs: list[Path] = []
+        meipass = getattr(sys, "_MEIPASS", "")
+        if meipass:
+            bundled_envs.append(Path(meipass) / ".env")
+        bundled_envs.append(ROOT / ".env")
+        bundled_envs.append(ROOT / "_internal" / ".env")
+
+        bundled_lines: list[str] = []
+        for cand in bundled_envs:
+            bundled_lines = _load_env_lines(cand)
+            if bundled_lines:
+                break
+
+        if bundled_lines:
+            merged = _upsert_env_lines(_load_env_lines(ENV_FILE), bundled_lines, prefixes=("OSS_",))
+            ENV_FILE.write_text("\n".join(merged).rstrip() + "\n", encoding="utf-8")
     except Exception:
         pass
 
 if ENV_FILE.exists():
     load_dotenv(ENV_FILE, override=True)
 else:
-    # 开发环境下仍兼容项目根目录 .env
+    # 开发环境下仍兼容项目根目录 .env；打包场景也兼容 _internal/.env。
     load_dotenv(ROOT / ".env", override=False)
+    load_dotenv(ROOT / "_internal" / ".env", override=False)
 
 RUNS_DIR   = WORK_ROOT / "output" / "runs"
 LOG_DIR    = WORK_ROOT / "logs"
@@ -1276,6 +1320,8 @@ class MainWindow(QMainWindow):
     def _do_preview_regen(self, run_dir: Path, draft_data: dict, source_data: dict, result: Any) -> None:
         """预览确认后：写回字段 + 上传 OSS + 生成 xlsm。"""
         try:
+            import contextlib
+            import io
             sys.path.insert(0, str(ROOT / "src"))
             load_dotenv(ENV_FILE if ENV_FILE.exists() else (ROOT / ".env"), override=True)
 
@@ -1305,6 +1351,35 @@ class MainWindow(QMainWindow):
             new_probe_fields = getattr(result, "portal_fields", None) or []
             if isinstance(new_probe_fields, list) and new_probe_fields:
                 combined["_probe_fields"] = new_probe_fields
+
+            # 与主流程 pipeline 保持一致：
+            # 1) 颜色：只有用户在预览里明确选了颜色，才允许写入 xlsm；否则清空所有旧的自动推断值。
+            preview_colour = ""
+            for colour_key in ("Colour", "Main Colour", "Main Color", "Main/Secondary Colour"):
+                cv = str((result.field_values or {}).get(colour_key, "")).strip()
+                if cv:
+                    preview_colour = cv
+                    break
+            if preview_colour:
+                combined["colour"] = preview_colour
+                combined["colour_name"] = preview_colour
+            else:
+                for k in ("colour", "color", "colour_name", "color_name", "secondary_colour", "secondary_color"):
+                    combined.pop(k, None)
+
+            # 2) 材质：只接受预览中用户明确选择的 portal 字段；否则清掉旧的残留值，
+            #    避免把之前 LLM/旧类目带来的材质误写进当前 loadsheet。
+            msm = str((result.field_values or {}).get("Main Strap Material", "")).strip()
+            mmf = str((result.field_values or {}).get("Main Material/Fabric", "")).strip()
+            if msm:
+                combined["material"] = msm
+                combined["Main Strap Material"] = msm
+            elif mmf:
+                combined["material"] = mmf
+                combined["Main Material/Fabric"] = mmf
+            else:
+                for k in ("material", "materials", "Main Strap Material", "Main Material/Fabric"):
+                    combined.pop(k, None)
             draft.attributes = combined
 
             # 上传 OSS
@@ -1315,7 +1390,13 @@ class MainWindow(QMainWindow):
                 if oss_urls:
                     self._log("ok", f"  ✅ 上传完成：{len(oss_urls)} 个 URL")
 
-            xlsm_path = generate_loadsheet(draft, source, run_dir, image_urls=oss_urls or None)
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                xlsm_path = generate_loadsheet(draft, source, run_dir, image_urls=oss_urls or None)
+            exporter_log = buf.getvalue().strip()
+            if exporter_log:
+                for line in exporter_log.splitlines():
+                    self._log("info", f"  {line}")
             if xlsm_path:
                 self._log("ok", f"  ✅ xlsm 已生成：{Path(xlsm_path).name}")
                 self._bridge.refresh_runs.emit()

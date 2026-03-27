@@ -67,7 +67,11 @@
       "Bash(find /Users/wangfugui/Desktop/重要文件/takealot-autolister -name *.xlsm)",
       "Bash(while read:*)",
       "Bash(do echo '=== $f ===' python3 -c \":*)",
-      "Bash(ls *.py *.md)"
+      "Bash(ls *.py *.md)",
+      "Read(//private/var/folders/1g/6cktwhb96qx_k5bkw8lxgm140000gn/T/MicrosoftEdgeDownloads/3d3fee3b-84a1-4729-ac76-39df35596a89/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/wangfugui/Desktop/重要文件"
     ]
   }
 }

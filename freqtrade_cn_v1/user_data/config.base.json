@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.freqtrade.io/schema.json",
+    "bot_name": "freqtrade-cn-v2",
+    "trading_mode": "spot",
+    "max_open_trades": 2,
+    "stake_currency": "USDT",
+    "stake_amount": 100,
+    "tradable_balance_ratio": 0.95,
+    "fiat_display_currency": "USD",
+    "dry_run": true,
+    "dry_run_wallet": 1000,
+    "timeframe": "4h",
+    "cancel_open_orders_on_exit": true,
+    "unfilledtimeout": {
+        "entry": 30,
+        "exit": 30,
+        "unit": "minutes"
+    },
+    "entry_pricing": {
+        "price_side": "other",
+        "use_order_book": false
+    },
+    "exit_pricing": {
+        "price_side": "other",
+        "use_order_book": false
+    },
+    "exchange": {
+        "name": "binance",
+        "key": "",
+        "secret": "",
+        "password": "",
+        "ccxt_config": {},
+        "ccxt_async_config": {},
+        "pair_whitelist": [
+            "BTC/USDT",
+            "ETH/USDT"
+        ],
+        "pair_blacklist": []
+    },
+    "pairlists": [
+        {
+            "method": "StaticPairList"
+        }
+    ],
+    "freqai": {
+        "enabled": true,
+        "purge_old_models": 2,
+        "train_period_days": 90,
+        "backtest_period_days": 30,
+        "live_retrain_hours": 24,
+        "identifier": "cn-v2-btc-eth-spot",
+        "feature_parameters": {
+            "include_timeframes": [
+                "4h"
+            ],
+            "include_corr_pairlist": [
+                "BTC/USDT",
+                "ETH/USDT"
+            ],
+            "label_period_candles": 6,
+            "include_shifted_candles": 2,
+            "DI_threshold": 0.9,
+            "weight_factor": 0.9,
+            "principal_component_analysis": false,
+            "use_SVM_to_remove_outliers": true,
+            "indicator_periods_candles": [
+                10,
+                20,
+                50
+            ],
+            "plot_feature_importances": 0
+        },
+        "data_split_parameters": {
+            "test_size": 0.25,
+            "random_state": 42
+        },
+        "model_training_parameters": {}
+    },
+    "force_entry_enable": false,
+    "initial_state": "running",
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}
