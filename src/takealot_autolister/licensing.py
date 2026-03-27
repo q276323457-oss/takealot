@@ -28,6 +28,15 @@ def _b64url_decode(text: str) -> bytes:
     return base64.urlsafe_b64decode(s.encode("utf-8"))
 
 
+def _normalize_machine_code(text: str) -> str:
+    s = str(text or "").strip().upper()
+    # 只保留十六进制字符，统一重新格式化，避免用户复制时混入空格、换行、不同横线字符。
+    hex_only = "".join(ch for ch in s if ch in "0123456789ABCDEF")
+    if len(hex_only) == 32:
+        return f"{hex_only[:8]}-{hex_only[8:16]}-{hex_only[16:24]}-{hex_only[24:32]}"
+    return s
+
+
 def _try_cmd(cmd: list[str]) -> str:
     try:
         out = subprocess.check_output(cmd, stderr=subprocess.DEVNULL, timeout=4)
@@ -69,7 +78,7 @@ def machine_fingerprint() -> str:
 def machine_code() -> str:
     raw = machine_fingerprint().encode("utf-8")
     h = hashlib.sha256(raw).hexdigest().upper()
-    return f"{h[:8]}-{h[8:16]}-{h[16:24]}-{h[24:32]}"
+    return _normalize_machine_code(f"{h[:8]}-{h[8:16]}-{h[16:24]}-{h[24:32]}")
 
 
 @dataclass
@@ -113,11 +122,16 @@ def validate_payload(payload: dict[str, Any], *, product: str, local_machine_cod
     if p and p != product:
         raise RuntimeError("授权码不适用于当前产品")
 
-    m = str(payload.get("machine_code", "")).strip().upper()
+    m = _normalize_machine_code(str(payload.get("machine_code", "")))
     if not m:
         raise RuntimeError("授权码缺少机器码")
-    if m != local_machine_code.upper():
-        raise RuntimeError("授权码与当前机器码不匹配")
+    local_mc = _normalize_machine_code(local_machine_code)
+    if m != local_mc:
+        raise RuntimeError(
+            "授权码与当前机器码不匹配"
+            f"\n授权码机器码：{m}"
+            f"\n当前机器码：{local_mc}"
+        )
 
     exp = str(payload.get("expires_at", "")).strip()
     if exp:
@@ -194,4 +208,3 @@ def build_token(payload: dict[str, Any], private_key_file: str) -> str:
         hashes.SHA256(),
     )
     return f"{_b64url_encode(body)}.{_b64url_encode(sig)}"
-

@@ -12,7 +12,7 @@ def main() -> None:
     import sys
     sys.path.insert(0, str(root / "src"))
 
-    from takealot_autolister.licensing import build_token
+    from takealot_autolister.licensing import build_token, _normalize_machine_code
 
     parser = argparse.ArgumentParser(description="生成绑定机器码的授权码（卡密）")
     parser.add_argument("--machine", required=True, help="机器码，例如 ABCD1234-EF567890-...")
@@ -26,7 +26,7 @@ def main() -> None:
     payload = {
         "product": str(args.product).strip(),
         "card_id": str(args.card_id).strip(),
-        "machine_code": str(args.machine).strip().upper(),
+        "machine_code": _normalize_machine_code(str(args.machine)),
         "issued_at": datetime.now().strftime("%Y-%m-%d"),
         "expires_at": exp,
     }
@@ -41,4 +41,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
